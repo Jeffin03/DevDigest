@@ -1,0 +1,41 @@
+name: Daily News Collection
+
+on:
+  schedule:
+    # Runs at 5:30 GMT every day
+    - cron: '30 5 * * *'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  collect-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: pip install requests
+      
+    - name: Run news collector
+      run: python Collector.py
+      
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: Commit and push changes
+      run: |
+        if git diff --quiet; then
+          echo "No changes to commit"
+        else
+          git add NewsData.csv
+          git commit -m "chore: update news data - $(date +'%Y-%m-%d')"
+          git push
+        fi
