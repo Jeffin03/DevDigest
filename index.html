@@ -287,6 +287,7 @@
         async function loadCSV() {
             try {
                 const response = await fetch('NewsData.csv');
+                if (!response.ok) throw new Error('Network response was not ok');
                 const text = await response.text();
                 parseCSV(text);
                 populateFilters();
@@ -298,29 +299,78 @@
             }
         }
 
+        // Robust CSV line parser (handles quoted fields and escaped quotes)
+        function parseCSVLine(line) {
+            const result = [];
+            let cur = '';
+            let inQuotes = false;
+            for (let i = 0; i < line.length; i++) {
+                const ch = line[i];
+                if (ch === '"') {
+                    if (inQuotes && line[i + 1] === '"') {
+                        // escaped quote
+                        cur += '"';
+                        i++;
+                    } else {
+                        inQuotes = !inQuotes;
+                    }
+                } else if (ch === ',' && !inQuotes) {
+                    result.push(cur);
+                    cur = '';
+                } else {
+                    cur += ch;
+                }
+            }
+            result.push(cur);
+            return result.map(s => s.trim());
+        }
+
         function parseCSV(text) {
-            const lines = text.trim().split('\n');
+            if (!text) return;
+            // Remove any Windows CRs and split lines
+            const rawLines = text.replace(/\r/g, '').split('\n');
+
+            // Preprocess: strip leading line-number + pipe prefixes like "1| " if present
+            const lines = rawLines
+                .map(l => l.replace(/^\s*\d+\|\s*/, '').trim()) // remove "1| " prefixes
+                .filter(l => l.length > 0);
+
             if (lines.length <= 1) return;
 
-            const headers = lines[0].split(',').map(h => h.trim());
+            // Parse headers
+            const headers = parseCSVLine(lines[0]).map(h => h.trim());
+
             allStories = [];
 
             for (let i = 1; i < lines.length; i++) {
-                if (!lines[i].trim()) continue;
-                const values = lines[i].split(',');
+                const values = parseCSVLine(lines[i]);
                 const story = {};
                 headers.forEach((header, idx) => {
-                    story[header] = values[idx] ? values[idx].trim() : '';
+                    story[header] = values[idx] !== undefined ? values[idx].trim() : '';
                 });
-                if (story.Title) allStories.push(story);
+                // Accept either "Title" or "title" just in case
+                const hasTitle = story.Title || story.title;
+                if (hasTitle) {
+                    // normalize main fields for easier usage elsewhere
+                    story.Title = story.Title || story.title || '';
+                    story.Date = story.Date || story.date || '';
+                    story.Source = story.Source || story.source || '';
+                    story.URL = story.URL || story.url || '#';
+                    story.Score = story.Score || story.score || '0';
+                    allStories.push(story);
+                }
             }
 
-            allStories.reverse(); // Most recent first
+            // Most recent first (you already reversed earlier; keep consistent)
+            allStories.reverse();
         }
 
         function populateFilters() {
-            const dates = [...new Set(allStories.map(s => s.Date))].sort().reverse();
             const dateFilter = document.getElementById('dateFilter');
+            // clear existing options except the first
+            while (dateFilter.options.length > 1) dateFilter.remove(1);
+
+            const dates = [...new Set(allStories.map(s => s.Date).filter(d => d))].sort().reverse();
             dates.forEach(date => {
                 const option = document.createElement('option');
                 option.value = date;
@@ -338,9 +388,11 @@
             let filtered = allStories.filter(story => {
                 const matchDate = !dateFilter || story.Date === dateFilter;
                 const matchSource = !sourceFilter || story.Source === sourceFilter;
-                const matchSearch = !searchFilter || 
-                    story.Title.toLowerCase().includes(searchFilter) ||
-                    (story.Source && story.Source.toLowerCase().includes(searchFilter));
+                const title = (story.Title || '').toLowerCase();
+                const source = (story.Source || '').toLowerCase();
+                const matchSearch = !searchFilter ||
+                    title.includes(searchFilter) ||
+                    source.includes(searchFilter);
                 return matchDate && matchSource && matchSearch;
             });
 
@@ -371,13 +423,13 @@
             }
 
             container.innerHTML = stories.map(story => {
-                const isHN = story.Source.includes('Hacker');
+                const isHN = (story.Source || '').includes('Hacker');
                 const badgeClass = isHN ? 'hn' : 'tech';
                 const cardClass = isHN ? 'hn' : 'tech';
-                
+
                 const titleHTML = story.URL && story.URL !== '#' && story.URL.trim()
-                    ? `<a href="${story.URL}" target="_blank">${story.Title}</a>`
-                    : story.Title;
+                    ? `<a href="${story.URL}" target="_blank" rel="noopener noreferrer">${story.Title}</a>`
+                    : (story.Title || '');
 
                 return `
                     <div class="story-card ${cardClass}">
@@ -394,13 +446,13 @@
 
         function updateStats(stories) {
             document.getElementById('totalStories').textContent = stories.length;
-            
+
             const avgScore = stories.length > 0
                 ? Math.round(stories.reduce((sum, s) => sum + parseInt(s.Score || 0), 0) / stories.length)
                 : 0;
             document.getElementById('avgScore').textContent = avgScore;
-            
-            const sources = new Set(stories.map(s => s.Source));
+
+            const sources = new Set(stories.map(s => s.Source).filter(s => s));
             document.getElementById('uniqueSources').textContent = sources.size;
 
             if (allStories.length > 0) {
