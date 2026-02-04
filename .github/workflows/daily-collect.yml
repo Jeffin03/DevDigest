@@ -30,31 +30,12 @@ jobs:
         git config --local user.email "jeffin.issac2203@gmail.com"
         git config --local user.name "GitHub Action"
         
-    - name: Create Pull Request
-      if: ${{ always() }}
-      uses: peter-evans/create-pull-request@v5
-      with:
-        commit-message: "sync: news data - ${{ github.event.head_commit.timestamp || 'scheduled' }}"
-        title: "🔄 Daily News Data Update - ${{ github.event.head_commit.timestamp || format('{0:yyyy-MM-dd}', now()) }}"
-        body: |
-          ## Automated Daily News Collection
-          
-          This PR contains the latest news data collected from:
-          - **Hacker News**: Top stories with scores
-          - **Tech News**: Latest tech headlines
-          
-          ### Changes
-          - Updated `NewsData.csv` with new articles
-          - Duplicate entries automatically filtered
-          
-          ### Details
-          - **Collected at**: ${{ github.event.head_commit.timestamp || format('{0:yyyy-MM-dd HH:mm:ss}', now()) }}
-          - **Workflow run**: [View run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
-          
-          ---
-          *This is an automated pull request created by the Daily News Collection workflow.*
-        branch: news-data-update-${{ github.run_id }}
-        delete-branch: true
-        labels: "automated,news-data"
-        reviewers: "Jeffin03"
-        draft: false
+    - name: Commit and push changes
+      run: |
+        if git diff --quiet; then
+          echo "No changes to commit"
+        else
+          git add NewsData.csv
+          git commit -m "sync: news data - $(date +'%Y-%m-%d')"
+          git push
+        fi
