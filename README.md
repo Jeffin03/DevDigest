@@ -1,4 +1,4 @@
-# News Data Collector
+# DevDigest
 
 This Python script automatically collects the latest tech news and Hacker News stories using GitHub Actions. It runs on a schedule of 5:30 GMT daily, gathers top stories from multiple sources, and commits the data to the repository for tracking and analysis.
 
