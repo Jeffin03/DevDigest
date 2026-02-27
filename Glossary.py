@@ -60,7 +60,7 @@ def get_wikipedia_definition(topic_name):
     """
     search_url = "https://en.wikipedia.org/w/api.php"
 
-      headers = {
+    headers = {
         'User-Agent': 'DevDigest-Bot/1.0 (https://github.com/Jeffin03/DevDigest; jeffin.issac2203@gmail.com)'
     }
     
