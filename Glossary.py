@@ -54,52 +54,47 @@ def load_todays_topics():
             
     return todays_topics
 
-def get_wikipedia_definition(topic_name):
+def get_wikipedia_definition(topic):
     """
-    Fetches summary and URL from Wikipedia for a given topic name.
+    Fetches summary definition for a topic from Wikipedia REST API.
+    Returns a dictionary with title, definition, and url.
     """
-    search_url = "https://en.wikipedia.org/w/api.php"
-
-    headers = {
-        'User-Agent': 'DevDigest-Bot/1.0 (https://github.com/Jeffin03/DevDigest; jeffin.issac2203@gmail.com)'
-    }
+    print(f"Fetching definition for: {topic}...")
     
-    params = {
-        "action": "query",
-        "format": "json",
-        "titles": topic_name,
-        "prop": "extracts",
-        "exintro": True,
-        "explaintext": True,
-        "redirects": True
+    # 1. Define the User-Agent (Required by Wikipedia)
+    headers = {
+        'User-Agent': 'DevDigest-Bot/1.0 (jeffin.issac2203@gmail.com)'
     }
+
+    # 2. Use the REST API endpoint (cleaner than the old query API)
+    # We encode the topic to handle spaces/special characters
+    encoded_topic = urllib.parse.quote(topic)
+    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded_topic}"
 
     try:
-        response = requests.get(search_url, params=params, timeout=10)
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        # 3. Handle cases where the page doesn't exist (404)
+        if response.status_code == 404:
+            print(f"Topic '{topic}' not found on Wikipedia.")
+            return None
+            
         response.raise_for_status()
         data = response.json()
 
-        pages = data["query"]["pages"]
-        page_id = next(iter(pages))
+        # 4. Extract data from the JSON response
+        title = data.get('title', topic)
+        definition = data.get('extract', '')
         
-        if page_id == "-1":
-            return None
+        # Use the 'content_urls' for the link
+        wiki_url = data.get('content_urls', {}).get('desktop', {}).get('page', '')
 
-        page = pages[page_id]
-        title = page.get('title', topic_name)
-        extract = page.get('extract', '')
-        
-        if not extract:
+        if not definition:
             return None
-
-        # Clean text for CSV
-        clean_definition = extract.replace('\n', ' ').strip()
-        encoded_title = urllib.parse.quote(title)
-        wiki_url = f"https://en.wikipedia.org/wiki/{encoded_title}"
 
         return {
             'topic': title,
-            'definition': clean_definition,
+            'definition': definition,
             'url': wiki_url
         }
 
