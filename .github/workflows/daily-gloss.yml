@@ -1,0 +1,44 @@
+name: CS Glossary Update
+
+on:
+  schedule:
+    # Runs at 03:00, 06:00, 09:00, 15:00, and 21:00 UTC
+    - cron: '0 3,6,9,15,21 * * *'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-glossary:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: pip install requests
+      
+    - name: Run glossary collector
+      run: python Glossary.py
+      
+    - name: Configure Git
+      run: |
+        git config --local user.email "jeffin.issac2203@gmail.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: Commit and push changes
+      run: |
+        # Stage the specific CSV file
+        git add CS_Glossary.csv
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "sync: glossary update - $(date +'%Y-%m-%d %H:%M')"
+          git push
+        fi
