@@ -104,13 +104,16 @@ def get_wikipedia_definition(topic):
 
 def save_entry(data, label):
     """Saves the retrieved data to the CSV file"""
-    file_exists = os.path.exists(OUTPUT_FILE)
     current_date = datetime.now().strftime('%Y-%m-%d')
+    
+    # Check if file exists AND if it has content (size > 0)
+    file_exists = os.path.exists(OUTPUT_FILE) and os.path.getsize(OUTPUT_FILE) > 0
     
     with open(OUTPUT_FILE, 'a', newline='', encoding='UTF8') as f:
         fieldnames = ['date_added', 'category', 'topic', 'definition', 'url']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         
+        # Write header only if file didn't exist or was empty
         if not file_exists:
             writer.writeheader()
         
