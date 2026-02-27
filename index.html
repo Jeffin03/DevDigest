@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Data Dashboard</title>
+    <title>DevDigest</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
             --accent-hn: #f97316;
             --accent-tech: #06b6d4;
             --accent-primary: #8b5cf6;
+            --accent-glossary: #10b981; /* Green accent for glossary */
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -37,19 +38,73 @@
                 radial-gradient(at 0% 50%, hsla(355, 60%, 15%, 0.5) 0px, transparent 50%);
         }
 
+        /* --- NAVBAR STYLES --- */
+        nav {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-glass);
+            padding: 0 2rem;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-brand {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            /* Gradient Text Effect */
+            background: linear-gradient(to right, #fff, var(--accent-primary));
+            -webkit-background-clip: text;
+            background-clip:text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-links { display: flex; gap: 10px; }
+
+        .nav-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-secondary);
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .nav-btn:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+        .nav-btn.active { 
+            background: var(--bg-glass); 
+            color: var(--text-primary); 
+            border: 1px solid var(--border-glass);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* --- CONTAINER & SECTIONS --- */
         .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
+        
+        .section { display: none; } /* Hidden by default */
+        .section.active { display: block; }
 
         header { text-align: center; margin-bottom: 40px; }
         header h1 {
-            font-family: 'Space Grotesk', sans-serif; font-size: 3rem;
+            font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem;
             background: linear-gradient(to right, #fff, #94a3b8);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text; background-clip:text; -webkit-text-fill-color: transparent;
             margin-bottom: 10px;
         }
         header p { color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 8px; }
         .live-indicator { width: 8px; height: 8px; background-color: #22c55e; border-radius: 50%; animation: pulse 2s infinite; }
 
-        /* Filters */
+        /* Filters (News) */
         .filters {
             background: var(--bg-glass); backdrop-filter: blur(16px); border: 1px solid var(--border-glass);
             padding: 20px; border-radius: 16px; margin-bottom: 25px;
@@ -62,19 +117,20 @@
         }
         .filter-group input:focus, .filter-group select:focus { outline: none; border-color: var(--accent-primary); }
 
-        /* Stats */
+        /* Stats (News) */
         .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 40px; }
         .stat-card { background: var(--bg-glass); border: 1px solid var(--border-glass); padding: 15px; border-radius: 12px; border-left: 3px solid var(--accent-primary); }
         .stat-card .number { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; }
         .stat-card .label { font-size: 0.8rem; color: var(--text-secondary); }
 
         /* Grid Layout */
-        .stories {
+        .stories, .glossary-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 25px;
         }
 
+        /* News Cards */
         .story-card {
             background: var(--bg-glass); backdrop-filter: blur(12px); border: 1px solid var(--border-glass);
             border-radius: 12px; overflow: hidden;
@@ -84,28 +140,19 @@
         }
         .story-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); background: var(--bg-glass-hover); }
 
-        /* Image Section */
-        .story-image-container {
-            width: 100%; height: 160px; background: #1e293b; position: relative; overflow: hidden;
-            display: flex; align-items: center; justify-content: center;
-        }
-        
-        .story-image {
-            width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s;
-        }
+        .story-image-container { width: 100%; height: 160px; background: #1e293b; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+        .story-image { width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s; }
         .story-card:hover .story-image { opacity: 1; }
 
-        /* Content Section */
         .story-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; gap: 10px; }
         
-        /* Top accent bar */
         .story-card::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: var(--accent-primary); }
         .story-card.hn::after { background: var(--accent-hn); }
         .story-card.tech::after { background: var(--accent-tech); }
 
         .story-title {
             font-size: 1.1rem; font-weight: 600; line-height: 1.4;
-            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+            display: -webkit-box; line-clamp: 3; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         }
         .story-title a { color: var(--text-primary); text-decoration: none; }
         .story-title a:hover { text-decoration: underline; color: #fff; }
@@ -119,86 +166,144 @@
         .badge.hn { background: rgba(249, 115, 22, 0.2); color: var(--accent-hn); }
         .badge.tech { background: rgba(6, 182, 212, 0.2); color: var(--accent-tech); }
 
-        footer { text-align: center; margin-top: 50px; color: var(--text-secondary); font-size: 0.85rem; opacity: 0.7; }
+        /* Glossary Cards */
+        .glossary-card {
+            background: var(--bg-glass); backdrop-filter: blur(12px); border: 1px solid var(--border-glass);
+            border-radius: 12px; padding: 25px;
+            display: flex; flex-direction: column; position: relative;
+            transition: transform 0.2s; border-top: 3px solid var(--accent-glossary);
+        }
+        .glossary-card:hover { transform: translateY(-5px); background: var(--bg-glass-hover); }
+        
+        .glossary-cat { 
+            display: inline-block; width: fit-content;
+            font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em;
+            color: var(--accent-glossary); background: rgba(16, 185, 129, 0.1); 
+            padding: 4px 10px; border-radius: 20px; margin-bottom: 15px; font-weight: 600;
+        }
+        .glossary-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; margin-bottom: 10px; color: #fff; }
+        .glossary-def { font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); flex-grow: 1; margin-bottom: 15px; }
+        .glossary-link { font-size: 0.8rem; color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 5px; }
+        .glossary-link:hover { color: var(--accent-glossary); }
+
+        footer { text-align: center; margin-top: 50px; color: var(--text-secondary); font-size: 0.85rem; opacity: 0.7; padding-bottom: 40px; }
 
         @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); } 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); } }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .story-card { animation: fadeIn 0.4s ease-out forwards; }
+        .story-card, .glossary-card { animation: fadeIn 0.4s ease-out forwards; }
 
-        @media (max-width: 768px) { .stories { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { 
+            .stories, .glossary-grid { grid-template-columns: 1fr; }
+            nav { padding: 0 1rem; }
+            .nav-brand { font-size: 1.4rem; }
+        }
     </style>
 </head>
 <body>
     <div class="bg-mesh"></div>
 
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-brand">DevDigest</div>
+        <div class="nav-links">
+            <button class="nav-btn active" onclick="switchView('news')" id="btn-news">📰 News Feed</button>
+            <button class="nav-btn" onclick="switchView('glossary')" id="btn-glossary">📖 Glossary</button>
+        </div>
+    </nav>
+
     <div class="container">
-        <header>
-            <h1>News Feed</h1>
-            <p><span class="live-indicator"></span> Live updates from your data sources</p>
-        </header>
+        
+        <!-- NEWS SECTION -->
+        <div id="news-section" class="section active">
+            <header>
+                <h1>Tech News</h1>
+                <p><span class="live-indicator"></span> Live updates from your data sources</p>
+            </header>
 
-        <div class="filters">
-            <div class="filter-group">
-                <label>Date</label>
-                <select id="dateFilter" onchange="filterData()"><option value="">All Dates</option></select>
+            <div class="filters">
+                <div class="filter-group">
+                    <label>Date</label>
+                    <select id="dateFilter" onchange="filterData()"><option value="">All Dates</option></select>
+                </div>
+                <div class="filter-group">
+                    <label>Source</label>
+                    <select id="sourceFilter" onchange="filterData()">
+                        <option value="">All Sources</option>
+                        <option value="Hacker News">Hacker News</option>
+                        <option value="Tech News">Tech News</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Search</label>
+                    <input type="text" id="searchFilter" placeholder="Keyword..." onkeyup="filterData()">
+                </div>
+                <div class="filter-group">
+                    <label>Sort By</label>
+                    <select id="sortFilter" onchange="filterData()">
+                        <option value="score-desc">Score (High-Low)</option>
+                        <option value="date-desc">Date (Newest)</option>
+                        <option value="date-asc">Date (Oldest)</option>
+                    </select>
+                </div>
             </div>
-            <div class="filter-group">
-                <label>Source</label>
-                <select id="sourceFilter" onchange="filterData()">
-                    <option value="">All Sources</option>
-                    <option value="Hacker News">Hacker News</option>
-                    <option value="Tech News">Tech News</option>
-                </select>
+
+            <div class="stats">
+                <div class="stat-card"><div class="number" id="totalStories">0</div><div class="label">Total Stories</div></div>
+                <div class="stat-card"><div class="number" id="avgScore">0</div><div class="label">Avg Score</div></div>
+                <div class="stat-card"><div class="number" id="uniqueSources">0</div><div class="label">Sources</div></div>
             </div>
-            <div class="filter-group">
-                <label>Search</label>
-                <input type="text" id="searchFilter" placeholder="Keyword..." onkeyup="filterData()">
-            </div>
-            <div class="filter-group">
-                <label>Sort By</label>
-                <select id="sortFilter" onchange="filterData()">
-                    <option value="score-desc">Score (High-Low)</option>
-                    <option value="date-desc">Date (Newest)</option>
-                    <option value="date-asc">Date (Oldest)</option>
-                </select>
-            </div>
+
+            <div id="storiesContainer" class="stories"></div>
         </div>
 
-        <div class="stats">
-            <div class="stat-card"><div class="number" id="totalStories">0</div><div class="label">Total Stories</div></div>
-            <div class="stat-card"><div class="number" id="avgScore">0</div><div class="label">Avg Score</div></div>
-            <div class="stat-card"><div class="number" id="uniqueSources">0</div><div class="label">Sources</div></div>
-        </div>
+        <!-- GLOSSARY SECTION -->
+        <div id="glossary-section" class="section">
+            <header>
+                <h1>CS Glossary</h1>
+                <p>Definitions and concepts updated daily</p>
+            </header>
 
-        <div id="storiesContainer" class="stories"></div>
+            <div id="glossaryContainer" class="glossary-grid"></div>
+        </div>
 
         <footer>
-            <p>News Data Collector • Data collected via GitHub Actions</p>
+            <p>DevDigest • Data collected via GitHub Actions</p>
             <p id="lastUpdate"></p>
         </footer>
     </div>
 
     <script>
         let allStories = [];
+        let allTerms = [];
 
-        async function loadCSV(checkForUpdates = false) {
+        // --- VIEW SWITCHING ---
+        function switchView(view) {
+            // Toggle Buttons
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(`btn-${view}`).classList.add('active');
+
+            // Toggle Sections
+            document.getElementById('news-section').classList.remove('active');
+            document.getElementById('glossary-section').classList.remove('active');
+
+            if (view === 'news') document.getElementById('news-section').classList.add('active');
+            else document.getElementById('glossary-section').classList.add('active');
+        }
+
+        // --- NEWS LOGIC (Existing) ---
+        async function loadNewsCSV() {
             try {
                 const timestamp = new Date().getTime();
                 const response = await fetch(`NewsData.csv?t=${timestamp}`);
-                if (!response.ok) throw new Error('Network response was not ok');
+                if (!response.ok) throw new Error('News file not found');
                 const text = await response.text();
-                
-                // Simple check to avoid re-parsing if content hasn't changed
-                if (checkForUpdates && window.lastCSVContent === text) return;
-                window.lastCSVContent = text;
-
-                parseCSV(text);
+                parseNewsCSV(text);
                 populateFilters();
                 filterData();
             } catch (error) {
-                console.error('Error loading CSV:', error);
+                console.error('Error loading News CSV:', error);
                 document.getElementById('storiesContainer').innerHTML = 
-                    '<div style="grid-column: 1/-1; text-align:center; padding:40px; color:var(--text-secondary);">⚠️ NewsData.csv not found. Please ensure the file exists.</div>';
+                    '<div style="grid-column: 1/-1; text-align:center; padding:40px; color:var(--text-secondary);">⚠️ NewsData.csv not found.</div>';
             }
         }
 
@@ -215,7 +320,7 @@
             return result.map(s => s.trim());
         }
 
-        function parseCSV(text) {
+        function parseNewsCSV(text) {
             if (!text) return;
             const rawLines = text.replace(/\r/g, '').split('\n');
             const lines = rawLines.map(l => l.replace(/^\s*\d+\|\s*/, '').trim()).filter(l => l.length > 0);
@@ -235,8 +340,7 @@
                     story.Source = story.Source || story.source || '';
                     story.URL = story.URL || story.url || '#';
                     story.Score = story.Score || story.score || '0';
-                    // Try multiple possible column names for images
-                    story.Image = story.Image || story.image || story.Thumbnail || story.thumbnail || '';
+                    story.Image = story.Image || story.image || '';
                     allStories.push(story);
                 }
             }
@@ -277,19 +381,13 @@
             updateStats(filtered);
         }
 
-        // Helper to generate placeholder images based on title hash
         function generatePlaceholderUrl(title, source) {
-            // Simple hash function to get a number from the title string
             let hash = 0;
             for (let i = 0; i < title.length; i++) {
                 hash = title.charCodeAt(i) + ((hash << 5) - hash);
-                hash = hash & hash; // Convert to 32bit integer
+                hash = hash & hash;
             }
-            // Use a placeholder service (picsum) with the hash as seed
-            // This ensures the same title always gets the same image
-            if (source.includes('Hacker')) {
-                return `https://picsum.photos/seed/${hash}/400/240?grayscale&blur=2`;
-            }
+            if (source.includes('Hacker')) return `https://picsum.photos/seed/${hash}/400/240?grayscale&blur=2`;
             return `https://picsum.photos/seed/${hash}/400/240`;
         }
 
@@ -303,20 +401,12 @@
             container.innerHTML = stories.map(s => {
                 const isHN = (s.Source || '').includes('Hacker');
                 const bClass = isHN ? 'hn' : 'tech';
-                
-                // Logic: Use real image if exists, otherwise use generated placeholder
-                let imgUrl = '';
-                if (s.Image && s.Image.startsWith('http')) {
-                    imgUrl = s.Image;
-                } else {
-                    imgUrl = generatePlaceholderUrl(s.Title, s.Source);
-                }
+                let imgUrl = s.Image || generatePlaceholderUrl(s.Title, s.Source);
 
                 return `
                 <div class="story-card ${bClass}">
                     <div class="story-image-container">
-                        <img src="${imgUrl}" class="story-image" alt="Thumbnail" 
-                             onerror="this.src='${generatePlaceholderUrl(s.Title + 'error', s.Source)}'">
+                        <img src="${imgUrl}" class="story-image" alt="Thumbnail" onerror="this.src='${generatePlaceholderUrl(s.Title + 'err', s.Source)}'">
                     </div>
                     <div class="story-content">
                         <div class="story-title"><a href="${s.URL}" target="_blank">${s.Title}</a></div>
@@ -334,11 +424,69 @@
             const avg = stories.length > 0 ? Math.round(stories.reduce((sum, s) => sum + parseInt(s.Score || 0), 0) / stories.length) : 0;
             document.getElementById('avgScore').textContent = avg;
             document.getElementById('uniqueSources').textContent = new Set(stories.map(s => s.Source)).size;
-            if (allStories.length > 0) document.getElementById('lastUpdate').textContent = `Last updated: ${allStories[0].Date}`;
         }
 
-        loadCSV();
-        setInterval(() => loadCSV(true), 30000);
+        // --- GLOSSARY LOGIC (New) ---
+        async function loadGlossaryCSV() {
+            try {
+                const timestamp = new Date().getTime();
+                const response = await fetch(`CS_Glossary.csv?t=${timestamp}`);
+                if (!response.ok) return; // Silently fail if file doesn't exist yet
+                const text = await response.text();
+                parseGlossaryCSV(text);
+                displayGlossary();
+            } catch (error) {
+                console.log("Glossary data not found yet.");
+            }
+        }
+
+        function parseGlossaryCSV(text) {
+            const lines = text.trim().split('\n');
+            if (lines.length <= 1) return;
+            
+            const headers = parseCSVLine(lines[0]);
+            allTerms = [];
+
+            for (let i = 1; i < lines.length; i++) {
+                const values = parseCSVLine(lines[i]);
+                const term = {};
+                headers.forEach((h, idx) => term[h] = values[idx] || '');
+                allTerms.push(term);
+            }
+            // Reverse to show newest first
+            allTerms.reverse();
+        }
+
+        function displayGlossary() {
+            const container = document.getElementById('glossaryContainer');
+            if (allTerms.length === 0) {
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding:40px;">No glossary terms found. Run the Action script.</div>';
+                return;
+            }
+
+            container.innerHTML = allTerms.map(t => {
+                // Handle column name variations (case-insensitive safety)
+                const cat = t.category || t.Category || 'General';
+                const topic = t.topic || t.Topic || 'Unknown';
+                const def = t.definition || t.Definition || 'No definition available.';
+                const url = t.url || t.URL || '#';
+
+                return `
+                <div class="glossary-card">
+                    <span class="glossary-cat">${cat}</span>
+                    <h3 class="glossary-title">${topic}</h3>
+                    <p class="glossary-def">${def}</p>
+                    <a href="${url}" target="_blank" class="glossary-link">Read on Wikipedia ↗</a>
+                </div>
+                `;
+            }).join('');
+        }
+
+        // --- INITIALIZATION ---
+        loadNewsCSV();
+        loadGlossaryCSV();
+        // Optional: Auto-refresh news
+        setInterval(() => loadNewsCSV(), 30000); 
     </script>
 </body>
 </html>
