@@ -4,239 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Data Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        :root {
+            --bg-body: #0f172a;
+            --bg-glass: rgba(30, 41, 59, 0.6);
+            --bg-glass-hover: rgba(51, 65, 85, 0.8);
+            --border-glass: rgba(255, 255, 255, 0.1);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-hn: #f97316;
+            --accent-tech: #06b6d4;
+            --accent-primary: #8b5cf6;
         }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-primary);
             min-height: 100vh;
-            padding: 20px;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
+        .bg-mesh {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;
+            background: 
+                radial-gradient(at 40% 20%, hsla(280, 70%, 20%, 0.8) 0px, transparent 50%),
+                radial-gradient(at 80% 0%, hsla(189, 70%, 15%, 0.6) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, hsla(355, 60%, 15%, 0.5) 0px, transparent 50%);
         }
 
-        header {
-            text-align: center;
-            color: white;
-            margin-bottom: 30px;
-        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 40px 20px; }
 
+        header { text-align: center; margin-bottom: 40px; }
         header h1 {
-            font-size: 2.5em;
+            font-family: 'Space Grotesk', sans-serif; font-size: 3rem;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
             margin-bottom: 10px;
         }
+        header p { color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .live-indicator { width: 8px; height: 8px; background-color: #22c55e; border-radius: 50%; animation: pulse 2s infinite; }
 
-        header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-
+        /* Filters */
         .filters {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
+            background: var(--bg-glass); backdrop-filter: blur(16px); border: 1px solid var(--border-glass);
+            padding: 20px; border-radius: 16px; margin-bottom: 25px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;
         }
-
-        .filter-group {
-            display: flex;
-            flex-direction: column;
+        .filter-group label { display: block; font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 5px; text-transform: uppercase; }
+        .filter-group input, .filter-group select {
+            width: 100%; padding: 10px; background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; color: var(--text-primary); font-family: inherit;
         }
+        .filter-group input:focus, .filter-group select:focus { outline: none; border-color: var(--accent-primary); }
 
-        .filter-group label {
-            font-weight: 600;
-            margin-bottom: 5px;
-            color: #333;
-        }
+        /* Stats */
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 40px; }
+        .stat-card { background: var(--bg-glass); border: 1px solid var(--border-glass); padding: 15px; border-radius: 12px; border-left: 3px solid var(--accent-primary); }
+        .stat-card .number { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 700; }
+        .stat-card .label { font-size: 0.8rem; color: var(--text-secondary); }
 
-        .filter-group input,
-        .filter-group select {
-            padding: 10px;
-            border: 2px solid #e0e0e0;
-            border-radius: 5px;
-            font-size: 1em;
-            transition: border-color 0.3s;
-        }
-
-        .filter-group input:focus,
-        .filter-group select:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .stat-card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .stat-card .number {
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }
-
-        .stat-card .label {
-            color: #666;
-            margin-top: 5px;
-            font-size: 0.9em;
-        }
-
+        /* Grid Layout */
         .stories {
             display: grid;
-            gap: 15px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
         }
 
         .story-card {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: var(--bg-glass); backdrop-filter: blur(12px); border: 1px solid var(--border-glass);
+            border-radius: 12px; overflow: hidden;
+            display: flex; flex-direction: column;
             transition: transform 0.2s, box-shadow 0.2s;
-            border-left: 5px solid #667eea;
+            height: 100%; position: relative;
         }
+        .story-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); background: var(--bg-glass-hover); }
 
-        .story-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        /* Image Section */
+        .story-image-container {
+            width: 100%; height: 160px; background: #1e293b; position: relative; overflow: hidden;
+            display: flex; align-items: center; justify-content: center;
         }
+        
+        .story-image {
+            width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s;
+        }
+        .story-card:hover .story-image { opacity: 1; }
 
-        .story-card.hn {
-            border-left-color: #ff6600;
-        }
-
-        .story-card.tech {
-            border-left-color: #0084ff;
-        }
+        /* Content Section */
+        .story-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; gap: 10px; }
+        
+        /* Top accent bar */
+        .story-card::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: var(--accent-primary); }
+        .story-card.hn::after { background: var(--accent-hn); }
+        .story-card.tech::after { background: var(--accent-tech); }
 
         .story-title {
-            font-size: 1.3em;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #333;
+            font-size: 1.1rem; font-weight: 600; line-height: 1.4;
+            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
         }
-
-        .story-title a {
-            color: #667eea;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .story-title a:hover {
-            color: #764ba2;
-            text-decoration: underline;
-        }
+        .story-title a { color: var(--text-primary); text-decoration: none; }
+        .story-title a:hover { text-decoration: underline; color: #fff; }
 
         .story-meta {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            align-items: center;
+            margin-top: auto; display: flex; justify-content: space-between; align-items: center;
+            font-size: 0.8rem; color: var(--text-secondary);
+            border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px;
         }
+        .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; }
+        .badge.hn { background: rgba(249, 115, 22, 0.2); color: var(--accent-hn); }
+        .badge.tech { background: rgba(6, 182, 212, 0.2); color: var(--accent-tech); }
 
-        .badge {
-            display: inline-block;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            font-weight: 600;
-            color: white;
-        }
+        footer { text-align: center; margin-top: 50px; color: var(--text-secondary); font-size: 0.85rem; opacity: 0.7; }
 
-        .badge.hn {
-            background-color: #ff6600;
-        }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); } 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .story-card { animation: fadeIn 0.4s ease-out forwards; }
 
-        .badge.tech {
-            background-color: #0084ff;
-        }
-
-        .meta-item {
-            color: #666;
-            font-size: 0.9em;
-        }
-
-        .meta-item strong {
-            color: #333;
-        }
-
-        .empty-state {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            text-align: center;
-            color: #666;
-        }
-
-        .empty-state h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            color: white;
-            margin-top: 40px;
-            opacity: 0.8;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-
-            .filters {
-                grid-template-columns: 1fr;
-            }
-
-            .story-card {
-                padding: 15px;
-            }
-
-            .story-title {
-                font-size: 1.1em;
-            }
-        }
+        @media (max-width: 768px) { .stories { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
+    <div class="bg-mesh"></div>
+
     <div class="container">
         <header>
-            <h1>📰 News Data Dashboard</h1>
-            <p>Latest tech news and Hacker News stories</p>
+            <h1>News Feed</h1>
+            <p><span class="live-indicator"></span> Live updates from your data sources</p>
         </header>
 
         <div class="filters">
             <div class="filter-group">
-                <label for="dateFilter">📅 Filter by Date</label>
-                <select id="dateFilter" onchange="filterData()">
-                    <option value="">All Dates</option>
-                </select>
+                <label>Date</label>
+                <select id="dateFilter" onchange="filterData()"><option value="">All Dates</option></select>
             </div>
             <div class="filter-group">
-                <label for="sourceFilter">🔗 Filter by Source</label>
+                <label>Source</label>
                 <select id="sourceFilter" onchange="filterData()">
                     <option value="">All Sources</option>
                     <option value="Hacker News">Hacker News</option>
@@ -244,14 +151,13 @@
                 </select>
             </div>
             <div class="filter-group">
-                <label for="searchFilter">🔍 Search</label>
-                <input type="text" id="searchFilter" placeholder="Search stories..." onkeyup="filterData()">
+                <label>Search</label>
+                <input type="text" id="searchFilter" placeholder="Keyword..." onkeyup="filterData()">
             </div>
             <div class="filter-group">
-                <label for="sortFilter">⭐ Sort by</label>
+                <label>Sort By</label>
                 <select id="sortFilter" onchange="filterData()">
-                    <option value="score-desc">Score (High to Low)</option>
-                    <option value="score-asc">Score (Low to High)</option>
+                    <option value="score-desc">Score (High-Low)</option>
                     <option value="date-desc">Date (Newest)</option>
                     <option value="date-asc">Date (Oldest)</option>
                 </select>
@@ -259,18 +165,9 @@
         </div>
 
         <div class="stats">
-            <div class="stat-card">
-                <div class="number" id="totalStories">0</div>
-                <div class="label">Total Stories</div>
-            </div>
-            <div class="stat-card">
-                <div class="number" id="avgScore">0</div>
-                <div class="label">Average Score</div>
-            </div>
-            <div class="stat-card">
-                <div class="number" id="uniqueSources">0</div>
-                <div class="label">Sources</div>
-            </div>
+            <div class="stat-card"><div class="number" id="totalStories">0</div><div class="label">Total Stories</div></div>
+            <div class="stat-card"><div class="number" id="avgScore">0</div><div class="label">Avg Score</div></div>
+            <div class="stat-card"><div class="number" id="uniqueSources">0</div><div class="label">Sources</div></div>
         </div>
 
         <div id="storiesContainer" class="stories"></div>
@@ -283,73 +180,36 @@
 
     <script>
         let allStories = [];
-        let lastCSVContent = '';
-        let autoRefreshInterval = null;
 
         async function loadCSV(checkForUpdates = false) {
             try {
-                // Add timestamp to bypass cache
                 const timestamp = new Date().getTime();
                 const response = await fetch(`NewsData.csv?t=${timestamp}`);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const text = await response.text();
                 
-                // Check if data has changed
-                if (checkForUpdates && text === lastCSVContent) {
-                    return false; // No updates
-                }
-                
-                lastCSVContent = text;
+                // Simple check to avoid re-parsing if content hasn't changed
+                if (checkForUpdates && window.lastCSVContent === text) return;
+                window.lastCSVContent = text;
+
                 parseCSV(text);
                 populateFilters();
                 filterData();
-                return true; // Data was updated
             } catch (error) {
                 console.error('Error loading CSV:', error);
                 document.getElementById('storiesContainer').innerHTML = 
-                    '<div class="empty-state"><h2>⚠️ No data available</h2><p>NewsData.csv not found or empty</p></div>';
-                return false;
+                    '<div style="grid-column: 1/-1; text-align:center; padding:40px; color:var(--text-secondary);">⚠️ NewsData.csv not found. Please ensure the file exists.</div>';
             }
         }
 
-        function startAutoRefresh(intervalSeconds = 30) {
-            // Clear any existing interval
-            if (autoRefreshInterval) {
-                clearInterval(autoRefreshInterval);
-            }
-            
-            // Refresh every X seconds
-            autoRefreshInterval = setInterval(async () => {
-                const updated = await loadCSV(true);
-                if (updated) {
-                    console.log('Dashboard updated with new data');
-                }
-            }, intervalSeconds * 1000);
-            
-            console.log(`Auto-refresh enabled: checking every ${intervalSeconds} seconds`);
-        }
-
-        // Robust CSV line parser (handles quoted fields and escaped quotes)
         function parseCSVLine(line) {
-            const result = [];
-            let cur = '';
-            let inQuotes = false;
+            const result = []; let cur = ''; let inQuotes = false;
             for (let i = 0; i < line.length; i++) {
                 const ch = line[i];
                 if (ch === '"') {
-                    if (inQuotes && line[i + 1] === '"') {
-                        // escaped quote
-                        cur += '"';
-                        i++;
-                    } else {
-                        inQuotes = !inQuotes;
-                    }
-                } else if (ch === ',' && !inQuotes) {
-                    result.push(cur);
-                    cur = '';
-                } else {
-                    cur += ch;
-                }
+                    if (inQuotes && line[i + 1] === '"') { cur += '"'; i++; } else { inQuotes = !inQuotes; }
+                } else if (ch === ',' && !inQuotes) { result.push(cur); cur = ''; } 
+                else { cur += ch; }
             }
             result.push(cur);
             return result.map(s => s.trim());
@@ -357,55 +217,40 @@
 
         function parseCSV(text) {
             if (!text) return;
-            // Remove any Windows CRs and split lines
             const rawLines = text.replace(/\r/g, '').split('\n');
-
-            // Preprocess: strip leading line-number + pipe prefixes like "1| " if present
-            const lines = rawLines
-                .map(l => l.replace(/^\s*\d+\|\s*/, '').trim()) // remove "1| " prefixes
-                .filter(l => l.length > 0);
-
+            const lines = rawLines.map(l => l.replace(/^\s*\d+\|\s*/, '').trim()).filter(l => l.length > 0);
             if (lines.length <= 1) return;
 
-            // Parse headers
             const headers = parseCSVLine(lines[0]).map(h => h.trim());
-
             allStories = [];
 
             for (let i = 1; i < lines.length; i++) {
                 const values = parseCSVLine(lines[i]);
                 const story = {};
-                headers.forEach((header, idx) => {
-                    story[header] = values[idx] !== undefined ? values[idx].trim() : '';
-                });
-                // Accept either "Title" or "title" just in case
-                const hasTitle = story.Title || story.title;
-                if (hasTitle) {
-                    // normalize main fields for easier usage elsewhere
+                headers.forEach((header, idx) => { story[header] = values[idx] !== undefined ? values[idx].trim() : ''; });
+                
+                if (story.Title || story.title) {
                     story.Title = story.Title || story.title || '';
                     story.Date = story.Date || story.date || '';
                     story.Source = story.Source || story.source || '';
                     story.URL = story.URL || story.url || '#';
                     story.Score = story.Score || story.score || '0';
+                    // Try multiple possible column names for images
+                    story.Image = story.Image || story.image || story.Thumbnail || story.thumbnail || '';
                     allStories.push(story);
                 }
             }
-
-            // Most recent first (you already reversed earlier; keep consistent)
             allStories.reverse();
         }
 
         function populateFilters() {
             const dateFilter = document.getElementById('dateFilter');
-            // clear existing options except the first
             while (dateFilter.options.length > 1) dateFilter.remove(1);
-
             const dates = [...new Set(allStories.map(s => s.Date).filter(d => d))].sort().reverse();
             dates.forEach(date => {
-                const option = document.createElement('option');
-                option.value = date;
-                option.textContent = date;
-                dateFilter.appendChild(option);
+                const opt = document.createElement('option');
+                opt.value = date; opt.textContent = date;
+                dateFilter.appendChild(opt);
             });
         }
 
@@ -415,87 +260,85 @@
             const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
             const sortFilter = document.getElementById('sortFilter').value;
 
-            let filtered = allStories.filter(story => {
-                const matchDate = !dateFilter || story.Date === dateFilter;
-                const matchSource = !sourceFilter || story.Source === sourceFilter;
-                const title = (story.Title || '').toLowerCase();
-                const source = (story.Source || '').toLowerCase();
-                const matchSearch = !searchFilter ||
-                    title.includes(searchFilter) ||
-                    source.includes(searchFilter);
-                return matchDate && matchSource && matchSearch;
+            let filtered = allStories.filter(s => {
+                return (!dateFilter || s.Date === dateFilter) &&
+                       (!sourceFilter || s.Source === sourceFilter) &&
+                       (!searchFilter || (s.Title || '').toLowerCase().includes(searchFilter));
             });
 
-            // Sort
             filtered.sort((a, b) => {
-                switch (sortFilter) {
-                    case 'score-desc':
-                        return parseInt(b.Score || 0) - parseInt(a.Score || 0);
-                    case 'score-asc':
-                        return parseInt(a.Score || 0) - parseInt(b.Score || 0);
-                    case 'date-asc':
-                        return new Date(a.Date) - new Date(b.Date);
-                    default: // date-desc
-                        return new Date(b.Date) - new Date(a.Date);
-                }
+                if (sortFilter === 'score-desc') return parseInt(b.Score || 0) - parseInt(a.Score || 0);
+                if (sortFilter === 'score-asc') return parseInt(a.Score || 0) - parseInt(b.Score || 0);
+                if (sortFilter === 'date-asc') return new Date(a.Date) - new Date(b.Date);
+                return new Date(b.Date) - new Date(a.Date);
             });
 
             displayStories(filtered);
             updateStats(filtered);
         }
 
+        // Helper to generate placeholder images based on title hash
+        function generatePlaceholderUrl(title, source) {
+            // Simple hash function to get a number from the title string
+            let hash = 0;
+            for (let i = 0; i < title.length; i++) {
+                hash = title.charCodeAt(i) + ((hash << 5) - hash);
+                hash = hash & hash; // Convert to 32bit integer
+            }
+            // Use a placeholder service (picsum) with the hash as seed
+            // This ensures the same title always gets the same image
+            if (source.includes('Hacker')) {
+                return `https://picsum.photos/seed/${hash}/400/240?grayscale&blur=2`;
+            }
+            return `https://picsum.photos/seed/${hash}/400/240`;
+        }
+
         function displayStories(stories) {
             const container = document.getElementById('storiesContainer');
-
             if (stories.length === 0) {
-                container.innerHTML = '<div class="empty-state"><h2>No stories found</h2><p>Try adjusting your filters</p></div>';
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding:40px;">No stories found.</div>';
                 return;
             }
 
-            container.innerHTML = stories.map(story => {
-                const isHN = (story.Source || '').includes('Hacker');
-                const badgeClass = isHN ? 'hn' : 'tech';
-                const cardClass = isHN ? 'hn' : 'tech';
-
-                const titleHTML = story.URL && story.URL !== '#' && story.URL.trim()
-                    ? `<a href="${story.URL}" target="_blank" rel="noopener noreferrer">${story.Title}</a>`
-                    : (story.Title || '');
+            container.innerHTML = stories.map(s => {
+                const isHN = (s.Source || '').includes('Hacker');
+                const bClass = isHN ? 'hn' : 'tech';
+                
+                // Logic: Use real image if exists, otherwise use generated placeholder
+                let imgUrl = '';
+                if (s.Image && s.Image.startsWith('http')) {
+                    imgUrl = s.Image;
+                } else {
+                    imgUrl = generatePlaceholderUrl(s.Title, s.Source);
+                }
 
                 return `
-                    <div class="story-card ${cardClass}">
-                        <div class="story-title">${titleHTML}</div>
+                <div class="story-card ${bClass}">
+                    <div class="story-image-container">
+                        <img src="${imgUrl}" class="story-image" alt="Thumbnail" 
+                             onerror="this.src='${generatePlaceholderUrl(s.Title + 'error', s.Source)}'">
+                    </div>
+                    <div class="story-content">
+                        <div class="story-title"><a href="${s.URL}" target="_blank">${s.Title}</a></div>
                         <div class="story-meta">
-                            <span class="badge ${badgeClass}">${story.Source}</span>
-                            <span class="meta-item">📅 <strong>${story.Date}</strong></span>
-                            <span class="meta-item">⭐ <strong>${story.Score}</strong></span>
+                            <span class="badge ${bClass}">${s.Source}</span>
+                            <span>⭐ ${s.Score}</span>
                         </div>
                     </div>
-                `;
+                </div>`;
             }).join('');
         }
 
         function updateStats(stories) {
             document.getElementById('totalStories').textContent = stories.length;
-
-            const avgScore = stories.length > 0
-                ? Math.round(stories.reduce((sum, s) => sum + parseInt(s.Score || 0), 0) / stories.length)
-                : 0;
-            document.getElementById('avgScore').textContent = avgScore;
-
-            const sources = new Set(stories.map(s => s.Source).filter(s => s));
-            document.getElementById('uniqueSources').textContent = sources.size;
-
-            if (allStories.length > 0) {
-                const lastDate = allStories[0].Date;
-                document.getElementById('lastUpdate').textContent = `Last updated: ${lastDate}`;
-            }
+            const avg = stories.length > 0 ? Math.round(stories.reduce((sum, s) => sum + parseInt(s.Score || 0), 0) / stories.length) : 0;
+            document.getElementById('avgScore').textContent = avg;
+            document.getElementById('uniqueSources').textContent = new Set(stories.map(s => s.Source)).size;
+            if (allStories.length > 0) document.getElementById('lastUpdate').textContent = `Last updated: ${allStories[0].Date}`;
         }
 
-        // Load data on page load
         loadCSV();
-        
-        // Start auto-refresh (checks for updates every 30 seconds)
-        startAutoRefresh(30);
+        setInterval(() => loadCSV(true), 30000);
     </script>
 </body>
 </html>
