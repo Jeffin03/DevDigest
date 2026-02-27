@@ -4,92 +4,120 @@ import os
 import random
 from datetime import datetime
 import urllib.parse
+import time
 
 # --- Configuration ---
-# Topics now include a 'term' and a 'label' (category)
-TOPIC_DATA = [
-    {"term": "SQL Injection", "label": "Cybersecurity"},
-    {"term": "Firewall", "label": "Network Security"},
-    {"term": "Kubernetes", "label": "DevOps"},
-    {"term": "Docker", "label": "DevOps"},
-    {"term": "Machine Learning", "label": "Artificial Intelligence"},
-    {"term": "Neural Network", "label": "Artificial Intelligence"},
-    {"term": "Linux Kernel", "label": "Operating Systems"},
-    {"term": "SSH", "label": "Network Protocols"},
-    {"term": "Public Key Infrastructure", "label": "Cryptography"},
-    {"term": "Recursion", "label": "Programming"},
-    {"term": "Git", "label": "Version Control"},
-    {"term": "API", "label": "Web Development"},
-    {"term": "Cloud Computing", "label": "Infrastructure"},
-    {"term": "Blockchain", "label": "Data Structures"},
-    {"term": "Virtual Memory", "label": "Operating Systems"},
-    {"term": "DNS Spoofing", "label": "Cybersecurity"},
-    {"term": "Microservices", "label": "Software Architecture"},
-    {"term": "Load Balancing", "label": "Network Infrastructure"},
-    {"term": "Python", "label": "Programming Languages"},
-    {"term": "Zero Day Exploit", "label": "Cybersecurity"}
+# Instead of specific terms, we define Wikipedia Categories to pull from.
+# This gives the script an infinite supply of topics.
+CATEGORY_DATA = [
+    {"category": "Category:Computer security", "label": "Cybersecurity"},
+    {"category": "Category:Artificial intelligence", "label": "Artificial Intelligence"},
+    {"category": "Category:Software engineering", "label": "Software Engineering"},
+    {"category": "Category:Computer networking", "label": "Network Infrastructure"},
+    {"category": "Category:Operating systems", "label": "Operating Systems"},
+    {"category": "Category:Programming languages", "label": "Programming Languages"},
+    {"category": "Category:Web development", "label": "Web Development"},
+    {"category": "Category:Database systems", "label": "Data Management"},
+    {"category": "Category:Cloud computing", "label": "Infrastructure"},
+    {"category": "Category:Cryptography", "label": "Cryptography"},
+    {"category": "Category:Data structures", "label": "Data Structures"},
+    {"category": "Category:Computer architecture", "label": "Hardware"}
 ]
 
 OUTPUT_FILE = 'CS_Glossary.csv'
+API_URL = "https://en.wikipedia.org/w/api.php"
 
-def load_todays_topics():
+# Use a descriptive User-Agent (Required by Wikipedia Policy)
+HEADERS = {
+    'User-Agent': 'DevDigest-Bot/1.0 (jeffin.issac2203@gmail.com)'
+}
+
+def load_existing_topics():
     """
-    Load topics added today to prevent duplicates within the same day.
-    Returns a set of topic names added today.
+    Load topics already in the CSV to prevent duplicates forever.
+    Returns a set of topic names.
     """
-    todays_topics = set()
-    current_date_str = datetime.now().strftime('%Y-%m-%d')
+    existing_topics = set()
     
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, 'r', encoding='UTF8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    # Check if the row date matches today's date
-                    if row.get('date_added') == current_date_str:
-                        if row.get('topic'):
-                            todays_topics.add(row['topic'].lower().strip())
+                    # We store the topic name to ensure we don't add "Python" twice
+                    if row.get('topic'):
+                        existing_topics.add(row['topic'].lower().strip())
         except Exception as e:
             print(f"Error reading CSV: {e}")
             
-    return todays_topics
+    return existing_topics
+
+def get_random_page_from_category(category_name):
+    """
+    Fetches a list of pages from a Wikipedia category and returns a random one.
+    """
+    params = {
+        'action': 'query',
+        'list': 'categorymembers',
+        'cmtitle': category_name,
+        'cmlimit': '500',  # Fetch up to 500 pages at a time
+        'cmtype': 'page',  # Only get actual pages, ignore subcategories or files
+        'format': 'json',
+        'cmsort': 'timestamp', # Sort by time to get fresh articles potentially
+        'cmdir': 'desc'
+    }
+
+    try:
+        response = requests.get(API_URL, params=params, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        data = response.json()
+
+        pages = data.get('query', {}).get('categorymembers', [])
+        
+        if not pages:
+            return None
+
+        # Filter out pages that are likely lists or disambiguation pages
+        valid_pages = [
+            p for p in pages 
+            if not p['title'].startswith('List of') 
+            and '(disambiguation)' not in p['title'].lower()
+        ]
+
+        if not valid_pages:
+            return None
+
+        # Pick one random page from the list
+        return random.choice(valid_pages)['title']
+
+    except Exception as e:
+        print(f"Error fetching category {category_name}: {e}")
+        return None
 
 def get_wikipedia_definition(topic):
     """
     Fetches summary definition for a topic from Wikipedia REST API.
-    Returns a dictionary with title, definition, and url.
     """
     print(f"Fetching definition for: {topic}...")
     
-    # 1. Define the User-Agent (Required by Wikipedia)
-    headers = {
-        'User-Agent': 'DevDigest-Bot/1.0 (jeffin.issac2203@gmail.com)'
-    }
-
-    # 2. Use the REST API endpoint (cleaner than the old query API)
-    # We encode the topic to handle spaces/special characters
     encoded_topic = urllib.parse.quote(topic)
     url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded_topic}"
 
     try:
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=HEADERS, timeout=10)
         
-        # 3. Handle cases where the page doesn't exist (404)
         if response.status_code == 404:
-            print(f"Topic '{topic}' not found on Wikipedia.")
             return None
             
         response.raise_for_status()
         data = response.json()
 
-        # 4. Extract data from the JSON response
         title = data.get('title', topic)
         definition = data.get('extract', '')
-        
-        # Use the 'content_urls' for the link
         wiki_url = data.get('content_urls', {}).get('desktop', {}).get('page', '')
 
-        if not definition:
+        # Skip if it's just a list or has no definition
+        if not definition or data.get('type') == 'disambiguation':
             return None
 
         return {
@@ -106,14 +134,12 @@ def save_entry(data, label):
     """Saves the retrieved data to the CSV file"""
     current_date = datetime.now().strftime('%Y-%m-%d')
     
-    # Check if file exists AND if it has content (size > 0)
     file_exists = os.path.exists(OUTPUT_FILE) and os.path.getsize(OUTPUT_FILE) > 0
     
     with open(OUTPUT_FILE, 'a', newline='', encoding='UTF8') as f:
         fieldnames = ['date_added', 'category', 'topic', 'definition', 'url']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         
-        # Write header only if file didn't exist or was empty
         if not file_exists:
             writer.writeheader()
         
@@ -125,33 +151,53 @@ def save_entry(data, label):
             'url': data['url']
         })
     
-    print(f"Saved: [{label}] {data['topic']}")
+    print(f"Success! Saved: [{label}] {data['topic']}")
 
 # --- Main Execution ---
 if __name__ == "__main__":
-    # 1. Get list of topics already added today
-    topics_used_today = load_todays_topics()
+    # 1. Load topics we have already collected (to prevent duplicates forever)
+    used_topics = load_existing_topics()
     
-    # 2. Filter the master list to find available topics
-    # We exclude topics that have already been added today
-    available_topics = [
-        t for t in TOPIC_DATA 
-        if t['term'].lower() not in topics_used_today
-    ]
+    # Randomize the categories to ensure we don't always start with "Cybersecurity"
+    random.shuffle(CATEGORY_DATA)
     
-    if not available_topics:
-        print("All topics have already been added today. Try again tomorrow or expand the list.")
-    else:
-        # 3. Pick a random topic from the available list
-        selected = random.choice(available_topics)
-        term_to_search = selected['term']
-        category_label = selected['label']
+    topic_found = False
+    attempts = 0
+    max_attempts = 10 # Safety break to prevent infinite loops if API fails
+
+    while not topic_found and attempts < max_attempts:
+        attempts += 1
         
-        # 4. Fetch data from Wikipedia
-        wiki_data = get_wikipedia_definition(term_to_search)
+        # 2. Pick a category
+        selected_cat = random.choice(CATEGORY_DATA)
+        cat_name = selected_cat['category']
+        label = selected_cat['label']
         
-        # 5. Save to CSV
+        print(f"Searching in category: {cat_name}...")
+        
+        # 3. Get a random page title from that category
+        random_title = get_random_page_from_category(cat_name)
+        
+        if not random_title:
+            print(f"No pages found in {cat_name}, trying next category.")
+            continue
+            
+        # 4. Check if we already have this topic
+        if random_title.lower().strip() in used_topics:
+            print(f"Topic '{random_title}' already exists. Finding another...")
+            time.sleep(1) # Small sleep to be polite to the API
+            continue
+            
+        # 5. Fetch the definition
+        wiki_data = get_wikipedia_definition(random_title)
+        
+        # 6. Save if valid
         if wiki_data:
-            save_entry(wiki_data, category_label)
+            save_entry(wiki_data, label)
+            topic_found = True
         else:
-            print(f"Could not find Wikipedia entry for '{term_to_search}'.")
+            print(f"Could not fetch definition for {random_title}. Retrying...")
+            time.sleep(1)
+
+    if not topic_found:
+        print("Failed to find a new unique topic after several attempts.")
