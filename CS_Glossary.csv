@@ -1,5 +1,0 @@
-2026-02-27,Artificial Intelligence,Neural network,"
-
-A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.
-In machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",https://en.wikipedia.org/wiki/Neural_network
-2026-02-27,DevOps,Kubernetes,"Kubernetes, also known as K8s, is an open-source container orchestration system for automating software deployment, scaling, and management. Originally designed by Google, the project is now maintained by a worldwide community of contributors, and the trademark is held by the Cloud Native Computing Foundation.",https://en.wikipedia.org/wiki/Kubernetes
