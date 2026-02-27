@@ -58,5 +58,5 @@ Before running this script, make sure you have the following:
 
 7. Go to your GitHub repository and navigate to the "Actions" tab to see the workflow runs.
 
-The script will now run automatically according to the specified schedule, collect top stories from Hacker News and tech news sources, and commit the changes to the repository. The collected data will be stored in the `NewsData.csv` file with columns: Date, Source, Title, URL, and Score..
+The script will now run automatically according to the specified schedule, collect top stories from Hacker News and tech news sources, and commit the changes to the repository. The collected data will be stored in the `NewsData.csv` file with columns: Date, Source, Title, URL, and Score.
 
