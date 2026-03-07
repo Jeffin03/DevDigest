@@ -2,8 +2,8 @@ name: CS Glossary Update
 
 on:
   schedule:
-    # Runs at 03:00, 06:00, 09:00, 15:00, and 21:00 UTC
-    - cron: '0 3,6,9,15,21 * * *'
+    # Runs at 06:00, 15:00, and 21:00 UTC
+    - cron: '0 6,15,21 * * *'
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
