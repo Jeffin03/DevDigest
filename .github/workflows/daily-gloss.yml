@@ -34,8 +34,8 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        # Stage the specific CSV file
-        git add CS_Glossary.csv
+        # Stage the specific JSON file
+        git add CS_Glossary.json
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then

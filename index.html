@@ -478,40 +478,9 @@ function switchSection(name) {
     if (name === 'quiz' && allTerms.length > 0) initQuiz();
 }
 
-// ── CSV ──
-function parseCSVLine(line) {
-    const res = []; let cur = '', inQ = false;
-    for (let i = 0; i < line.length; i++) {
-        const c = line[i];
-        if (c === '"') { if (inQ && line[i+1]==='"'){cur+='"';i++;}else{inQ=!inQ;} }
-        else if (c === ',' && !inQ) { res.push(cur); cur = ''; }
-        else { cur += c; }
-    }
-    res.push(cur);
-    return res.map(s => s.trim());
-}
+// ── HELPERS ──
 function sanitize(t) { return (t||'').replace(/[\t\n\r]+/g,' ').replace(/ {2,}/g,' ').trim(); }
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-
-function parseCSV(text) {
-    const lines = []; let cur = '', inQ = false;
-    for (let i = 0; i < text.length; i++) {
-        const c = text[i];
-        if (c === '"') { inQ = !inQ; cur += c; }
-        else if ((c==='\n'||c==='\r') && !inQ) {
-            if (cur.trim()) lines.push(cur); cur = '';
-            if (c==='\r' && text[i+1]==='\n') i++;
-        } else { cur += c; }
-    }
-    if (cur.trim()) lines.push(cur);
-    if (lines.length <= 1) return [];
-    const headers = parseCSVLine(lines[0]);
-    return lines.slice(1).map(line => {
-        const vals = parseCSVLine(line), row = {};
-        headers.forEach((h,i) => row[h.trim()] = sanitize(vals[i]));
-        return row;
-    });
-}
 
 // ── LOAD ──
 async function loadAll() {
@@ -521,22 +490,22 @@ async function loadAll() {
 
 async function loadGlossary() {
     try {
-        const r = await fetch('CS_Glossary.csv?t=' + Date.now());
+        const r = await fetch('CS_Glossary.json?t=' + Date.now());
         if (!r.ok) throw 0;
-        allTerms = parseCSV(await r.text()).filter(t => t.topic).reverse();
+        allTerms = (await r.json()).filter(t => t.topic).reverse();
         populateCatFilter();
         filterGlossary();
     } catch {
         document.getElementById('glossaryContainer').innerHTML =
-            '<div class="empty-state"><div class="icon">📭</div><p>CS_Glossary.csv not found.</p></div>';
+            '<div class="empty-state"><div class="icon">📭</div><p>CS_Glossary.json not found.</p></div>';
     }
 }
 
 async function loadCases() {
     try {
-        const r = await fetch('CaseStudies.csv?t=' + Date.now());
+        const r = await fetch('CaseStudies.json?t=' + Date.now());
         if (!r.ok) throw 0;
-        const rows = parseCSV(await r.text()).filter(c => c.id && c.title);
+        const rows = (await r.json()).filter(c => c.id && c.title);
         const map = {};
         rows.forEach(row => {
             if (!map[row.id]) map[row.id] = { id:row.id, title:row.title, type:row.type,
@@ -549,7 +518,7 @@ async function loadCases() {
         filterCases();
     } catch {
         document.getElementById('casesContainer').innerHTML =
-            '<div class="empty-state"><div class="icon">📭</div><p>CaseStudies.csv not found — run the GitHub Action to populate it.</p></div>';
+            '<div class="empty-state"><div class="icon">📭</div><p>CaseStudies.json not found — run the GitHub Action to populate it.</p></div>';
     }
 }
 

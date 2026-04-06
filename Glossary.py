@@ -1,4 +1,4 @@
-import csv
+import json
 import requests
 import os
 import random
@@ -23,23 +23,23 @@ CATEGORY_DATA = [
     {"category": "Category:Computer architecture", "label": "Hardware"}
 ]
 
-OUTPUT_FILE = 'CS_Glossary.csv'
+OUTPUT_FILE = 'CS_Glossary.json'
 API_URL = "https://en.wikipedia.org/w/api.php"
 HEADERS = {'User-Agent': 'DevDigest-Bot/1.0 (jeffin.issac2203@gmail.com)'}
 
 
 def load_existing_topics():
-    """Load topics already in the CSV to prevent duplicates."""
+    """Load topics already in the JSON to prevent duplicates."""
     existing_topics = set()
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, 'r', encoding='UTF8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    if row.get('topic'):
-                        existing_topics.add(row['topic'].lower().strip())
+                entries = json.load(f)
+                for entry in entries:
+                    if entry.get('topic'):
+                        existing_topics.add(entry['topic'].lower().strip())
         except Exception as e:
-            print(f"Error reading CSV: {e}")
+            print(f"Error reading JSON: {e}")
     return existing_topics
 
 
@@ -108,21 +108,25 @@ def get_wikipedia_definition(topic):
 
 
 def save_entry(data, label):
-    """Saves the retrieved data to the CSV file."""
+    """Saves the retrieved data to the JSON file."""
     current_date = datetime.now().strftime('%Y-%m-%d')
-    file_exists = os.path.exists(OUTPUT_FILE) and os.path.getsize(OUTPUT_FILE) > 0
-    with open(OUTPUT_FILE, 'a', newline='', encoding='UTF8') as f:
-        fieldnames = ['date_added', 'category', 'topic', 'definition', 'url']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if not file_exists:
-            writer.writeheader()
-        writer.writerow({
-            'date_added': current_date,
-            'category': label,
-            'topic': data['topic'],
-            'definition': data['definition'],
-            'url': data['url']
-        })
+    new_entry = {
+        'date_added': current_date,
+        'category': label,
+        'topic': data['topic'],
+        'definition': data['definition'],
+        'url': data['url']
+    }
+    entries = []
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='UTF8') as f:
+                entries = json.load(f)
+        except Exception as e:
+            print(f"Warning: could not read existing JSON, starting fresh: {e}")
+    entries.append(new_entry)
+    with open(OUTPUT_FILE, 'w', encoding='UTF8') as f:
+        json.dump(entries, f, indent=2, ensure_ascii=False)
     print(f"Success! Saved: [{label}] {data['topic']}")
 
 
