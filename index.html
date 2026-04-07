@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevDigest</title>
+
+    <!-- Preload critical data files so they're fetched in parallel with the JS bundle -->
+    <link rel="preload" href="./CS_Glossary.json" as="fetch" crossorigin />
+    <link rel="preload" href="./CaseStudies.json" as="fetch" crossorigin />
+
+    <!-- Preconnect to fonts origin to reduce DNS + TLS latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Load fonts non-blocking: media trick defers until after parse, then swaps to all -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <!-- Fallback for no-JS -->
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>

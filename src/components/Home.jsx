@@ -1,4 +1,15 @@
-export default function Home({ terms, cases, onGoTerm }) {
+export default function Home({ terms, cases, loading, onGoTerm }) {
+  if (loading) return (
+    <div className="animate-pulse space-y-6">
+      <div className="rounded-2xl border border-white/5 bg-white/5 h-56 w-full" />
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {[...Array(4)].map((_, i) => <div key={i} className="h-20 bg-white/5 rounded-xl" />)}
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {[...Array(6)].map((_, i) => <div key={i} className="h-32 bg-white/5 rounded-xl" />)}
+      </div>
+    </div>
+  )
   const today = new Date().toISOString().slice(0, 10).replace(/-/g, '')
   const daily = terms.length ? terms[parseInt(today, 10) % terms.length] : null
   const recent = terms.slice(0, 6)

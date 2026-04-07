@@ -84,7 +84,13 @@ function IncidentCard({ c }) {
   )
 }
 
-export default function Cases({ cases }) {
+export default function Cases({ cases, loading }) {
+  if (loading) return (
+    <div className="animate-pulse space-y-3 pt-4">
+      <div className="h-8 w-48 bg-white/5 rounded-xl mx-auto mb-6" />
+      {[...Array(5)].map((_, i) => <div key={i} className="h-24 bg-white/5 rounded-xl" />)}
+    </div>
+  )
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('')
   const [sevFilter, setSevFilter] = useState('')
