@@ -14,6 +14,7 @@ import os
 import time
 import requests
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urlparse
 
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'public', 'CaseStudies.json')
 NVD_API_KEY = os.environ.get('NVD_API_KEY', '')
@@ -96,7 +97,14 @@ def cve_to_rows(item):
     # Source URL
     refs = cve.get('references', [])
     source_url = next(
-        (r['url'] for r in refs if 'nvd.nist.gov' in r.get('url', '')),
+        (
+            r['url']
+            for r in refs
+            if (
+                isinstance(r.get('url'), str)
+                and urlparse(r['url']).hostname == 'nvd.nist.gov'
+            )
+        ),
         f'https://nvd.nist.gov/vuln/detail/{cve_id}'
     )
 
