@@ -86,4 +86,3 @@ This project integrates with:
 - **GitHub Advisory Database API** (GraphQL) — `https://api.github.com/graphql`
 - **GitHub Actions** for scheduled automation
 
-Register at [github.com/developer/program](https://github.com/developer/program).
