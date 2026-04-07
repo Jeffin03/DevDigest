@@ -12,6 +12,7 @@ import os
 import time
 import requests
 from datetime import datetime
+from urllib.parse import urlparse
 
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'public', 'CaseStudies.json')
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
@@ -95,7 +96,25 @@ def advisory_to_rows(node):
 
     # Source URL — prefer CVE advisory page, else first reference
     refs = [r['url'] for r in node.get('references', []) if r.get('url')]
-    source_url = next((u for u in refs if 'nvd.nist.gov' in u or 'github.com/advisories' in u), refs[0] if refs else '')
+    nvd_refs = []
+    gh_adv_refs = []
+    for u in refs:
+        try:
+            parsed = urlparse(u)
+        except Exception:
+            continue
+        host = (parsed.hostname or "").lower()
+        path = (parsed.path or "").lstrip("/")
+        if host == "nvd.nist.gov":
+            nvd_refs.append(u)
+        elif host == "github.com" and path.startswith("advisories"):
+            gh_adv_refs.append(u)
+    if nvd_refs:
+        source_url = nvd_refs[0]
+    elif gh_adv_refs:
+        source_url = gh_adv_refs[0]
+    else:
+        source_url = refs[0] if refs else ""
 
     # Affected packages for title
     vulns = node.get('vulnerabilities', {}).get('nodes', [])
