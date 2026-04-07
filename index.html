@@ -505,13 +505,12 @@ async function loadCases() {
     try {
         const r = await fetch('CaseStudies.json?t=' + Date.now());
         if (!r.ok) throw 0;
-        const rows = (await r.json()).filter(c => c.id && c.title);
+        const rows = (await r.json()).filter(c => c.id);
         const map = {};
         rows.forEach(row => {
-            if (!map[row.id]) map[row.id] = { id:row.id, title:row.title, type:row.type,
-                severity:row.severity, year:row.year, affected:row.affected,
+        if (!map[row.id] && row.title) map[row.id] = { id:row.id, title:row.title, type:row.type,                severity:row.severity, year:row.year, affected:row.affected,
                 summary:row.summary, source_url:row.source_url, cve_id:row.cve_id, events:[] };
-            if (row.event_date && row.event_title)
+            if (row.event_date && row.event_title && map[row.id])
                 map[row.id].events.push({ date:row.event_date, title:row.event_title, desc:row.event_desc });
         });
         allCases = Object.values(map).sort((a,b) => (b.year||'').localeCompare(a.year||''));

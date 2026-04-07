@@ -6,11 +6,12 @@
     "severity": "critical",
     "year": "2017",
     "affected": "Equifax",
+    "summary": "One of the largest data breaches in history, exposing the personal information of 147 million Americans including Social Security numbers, birth dates, addresses, and driver's licence numbers. The breach stemmed from an unpatched Apache Struts vulnerability.",
+    "source_url": "https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement",
+    "cve_id": "",
     "event_date": "",
-    "event_title": "One of the largest data breaches in history, exposing the personal information of 147 million Americans including Social Security numbers, birth dates, addresses, and driver's licence numbers. The breach stemmed from an unpatched Apache Struts vulnerability.",
-    "event_desc": "https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement",
-    "source_url": "",
-    "cve_id": ""
+    "event_title": "",
+    "event_desc": ""
   },
   {
     "id": "equifax2017",
@@ -19,11 +20,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-03-07",
     "event_title": "Apache Struts CVE-2017-5638 vulnerability publicly disclosed",
-    "event_desc": "A critical RCE vulnerability in Apache Struts 2 is published. Equifax is notified to patch.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "A critical RCE vulnerability in Apache Struts 2 is published. Equifax is notified to patch."
   },
   {
     "id": "equifax2017",
@@ -32,11 +34,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-05-13",
     "event_title": "Attackers gain initial access",
-    "event_desc": "Threat actors exploit the unpatched Struts vulnerability on Equifax's dispute portal to gain a foothold.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Threat actors exploit the unpatched Struts vulnerability on Equifax's dispute portal to gain a foothold."
   },
   {
     "id": "equifax2017",
@@ -45,11 +48,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-05-13 – 2017-07-30",
     "event_title": "Data exfiltration period",
-    "event_desc": "Attackers move laterally through 48 unrelated systems, finding unencrypted credentials that allow access to 51 databases. ~147M records exfiltrated over 78 days.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Attackers move laterally through 48 unrelated systems, finding unencrypted credentials that allow access to 51 databases. ~147M records exfiltrated over 78 days."
   },
   {
     "id": "equifax2017",
@@ -58,11 +62,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-07-29",
     "event_title": "Breach discovered",
-    "event_desc": "Equifax's security team notices suspicious traffic and begins investigation.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Equifax's security team notices suspicious traffic and begins investigation."
   },
   {
     "id": "equifax2017",
@@ -71,11 +76,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-09-07",
     "event_title": "Public disclosure",
-    "event_desc": "Equifax publicly announces the breach, triggering congressional hearings and a $575M FTC settlement.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Equifax publicly announces the breach, triggering congressional hearings and a $575M FTC settlement."
   },
   {
     "id": "solarwinds2020",
@@ -84,11 +90,12 @@
     "severity": "critical",
     "year": "2020",
     "affected": "SolarWinds / US Government",
+    "summary": "A sophisticated nation-state attack (attributed to Russia's SVR) compromised SolarWinds' build pipeline, injecting malicious code into the SUNBURST backdoor distributed via legitimate Orion software updates. Affected 18,000+ organisations including US Treasury, DHS, and Fortune 500 companies.",
+    "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a",
+    "cve_id": "",
     "event_date": "",
-    "event_title": "A sophisticated nation-state attack (attributed to Russia's SVR) compromised SolarWinds' build pipeline, injecting malicious code into the SUNBURST backdoor distributed via legitimate Orion software updates. Affected 18,000+ organisations including US Treasury, DHS, and Fortune 500 companies.",
-    "event_desc": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a",
-    "source_url": "",
-    "cve_id": ""
+    "event_title": "",
+    "event_desc": ""
   },
   {
     "id": "solarwinds2020",
@@ -97,11 +104,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2019-10",
     "event_title": "Initial SolarWinds compromise",
-    "event_desc": "Attackers gain access to SolarWinds' internal development environment, believed to be via a compromised employee password.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Attackers gain access to SolarWinds' internal development environment, believed to be via a compromised employee password."
   },
   {
     "id": "solarwinds2020",
@@ -110,11 +118,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2020-03-26",
     "event_title": "Trojanised Orion update released",
-    "event_desc": "SolarWinds releases Orion update 2019.4 – 2020.2.1 containing the SUNBURST backdoor to approximately 18,000 customers.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "SolarWinds releases Orion update 2019.4 – 2020.2.1 containing the SUNBURST backdoor to approximately 18,000 customers."
   },
   {
     "id": "solarwinds2020",
@@ -123,11 +132,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2020-04 – 2020-12",
     "event_title": "Dormancy and lateral movement",
-    "event_desc": "SUNBURST lies dormant for up to 2 weeks post-install, then beacons to attacker C2 infrastructure disguised as Orion traffic.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "SUNBURST lies dormant for up to 2 weeks post-install, then beacons to attacker C2 infrastructure disguised as Orion traffic."
   },
   {
     "id": "solarwinds2020",
@@ -136,11 +146,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2020-12-13",
     "event_title": "FireEye discovers the attack",
-    "event_desc": "FireEye (itself a victim) identifies SUNBURST and notifies CISA and SolarWinds, triggering a coordinated emergency disclosure.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "FireEye (itself a victim) identifies SUNBURST and notifies CISA and SolarWinds, triggering a coordinated emergency disclosure."
   },
   {
     "id": "solarwinds2020",
@@ -149,11 +160,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2020-12-14",
     "event_title": "Emergency Directive 21-01 issued",
-    "event_desc": "CISA issues Emergency Directive 21-01 ordering all federal agencies to immediately disconnect SolarWinds Orion.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "CISA issues Emergency Directive 21-01 ordering all federal agencies to immediately disconnect SolarWinds Orion."
   },
   {
     "id": "log4shell2021",
@@ -162,11 +174,12 @@
     "severity": "critical",
     "year": "2021",
     "affected": "Apache Foundation / Global",
-    "event_date": "CVE-2021-44228",
-    "event_title": "A zero-day RCE vulnerability in the ubiquitous Apache Log4j 2 Java logging library. Triggered by logging a specially crafted string, it enables unauthenticated remote code execution. Rated CVSS 10.0 — the maximum score. Affected hundreds of millions of devices globally.",
-    "event_desc": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
-    "source_url": "",
-    "cve_id": ""
+    "summary": "A zero-day RCE vulnerability in the ubiquitous Apache Log4j 2 Java logging library. Triggered by logging a specially crafted string, it enables unauthenticated remote code execution. Rated CVSS 10.0 — the maximum score. Affected hundreds of millions of devices globally.",
+    "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+    "cve_id": "CVE-2021-44228",
+    "event_date": "",
+    "event_title": "",
+    "event_desc": ""
   },
   {
     "id": "log4shell2021",
@@ -175,11 +188,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2021-11-24",
     "event_title": "Vulnerability reported to Apache",
-    "event_desc": "Alibaba Cloud security researcher Chen Zhaojun privately discloses the vulnerability to the Apache Security team.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Alibaba Cloud security researcher Chen Zhaojun privately discloses the vulnerability to the Apache Security team."
   },
   {
     "id": "log4shell2021",
@@ -188,11 +202,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2021-12-09",
     "event_title": "Zero-day PoC published on GitHub",
-    "event_desc": "A proof-of-concept exploit is publicly posted on GitHub before a patch is available, triggering immediate mass exploitation attempts.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "A proof-of-concept exploit is publicly posted on GitHub before a patch is available, triggering immediate mass exploitation attempts."
   },
   {
     "id": "log4shell2021",
@@ -201,11 +216,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2021-12-10",
     "event_title": "CVE-2021-44228 assigned, patch released",
-    "event_desc": "Apache releases Log4j 2.15.0 and the CVE is formally assigned. CISA adds it to the Known Exploited Vulnerabilities catalogue.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Apache releases Log4j 2.15.0 and the CVE is formally assigned. CISA adds it to the Known Exploited Vulnerabilities catalogue."
   },
   {
     "id": "log4shell2021",
@@ -214,11 +230,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2021-12-10 – 2021-12-14",
     "event_title": "Mass exploitation in the wild",
-    "event_desc": "Nation-state actors, ransomware groups, and cryptominers all begin exploiting Log4Shell. Cloudflare reports over 1M exploit attempts per minute at peak.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Nation-state actors, ransomware groups, and cryptominers all begin exploiting Log4Shell. Cloudflare reports over 1M exploit attempts per minute at peak."
   },
   {
     "id": "log4shell2021",
@@ -227,11 +244,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2021-12-14",
     "event_title": "Patch bypass found — 2.16.0 released",
-    "event_desc": "CVE-2021-45046 bypasses the 2.15.0 fix. Apache releases 2.16.0 disabling JNDI by default.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "CVE-2021-45046 bypasses the 2.15.0 fix. Apache releases 2.16.0 disabling JNDI by default."
   },
   {
     "id": "wannacry2017",
@@ -240,11 +258,12 @@
     "severity": "critical",
     "year": "2017",
     "affected": "Microsoft Windows Users (Global)",
+    "summary": "A global ransomware cyberattack using the EternalBlue exploit (leaked from NSA tooling) targeting unpatched Windows SMBv1. Infected 200,000+ systems across 150 countries in hours. The UK's NHS was severely disrupted. Attributed to North Korea's Lazarus Group.",
+    "source_url": "https://www.ncsc.gov.uk/news/wannacry-ransomware-cyber-attack-hit-nhs",
+    "cve_id": "",
     "event_date": "",
-    "event_title": "A global ransomware cyberattack using the EternalBlue exploit (leaked from NSA tooling) targeting unpatched Windows SMBv1. Infected 200,000+ systems across 150 countries in hours. The UK's NHS was severely disrupted. Attributed to North Korea's Lazarus Group.",
-    "event_desc": "https://www.ncsc.gov.uk/news/wannacry-ransomware-cyber-attack-hit-nhs",
-    "source_url": "",
-    "cve_id": ""
+    "event_title": "",
+    "event_desc": ""
   },
   {
     "id": "wannacry2017",
@@ -253,11 +272,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-03-14",
     "event_title": "MS17-010 patch released by Microsoft",
-    "event_desc": "Microsoft patches the EternalBlue SMBv1 vulnerability (CVE-2017-0144), but many organisations fail to apply it.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Microsoft patches the EternalBlue SMBv1 vulnerability (CVE-2017-0144), but many organisations fail to apply it."
   },
   {
     "id": "wannacry2017",
@@ -266,11 +286,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-04-14",
     "event_title": "EternalBlue leaked by Shadow Brokers",
-    "event_desc": "The Shadow Brokers hacker group leaks NSA offensive tools including EternalBlue publicly online.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "The Shadow Brokers hacker group leaks NSA offensive tools including EternalBlue publicly online."
   },
   {
     "id": "wannacry2017",
@@ -279,11 +300,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-05-12",
     "event_title": "WannaCry begins spreading",
-    "event_desc": "WannaCry launches, exploiting EternalBlue to self-propagate across networks. The UK NHS is hit within hours; MRI scanners, theatre equipment, and computers are taken offline.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "WannaCry launches, exploiting EternalBlue to self-propagate across networks. The UK NHS is hit within hours; MRI scanners, theatre equipment, and computers are taken offline."
   },
   {
     "id": "wannacry2017",
@@ -292,11 +314,12 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-05-12",
     "event_title": "Kill switch accidentally activated",
-    "event_desc": "Security researcher Marcus Hutchins registers an unregistered domain found in the malware's code, inadvertently activating a kill switch that halts new infections.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "Security researcher Marcus Hutchins registers an unregistered domain found in the malware's code, inadvertently activating a kill switch that halts new infections."
   },
   {
     "id": "wannacry2017",
@@ -305,10 +328,11 @@
     "severity": "",
     "year": "",
     "affected": "",
+    "summary": "",
+    "source_url": "",
+    "cve_id": "",
     "event_date": "2017-12",
     "event_title": "US and UK attribute attack to North Korea",
-    "event_desc": "The US, UK, and Australia formally attribute WannaCry to North Korea's Lazarus Group.",
-    "source_url": "",
-    "cve_id": ""
+    "event_desc": "The US, UK, and Australia formally attribute WannaCry to North Korea's Lazarus Group."
   }
 ]
