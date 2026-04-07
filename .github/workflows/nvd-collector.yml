@@ -2,13 +2,14 @@ name: NVD CVE Collector
 
 on:
   schedule:
-    # Runs daily at 08:00 UTC (staggered from advisory collector)
     - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
   collect-cves:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
@@ -26,8 +27,6 @@ jobs:
 
       - name: Run NVD collector
         env:
-          # Optional: add NVD_API_KEY secret in repo settings for higher rate limits
-          # Get a free key at https://nvd.nist.gov/developers/request-an-api-key
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: python scripts/NVDCollector.py
 
