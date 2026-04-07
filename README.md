@@ -1,62 +1,89 @@
 # DevDigest
 
-This Python script automatically collects the latest tech news and Hacker News stories using GitHub Actions. It runs on a schedule of 5:30 GMT daily, gathers top stories from multiple sources, and commits the data to the repository for tracking and analysis.
+A developer awareness platform that aggregates CS knowledge, security advisories, and CVE data — updated daily via GitHub Actions.
+
+> Built with React + Vite + Tailwind CSS. Deployed on GitHub Pages. Data pipeline powered by Python + GitHub Actions.
+
+---
 
 ## Features
 
-- Automatic news data collection (Hacker News & Tech News)
-- Scheduled execution using GitHub Actions
-- Collects story titles, URLs, and scores
-- Commits and pushes data to repository daily
+- 🏠 **Home** — Daily CS term spotlight with recent additions
+- 📖 **Glossary** — CS terms auto-collected from Wikipedia, searchable and filterable
+- 🧠 **Quiz** — Flashcard and multiple choice modes from glossary data
+- 🔐 **Security Cases** — Real-world breaches and CVEs from GitHub Advisory DB + NVD
 
-## Prerequisites
+---
 
-Before running this script, make sure you have the following:
+## Project Structure
 
-- Python 3 installed on your machine
-- A GitHub account
-- Access to the repository where you want to store the news data
+```
+DevDigest/
+├── src/
+│   ├── components/
+│   │   ├── Nav.jsx
+│   │   ├── Home.jsx
+│   │   ├── Glossary.jsx
+│   │   ├── Quiz.jsx
+│   │   └── Cases.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+│   ├── CS_Glossary.json       # Auto-updated by Glossary workflow
+│   └── CaseStudies.json       # Auto-updated by Advisory + NVD workflows
+├── scripts/
+│   ├── Glossary.py            # Wikipedia CS term collector
+│   ├── GitHubAdvisory.py      # GitHub Advisory Database collector
+│   └── NVDCollector.py        # NIST NVD CVE collector
+└── .github/workflows/
+    ├── daily-gloss.yml        # Runs Glossary.py (2x daily)
+    ├── github-advisory.yml    # Runs GitHubAdvisory.py (daily, 07:00 UTC)
+    ├── nvd-collector.yml      # Runs NVDCollector.py (daily, 08:00 UTC)
+    └── deploy.yml             # Builds and deploys to GitHub Pages on push
+```
 
-## Usage
+---
 
-1. Clone the repository to your local machine:
+## Local Development
 
-   ```bash
-   git clone <your-repository-url>
-   ```
+```bash
+npm install
+npm run dev
+```
 
-2. Navigate to the project directory:
+The app fetches `CS_Glossary.json` and `CaseStudies.json` from the `public/` folder.
+The existing JSON files are included so the app works immediately without running collectors.
 
-   ```bash
-   cd <repository-name>
-   ```
+---
 
-3. Install the required Python packages:
+## Data Pipeline
 
-   ```bash
-   pip install requests
-   ```
+### Glossary
+Runs at 06:00 and 21:00 UTC. Picks a random Wikipedia article from 12 CS categories and appends it to `public/CS_Glossary.json`.
 
-4. Run the collector locally to test it:
+### GitHub Advisory
+Runs at 07:00 UTC daily. Uses the GitHub GraphQL API (`securityAdvisories`) to fetch the latest advisories. The `GITHUB_TOKEN` secret is automatically available in GitHub Actions — no setup needed.
 
-   ```bash
-   python Collector.py
-   ```
+### NVD / CVE
+Runs at 08:00 UTC daily. Queries the NIST NVD REST API v2 for CVEs published in the last 3 days.
 
-5. The workflow file is already set up in `.github/workflows/daily-collect.yml`. Once you push this repository to GitHub, the workflow will automatically:
-   - Run daily at 5:30 GMT
-   - Collect the latest stories
-   - Commit changes to `NewsData.csv`
+**Optional:** Add an `NVD_API_KEY` secret in your repo settings (Settings → Secrets → Actions) for higher rate limits. Get a free key at [nvd.nist.gov/developers/request-an-api-key](https://nvd.nist.gov/developers/request-an-api-key).
 
-6. Commit and push to GitHub:
+---
 
-   ```bash
-   git add .
-   git commit -m "Setup news data collection"
-   git push
-   ```
+## Deployment (GitHub Pages)
 
-7. Go to your GitHub repository and navigate to the "Actions" tab to see the workflow runs.
+1. Go to **Settings → Pages** in your repo
+2. Set Source to **GitHub Actions**
+3. Push to `main` — the `deploy.yml` workflow builds and deploys automatically
 
-The script will now run automatically according to the specified schedule, collect top stories from Hacker News and tech news sources, and commit the changes to the repository. The collected data will be stored in the `NewsData.csv` file with columns: Date, Source, Title, URL, and Score.
+---
 
+## GitHub Developer Program
+
+This project integrates with:
+- **GitHub Advisory Database API** (GraphQL) — `https://api.github.com/graphql`
+- **GitHub Actions** for scheduled automation
+
+Register at [github.com/developer/program](https://github.com/developer/program).

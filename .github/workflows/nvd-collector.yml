@@ -1,12 +1,13 @@
-name: CS Glossary Update
+name: NVD CVE Collector
 
 on:
   schedule:
-    - cron: '0 6,21 * * *'
+    # Runs daily at 08:00 UTC (staggered from advisory collector)
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
-  update-glossary:
+  collect-cves:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,8 +24,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run glossary collector
-        run: python scripts/Glossary.py
+      - name: Run NVD collector
+        env:
+          # Optional: add NVD_API_KEY secret in repo settings for higher rate limits
+          # Get a free key at https://nvd.nist.gov/developers/request-an-api-key
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+        run: python scripts/NVDCollector.py
 
       - name: Configure Git
         run: |
@@ -33,10 +38,10 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add public/CS_Glossary.json
+          git add public/CaseStudies.json
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No new CVEs to commit"
           else
-            git commit -m "sync: glossary update - $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "sync: nvd cve update - $(date +'%Y-%m-%d %H:%M')"
             git push
           fi
