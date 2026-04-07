@@ -775,5 +775,12 @@
     "topic": "Reasoning model",
     "definition": "A reasoning model, also known as a reasoning language model (RLM) or large reasoning model (LRM), is a type of large language model (LLM) that has been specifically trained to solve complex tasks requiring multiple steps of logical reasoning. These models demonstrate superior performance on logic, mathematics, and programming tasks compared to standard LLMs. They possess the ability to revisit and revise earlier reasoning steps and utilize additional computation during inference as a method to scale performance, complementing traditional scaling approaches based on training data size, model parameters, and training compute.",
     "url": "https://en.wikipedia.org/wiki/Reasoning_model"
+  },
+  {
+    "date_added": "2026-04-06",
+    "category": "Web Development",
+    "topic": "Open Mashup Alliance",
+    "definition": "The Open Mashup Alliance (OMA) is a non-profit consortium that promotes the adoption of mashup solutions in the enterprise through the evolution of enterprise mashup standards like EMML. The initial members of the OMA include some large technology companies such as Adobe Systems, Hewlett-Packard, and Intel and some major technology users such as Bank of America and Capgemini.",
+    "url": "https://en.wikipedia.org/wiki/Open_Mashup_Alliance"
   }
 ]
