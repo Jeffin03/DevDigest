@@ -2,25 +2,20 @@ name: CS Glossary Update
 
 on:
   schedule:
-    - cron: '0 6,21 * * *'
+    - cron: '0 6,21 * * *'   # Runs at 06:00 and 21:00 UTC
   workflow_dispatch:
 
 jobs:
   update-glossary:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Node.js (optional, to silence warning)
-        uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          ref: main   # Adjust if your default branch is different
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -46,4 +41,5 @@ jobs:
           else
             git commit -m "sync: glossary update - $(date +'%Y-%m-%d %H:%M')"
             git push
-          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
