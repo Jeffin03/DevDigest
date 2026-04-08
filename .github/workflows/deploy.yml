@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: "30 16 * * " # runs at 10 pm IST which is 16:30 UTC
+    - cron: "30 16 * * *" # runs at 10 pm IST (16:30 UTC)
   workflow_dispatch:
 
 permissions:
