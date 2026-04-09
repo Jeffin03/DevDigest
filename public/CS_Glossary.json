@@ -782,5 +782,12 @@
     "topic": "Open Mashup Alliance",
     "definition": "The Open Mashup Alliance (OMA) is a non-profit consortium that promotes the adoption of mashup solutions in the enterprise through the evolution of enterprise mashup standards like EMML. The initial members of the OMA include some large technology companies such as Adobe Systems, Hewlett-Packard, and Intel and some major technology users such as Bank of America and Capgemini.",
     "url": "https://en.wikipedia.org/wiki/Open_Mashup_Alliance"
+  },
+  {
+    "date_added": "2026-04-09",
+    "category": "Artificial Intelligence",
+    "topic": "Google Research",
+    "definition": "Google Research is the research division of Google, a subsidiary of Alphabet Inc.. According to its official website, Google Research publishes findings, releases open-source software, and applies research results within Google products and services as well as within the wider scientific community.",
+    "url": "https://en.wikipedia.org/wiki/Google_Research"
   }
 ]
