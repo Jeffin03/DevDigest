@@ -66,6 +66,7 @@
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+  will-change:transform;
 }
 .flashcard-inner.flipped { transform: rotateY(180deg); }
 .flashcard-face {
@@ -79,6 +80,7 @@
   justify-content: center;
   padding: 2rem;
   border-radius: 1rem;
+  overflow-y: auto;
 }
 .flashcard-back { transform: rotateY(180deg); }
 

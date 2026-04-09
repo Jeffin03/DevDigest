@@ -4,6 +4,7 @@ export default function Glossary({ terms, initialSearch = '', onGoTerm }) {
   const [search, setSearch] = useState(initialSearch)
   const [category, setCategory] = useState('')
   const [sort, setSort] = useState('date-desc')
+  const [selected, setSelected] = useState(null)
 
   const categories = useMemo(() =>
     [...new Set(terms.map(t => t.category).filter(Boolean))].sort(), [terms])
@@ -22,6 +23,11 @@ export default function Glossary({ terms, initialSearch = '', onGoTerm }) {
     })
     return f
   }, [terms, search, category, sort])
+
+  const related = useMemo(() =>
+    selected
+      ? terms.filter(r => r.category === selected.category && r.topic !== selected.topic).slice(0, 4)
+      : [], [selected, terms])
 
   return (
     <div className="animate-fade-in">
@@ -59,46 +65,87 @@ export default function Glossary({ terms, initialSearch = '', onGoTerm }) {
         </select>
       </div>
 
-      {/* Cards */}
+      {/* Compact Cards */}
       {filtered.length === 0 ? (
         <div className="text-center py-20 text-text-muted">
           <div className="text-4xl mb-3">🔍</div>
           <p>No terms found matching your filters.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-          {filtered.map(t => {
-            const related = terms.filter(r => r.category === t.category && r.topic !== t.topic).slice(0, 4)
-            return (
-              <div key={t.topic} className="glass glass-hover rounded-xl p-5 flex flex-col">
-                <span className="text-xs uppercase tracking-wider text-accent-violet-light font-semibold mb-2">
-                  {t.category || 'General'}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {filtered.map(t => (
+            <button
+              key={t.topic}
+              onClick={() => setSelected(t)}
+              className="glass glass-hover rounded-xl p-4 flex flex-col gap-1.5 text-left transition-all"
+            >
+              <span className="text-xs uppercase tracking-wider text-accent-violet-light font-semibold truncate w-full">
+                {t.category || 'General'}
+              </span>
+              <span className="font-display text-sm font-bold text-text-primary leading-snug line-clamp-2">
+                {t.topic}
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Overlay */}
+      {selected && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+          onClick={() => setSelected(null)}
+        >
+          <div
+            className="glass rounded-2xl p-6 max-w-lg w-full shadow-2xl flex flex-col gap-4"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Header */}
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <h2 className="font-display text-2xl font-bold text-text-primary mb-2">{selected.topic}</h2>
+                <span className="text-xs uppercase tracking-wider text-accent-violet-light font-semibold bg-accent-violet/10 px-2.5 py-1 rounded-full">
+                  {selected.category || 'General'}
                 </span>
-                <h3 className="font-display text-lg font-bold text-text-primary mb-2">{t.topic}</h3>
-                <p className="text-text-secondary text-sm leading-relaxed flex-1 mb-3">{t.definition}</p>
-                {related.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 mb-3">
-                    {related.map(r => (
-                      <button
-                        key={r.topic}
-                        onClick={() => onGoTerm(r.topic)}
-                        className="text-xs px-2 py-0.5 rounded-full border border-border text-text-muted hover:text-text-secondary hover:border-border-bright transition-all"
-                      >
-                        {r.topic}
-                      </button>
-                    ))}
-                  </div>
-                )}
-                <div className="flex items-center justify-between mt-auto pt-2 border-t border-border-subtle">
-                  <a href={t.url || '#'} target="_blank" rel="noreferrer"
-                    className="text-xs text-accent-blue hover:underline">
-                    Wikipedia ↗
-                  </a>
-                  <span className="text-xs text-text-muted font-mono">{t.date_added}</span>
+              </div>
+              <button
+                onClick={() => setSelected(null)}
+                className="text-text-muted hover:text-text-primary transition-colors text-xl leading-none mt-1"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Definition */}
+            <p className="text-text-secondary text-sm leading-relaxed">{selected.definition}</p>
+
+            {/* Related */}
+            {related.length > 0 && (
+              <div>
+                <p className="text-xs text-text-muted uppercase tracking-wider mb-2">Related</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {related.map(r => (
+                    <button
+                      key={r.topic}
+                      onClick={() => { onGoTerm?.(r.topic); setSelected(r) }}
+                      className="text-xs px-2 py-0.5 rounded-full border border-border text-text-muted hover:text-text-secondary hover:border-border-bright transition-all"
+                    >
+                      {r.topic}
+                    </button>
+                  ))}
                 </div>
               </div>
-            )
-          })}
+            )}
+
+            {/* Footer */}
+            <div className="flex items-center justify-between pt-3 border-t border-border-subtle">
+              <a href={selected.url || '#'} target="_blank" rel="noreferrer"
+                className="text-xs text-accent-blue hover:underline">
+                Wikipedia ↗
+              </a>
+              <span className="text-xs text-text-muted font-mono">{selected.date_added}</span>
+            </div>
+          </div>
         </div>
       )}
     </div>
