@@ -23,7 +23,7 @@ CATEGORY_DATA = [
     {"category": "Category:Computer architecture", "label": "Hardware"}
 ]
 
-OUTPUT_FILE = 'CS_Glossary.json'
+OUTPUT_FILE = 'public/CS_Glossary.json'
 API_URL = "https://en.wikipedia.org/w/api.php"
 HEADERS = {'User-Agent': 'DevDigest-Bot/1.0 (jeffin.issac2203@gmail.com)'}
 
