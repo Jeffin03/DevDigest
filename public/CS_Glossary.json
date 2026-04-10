@@ -803,5 +803,12 @@
     "topic": "Sahara Net",
     "definition": "Sahara Net is an information and communications technology provider (ICT) serving the Saudi market, the company has rapidly grown since 1989 to offer various complementary services such as connectivity, internet, hosting, cloud, optimization, cyber security, and managed services.",
     "url": "https://en.wikipedia.org/wiki/Sahara_Net"
+  },
+  {
+    "date_added": "2026-04-10",
+    "category": "Data Structures",
+    "topic": "Term indexing",
+    "definition": "In computer science, a term index is a data structure to facilitate fast lookup of terms and clauses in a logic program, deductive database, or automated theorem prover.",
+    "url": "https://en.wikipedia.org/wiki/Term_indexing"
   }
 ]
