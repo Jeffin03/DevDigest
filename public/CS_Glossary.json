@@ -796,5 +796,12 @@
     "topic": "Visopsys",
     "definition": "Visopsys, is an operating system, written by Andy McLaughlin. Development of the operating system began in 1997. The operating system is licensed under the GNU GPL, with the headers and libraries under the less restrictive LGPL license. It runs on the 32-bit IA-32 architecture. It features a multitasking kernel, supports asynchronous I/O and the FAT line of file systems. It requires a Pentium processor.",
     "url": "https://en.wikipedia.org/wiki/Visopsys"
+  },
+  {
+    "date_added": "2026-04-10",
+    "category": "Infrastructure",
+    "topic": "Sahara Net",
+    "definition": "Sahara Net is an information and communications technology provider (ICT) serving the Saudi market, the company has rapidly grown since 1989 to offer various complementary services such as connectivity, internet, hosting, cloud, optimization, cyber security, and managed services.",
+    "url": "https://en.wikipedia.org/wiki/Sahara_Net"
   }
 ]
