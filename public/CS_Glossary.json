@@ -810,5 +810,12 @@
     "topic": "Term indexing",
     "definition": "In computer science, a term index is a data structure to facilitate fast lookup of terms and clauses in a logic program, deductive database, or automated theorem prover.",
     "url": "https://en.wikipedia.org/wiki/Term_indexing"
+  },
+  {
+    "date_added": "2026-04-11",
+    "category": "Data Structures",
+    "topic": "Implicit data structure",
+    "definition": "In computer science, an implicit data structure or space-efficient data structure is a data structure that stores very little information other than the main or required data: a data structure that requires low overhead. They are called \"implicit\" because the position of the elements carries meaning and relationship between elements; this is contrasted with the use of pointers to give an explicit relationship between elements. Definitions of \"low overhead\" vary, but generally means constant overhead; in big O notation, O(1) overhead. A less restrictive definition is a succinct data structure, which allows greater overhead.",
+    "url": "https://en.wikipedia.org/wiki/Implicit_data_structure"
   }
 ]
