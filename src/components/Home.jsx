@@ -1,4 +1,4 @@
-export default function Home({ terms, cases, loading, onGoTerm }) {
+export default function Home({ terms, cases, loading, onGoTerm, setSection }) {
   if (loading) return (
     <div className="animate-pulse space-y-6">
       <div className="rounded-2xl border border-white/5 bg-white/5 h-56 w-full" />
@@ -10,10 +10,18 @@ export default function Home({ terms, cases, loading, onGoTerm }) {
       </div>
     </div>
   )
+
   const today = new Date().toISOString().slice(0, 10).replace(/-/g, '')
   const daily = terms.length ? terms[parseInt(today, 10) % terms.length] : null
   const recent = terms.slice(0, 6)
   const categories = new Set(terms.map(t => t.category).filter(Boolean)).size
+
+  // Format date from YYYY-MM-DD to "Apr 12, 2026"
+  const formatDate = (d) => {
+    if (!d) return '—'
+    const date = new Date(d + 'T00:00:00')
+    return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+  }
 
   return (
     <div className="animate-fade-in">
@@ -49,12 +57,12 @@ export default function Home({ terms, cases, loading, onGoTerm }) {
       {/* Stats */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
         {[
-          { label: 'Terms', value: terms.length || '—', color: 'text-accent-violet-light' },
-          { label: 'Categories', value: categories || '—', color: 'text-accent-cyan' },
-          { label: 'Case Studies', value: cases.length || '—', color: 'text-accent-red' },
-          { label: 'Last Updated', value: terms[0]?.date_added || '—', color: 'text-accent-green' },
+          { label: 'Terms',         value: terms.length || '—',               color: 'text-accent-violet-light' },
+          { label: 'Categories',    value: categories || '—',                  color: 'text-accent-cyan' },
+          { label: 'Security Feed', value: cases.length || '—',               color: 'text-accent-red' },
+          { label: 'Last Updated',  value: formatDate(terms[0]?.date_added),  color: 'text-accent-green' },
         ].map(s => (
-          <div key={s.label} className="glass rounded-xl p-4">
+          <div key={s.label} className="glass rounded-xl p-4 border border-border">
             <div className={`font-display text-2xl font-bold mb-1 ${s.color}`}>{s.value}</div>
             <div className="text-text-muted text-xs uppercase tracking-wider">{s.label}</div>
           </div>
@@ -64,9 +72,11 @@ export default function Home({ terms, cases, loading, onGoTerm }) {
       {/* Recent terms */}
       <div className="flex items-center justify-between mb-4">
         <h3 className="font-display text-lg font-semibold text-text-primary">Recently Added</h3>
-        <span className="text-text-secondary text-sm cursor-pointer hover:text-accent-green transition-colors">
+        <button
+          onClick={() => setSection('glossary')}
+          className="text-text-secondary text-sm hover:text-accent-violet-light transition-colors">
           View all →
-        </span>
+        </button>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {recent.map(t => (
