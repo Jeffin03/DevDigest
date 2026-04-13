@@ -838,5 +838,12 @@
     "topic": "Eyeball network",
     "definition": "Eyeball network is a slang term used by network engineers and architects that refers to an access network whose primary users use the network to “look at things” and consume content, as opposed to a network that may be used primarily to generate its own data, or “content networks/providers”.",
     "url": "https://en.wikipedia.org/wiki/Eyeball_network"
+  },
+  {
+    "date_added": "2026-04-13",
+    "category": "Hardware",
+    "topic": "Computer architecture simulator",
+    "definition": "A computer architecture simulator is a program that simulates the execution of computer architecture.",
+    "url": "https://en.wikipedia.org/wiki/Computer_architecture_simulator"
   }
 ]
