@@ -845,5 +845,12 @@
     "topic": "Computer architecture simulator",
     "definition": "A computer architecture simulator is a program that simulates the execution of computer architecture.",
     "url": "https://en.wikipedia.org/wiki/Computer_architecture_simulator"
+  },
+  {
+    "date_added": "2026-04-13",
+    "category": "Programming Languages",
+    "topic": "Squeak",
+    "definition": "Squeak is an object-oriented, class-based, and reflective programming language. It was derived from Smalltalk-80 by a group that included some of Smalltalk-80's original developers, initially at Apple Computer, then at Walt Disney Imagineering, where it was intended for use in internal Disney projects. The group later was supported by HP Labs and SAP.",
+    "url": "https://en.wikipedia.org/wiki/Squeak"
   }
 ]
