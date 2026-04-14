@@ -859,5 +859,12 @@
     "topic": "Blocknots",
     "definition": "Blocknots were random sequences of numbers contained in a book and organized by numbered rows and columns and were used as additives in the reciphering of Soviet Union codes, during World War II. The Blocknot consisted of a booklet of fifty sheets of 5-figure random additive, 100 additive groups to a sheet. No sheet was used more than once, thus the blocknots were in effect a form of one-time pad. The Soviet Unions highest grade ciphers that were used in the East, were the 5-figure codebook enciphered with the Blocknot book, and were generally considered unbreakable.",
     "url": "https://en.wikipedia.org/wiki/Blocknots"
+  },
+  {
+    "date_added": "2026-04-14",
+    "category": "Cryptography",
+    "topic": "Key Transparency",
+    "definition": "Key Transparency allows communicating parties to verify public keys used in end-to-end encryption. In many end-to-end encryption services, to initiate communication a user will reach out to a central server and request the public keys of the user with which they wish to communicate. If the central server is malicious or becomes compromised, a man-in-the-middle attack can be launched through the issuance of incorrect public keys. The communications can then be intercepted and manipulated. Additionally, legal pressure could be applied by surveillance agencies to manipulate public keys and read messages.",
+    "url": "https://en.wikipedia.org/wiki/Key_Transparency"
   }
 ]
