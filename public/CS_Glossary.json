@@ -852,5 +852,12 @@
     "topic": "Squeak",
     "definition": "Squeak is an object-oriented, class-based, and reflective programming language. It was derived from Smalltalk-80 by a group that included some of Smalltalk-80's original developers, initially at Apple Computer, then at Walt Disney Imagineering, where it was intended for use in internal Disney projects. The group later was supported by HP Labs and SAP.",
     "url": "https://en.wikipedia.org/wiki/Squeak"
+  },
+  {
+    "date_added": "2026-04-14",
+    "category": "Cryptography",
+    "topic": "Blocknots",
+    "definition": "Blocknots were random sequences of numbers contained in a book and organized by numbered rows and columns and were used as additives in the reciphering of Soviet Union codes, during World War II. The Blocknot consisted of a booklet of fifty sheets of 5-figure random additive, 100 additive groups to a sheet. No sheet was used more than once, thus the blocknots were in effect a form of one-time pad. The Soviet Unions highest grade ciphers that were used in the East, were the 5-figure codebook enciphered with the Blocknot book, and were generally considered unbreakable.",
+    "url": "https://en.wikipedia.org/wiki/Blocknots"
   }
 ]
