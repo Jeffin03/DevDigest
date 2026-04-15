@@ -873,5 +873,12 @@
     "topic": "Address space",
     "definition": "In computing, an address space defines a range of discrete addresses, each of which may correspond to a network host, a peripheral device, a disk sector, a physical memory location, a virtual memory location, or another logical or physical entity.",
     "url": "https://en.wikipedia.org/wiki/Address_space"
+  },
+  {
+    "date_added": "2026-04-15",
+    "category": "Infrastructure",
+    "topic": "Google Colab",
+    "definition": "Google Colaboratory, or Google Colab for short, is a free, cloud-based Jupyter Notebook environment provided by Google. It allows users to write and execute Python code through the browser, especially suited for machine learning, data analysis, and education. Google Colab provides an online integrated development environment (IDE) for Python that requires no setup and runs entirely in the cloud. It offers free access to computing resources, including GPUs and TPUs, making it popular among researchers and students working on deep learning and data science projects.",
+    "url": "https://en.wikipedia.org/wiki/Google_Colab"
   }
 ]
