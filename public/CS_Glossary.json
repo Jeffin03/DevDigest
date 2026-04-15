@@ -866,5 +866,12 @@
     "topic": "Key Transparency",
     "definition": "Key Transparency allows communicating parties to verify public keys used in end-to-end encryption. In many end-to-end encryption services, to initiate communication a user will reach out to a central server and request the public keys of the user with which they wish to communicate. If the central server is malicious or becomes compromised, a man-in-the-middle attack can be launched through the issuance of incorrect public keys. The communications can then be intercepted and manipulated. Additionally, legal pressure could be applied by surveillance agencies to manipulate public keys and read messages.",
     "url": "https://en.wikipedia.org/wiki/Key_Transparency"
+  },
+  {
+    "date_added": "2026-04-15",
+    "category": "Hardware",
+    "topic": "Address space",
+    "definition": "In computing, an address space defines a range of discrete addresses, each of which may correspond to a network host, a peripheral device, a disk sector, a physical memory location, a virtual memory location, or another logical or physical entity.",
+    "url": "https://en.wikipedia.org/wiki/Address_space"
   }
 ]
