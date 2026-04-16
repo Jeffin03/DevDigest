@@ -880,5 +880,12 @@
     "topic": "Google Colab",
     "definition": "Google Colaboratory, or Google Colab for short, is a free, cloud-based Jupyter Notebook environment provided by Google. It allows users to write and execute Python code through the browser, especially suited for machine learning, data analysis, and education. Google Colab provides an online integrated development environment (IDE) for Python that requires no setup and runs entirely in the cloud. It offers free access to computing resources, including GPUs and TPUs, making it popular among researchers and students working on deep learning and data science projects.",
     "url": "https://en.wikipedia.org/wiki/Google_Colab"
+  },
+  {
+    "date_added": "2026-04-16",
+    "category": "Hardware",
+    "topic": "Single-core",
+    "definition": "A single-core processor is a microprocessor with a single CPU on its die. It performs the fetch-decode-execute cycle one at a time, as it only runs on one thread. A computer using a single core CPU is generally slower than a multi-core system.",
+    "url": "https://en.wikipedia.org/wiki/Single-core"
   }
 ]
