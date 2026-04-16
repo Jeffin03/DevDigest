@@ -887,5 +887,12 @@
     "topic": "Single-core",
     "definition": "A single-core processor is a microprocessor with a single CPU on its die. It performs the fetch-decode-execute cycle one at a time, as it only runs on one thread. A computer using a single core CPU is generally slower than a multi-core system.",
     "url": "https://en.wikipedia.org/wiki/Single-core"
+  },
+  {
+    "date_added": "2026-04-16",
+    "category": "Cybersecurity",
+    "topic": "NRD Cyber Security",
+    "definition": "NRD Cyber Security is a Lithuanian company that provides cybersecurity solutions, consulting, and other services.",
+    "url": "https://en.wikipedia.org/wiki/NRD_Cyber_Security"
   }
 ]
