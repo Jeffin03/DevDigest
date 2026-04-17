@@ -27,71 +27,117 @@ export default function Home({ terms, cases, loading, onGoTerm, setSection }) {
     <div className="animate-fade-in">
       {/* Hero daily term */}
       {daily && (
-        <div className="relative rounded-2xl border border-accent-violet/30 bg-gradient-to-br from-accent-violet/10 to-accent-green/5 p-8 mb-8 overflow-hidden">
-          <div className="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-accent-violet/15 blur-2xl pointer-events-none" />
-          <div className="flex items-center gap-2 mb-3">
-            <span className="pulse-dot w-2 h-2 rounded-full bg-accent-violet-light inline-block" />
-            <span className="text-xs uppercase tracking-widest text-accent-violet-light font-semibold">Daily Term</span>
+        <div className="relative rounded-3xl border border-accent-violet/30 bg-gradient-to-br from-accent-violet/10 via-bg-surface to-accent-green/5 p-8 sm:p-10 mb-10 overflow-hidden shadow-2xl">
+          <div className="absolute inset-0 bg-mesh opacity-10 blur-3xl -z-10" />
+          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-accent-violet/20 blur-3xl pointer-events-none" />
+          
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <div className="absolute inset-0 bg-accent-violet animate-ping opacity-20 rounded-full" />
+                <span className="relative w-2.5 h-2.5 rounded-full bg-accent-violet-light inline-block shadow-[0_0_10px_rgba(139,92,246,0.5)]" />
+              </div>
+              <span className="text-xs uppercase tracking-[0.2em] text-accent-violet-light font-bold">Featured Daily Insight</span>
+            </div>
+            <span className="inline-block text-[10px] uppercase tracking-widest text-accent-green bg-accent-green/10 border border-accent-green/20 px-3 py-1 rounded-full font-bold">
+              {daily.category || 'General CS'}
+            </span>
           </div>
-          <span className="inline-block text-xs uppercase tracking-wider text-accent-green bg-accent-green/10 px-3 py-0.5 rounded-full font-semibold mb-3">
-            {daily.category || 'General'}
-          </span>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-text-primary mb-3">{daily.topic}</h2>
-          <p className="text-text-secondary leading-relaxed max-w-2xl mb-5 text-base">{daily.definition}</p>
-          <div className="flex gap-3 flex-wrap">
+
+          <h2 className="font-display text-4xl sm:text-5xl font-extrabold text-white mb-4 tracking-tight leading-tight">
+            {daily.topic}
+          </h2>
+          <p className="text-text-secondary leading-relaxed max-w-3xl mb-8 text-base sm:text-lg font-medium opacity-90">
+            {daily.definition}
+          </p>
+          
+          <div className="flex gap-4 flex-wrap">
             {daily.url && (
               <a href={daily.url} target="_blank" rel="noreferrer"
-                className="inline-flex items-center gap-2 bg-accent-violet hover:bg-violet-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-all hover:-translate-y-0.5">
-                Read More ↗
+                className="group inline-flex items-center gap-2 bg-accent-violet hover:bg-accent-violet-light text-white text-sm font-bold px-6 py-3 rounded-2xl transition-all shadow-lg shadow-accent-violet/20 hover:shadow-accent-violet/40 hover:-translate-y-1">
+                Deep Dive 
+                <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
               </a>
             )}
             <button
               onClick={() => onGoTerm(daily.topic)}
-              className="inline-flex items-center gap-2 text-text-secondary hover:text-text-primary border border-border hover:border-border-bright text-sm font-medium px-4 py-2 rounded-lg transition-all bg-white/5">
-              View in Glossary
+              className="inline-flex items-center gap-2 text-text-primary border border-border hover:border-border-bright text-sm font-bold px-6 py-3 rounded-2xl transition-all bg-white/5 backdrop-blur-sm hover:bg-white/10">
+              Glossary Details
             </button>
           </div>
         </div>
       )}
 
       {/* Stats */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
         {[
-          { label: 'Terms',         value: terms.length || '—',               color: 'text-accent-violet-light' },
-          { label: 'Categories',    value: categories || '—',                  color: 'text-accent-cyan' },
-          { label: 'Security Feed', value: cases.length || '—',               color: 'text-accent-red' },
-          { label: 'Last Updated',  value: formatDate(terms[0]?.date_added),  color: 'text-accent-green' },
+          { 
+            label: 'Loaded Terms', 
+            value: terms.length || '—', 
+            color: 'text-accent-violet-light',
+            icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253" /></svg>
+          },
+          { 
+            label: 'Knowledge Hubs', 
+            value: categories || '—', 
+            color: 'text-accent-cyan',
+            icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+          },
+          { 
+            label: 'Security Feed', 
+            value: cases.length || '—', 
+            color: 'text-accent-red',
+            icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+          },
+          { 
+            label: 'Fresh Intel', 
+            value: formatDate(terms[0]?.date_added), 
+            color: 'text-accent-green',
+            icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          },
         ].map(s => (
-          <div key={s.label} className="glass rounded-xl p-4 border border-border">
+          <div key={s.label} className="glass group rounded-2xl p-5 border border-border hover:border-border-bright transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20">
+            <div className="flex items-center justify-between mb-3">
+              <div className={`p-2 rounded-xl bg-white/5 transition-colors group-hover:bg-white/10 ${s.color}`}>
+                {s.icon}
+              </div>
+            </div>
             <div className={`font-display text-2xl font-bold mb-1 ${s.color}`}>{s.value}</div>
-            <div className="text-text-muted text-xs uppercase tracking-wider">{s.label}</div>
+            <div className="text-text-muted text-[10px] font-bold uppercase tracking-widest">{s.label}</div>
           </div>
         ))}
       </div>
 
       {/* Recent terms */}
-      <div className="flex items-center justify-between mb-4">
-        <h3 className="font-display text-lg font-semibold text-text-primary">Recently Added</h3>
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-1 bg-accent-violet rounded-full" />
+          <h3 className="font-display text-xl font-bold text-text-primary tracking-tight">Recently Added</h3>
+        </div>
         <button
           onClick={() => setSection('glossary')}
-          className="text-text-secondary text-sm hover:text-accent-violet-light transition-colors">
-          View all →
+          className="text-text-secondary text-sm font-bold hover:text-accent-violet-light transition-colors flex items-center gap-1 group">
+          Exploration Hub 
+          <span className="transition-transform group-hover:translate-x-1">→</span>
         </button>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {recent.map(t => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {recent.map((t, i) => (
           <button
             key={t.topic}
             onClick={() => onGoTerm(t.topic)}
-            className="glass glass-hover rounded-xl p-4 text-left group"
+            className="animate-slide-up glass glass-hover rounded-2xl p-5 text-left group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20"
+            style={{ animationDelay: `${i * 60}ms`, animationFillMode: 'both' }}
           >
-            <span className="text-xs uppercase tracking-wider text-accent-violet-light font-semibold mb-2 block">
+            <span className="text-[10px] uppercase tracking-widest text-accent-violet-light font-bold mb-3 block opacity-80 group-hover:opacity-100 transition-opacity">
               {t.category || 'General'}
             </span>
-            <div className="text-text-primary font-medium mb-1 group-hover:text-accent-violet-light transition-colors">
+            <div className="text-text-primary font-bold text-base mb-2 group-hover:text-accent-violet-light transition-colors line-clamp-1">
               {t.topic}
             </div>
-            <p className="text-text-secondary text-sm line-clamp-2 leading-relaxed">{t.definition}</p>
+            <p className="text-text-secondary text-xs line-clamp-2 leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">{t.definition}</p>
           </button>
         ))}
       </div>
