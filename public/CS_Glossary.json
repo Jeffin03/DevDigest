@@ -894,5 +894,12 @@
     "topic": "NRD Cyber Security",
     "definition": "NRD Cyber Security is a Lithuanian company that provides cybersecurity solutions, consulting, and other services.",
     "url": "https://en.wikipedia.org/wiki/NRD_Cyber_Security"
+  },
+  {
+    "date_added": "2026-04-17",
+    "category": "Data Structures",
+    "topic": "Block availability map",
+    "definition": "In computer file systems, a block availability map (BAM) is a data structure used to track disk blocks that are considered free. It is used along with a directory to manage files on a disk.",
+    "url": "https://en.wikipedia.org/wiki/Block_availability_map"
   }
 ]
