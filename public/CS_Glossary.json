@@ -915,5 +915,12 @@
     "topic": "Berkeley IRAM project",
     "definition": "The Berkeley IRAM project was a 1996–2004 research project in the Computer Science Division of the University of California, Berkeley which explored computer architecture enabled by the wide bandwidth between memory and processor made possible when both are designed on the same integrated circuit (chip). Since it was envisioned that such a chip would consist primarily of random-access memory (RAM), with a smaller part needed for the central processing unit (CPU), the research team used the term \"Intelligent RAM\" to describe a chip with this architecture. Like the J–Machine project at MIT, the primary objective of the research was to avoid the Von Neumann bottleneck which occurs when the connection between memory and CPU is a relatively narrow memory bus between separate integrated circuits.",
     "url": "https://en.wikipedia.org/wiki/Berkeley_IRAM_project"
+  },
+  {
+    "date_added": "2026-04-18",
+    "category": "Infrastructure",
+    "topic": "Stackdriver",
+    "definition": "Google Stackdriver was a cloud computing systems management service offered by Google. It provided performance and diagnostics data, including monitoring, logging, tracing, error reporting, and alerting, to public cloud users. Stackdriver supported both Google Cloud and AWS environments.",
+    "url": "https://en.wikipedia.org/wiki/Stackdriver"
   }
 ]
