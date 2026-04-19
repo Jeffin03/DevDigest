@@ -922,5 +922,12 @@
     "topic": "Stackdriver",
     "definition": "Google Stackdriver was a cloud computing systems management service offered by Google. It provided performance and diagnostics data, including monitoring, logging, tracing, error reporting, and alerting, to public cloud users. Stackdriver supported both Google Cloud and AWS environments.",
     "url": "https://en.wikipedia.org/wiki/Stackdriver"
+  },
+  {
+    "date_added": "2026-04-19",
+    "category": "Artificial Intelligence",
+    "topic": "GOLOG",
+    "definition": "GOLOG is a high-level logic programming language for the specification and execution of complex actions in dynamical domains. It is based on the situation calculus. It is a first-order logical language for reasoning about action and change. GOLOG was developed at the University of Toronto.",
+    "url": "https://en.wikipedia.org/wiki/GOLOG"
   }
 ]
