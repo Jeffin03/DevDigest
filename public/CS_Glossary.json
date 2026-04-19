@@ -929,5 +929,12 @@
     "topic": "GOLOG",
     "definition": "GOLOG is a high-level logic programming language for the specification and execution of complex actions in dynamical domains. It is based on the situation calculus. It is a first-order logical language for reasoning about action and change. GOLOG was developed at the University of Toronto.",
     "url": "https://en.wikipedia.org/wiki/GOLOG"
+  },
+  {
+    "date_added": "2026-04-19",
+    "category": "Infrastructure",
+    "topic": "RCUDA",
+    "definition": "rCUDA, which stands for Remote CUDA, is a type of middleware software framework for remote GPU virtualization. Fully compatible with the CUDA application programming interface (API), it allows the allocation of one or more CUDA-enabled GPUs to a single application. Each GPU can be part of a cluster or running inside of a virtual machine. The approach is aimed at improving performance in GPU clusters that are lacking full utilization. GPU virtualization reduces the number of GPUs needed in a cluster, and in turn, leads to a lower cost configuration – less energy, acquisition, and maintenance.",
+    "url": "https://en.wikipedia.org/wiki/RCUDA"
   }
 ]
