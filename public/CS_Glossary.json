@@ -971,5 +971,12 @@
     "topic": "Gosu (programming language)",
     "definition": "Gosu formerly GScript, is a statically typed general-purpose programming language that runs on the Java virtual machine. Its influences include Java, C#, and ECMAScript. Development of Gosu began in 2002 internally for Guidewire Software, and the language saw its first community release in 2010 under the Apache License 2.0.",
     "url": "https://en.wikipedia.org/wiki/Gosu_(programming_language)"
+  },
+  {
+    "date_added": "2026-04-22",
+    "category": "Infrastructure",
+    "topic": "Autoscaling",
+    "definition": "Autoscaling,, is a method used in cloud computing that dynamically adjusts the amount of computational resources in a server farm - typically measured by the number of active servers - automatically based on the load on the farm. For example, the number of servers running behind a web application may be increased or decreased automatically based on the number of active users on the site. Since such metrics may change dramatically throughout the course of the day, and servers are a limited resource that cost money to run even while idle, there is often an incentive to run \"just enough\" servers to support the current load while still being able to support sudden and large spikes in activity. Autoscaling is helpful for such needs, as it can reduce the number of active servers when activity is low, and launch new servers when activity is high. Autoscaling is closely related to, and builds upon, the idea of load balancing.",
+    "url": "https://en.wikipedia.org/wiki/Autoscaling"
   }
 ]
