@@ -978,5 +978,12 @@
     "topic": "Autoscaling",
     "definition": "Autoscaling,, is a method used in cloud computing that dynamically adjusts the amount of computational resources in a server farm - typically measured by the number of active servers - automatically based on the load on the farm. For example, the number of servers running behind a web application may be increased or decreased automatically based on the number of active users on the site. Since such metrics may change dramatically throughout the course of the day, and servers are a limited resource that cost money to run even while idle, there is often an incentive to run \"just enough\" servers to support the current load while still being able to support sudden and large spikes in activity. Autoscaling is helpful for such needs, as it can reduce the number of active servers when activity is low, and launch new servers when activity is high. Autoscaling is closely related to, and builds upon, the idea of load balancing.",
     "url": "https://en.wikipedia.org/wiki/Autoscaling"
+  },
+  {
+    "date_added": "2026-04-23",
+    "category": "Software Engineering",
+    "topic": "Mining software repositories",
+    "definition": "Within software engineering, the mining software repositories (MSR) field analyzes the rich data available in software repositories, such as version control repositories, mailing list archives, bug tracking systems, issue tracking systems, etc. to uncover interesting and actionable information about software systems, projects and software engineering.",
+    "url": "https://en.wikipedia.org/wiki/Mining_software_repositories"
   }
 ]
