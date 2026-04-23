@@ -985,5 +985,12 @@
     "topic": "Mining software repositories",
     "definition": "Within software engineering, the mining software repositories (MSR) field analyzes the rich data available in software repositories, such as version control repositories, mailing list archives, bug tracking systems, issue tracking systems, etc. to uncover interesting and actionable information about software systems, projects and software engineering.",
     "url": "https://en.wikipedia.org/wiki/Mining_software_repositories"
+  },
+  {
+    "date_added": "2026-04-23",
+    "category": "Programming Languages",
+    "topic": "Joy (programming language)",
+    "definition": "The Joy programming language in computer science is a purely functional programming language that was produced by Manfred von Thun of La Trobe University in Melbourne, Australia. Joy is based on composition of functions rather than lambda calculus. It was inspired by the function-level programming style of John Backus's FP. It has turned out to have many similarities to Forth, due not to design but to an independent evolution and convergence.",
+    "url": "https://en.wikipedia.org/wiki/Joy_(programming_language)"
   }
 ]
