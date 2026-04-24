@@ -999,5 +999,12 @@
     "topic": "Swiss Network Operators Group",
     "definition": "The Swiss Network Operators Group (SwiNOG) is a Swiss counterpart to NANOG. Like NANOG, SwiNOG operates a mailing list for operators of Swiss data networks, including ISPs.",
     "url": "https://en.wikipedia.org/wiki/Swiss_Network_Operators_Group"
+  },
+  {
+    "date_added": "2026-04-24",
+    "category": "Cybersecurity",
+    "topic": "RFPolicy",
+    "definition": "The RFPolicy outlines a method for contacting vendors about security vulnerabilities found in their products. It was initially written in 2000 by hacker and security consultant Rain Forest Puppy. It was perhaps the second disclosure policy, following Simple Nomad's.",
+    "url": "https://en.wikipedia.org/wiki/RFPolicy"
   }
 ]
