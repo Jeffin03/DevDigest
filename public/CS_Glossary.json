@@ -1020,5 +1020,12 @@
     "topic": "Tropical cryptography",
     "definition": "In tropical analysis, tropical cryptography refers to the study of a class of cryptographic protocols built upon tropical algebras. In many cases, tropical cryptographic schemes have arisen from adapting classical (non-tropical) schemes to instead rely on tropical algebras. The case for the use of tropical algebras in cryptography rests on at least two key features of tropical mathematics: in the tropical world, there is no classical multiplication, and the problem of solving systems of tropical polynomial equations has been shown to be NP-hard.",
     "url": "https://en.wikipedia.org/wiki/Tropical_cryptography"
+  },
+  {
+    "date_added": "2026-04-26",
+    "category": "Software Engineering",
+    "topic": "Software design",
+    "definition": "Software design is the process of conceptualizing how a software system will work before it is implemented or modified. Software design also refers to the direct result of the design process – the concepts of how the software will work which may be formally documented or may be maintained less formally, including via oral tradition.",
+    "url": "https://en.wikipedia.org/wiki/Software_design"
   }
 ]
