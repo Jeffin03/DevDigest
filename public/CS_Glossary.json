@@ -1048,5 +1048,12 @@
     "topic": "Broadcast, unknown-unicast and multicast traffic",
     "definition": "Broadcast, unknown-unicast and multicast traffic is network traffic transmitted using one of three methods of sending data link layer network traffic to a destination of which the sender does not know the network address. This is achieved by sending the network traffic to multiple destinations on an Ethernet network. As a concept related to computer networking, it includes three types of Ethernet modes: broadcast, unicast and multicast Ethernet. BUM traffic refers to that kind of network traffic that will be forwarded to multiple destinations or that cannot be addressed to the intended destination only.",
     "url": "https://en.wikipedia.org/wiki/Broadcast%2C_unknown-unicast_and_multicast_traffic"
+  },
+  {
+    "date_added": "2026-04-28",
+    "category": "Hardware",
+    "topic": "Single instruction, multiple threads",
+    "definition": "Single instruction, multiple threads (SIMT) is an execution model used in parallel computing where a single central \"control unit\" broadcasts an instruction to multiple \"processing units\" for them to all optionally perform simultaneous synchronous and fully-independent parallel execution of that one instruction. Each PU has its own independent data and address registers, its own independent memory, but no PU in the array has a program counter. In Flynn's 1972 taxonomy this arrangement is a variation of SIMD termed an array processor.",
+    "url": "https://en.wikipedia.org/wiki/Single_instruction%2C_multiple_threads"
   }
 ]
