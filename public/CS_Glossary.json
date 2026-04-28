@@ -1055,5 +1055,12 @@
     "topic": "Single instruction, multiple threads",
     "definition": "Single instruction, multiple threads (SIMT) is an execution model used in parallel computing where a single central \"control unit\" broadcasts an instruction to multiple \"processing units\" for them to all optionally perform simultaneous synchronous and fully-independent parallel execution of that one instruction. Each PU has its own independent data and address registers, its own independent memory, but no PU in the array has a program counter. In Flynn's 1972 taxonomy this arrangement is a variation of SIMD termed an array processor.",
     "url": "https://en.wikipedia.org/wiki/Single_instruction%2C_multiple_threads"
+  },
+  {
+    "date_added": "2026-04-28",
+    "category": "Web Development",
+    "topic": "TheFWA",
+    "definition": "FWA (Favourite Website Awards) is an international award platform that honors and rewards web designers, developers and agencies around the world for excellence within the field of web design and development. The FWA was founded in May 2000 by Rob Ford.",
+    "url": "https://en.wikipedia.org/wiki/TheFWA"
   }
 ]
