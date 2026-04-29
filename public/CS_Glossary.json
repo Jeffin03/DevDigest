@@ -1062,5 +1062,12 @@
     "topic": "TheFWA",
     "definition": "FWA (Favourite Website Awards) is an international award platform that honors and rewards web designers, developers and agencies around the world for excellence within the field of web design and development. The FWA was founded in May 2000 by Rob Ford.",
     "url": "https://en.wikipedia.org/wiki/TheFWA"
+  },
+  {
+    "date_added": "2026-04-29",
+    "category": "Hardware",
+    "topic": "Cache pollution",
+    "definition": "Cache pollution describes situations where an executing computer program loads data into CPU cache unnecessarily, thus causing other useful data to be evicted from the cache into lower levels of the memory hierarchy, degrading performance. For example, in a multi-core processor, one core may replace the blocks fetched by other cores into shared cache, or prefetched blocks may replace demand-fetched blocks from the cache.",
+    "url": "https://en.wikipedia.org/wiki/Cache_pollution"
   }
 ]
