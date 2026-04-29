@@ -1069,5 +1069,12 @@
     "topic": "Cache pollution",
     "definition": "Cache pollution describes situations where an executing computer program loads data into CPU cache unnecessarily, thus causing other useful data to be evicted from the cache into lower levels of the memory hierarchy, degrading performance. For example, in a multi-core processor, one core may replace the blocks fetched by other cores into shared cache, or prefetched blocks may replace demand-fetched blocks from the cache.",
     "url": "https://en.wikipedia.org/wiki/Cache_pollution"
+  },
+  {
+    "date_added": "2026-04-29",
+    "category": "Artificial Intelligence",
+    "topic": "Is This What We Want?",
+    "definition": "Is This What We Want? is an album by various artists released on 25 February 2025 through Virgin Music Group. It consists of ambient noise recorded in recording studios, protesting the use of unlicensed copyrighted work to train artificial intelligence. The track titles form the sentence \"The British Government must not legalise music theft to benefit AI companies\". Profits from the album go toward the UK charity Help Musicians.",
+    "url": "https://en.wikipedia.org/wiki/Is_This_What_We_Want%3F"
   }
 ]
