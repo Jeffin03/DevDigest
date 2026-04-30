@@ -1083,5 +1083,12 @@
     "topic": "Plaintext",
     "definition": "In cryptography, plaintext usually means unencrypted information pending input into cryptographic algorithms, usually encryption algorithms. This usually refers to data that is transmitted or stored unencrypted.",
     "url": "https://en.wikipedia.org/wiki/Plaintext"
+  },
+  {
+    "date_added": "2026-04-30",
+    "category": "Operating Systems",
+    "topic": "Comparison of user features of operating systems",
+    "definition": "Comparison of user features of operating systems refers to a comparison of the general user features of major operating systems in a narrative format. It does not encompass a full exhaustive comparison or description of all technical details of all operating systems. It is a comparison of basic roles and the most prominent features. It also includes the most important features of the operating system's origins, historical development, and role.",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_user_features_of_operating_systems"
   }
 ]
