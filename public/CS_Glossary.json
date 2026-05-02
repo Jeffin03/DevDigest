@@ -1104,5 +1104,12 @@
     "topic": "Test data management",
     "definition": "Test data management (TDM) is a process in software testing concerned with the creation, preparation, and control of data used for testing software systems. It involves supplying datasets required to execute test cases and verifying system behaviour under defined conditions. Test data management is an integral part of the software development lifecycle (SDLC) and is utilized in both manual and automated testing processes. It is applied in environments that use continuous integration and DevOps practices, where test execution requires consistent and repeatable data conditions.",
     "url": "https://en.wikipedia.org/wiki/Test_data_management"
+  },
+  {
+    "date_added": "2026-05-02",
+    "category": "Software Engineering",
+    "topic": "Index of software engineering articles",
+    "definition": "This is an alphabetical list of articles pertaining specifically to software engineering.",
+    "url": "https://en.wikipedia.org/wiki/Index_of_software_engineering_articles"
   }
 ]
