@@ -1118,5 +1118,12 @@
     "topic": "Pony (programming language)",
     "definition": "Pony is a object-oriented, actor model, capabilities-secure, high performance programming language. Pony's reference capabilities allow even mutable data to be safely passed by reference between actors. Garbage collection is performed concurrently, per-actor, which eliminates the need to pause program execution or \"stop the world\". Sylvan Clebsch is the original creator of the language. It is now being maintained and developed by members of the Pony team. It is free and open-source software with a BSD 2-clause license.",
     "url": "https://en.wikipedia.org/wiki/Pony_(programming_language)"
+  },
+  {
+    "date_added": "2026-05-03",
+    "category": "Cryptography",
+    "topic": "HKDF",
+    "definition": "HKDF is a multi-purpose key derivation function (KDF) based on the HMAC message authentication code. HKDF follows \"extract-then-expand\" paradigm, where the KDF logically consists of two modules: the first stage takes the input keying material and \"extracts\" from it a fixed-length pseudorandom key, and then the second stage \"expands\" this key into several additional, independent pseudorandom keys as the output of the KDF.",
+    "url": "https://en.wikipedia.org/wiki/HKDF"
   }
 ]
