@@ -1167,5 +1167,12 @@
     "topic": "WebGL",
     "definition": "WebGL is a JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins. WebGL is fully integrated with other web standards, allowing GPU-accelerated usage of physics, image processing, and effects in the HTML canvas. WebGL elements can be mixed with other HTML elements and composited with other parts of the page or page background.",
     "url": "https://en.wikipedia.org/wiki/WebGL"
+  },
+  {
+    "date_added": "2026-05-06",
+    "category": "Programming Languages",
+    "topic": "Carbon (programming language)",
+    "definition": "Carbon is an experimental programming language designed for interoperability with C++. The project is open-source and was started at Google. Google's engineer Chandler Carruth first introduced Carbon at the CppNorth conference in Toronto in July 2022. He stated that Carbon was created to be a C++ successor. The language is expected to have an experimental MVP version 0.1 in late 2026 at the earliest and a production-ready version 1.0 after 2028.",
+    "url": "https://en.wikipedia.org/wiki/Carbon_(programming_language)"
   }
 ]
