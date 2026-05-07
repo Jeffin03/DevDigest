@@ -1181,5 +1181,12 @@
     "topic": "Cache prefetching",
     "definition": "Cache prefetching is a technique used by central processing units (CPUs) to boost execution performance by fetching instructions or data from their primary or main storage in slower memory to a faster local memory before it is actually needed. Most modern CPUs have fast and local cache memory in which prefetched data is held until it is required. The source for the prefetch operation is usually main memory. Because of their design, accessing cache memories is typically much faster than accessing main memory. Prefetching can be done with non-blocking cache control instructions. Prefetching is based on the principle of data locality.",
     "url": "https://en.wikipedia.org/wiki/Cache_prefetching"
+  },
+  {
+    "date_added": "2026-05-07",
+    "category": "Programming Languages",
+    "topic": "Kinetic Rule Language",
+    "definition": "Kinetic Rule Language (KRL) is a rule-based programming language for creating applications on the Live Web. KRL programs, or rulesets, comprise a number of rules that respond to particular events. KRL has been promoted as language for building personal clouds.",
+    "url": "https://en.wikipedia.org/wiki/Kinetic_Rule_Language"
   }
 ]
