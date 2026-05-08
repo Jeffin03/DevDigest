@@ -1195,5 +1195,12 @@
     "topic": "Distributed operating system",
     "definition": "A distributed operating system is system software over a collection of independent software, networked, communicating, and physically separate computational nodes. They handle jobs which are serviced by multiple CPUs. Each individual node holds a specific software subset of the global aggregate operating system. Each subset is a composite of two distinct service provisioners. The first is a ubiquitous minimal kernel, or microkernel, that directly controls that node's hardware. Second is a higher-level collection of system management components that coordinate the node's individual and collaborative activities. These components abstract microkernel functions and support user applications.",
     "url": "https://en.wikipedia.org/wiki/Distributed_operating_system"
+  },
+  {
+    "date_added": "2026-05-08",
+    "category": "Artificial Intelligence",
+    "topic": "Goa AI Mission 2027",
+    "definition": "The Goa AI Mission 2027 is a policy initiative of the Government of Goa aimed at transforming the state from a tourism-driven economy into a technology-oriented, artificial intelligence (AI)-enabled innovation hub. The initiative was officially launched in July 2025 under the leadership of Chief Minister Mr. Pramod Sawant.",
+    "url": "https://en.wikipedia.org/wiki/Goa_AI_Mission_2027"
   }
 ]
