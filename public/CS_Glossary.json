@@ -1188,5 +1188,12 @@
     "topic": "Kinetic Rule Language",
     "definition": "Kinetic Rule Language (KRL) is a rule-based programming language for creating applications on the Live Web. KRL programs, or rulesets, comprise a number of rules that respond to particular events. KRL has been promoted as language for building personal clouds.",
     "url": "https://en.wikipedia.org/wiki/Kinetic_Rule_Language"
+  },
+  {
+    "date_added": "2026-05-08",
+    "category": "Operating Systems",
+    "topic": "Distributed operating system",
+    "definition": "A distributed operating system is system software over a collection of independent software, networked, communicating, and physically separate computational nodes. They handle jobs which are serviced by multiple CPUs. Each individual node holds a specific software subset of the global aggregate operating system. Each subset is a composite of two distinct service provisioners. The first is a ubiquitous minimal kernel, or microkernel, that directly controls that node's hardware. Second is a higher-level collection of system management components that coordinate the node's individual and collaborative activities. These components abstract microkernel functions and support user applications.",
+    "url": "https://en.wikipedia.org/wiki/Distributed_operating_system"
   }
 ]
