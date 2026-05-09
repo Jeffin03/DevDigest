@@ -1202,5 +1202,12 @@
     "topic": "Goa AI Mission 2027",
     "definition": "The Goa AI Mission 2027 is a policy initiative of the Government of Goa aimed at transforming the state from a tourism-driven economy into a technology-oriented, artificial intelligence (AI)-enabled innovation hub. The initiative was officially launched in July 2025 under the leadership of Chief Minister Mr. Pramod Sawant.",
     "url": "https://en.wikipedia.org/wiki/Goa_AI_Mission_2027"
+  },
+  {
+    "date_added": "2026-05-09",
+    "category": "Artificial Intelligence",
+    "topic": "Neuro-symbolic AI",
+    "definition": "Neuro-symbolic AI is a subfield of artificial intelligence that integrates neural methods with symbolic methods. The goal is to combine the strengths of both approaches, resulting in AI systems that can be trained from raw data and demonstrate robustness against outliers or errors in the base data, while preserving explainability, explicit use of expert knowledge, and explicit cognitive reasoning. As argued by Leslie Valiant and others, the effective construction of rich computational cognitive models demands the combination of symbolic reasoning and efficient machine learning.",
+    "url": "https://en.wikipedia.org/wiki/Neuro-symbolic_AI"
   }
 ]
