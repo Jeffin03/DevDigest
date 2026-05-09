@@ -1209,5 +1209,12 @@
     "topic": "Neuro-symbolic AI",
     "definition": "Neuro-symbolic AI is a subfield of artificial intelligence that integrates neural methods with symbolic methods. The goal is to combine the strengths of both approaches, resulting in AI systems that can be trained from raw data and demonstrate robustness against outliers or errors in the base data, while preserving explainability, explicit use of expert knowledge, and explicit cognitive reasoning. As argued by Leslie Valiant and others, the effective construction of rich computational cognitive models demands the combination of symbolic reasoning and efficient machine learning.",
     "url": "https://en.wikipedia.org/wiki/Neuro-symbolic_AI"
+  },
+  {
+    "date_added": "2026-05-09",
+    "category": "Web Development",
+    "topic": "Web worker",
+    "definition": "A web worker, as defined by the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG), is a JavaScript script executed from an HTML page that runs in the background, independently of scripts that may also have been executed from the same HTML page. Web workers are often able to utilize multi-core CPUs more effectively.",
+    "url": "https://en.wikipedia.org/wiki/Web_worker"
   }
 ]
