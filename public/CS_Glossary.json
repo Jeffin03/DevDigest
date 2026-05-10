@@ -1223,5 +1223,12 @@
     "topic": "Nym Technologies",
     "definition": "Nym Technologies is a Swiss company that provides internet privacy technology utilizing Nym mix network and noise generation networks. Nym offers VPN and blockchain-related software and network services. Its most notable service, NymVPN, advertises itself as a VPN service for privacy and security.",
     "url": "https://en.wikipedia.org/wiki/Nym_Technologies"
+  },
+  {
+    "date_added": "2026-05-10",
+    "category": "Programming Languages",
+    "topic": "Rebol",
+    "definition": "Rebol is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects",
+    "url": "https://en.wikipedia.org/wiki/Rebol"
   }
 ]
