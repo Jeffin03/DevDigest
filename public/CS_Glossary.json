@@ -1237,5 +1237,12 @@
     "topic": "Alexander Y. Tetelbaum",
     "definition": "Alexander Y. Tetelbaum is a Ukrainian American computer scientist, inventor, and academic who has contributed to electronic design automation (EDA) and artificial intelligence (AI) since the late 1960s; and holds 46 U.S. patents in EDA and related fields. Tetelbaum is the founding president of International Solomon University, the first Jewish university in Ukraine, established during a period of renewed efforts to address antisemitism in Ukraine.",
     "url": "https://en.wikipedia.org/wiki/Alexander_Y._Tetelbaum"
+  },
+  {
+    "date_added": "2026-05-11",
+    "category": "Web Development",
+    "topic": "WebGPU",
+    "definition": "WebGPU API is a JavaScript, Rust, C++, and C API for cross-platform efficient graphics processing unit (GPU) access. Using a system's underlying Vulkan, Metal, or Direct3D 12 technologies, WebGPU allows for graphics processing, games, and more, as well as AI and machine learning applications. WebGPU is intended to supersede the older WebGL as the main graphics standard for the Web.",
+    "url": "https://en.wikipedia.org/wiki/WebGPU"
   }
 ]
