@@ -1230,5 +1230,12 @@
     "topic": "Rebol",
     "definition": "Rebol is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects",
     "url": "https://en.wikipedia.org/wiki/Rebol"
+  },
+  {
+    "date_added": "2026-05-11",
+    "category": "Software Engineering",
+    "topic": "Alexander Y. Tetelbaum",
+    "definition": "Alexander Y. Tetelbaum is a Ukrainian American computer scientist, inventor, and academic who has contributed to electronic design automation (EDA) and artificial intelligence (AI) since the late 1960s; and holds 46 U.S. patents in EDA and related fields. Tetelbaum is the founding president of International Solomon University, the first Jewish university in Ukraine, established during a period of renewed efforts to address antisemitism in Ukraine.",
+    "url": "https://en.wikipedia.org/wiki/Alexander_Y._Tetelbaum"
   }
 ]
