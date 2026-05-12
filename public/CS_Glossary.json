@@ -1244,5 +1244,12 @@
     "topic": "WebGPU",
     "definition": "WebGPU API is a JavaScript, Rust, C++, and C API for cross-platform efficient graphics processing unit (GPU) access. Using a system's underlying Vulkan, Metal, or Direct3D 12 technologies, WebGPU allows for graphics processing, games, and more, as well as AI and machine learning applications. WebGPU is intended to supersede the older WebGL as the main graphics standard for the Web.",
     "url": "https://en.wikipedia.org/wiki/WebGPU"
+  },
+  {
+    "date_added": "2026-05-12",
+    "category": "Artificial Intelligence",
+    "topic": "Artificial consciousness",
+    "definition": "Artificial consciousness, also known as machine consciousness, synthetic consciousness, or digital consciousness, is consciousness hypothesized to be possible for artificial intelligence. It is also the corresponding field of study, which draws insights from philosophy of mind, philosophy of artificial intelligence, cognitive science and neuroscience.",
+    "url": "https://en.wikipedia.org/wiki/Artificial_consciousness"
   }
 ]
