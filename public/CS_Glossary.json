@@ -1258,5 +1258,12 @@
     "topic": "Email art",
     "definition": "Email art refers to artwork created for the medium of email. It includes computer graphics, animations, screensavers, digital scans of artwork in other media, and even ASCII art. When exhibited, Email art can be either displayed on a computer screen or similar type of display device, or the work can be printed out and displayed.",
     "url": "https://en.wikipedia.org/wiki/Email_art"
+  },
+  {
+    "date_added": "2026-05-13",
+    "category": "Web Development",
+    "topic": "Bootstrap (front-end framework)",
+    "definition": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+    "url": "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
   }
 ]
