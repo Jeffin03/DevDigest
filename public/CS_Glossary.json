@@ -1265,5 +1265,12 @@
     "topic": "Bootstrap (front-end framework)",
     "definition": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
     "url": "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+  },
+  {
+    "date_added": "2026-05-13",
+    "category": "Artificial Intelligence",
+    "topic": "Genesis Mission",
+    "definition": "Genesis Mission is an initiative launched by the United States federal government to accelerate scientific research through artificial intelligence (AI) technology. It was announced in November 2025.",
+    "url": "https://en.wikipedia.org/wiki/Genesis_Mission"
   }
 ]
