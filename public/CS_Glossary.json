@@ -1279,5 +1279,12 @@
     "topic": "Apache Kudu",
     "definition": "Apache Kudu is a free and open source column-oriented data store of the Apache Hadoop ecosystem. It is compatible with most of the data processing frameworks in the Hadoop environment. It provides completeness to Hadoop's storage layer to enable fast analytics on fast data.",
     "url": "https://en.wikipedia.org/wiki/Apache_Kudu"
+  },
+  {
+    "date_added": "2026-05-14",
+    "category": "Programming Languages",
+    "topic": "Lightweight programming language",
+    "definition": "Lightweight programming languages are programming languages designed to have small memory footprint, are easy to implement, and/or have minimalist syntax and features.",
+    "url": "https://en.wikipedia.org/wiki/Lightweight_programming_language"
   }
 ]
