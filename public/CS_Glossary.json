@@ -1272,5 +1272,12 @@
     "topic": "Genesis Mission",
     "definition": "Genesis Mission is an initiative launched by the United States federal government to accelerate scientific research through artificial intelligence (AI) technology. It was announced in November 2025.",
     "url": "https://en.wikipedia.org/wiki/Genesis_Mission"
+  },
+  {
+    "date_added": "2026-05-14",
+    "category": "Infrastructure",
+    "topic": "Apache Kudu",
+    "definition": "Apache Kudu is a free and open source column-oriented data store of the Apache Hadoop ecosystem. It is compatible with most of the data processing frameworks in the Hadoop environment. It provides completeness to Hadoop's storage layer to enable fast analytics on fast data.",
+    "url": "https://en.wikipedia.org/wiki/Apache_Kudu"
   }
 ]
