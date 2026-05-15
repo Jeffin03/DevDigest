@@ -1286,5 +1286,12 @@
     "topic": "Lightweight programming language",
     "definition": "Lightweight programming languages are programming languages designed to have small memory footprint, are easy to implement, and/or have minimalist syntax and features.",
     "url": "https://en.wikipedia.org/wiki/Lightweight_programming_language"
+  },
+  {
+    "date_added": "2026-05-15",
+    "category": "Cryptography",
+    "topic": "Batch cryptography",
+    "definition": "Batch cryptography is a field of cryptology focused on the design of cryptographic protocols that perform operations—such as encryption, decryption, key exchange, and authentication—on multiple inputs simultaneously, rather than processing each input individually. Batching cryptographic operations can significantly reduce the marginal cost of handling individual inputs—a principle that was first introduced by Amos Fiat in 1989.",
+    "url": "https://en.wikipedia.org/wiki/Batch_cryptography"
   }
 ]
