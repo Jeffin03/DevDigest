@@ -1293,5 +1293,12 @@
     "topic": "Batch cryptography",
     "definition": "Batch cryptography is a field of cryptology focused on the design of cryptographic protocols that perform operations—such as encryption, decryption, key exchange, and authentication—on multiple inputs simultaneously, rather than processing each input individually. Batching cryptographic operations can significantly reduce the marginal cost of handling individual inputs—a principle that was first introduced by Amos Fiat in 1989.",
     "url": "https://en.wikipedia.org/wiki/Batch_cryptography"
+  },
+  {
+    "date_added": "2026-05-15",
+    "category": "Programming Languages",
+    "topic": "Starlark",
+    "definition": "Starlark is a lightweight, high-level programming language designed for embedded use in applications. It uses a subset of the Python syntax. By default, the code is deterministic and hermetic.",
+    "url": "https://en.wikipedia.org/wiki/Starlark"
   }
 ]
