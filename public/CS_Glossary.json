@@ -1300,5 +1300,12 @@
     "topic": "Starlark",
     "definition": "Starlark is a lightweight, high-level programming language designed for embedded use in applications. It uses a subset of the Python syntax. By default, the code is deterministic and hermetic.",
     "url": "https://en.wikipedia.org/wiki/Starlark"
+  },
+  {
+    "date_added": "2026-05-16",
+    "category": "Software Engineering",
+    "topic": "Data engineering",
+    "definition": "Data engineering is a software engineering approach to the building of data systems, to enable the collection and usage of data. This data is usually used to enable subsequent analysis and data science, which often involves machine learning. Making the data usable usually involves substantial computing and storage, as well as data processing.",
+    "url": "https://en.wikipedia.org/wiki/Data_engineering"
   }
 ]
