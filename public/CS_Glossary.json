@@ -1307,5 +1307,12 @@
     "topic": "Data engineering",
     "definition": "Data engineering is a software engineering approach to the building of data systems, to enable the collection and usage of data. This data is usually used to enable subsequent analysis and data science, which often involves machine learning. Making the data usable usually involves substantial computing and storage, as well as data processing.",
     "url": "https://en.wikipedia.org/wiki/Data_engineering"
+  },
+  {
+    "date_added": "2026-05-16",
+    "category": "Cybersecurity",
+    "topic": "Zardoz (computer security)",
+    "definition": "In computer security, the Security-Digest list, better known as the Zardoz list, was a semi-private full disclosure mailing list run by Neil Gorsuch from 1989 through 1991. It identified weaknesses in systems and gave directions on where to find them. It was a perennial target for computer hackers, who sought archives of the list for information on undisclosed software vulnerabilities.",
+    "url": "https://en.wikipedia.org/wiki/Zardoz_(computer_security)"
   }
 ]
