@@ -1314,5 +1314,12 @@
     "topic": "Zardoz (computer security)",
     "definition": "In computer security, the Security-Digest list, better known as the Zardoz list, was a semi-private full disclosure mailing list run by Neil Gorsuch from 1989 through 1991. It identified weaknesses in systems and gave directions on where to find them. It was a perennial target for computer hackers, who sought archives of the list for information on undisclosed software vulnerabilities.",
     "url": "https://en.wikipedia.org/wiki/Zardoz_(computer_security)"
+  },
+  {
+    "date_added": "2026-05-17",
+    "category": "Cybersecurity",
+    "topic": "Zero-day vulnerability",
+    "definition": "A zero-day is a vulnerability or security hole in a computer system unknown to its developers or anyone capable of mitigating it. Until the vulnerability is remedied, threat actors can exploit it in a zero-day exploit, or zero-day attack.",
+    "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
   }
 ]
