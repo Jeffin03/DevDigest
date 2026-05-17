@@ -1321,5 +1321,12 @@
     "topic": "Zero-day vulnerability",
     "definition": "A zero-day is a vulnerability or security hole in a computer system unknown to its developers or anyone capable of mitigating it. Until the vulnerability is remedied, threat actors can exploit it in a zero-day exploit, or zero-day attack.",
     "url": "https://en.wikipedia.org/wiki/Zero-day_vulnerability"
+  },
+  {
+    "date_added": "2026-05-17",
+    "category": "Data Structures",
+    "topic": "Set intersection oracle",
+    "definition": "A set intersection oracle (SIO) is a data structure which represents a collection of sets and can quickly answer queries about whether the set intersection of two given sets is non-empty.",
+    "url": "https://en.wikipedia.org/wiki/Set_intersection_oracle"
   }
 ]
