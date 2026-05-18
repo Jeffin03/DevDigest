@@ -1328,5 +1328,12 @@
     "topic": "Set intersection oracle",
     "definition": "A set intersection oracle (SIO) is a data structure which represents a collection of sets and can quickly answer queries about whether the set intersection of two given sets is non-empty.",
     "url": "https://en.wikipedia.org/wiki/Set_intersection_oracle"
+  },
+  {
+    "date_added": "2026-05-18",
+    "category": "Hardware",
+    "topic": "Comparison of CPU microarchitectures",
+    "definition": "The following is a comparison of CPU microarchitectures.",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_CPU_microarchitectures"
   }
 ]
