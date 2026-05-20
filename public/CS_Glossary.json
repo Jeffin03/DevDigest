@@ -1363,5 +1363,12 @@
     "topic": "Hardware architect",
     "definition": "In the automation and engineering environments, the hardware engineer or architect encompasses the electronics engineering and electrical engineering fields, with subspecialities in analog, digital, or electromechanical systems.",
     "url": "https://en.wikipedia.org/wiki/Hardware_architect"
+  },
+  {
+    "date_added": "2026-05-20",
+    "category": "Operating Systems",
+    "topic": "Network operating system",
+    "definition": "A network operating system (NOS) is a specialized operating system for a network device such as a router, switch or firewall.",
+    "url": "https://en.wikipedia.org/wiki/Network_operating_system"
   }
 ]
