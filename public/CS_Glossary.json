@@ -1356,5 +1356,12 @@
     "topic": "WYSIWYS",
     "definition": "In cryptography, What You See Is What You Sign (WYSIWYS) is a property of digital signature systems that ensures the semantic content of signed messages can not be changed, either by accident or intent.",
     "url": "https://en.wikipedia.org/wiki/WYSIWYS"
+  },
+  {
+    "date_added": "2026-05-20",
+    "category": "Hardware",
+    "topic": "Hardware architect",
+    "definition": "In the automation and engineering environments, the hardware engineer or architect encompasses the electronics engineering and electrical engineering fields, with subspecialities in analog, digital, or electromechanical systems.",
+    "url": "https://en.wikipedia.org/wiki/Hardware_architect"
   }
 ]
