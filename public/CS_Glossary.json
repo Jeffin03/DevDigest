@@ -1377,5 +1377,12 @@
     "topic": "Format-transforming encryption",
     "definition": "In cryptography, format-transforming encryption (FTE) refers to encryption where the format of the input plaintext and output ciphertext are configurable. Descriptions of formats can vary, but are typically compact set descriptors, such as a regular expression.",
     "url": "https://en.wikipedia.org/wiki/Format-transforming_encryption"
+  },
+  {
+    "date_added": "2026-05-21",
+    "category": "Operating Systems",
+    "topic": "Single address space operating system",
+    "definition": "In computer science, a single address space operating system is an operating system that provides only one globally shared address space for all processes. In a single address space operating system, numerically identical logical addresses in different processes all refer to exactly the same byte of data.",
+    "url": "https://en.wikipedia.org/wiki/Single_address_space_operating_system"
   }
 ]
