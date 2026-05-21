@@ -1370,5 +1370,12 @@
     "topic": "Network operating system",
     "definition": "A network operating system (NOS) is a specialized operating system for a network device such as a router, switch or firewall.",
     "url": "https://en.wikipedia.org/wiki/Network_operating_system"
+  },
+  {
+    "date_added": "2026-05-21",
+    "category": "Cryptography",
+    "topic": "Format-transforming encryption",
+    "definition": "In cryptography, format-transforming encryption (FTE) refers to encryption where the format of the input plaintext and output ciphertext are configurable. Descriptions of formats can vary, but are typically compact set descriptors, such as a regular expression.",
+    "url": "https://en.wikipedia.org/wiki/Format-transforming_encryption"
   }
 ]
