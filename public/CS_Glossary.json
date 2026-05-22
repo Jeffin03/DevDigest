@@ -1391,5 +1391,12 @@
     "topic": "Software configuration management",
     "definition": "Software configuration management (SCM), a.k.a. software change and configuration management (SCCM), is the software engineering practice of tracking and controlling changes to a software system. It is part of the larger cross-disciplinary field of configuration management (CM). SCM includes version control and the establishment of baselines.",
     "url": "https://en.wikipedia.org/wiki/Software_configuration_management"
+  },
+  {
+    "date_added": "2026-05-22",
+    "category": "Programming Languages",
+    "topic": "TREE-META",
+    "definition": "The TREE-META Translator Writing System is a compiler-compiler system for context-free languages originally developed in the 1960s. Parsing statements of the metalanguage resemble augmented Backus–Naur form with embedded tree-building directives. Unparsing rules include extensive tree-scanning and code-generation constructs.",
+    "url": "https://en.wikipedia.org/wiki/TREE-META"
   }
 ]
