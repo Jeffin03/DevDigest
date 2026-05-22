@@ -1384,5 +1384,12 @@
     "topic": "Single address space operating system",
     "definition": "In computer science, a single address space operating system is an operating system that provides only one globally shared address space for all processes. In a single address space operating system, numerically identical logical addresses in different processes all refer to exactly the same byte of data.",
     "url": "https://en.wikipedia.org/wiki/Single_address_space_operating_system"
+  },
+  {
+    "date_added": "2026-05-22",
+    "category": "Software Engineering",
+    "topic": "Software configuration management",
+    "definition": "Software configuration management (SCM), a.k.a. software change and configuration management (SCCM), is the software engineering practice of tracking and controlling changes to a software system. It is part of the larger cross-disciplinary field of configuration management (CM). SCM includes version control and the establishment of baselines.",
+    "url": "https://en.wikipedia.org/wiki/Software_configuration_management"
   }
 ]
