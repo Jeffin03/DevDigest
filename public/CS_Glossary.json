@@ -1405,5 +1405,12 @@
     "topic": "MDS matrix",
     "definition": "An MDS matrix is a matrix representing a function with certain diffusion properties that have useful applications in cryptography. Technically, an matrix over a finite field is an MDS matrix if it is the transformation matrix of a linear transformation from to such that no two different -tuples of the form coincide in or more components. Equivalently, the set of all -tuples is an MDS code, i.e., a linear code that reaches the Singleton bound.",
     "url": "https://en.wikipedia.org/wiki/MDS_matrix"
+  },
+  {
+    "date_added": "2026-05-23",
+    "category": "Web Development",
+    "topic": "Conversion path",
+    "definition": "A conversion path is a description of the steps taken by a user of a website towards a desired end from the standpoint of the website operator or marketer. The typical conversion path begins with a user arriving at a landing page or a product page and proceeding through a series of page transitions until reaching a final state, either positive or negative. In practice, the study of the dynamics of this process by the interested party has evolved into a sophisticated field, where various statistical methods are being applied to the optimization of outcomes. This includes real-time adjustment of presented content, in which a website operator tries to provide deliberate incentives to increase the odds of conversion based on various sources of information, including demographic traits, search history, and browsing events. In practice, this reflects in different content presented to users arriving from online advertising versus search engines, and similarly, different content is presented depending on their demographic segments.",
+    "url": "https://en.wikipedia.org/wiki/Conversion_path"
   }
 ]
