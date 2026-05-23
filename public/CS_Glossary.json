@@ -1398,5 +1398,12 @@
     "topic": "TREE-META",
     "definition": "The TREE-META Translator Writing System is a compiler-compiler system for context-free languages originally developed in the 1960s. Parsing statements of the metalanguage resemble augmented Backus–Naur form with embedded tree-building directives. Unparsing rules include extensive tree-scanning and code-generation constructs.",
     "url": "https://en.wikipedia.org/wiki/TREE-META"
+  },
+  {
+    "date_added": "2026-05-23",
+    "category": "Cryptography",
+    "topic": "MDS matrix",
+    "definition": "An MDS matrix is a matrix representing a function with certain diffusion properties that have useful applications in cryptography. Technically, an matrix over a finite field is an MDS matrix if it is the transformation matrix of a linear transformation from to such that no two different -tuples of the form coincide in or more components. Equivalently, the set of all -tuples is an MDS code, i.e., a linear code that reaches the Singleton bound.",
+    "url": "https://en.wikipedia.org/wiki/MDS_matrix"
   }
 ]
