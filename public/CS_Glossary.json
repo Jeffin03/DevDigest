@@ -1412,5 +1412,12 @@
     "topic": "Conversion path",
     "definition": "A conversion path is a description of the steps taken by a user of a website towards a desired end from the standpoint of the website operator or marketer. The typical conversion path begins with a user arriving at a landing page or a product page and proceeding through a series of page transitions until reaching a final state, either positive or negative. In practice, the study of the dynamics of this process by the interested party has evolved into a sophisticated field, where various statistical methods are being applied to the optimization of outcomes. This includes real-time adjustment of presented content, in which a website operator tries to provide deliberate incentives to increase the odds of conversion based on various sources of information, including demographic traits, search history, and browsing events. In practice, this reflects in different content presented to users arriving from online advertising versus search engines, and similarly, different content is presented depending on their demographic segments.",
     "url": "https://en.wikipedia.org/wiki/Conversion_path"
+  },
+  {
+    "date_added": "2026-05-24",
+    "category": "Web Development",
+    "topic": "Web application",
+    "definition": "A web application is application software that is created with web technologies and runs via a web browser. Web applications emerged during the late 1990s and allowed for the server to dynamically build a response to the request, in contrast to static web pages.",
+    "url": "https://en.wikipedia.org/wiki/Web_application"
   }
 ]
