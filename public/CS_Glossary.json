@@ -1433,5 +1433,12 @@
     "topic": "Software engineering demographics",
     "definition": "Software engineers make up a significant portion of the global workforce. As of 2022, there are an estimated 26.9 million professional software engineers worldwide, up from 21 million in 2016.",
     "url": "https://en.wikipedia.org/wiki/Software_engineering_demographics"
+  },
+  {
+    "date_added": "2026-05-25",
+    "category": "Infrastructure",
+    "topic": "Oracle Cloud Platform",
+    "definition": "Oracle Cloud Platform refers to a Platform as a Service (PaaS) offerings by Oracle Corporation as part of Oracle Cloud Infrastructure. These offerings are used to build, deploy, integrate and extend applications in the cloud. The offerings support a variety of programming languages, databases, tools and frameworks including Oracle-specific, open source and third-party software and systems.",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Cloud_Platform"
   }
 ]
