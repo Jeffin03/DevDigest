@@ -1447,5 +1447,12 @@
     "topic": "Cloud Foundry",
     "definition": "Cloud Foundry is an open source, multi-cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation, a 501(c)(6) organization.",
     "url": "https://en.wikipedia.org/wiki/Cloud_Foundry"
+  },
+  {
+    "date_added": "2026-05-26",
+    "category": "Artificial Intelligence",
+    "topic": "Intelligent word recognition",
+    "definition": "Intelligent word recognition (IWR) is the recognition of unconstrained handwritten words. IWR recognizes entire handwritten words or phrases instead of character-by-character, like its predecessor, optical character recognition (OCR). IWR technology matches handwritten or printed words to a user-defined dictionary, significantly reducing character errors encountered in typical character-based recognition engines.",
+    "url": "https://en.wikipedia.org/wiki/Intelligent_word_recognition"
   }
 ]
