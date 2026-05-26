@@ -1440,5 +1440,12 @@
     "topic": "Oracle Cloud Platform",
     "definition": "Oracle Cloud Platform refers to a Platform as a Service (PaaS) offerings by Oracle Corporation as part of Oracle Cloud Infrastructure. These offerings are used to build, deploy, integrate and extend applications in the cloud. The offerings support a variety of programming languages, databases, tools and frameworks including Oracle-specific, open source and third-party software and systems.",
     "url": "https://en.wikipedia.org/wiki/Oracle_Cloud_Platform"
+  },
+  {
+    "date_added": "2026-05-26",
+    "category": "Infrastructure",
+    "topic": "Cloud Foundry",
+    "definition": "Cloud Foundry is an open source, multi-cloud application platform as a service (PaaS) governed by the Cloud Foundry Foundation, a 501(c)(6) organization.",
+    "url": "https://en.wikipedia.org/wiki/Cloud_Foundry"
   }
 ]
