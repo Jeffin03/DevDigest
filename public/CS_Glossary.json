@@ -1461,5 +1461,12 @@
     "topic": "Microarchitecture simulation",
     "definition": "Microarchitecture simulation is an important technique in computer architecture research and computer science education. It is a tool for modeling the design and behavior of a microprocessor and its components, such as the ALU, cache memory, control unit, and data path, among others. The simulation allows researchers to explore the design space as well as to evaluate the performance and efficiency of novel microarchitecture features. For example, several microarchitecture components, such as branch predictors, re-order buffer, and trace cache, went through numerous simulation cycles before they become common components in contemporary microprocessors of today. In addition, the simulation also enables educators to teach computer organization and architecture courses with hand-on experiences.",
     "url": "https://en.wikipedia.org/wiki/Microarchitecture_simulation"
+  },
+  {
+    "date_added": "2026-05-27",
+    "category": "Artificial Intelligence",
+    "topic": "Graphics processing unit",
+    "definition": "A graphics processing unit (GPU) is a specialized electronic circuit designed for digital image processing and to accelerate computer graphics, being present either as a component on a discrete graphics card or embedded on motherboards, mobile phones, personal computers, workstations, and game consoles. GPUs are increasingly being used for artificial intelligence (AI) processing due to linear algebra acceleration, which is also used extensively in graphics processing.",
+    "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
   }
 ]
