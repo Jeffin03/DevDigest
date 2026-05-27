@@ -1454,5 +1454,12 @@
     "topic": "Intelligent word recognition",
     "definition": "Intelligent word recognition (IWR) is the recognition of unconstrained handwritten words. IWR recognizes entire handwritten words or phrases instead of character-by-character, like its predecessor, optical character recognition (OCR). IWR technology matches handwritten or printed words to a user-defined dictionary, significantly reducing character errors encountered in typical character-based recognition engines.",
     "url": "https://en.wikipedia.org/wiki/Intelligent_word_recognition"
+  },
+  {
+    "date_added": "2026-05-27",
+    "category": "Hardware",
+    "topic": "Microarchitecture simulation",
+    "definition": "Microarchitecture simulation is an important technique in computer architecture research and computer science education. It is a tool for modeling the design and behavior of a microprocessor and its components, such as the ALU, cache memory, control unit, and data path, among others. The simulation allows researchers to explore the design space as well as to evaluate the performance and efficiency of novel microarchitecture features. For example, several microarchitecture components, such as branch predictors, re-order buffer, and trace cache, went through numerous simulation cycles before they become common components in contemporary microprocessors of today. In addition, the simulation also enables educators to teach computer organization and architecture courses with hand-on experiences.",
+    "url": "https://en.wikipedia.org/wiki/Microarchitecture_simulation"
   }
 ]
