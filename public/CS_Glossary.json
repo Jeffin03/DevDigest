@@ -1468,5 +1468,12 @@
     "topic": "Graphics processing unit",
     "definition": "A graphics processing unit (GPU) is a specialized electronic circuit designed for digital image processing and to accelerate computer graphics, being present either as a component on a discrete graphics card or embedded on motherboards, mobile phones, personal computers, workstations, and game consoles. GPUs are increasingly being used for artificial intelligence (AI) processing due to linear algebra acceleration, which is also used extensively in graphics processing.",
     "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+  },
+  {
+    "date_added": "2026-05-28",
+    "category": "Operating Systems",
+    "topic": "Usage share of operating systems",
+    "definition": "The usage share of an operating system is the percentage of computers running that operating system (OS). These statistics are estimates as wide scale OS usage data is difficult to obtain and measure. Reliable primary sources are limited and data collection methodology is not formally agreed. Currently devices connected to the internet allow for web data collection to approximately measure OS usage.",
+    "url": "https://en.wikipedia.org/wiki/Usage_share_of_operating_systems"
   }
 ]
