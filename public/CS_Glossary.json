@@ -1475,5 +1475,12 @@
     "topic": "Usage share of operating systems",
     "definition": "The usage share of an operating system is the percentage of computers running that operating system (OS). These statistics are estimates as wide scale OS usage data is difficult to obtain and measure. Reliable primary sources are limited and data collection methodology is not formally agreed. Currently devices connected to the internet allow for web data collection to approximately measure OS usage.",
     "url": "https://en.wikipedia.org/wiki/Usage_share_of_operating_systems"
+  },
+  {
+    "date_added": "2026-05-28",
+    "category": "Web Development",
+    "topic": "Server-sent events",
+    "definition": "Server-Sent Events (SSE) is a server push technology enabling a client to receive automatic updates from a server via an HTTP connection, and describes how servers can initiate data transmission towards clients once an initial client connection has been established. They are commonly used to send message updates or continuous data streams to a browser client and designed to enhance native, cross-browser streaming through a JavaScript API called EventSource, through which a client requests a particular URL in order to receive an event stream. The EventSource API is standardized as part of HTML Living Standard by the WHATWG. The media type for SSE is text/event-stream.",
+    "url": "https://en.wikipedia.org/wiki/Server-sent_events"
   }
 ]
