@@ -1482,5 +1482,12 @@
     "topic": "Server-sent events",
     "definition": "Server-Sent Events (SSE) is a server push technology enabling a client to receive automatic updates from a server via an HTTP connection, and describes how servers can initiate data transmission towards clients once an initial client connection has been established. They are commonly used to send message updates or continuous data streams to a browser client and designed to enhance native, cross-browser streaming through a JavaScript API called EventSource, through which a client requests a particular URL in order to receive an event stream. The EventSource API is standardized as part of HTML Living Standard by the WHATWG. The media type for SSE is text/event-stream.",
     "url": "https://en.wikipedia.org/wiki/Server-sent_events"
+  },
+  {
+    "date_added": "2026-05-29",
+    "category": "Artificial Intelligence",
+    "topic": "Virtual intelligence",
+    "definition": "Virtual intelligence (VI) is the term given to artificial intelligence that exists within a virtual world. Many virtual worlds have options for persistent avatars that provide information, training, role-playing, and social interactions.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_intelligence"
   }
 ]
