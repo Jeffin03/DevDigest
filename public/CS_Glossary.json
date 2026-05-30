@@ -1503,5 +1503,12 @@
     "topic": "Resisting AI",
     "definition": "Resisting AI: An Anti-fascist Approach to Artificial Intelligence is a book on artificial intelligence (AI) by Dan McQuillan, published in 2022 by Bristol University Press.",
     "url": "https://en.wikipedia.org/wiki/Resisting_AI"
+  },
+  {
+    "date_added": "2026-05-30",
+    "category": "Infrastructure",
+    "topic": "Apache ORC",
+    "definition": "Apache ORC is a free and open-source column-oriented data storage format. It is similar to the other columnar-storage file formats available in the Hadoop ecosystem such as RCFile and Parquet. It is used by most of the data processing frameworks Apache Spark, Apache Hive, Apache Flink, and Apache Hadoop.",
+    "url": "https://en.wikipedia.org/wiki/Apache_ORC"
   }
 ]
