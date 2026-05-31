@@ -1517,5 +1517,12 @@
     "topic": "Northbound interface",
     "definition": "In computer networking and computer architecture, a northbound interface of a component is an interface that allows the component to communicate with a higher level component, using the latter component's southbound interface.",
     "url": "https://en.wikipedia.org/wiki/Northbound_interface"
+  },
+  {
+    "date_added": "2026-05-31",
+    "category": "Operating Systems",
+    "topic": "Linux kernel",
+    "definition": "The Linux kernel is a free and open-source Unix-like kernel that is used in many computer systems worldwide. The kernel was created by Linus Torvalds in 1991 and was soon adopted as the kernel for the GNU operating system (OS), which was created to be a free replacement for Unix. Since the late 1990s, it has been included in many operating system distributions, many of which are called Linux. One such Linux kernel operating system is Android, which is used in many mobile and embedded devices.",
+    "url": "https://en.wikipedia.org/wiki/Linux_kernel"
   }
 ]
