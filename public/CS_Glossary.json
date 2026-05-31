@@ -1510,5 +1510,12 @@
     "topic": "Apache ORC",
     "definition": "Apache ORC is a free and open-source column-oriented data storage format. It is similar to the other columnar-storage file formats available in the Hadoop ecosystem such as RCFile and Parquet. It is used by most of the data processing frameworks Apache Spark, Apache Hive, Apache Flink, and Apache Hadoop.",
     "url": "https://en.wikipedia.org/wiki/Apache_ORC"
+  },
+  {
+    "date_added": "2026-05-31",
+    "category": "Hardware",
+    "topic": "Northbound interface",
+    "definition": "In computer networking and computer architecture, a northbound interface of a component is an interface that allows the component to communicate with a higher level component, using the latter component's southbound interface.",
+    "url": "https://en.wikipedia.org/wiki/Northbound_interface"
   }
 ]
