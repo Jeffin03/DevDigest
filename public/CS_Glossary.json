@@ -1524,5 +1524,12 @@
     "topic": "Linux kernel",
     "definition": "The Linux kernel is a free and open-source Unix-like kernel that is used in many computer systems worldwide. The kernel was created by Linus Torvalds in 1991 and was soon adopted as the kernel for the GNU operating system (OS), which was created to be a free replacement for Unix. Since the late 1990s, it has been included in many operating system distributions, many of which are called Linux. One such Linux kernel operating system is Android, which is used in many mobile and embedded devices.",
     "url": "https://en.wikipedia.org/wiki/Linux_kernel"
+  },
+  {
+    "date_added": "2026-06-01",
+    "category": "Software Engineering",
+    "topic": "System appreciation",
+    "definition": "System appreciation is an activity often included in the maintenance phase of software engineering projects. Key deliverables from this phase include documentation that describes what the system does in terms of its functional features, and how it achieves those features in terms of its architecture and design. Software architecture recovery is often the first step within System appreciation.",
+    "url": "https://en.wikipedia.org/wiki/System_appreciation"
   }
 ]
