@@ -1531,5 +1531,12 @@
     "topic": "System appreciation",
     "definition": "System appreciation is an activity often included in the maintenance phase of software engineering projects. Key deliverables from this phase include documentation that describes what the system does in terms of its functional features, and how it achieves those features in terms of its architecture and design. Software architecture recovery is often the first step within System appreciation.",
     "url": "https://en.wikipedia.org/wiki/System_appreciation"
+  },
+  {
+    "date_added": "2026-06-01",
+    "category": "Web Development",
+    "topic": "Awwwards",
+    "definition": "Awwwards (Awwwards Online SL) is an organization that hosts web design competitions and conferences across Europe and the United States. Website owners and developers can participate by submitting their websites for review. Submissions are assessed by a jury, and top entries are presented and awarded prizes on a rotational basis.",
+    "url": "https://en.wikipedia.org/wiki/Awwwards"
   }
 ]
