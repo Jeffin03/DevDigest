@@ -1545,5 +1545,12 @@
     "topic": "Smart Pascal",
     "definition": "Smart Pascal is an Object Pascal programming language that is derived from Delphi Web Script and is adapted for Smart Mobile Studio for generating commercial JavaScript machine code. As a rapid application development (RAD) language, it contains a library of classes and components. The Smart Pascal compiler is a source-to-source compiler generating server-independent applications which are compliant with HTML5. Compiled Smart applications can be executed in a modern HTML5-capable browser. A compiled program is then typically embedded within a DIV container element or alternatively set to occupy the entire display.",
     "url": "https://en.wikipedia.org/wiki/Smart_Pascal"
+  },
+  {
+    "date_added": "2026-06-02",
+    "category": "Artificial Intelligence",
+    "topic": "Toy problem",
+    "definition": "In scientific disciplines, a toy problem or a puzzlelike problem is a problem that is not of immediate scientific interest, yet is used as an expository device to illustrate a trait that may be shared by other, more complicated, instances of the problem, or as a way to explain a particular, more general, problem solving technique. A toy problem is useful to test and demonstrate methodologies. Researchers can use toy problems to compare the performance of different algorithms. They are also good for game designing.",
+    "url": "https://en.wikipedia.org/wiki/Toy_problem"
   }
 ]
