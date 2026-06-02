@@ -1538,5 +1538,12 @@
     "topic": "Awwwards",
     "definition": "Awwwards (Awwwards Online SL) is an organization that hosts web design competitions and conferences across Europe and the United States. Website owners and developers can participate by submitting their websites for review. Submissions are assessed by a jury, and top entries are presented and awarded prizes on a rotational basis.",
     "url": "https://en.wikipedia.org/wiki/Awwwards"
+  },
+  {
+    "date_added": "2026-06-02",
+    "category": "Programming Languages",
+    "topic": "Smart Pascal",
+    "definition": "Smart Pascal is an Object Pascal programming language that is derived from Delphi Web Script and is adapted for Smart Mobile Studio for generating commercial JavaScript machine code. As a rapid application development (RAD) language, it contains a library of classes and components. The Smart Pascal compiler is a source-to-source compiler generating server-independent applications which are compliant with HTML5. Compiled Smart applications can be executed in a modern HTML5-capable browser. A compiled program is then typically embedded within a DIV container element or alternatively set to occupy the entire display.",
+    "url": "https://en.wikipedia.org/wiki/Smart_Pascal"
   }
 ]
