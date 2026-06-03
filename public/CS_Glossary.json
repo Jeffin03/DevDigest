@@ -1559,5 +1559,12 @@
     "topic": "HtmlUnit",
     "definition": "HtmlUnit is a headless web browser written in Java. It allows high-level manipulation of websites from other Java code, including filling and submitting forms and clicking hyperlinks. It also provides access to the structure and the details within received web pages. HtmlUnit emulates parts of browser behaviour including the lower-level aspects of TCP/IP and HTTP. A sequence such as getPage(url), getLinkWith(\"Click here\"), click allows a user to navigate through hypertext and obtain web pages that include HTML, JavaScript, Ajax and cookies. This headless browser can deal with HTTPS security, basic HTTP authentication, automatic page redirection and other HTTP headers. It allows Java test code to examine returned pages either as text, an XML DOM, or as collections of forms, tables, and links.",
     "url": "https://en.wikipedia.org/wiki/HtmlUnit"
+  },
+  {
+    "date_added": "2026-06-03",
+    "category": "Cybersecurity",
+    "topic": "Four Horsemen of the Infocalypse",
+    "definition": "The Four Horsemen of the Infocalypse refers to those who use the Internet to facilitate crime or (pejoratively) to rhetorical approaches evoking such criminals.",
+    "url": "https://en.wikipedia.org/wiki/Four_Horsemen_of_the_Infocalypse"
   }
 ]
