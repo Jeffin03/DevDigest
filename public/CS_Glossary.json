@@ -1580,5 +1580,12 @@
     "topic": "Nemerle",
     "definition": "Nemerle is a general-purpose, high-level, statically typed programming language designed for platforms using the Common Language Infrastructure (.NET/Mono). It supports multiple paradigms, including functional, object-oriented, aspect-oriented, reflective, and imperative programming. The language features a simple C#-like syntax and a powerful metaprogramming system. In June 2012, the core Nemerle developers were hired by the Czech software company JetBrains. The team focused on developing Nitra, a framework for implementing existing and new programming languages. Both Nemerle and Nitra appear to have since been abandoned or discontinued by JetBrains; Nitra has not received updates from its original creators since 2017, and Nemerle is now maintained independently by the Russian Software Development Network. However, no major releases have occurred, and development progress remains slow. JetBrains has not referenced Nemerle or Nitra for several years. The language is named after the Archmage Nemmerle, a character in the fantasy novel A Wizard of Earthsea by Ursula K. Le Guin.",
     "url": "https://en.wikipedia.org/wiki/Nemerle"
+  },
+  {
+    "date_added": "2026-06-05",
+    "category": "Web Development",
+    "topic": "CodePen",
+    "definition": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called \"pens,\" and test them. It was founded in 2012 by full-stack developers Alex Vazquez and Tim Sabat and front-end designer Chris Coyier. Its employees work remotely, rarely all meeting together in person. CodePen is a large community for web designers and developers to showcase their coding skills, with an estimated 330,000 registered users and 14.16 million monthly visitors.",
+    "url": "https://en.wikipedia.org/wiki/CodePen"
   }
 ]
