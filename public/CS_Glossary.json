@@ -1587,5 +1587,12 @@
     "topic": "CodePen",
     "definition": "CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called \"pens,\" and test them. It was founded in 2012 by full-stack developers Alex Vazquez and Tim Sabat and front-end designer Chris Coyier. Its employees work remotely, rarely all meeting together in person. CodePen is a large community for web designers and developers to showcase their coding skills, with an estimated 330,000 registered users and 14.16 million monthly visitors.",
     "url": "https://en.wikipedia.org/wiki/CodePen"
+  },
+  {
+    "date_added": "2026-06-05",
+    "category": "Cryptography",
+    "topic": "Secure two-party computation",
+    "definition": "Secure two-party computation is a sub-problem of secure multi-party computation (MPC) that has received special attention by researchers because of its close relation to many cryptographic tasks. The goal of 2PC is to create a generic protocol that allows two parties to jointly compute an arbitrary function on their inputs without sharing the value of their inputs with the opposing party. One of the most well known examples of 2PC is Yao's Millionaires' problem, in which two parties, Alice and Bob, are millionaires who wish to determine who is wealthier without revealing their wealth. Formally, Alice has wealth , Bob has wealth , and they wish to compute without revealing the values or .",
+    "url": "https://en.wikipedia.org/wiki/Secure_two-party_computation"
   }
 ]
