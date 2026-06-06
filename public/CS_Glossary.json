@@ -1601,5 +1601,12 @@
     "topic": "Arithmetic logic unit",
     "definition": "In computing, an arithmetic logic unit (ALU) is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers. This is in contrast to a floating-point unit (FPU), which operates on floating point numbers. It is a fundamental building block of many types of computing circuits, including the central processing unit (CPU) of computers, FPUs, and graphics processing units (GPUs).",
     "url": "https://en.wikipedia.org/wiki/Arithmetic_logic_unit"
+  },
+  {
+    "date_added": "2026-06-06",
+    "category": "Software Engineering",
+    "topic": "Developer experience",
+    "definition": "Developer experience is a field within software engineering that examines how developers think, feel, and interact with their work environments, tools, and processes. The field combines principles from human-computer interaction, user experience, organizational psychology, and software engineering to improve developer productivity and satisfaction through systematic measurement and optimization of the development process.",
+    "url": "https://en.wikipedia.org/wiki/Developer_experience"
   }
 ]
