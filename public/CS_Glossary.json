@@ -1594,5 +1594,12 @@
     "topic": "Secure two-party computation",
     "definition": "Secure two-party computation is a sub-problem of secure multi-party computation (MPC) that has received special attention by researchers because of its close relation to many cryptographic tasks. The goal of 2PC is to create a generic protocol that allows two parties to jointly compute an arbitrary function on their inputs without sharing the value of their inputs with the opposing party. One of the most well known examples of 2PC is Yao's Millionaires' problem, in which two parties, Alice and Bob, are millionaires who wish to determine who is wealthier without revealing their wealth. Formally, Alice has wealth , Bob has wealth , and they wish to compute without revealing the values or .",
     "url": "https://en.wikipedia.org/wiki/Secure_two-party_computation"
+  },
+  {
+    "date_added": "2026-06-06",
+    "category": "Hardware",
+    "topic": "Arithmetic logic unit",
+    "definition": "In computing, an arithmetic logic unit (ALU) is a combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers. This is in contrast to a floating-point unit (FPU), which operates on floating point numbers. It is a fundamental building block of many types of computing circuits, including the central processing unit (CPU) of computers, FPUs, and graphics processing units (GPUs).",
+    "url": "https://en.wikipedia.org/wiki/Arithmetic_logic_unit"
   }
 ]
