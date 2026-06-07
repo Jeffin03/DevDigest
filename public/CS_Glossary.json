@@ -1608,5 +1608,12 @@
     "topic": "Developer experience",
     "definition": "Developer experience is a field within software engineering that examines how developers think, feel, and interact with their work environments, tools, and processes. The field combines principles from human-computer interaction, user experience, organizational psychology, and software engineering to improve developer productivity and satisfaction through systematic measurement and optimization of the development process.",
     "url": "https://en.wikipedia.org/wiki/Developer_experience"
+  },
+  {
+    "date_added": "2026-06-07",
+    "category": "Network Infrastructure",
+    "topic": "Junos OS",
+    "definition": "Junos OS is a FreeBSD-based, and later also Linux-based, network operating system used in Juniper Networks routing, switching and security devices.",
+    "url": "https://en.wikipedia.org/wiki/Junos_OS"
   }
 ]
