@@ -1615,5 +1615,12 @@
     "topic": "Junos OS",
     "definition": "Junos OS is a FreeBSD-based, and later also Linux-based, network operating system used in Juniper Networks routing, switching and security devices.",
     "url": "https://en.wikipedia.org/wiki/Junos_OS"
+  },
+  {
+    "date_added": "2026-06-07",
+    "category": "Artificial Intelligence",
+    "topic": "Neural scaling law",
+    "definition": "In machine learning, a neural scaling law is an empirical scaling law that describes how neural network performance changes as key factors are scaled up or down. These factors typically include the number of parameters, training dataset size, and training cost. Some models also exhibit performance gains by scaling inference through increased test-time compute (TTC), extending neural scaling laws beyond training to the deployment phase.",
+    "url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
   }
 ]
