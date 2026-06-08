@@ -1629,5 +1629,12 @@
     "topic": "Network allocation vector",
     "definition": "The network allocation vector (NAV) is a virtual carrier-sensing mechanism used with wireless network protocols such as IEEE 802.11 (Wi-Fi) and IEEE 802.16 (WiMax). The virtual carrier-sensing is a logical abstraction which limits the need for physical carrier-sensing at the air interface in order to save power. The MAC layer frame headers contain a duration field that specifies the transmission time required for the frame, in which time the medium will be busy. The stations listening on the wireless medium read the Duration field and set their NAV, which is an indicator for a station on how long it must defer from accessing the medium.",
     "url": "https://en.wikipedia.org/wiki/Network_allocation_vector"
+  },
+  {
+    "date_added": "2026-06-08",
+    "category": "Network Infrastructure",
+    "topic": "Local Management Interface",
+    "definition": "Local Management Interface (LMI) is a term for some signaling standards used in networks, namely Frame Relay and Carrier Ethernet.",
+    "url": "https://en.wikipedia.org/wiki/Local_Management_Interface"
   }
 ]
