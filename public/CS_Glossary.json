@@ -1636,5 +1636,12 @@
     "topic": "Local Management Interface",
     "definition": "Local Management Interface (LMI) is a term for some signaling standards used in networks, namely Frame Relay and Carrier Ethernet.",
     "url": "https://en.wikipedia.org/wiki/Local_Management_Interface"
+  },
+  {
+    "date_added": "2026-06-09",
+    "category": "Cryptography",
+    "topic": "Protocol composition logic",
+    "definition": "Protocol Composition Logic is a formal method that can be used for proving security properties of cryptographic protocols that use symmetric-key and public-key cryptography. PCL is designed around a process calculus with actions for various possible protocol steps.",
+    "url": "https://en.wikipedia.org/wiki/Protocol_composition_logic"
   }
 ]
