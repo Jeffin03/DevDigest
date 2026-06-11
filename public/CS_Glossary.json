@@ -1664,5 +1664,12 @@
     "topic": "Trace zero cryptography",
     "definition": "First proposed by Gerhard Frey in 1998, trace zero cryptography refers to the use of trace zero varieties (TZV) for cryptographic purpose. Trace zero varieties are subgroups of the divisor class group on a low genus hyperelliptic curve defined over a finite field. These groups can be used to establish asymmetric cryptography using the discrete logarithm problem as cryptographic primitive.",
     "url": "https://en.wikipedia.org/wiki/Trace_zero_cryptography"
+  },
+  {
+    "date_added": "2026-06-11",
+    "category": "Programming Languages",
+    "topic": "The C Programming Language",
+    "definition": "The C Programming Language is a computer programming book written by Brian Kernighan and Dennis Ritchie, the latter of whom originally designed and implemented the C programming language, as well as co-designed the Unix operating system with which development of the language was closely intertwined. The book was central to the development and popularization of C and is still widely read and used. Because the book was co-authored by the original language designer, and because the first edition of the book served for many years as the de facto standard for the language, the book was regarded by many to be the authoritative reference on C.",
+    "url": "https://en.wikipedia.org/wiki/The_C_Programming_Language"
   }
 ]
