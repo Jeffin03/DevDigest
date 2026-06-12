@@ -1685,5 +1685,12 @@
     "topic": "Cybersecurity in space",
     "definition": "Cybersecurity in space involves the defense of all space assets. The security of space can be affected by attacks such as disruption, corruption as well as the destruction of depended-upon assets/collected data.",
     "url": "https://en.wikipedia.org/wiki/Cybersecurity_in_space"
+  },
+  {
+    "date_added": "2026-06-12",
+    "category": "Infrastructure",
+    "topic": "BioBIKE",
+    "definition": "BioBike(nee. BioLingua ) is a cloud-based, through-the-web programmable (Paas) symbolic biocomputing and bioinformatics platform that aims to make computational biology, and especially intelligent biocomputing accessible to research scientists who are not expert programmers.",
+    "url": "https://en.wikipedia.org/wiki/BioBIKE"
   }
 ]
