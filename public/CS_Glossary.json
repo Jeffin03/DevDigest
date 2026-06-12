@@ -1678,5 +1678,12 @@
     "topic": "TI-BASIC 83",
     "definition": "TI-BASIC 83, TI-BASIC Z80 or simply TI-BASIC, is the built-in programming language for the Texas Instruments programmable calculators in the TI-83 series. Calculators that implement TI-BASIC have a built in editor for writing programs. While the considerably faster Z80 assembly language is supported for the calculators, TI-BASIC's in-calculator editor and more user friendly syntax make it easier to use. TI-BASIC is interpreted.",
     "url": "https://en.wikipedia.org/wiki/TI-BASIC_83"
+  },
+  {
+    "date_added": "2026-06-12",
+    "category": "Cybersecurity",
+    "topic": "Cybersecurity in space",
+    "definition": "Cybersecurity in space involves the defense of all space assets. The security of space can be affected by attacks such as disruption, corruption as well as the destruction of depended-upon assets/collected data.",
+    "url": "https://en.wikipedia.org/wiki/Cybersecurity_in_space"
   }
 ]
