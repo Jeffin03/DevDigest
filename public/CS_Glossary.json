@@ -1699,5 +1699,12 @@
     "topic": "Svelte",
     "definition": "Svelte is a free and open-source component-based front-end software framework and language created by Rich Harris and maintained by the Svelte core team.",
     "url": "https://en.wikipedia.org/wiki/Svelte"
+  },
+  {
+    "date_added": "2026-06-13",
+    "category": "Hardware",
+    "topic": "Stream processing",
+    "definition": "In computer science, stream processing is a programming paradigm which views streams, or sequences of events in time, as the central input and output objects of computation. Stream processing encompasses dataflow programming, reactive programming, and distributed data processing. Stream processing systems use streaming algorithms to trace parallel processing for data streams. The software stack for these systems includes components such as programming models and query languages, for expressing computation; stream management systems, for distribution and scheduling; and hardware components for acceleration including floating-point units, graphics processing units, and field-programmable gate arrays.",
+    "url": "https://en.wikipedia.org/wiki/Stream_processing"
   }
 ]
