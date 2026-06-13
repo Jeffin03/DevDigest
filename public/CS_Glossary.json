@@ -1692,5 +1692,12 @@
     "topic": "BioBIKE",
     "definition": "BioBike(nee. BioLingua ) is a cloud-based, through-the-web programmable (Paas) symbolic biocomputing and bioinformatics platform that aims to make computational biology, and especially intelligent biocomputing accessible to research scientists who are not expert programmers.",
     "url": "https://en.wikipedia.org/wiki/BioBIKE"
+  },
+  {
+    "date_added": "2026-06-13",
+    "category": "Web Development",
+    "topic": "Svelte",
+    "definition": "Svelte is a free and open-source component-based front-end software framework and language created by Rich Harris and maintained by the Svelte core team.",
+    "url": "https://en.wikipedia.org/wiki/Svelte"
   }
 ]
