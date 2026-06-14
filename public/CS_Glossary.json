@@ -1713,5 +1713,12 @@
     "topic": "Bring your own encryption",
     "definition": "Bring your own encryption (BYOE), also known as bring your own key (BYOK), is a cloud computing security model that allows cloud service customers to use their own encryption software and manage their own encryption keys.",
     "url": "https://en.wikipedia.org/wiki/Bring_your_own_encryption"
+  },
+  {
+    "date_added": "2026-06-14",
+    "category": "Network Infrastructure",
+    "topic": "Registered state change notification",
+    "definition": "In Fibre Channel protocol, a registered state change notification (RSCN) is a Fibre Channel fabric's notification sent to all specified nodes in case of any major fabric changes. This allows nodes to immediately gain knowledge about the fabric and react accordingly.",
+    "url": "https://en.wikipedia.org/wiki/Registered_state_change_notification"
   }
 ]
