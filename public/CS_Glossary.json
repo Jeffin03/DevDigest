@@ -1720,5 +1720,12 @@
     "topic": "Registered state change notification",
     "definition": "In Fibre Channel protocol, a registered state change notification (RSCN) is a Fibre Channel fabric's notification sent to all specified nodes in case of any major fabric changes. This allows nodes to immediately gain knowledge about the fabric and react accordingly.",
     "url": "https://en.wikipedia.org/wiki/Registered_state_change_notification"
+  },
+  {
+    "date_added": "2026-06-15",
+    "category": "Infrastructure",
+    "topic": "Pydio",
+    "definition": "Pydio Cells, previously known as just Pydio and formerly known as AjaXplorer, is an open-source file-sharing and synchronisation software that runs on the user's own server or in the cloud.",
+    "url": "https://en.wikipedia.org/wiki/Pydio"
   }
 ]
