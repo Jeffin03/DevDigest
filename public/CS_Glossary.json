@@ -1727,5 +1727,12 @@
     "topic": "Pydio",
     "definition": "Pydio Cells, previously known as just Pydio and formerly known as AjaXplorer, is an open-source file-sharing and synchronisation software that runs on the user's own server or in the cloud.",
     "url": "https://en.wikipedia.org/wiki/Pydio"
+  },
+  {
+    "date_added": "2026-06-15",
+    "category": "Cryptography",
+    "topic": "Security protocol notation",
+    "definition": "In cryptography, security (engineering) protocol notation, also known as protocol narrations and Alice & Bob notation, is a way of expressing a protocol of correspondence between entities of a dynamic system, such as a computer network. In the context of a formal model, it allows reasoning about the properties of such a system.",
+    "url": "https://en.wikipedia.org/wiki/Security_protocol_notation"
   }
 ]
