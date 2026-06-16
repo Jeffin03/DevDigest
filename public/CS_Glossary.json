@@ -1734,5 +1734,12 @@
     "topic": "Security protocol notation",
     "definition": "In cryptography, security (engineering) protocol notation, also known as protocol narrations and Alice & Bob notation, is a way of expressing a protocol of correspondence between entities of a dynamic system, such as a computer network. In the context of a formal model, it allows reasoning about the properties of such a system.",
     "url": "https://en.wikipedia.org/wiki/Security_protocol_notation"
+  },
+  {
+    "date_added": "2026-06-16",
+    "category": "Artificial Intelligence",
+    "topic": "Evolutionary developmental robotics",
+    "definition": "Evolutionary developmental robotics refers to methodologies that systematically integrate evolutionary robotics, epigenetic robotics and morphogenetic robotics to study the evolution, physical and mental development and learning of natural intelligent systems in robotic systems. The field was formally suggested and fully discussed in a published paper and further discussed in a published dialogue.",
+    "url": "https://en.wikipedia.org/wiki/Evolutionary_developmental_robotics"
   }
 ]
