@@ -1755,5 +1755,12 @@
     "topic": "Decipherment",
     "definition": "In philology and linguistics, decipherment is the discovery of the meaning of the symbols found in extinct languages and/or alphabets. Decipherment is possible with respect to languages and scripts. One can also study or try to decipher how spoken languages that no longer exist were once pronounced, or how living languages used to be pronounced in prior eras.",
     "url": "https://en.wikipedia.org/wiki/Decipherment"
+  },
+  {
+    "date_added": "2026-06-17",
+    "category": "Programming Languages",
+    "topic": "Mesa (programming language)",
+    "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
+    "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
   }
 ]
