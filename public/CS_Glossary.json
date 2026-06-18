@@ -1762,5 +1762,12 @@
     "topic": "Mesa (programming language)",
     "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
     "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
+  },
+  {
+    "date_added": "2026-06-18",
+    "category": "Programming Languages",
+    "topic": "V (programming language)",
+    "definition": "V, also known as vlang, is an in-development statically typed, compiled programming language created by Alexander Medvednikov in early 2019. It was inspired by Go, and other programming languages including Oberon, Swift, and Rust. It is free and open-source software released under the MIT License, and currently in beta.",
+    "url": "https://en.wikipedia.org/wiki/V_(programming_language)"
   }
 ]
