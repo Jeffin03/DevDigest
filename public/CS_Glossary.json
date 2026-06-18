@@ -1769,5 +1769,12 @@
     "topic": "V (programming language)",
     "definition": "V, also known as vlang, is an in-development statically typed, compiled programming language created by Alexander Medvednikov in early 2019. It was inspired by Go, and other programming languages including Oberon, Swift, and Rust. It is free and open-source software released under the MIT License, and currently in beta.",
     "url": "https://en.wikipedia.org/wiki/V_(programming_language)"
+  },
+  {
+    "date_added": "2026-06-18",
+    "category": "Programming Languages",
+    "topic": "Outline of the C sharp programming language",
+    "definition": "The following outline is provided as an overview of and topical guide to C#:",
+    "url": "https://en.wikipedia.org/wiki/Outline_of_the_C_sharp_programming_language"
   }
 ]
