@@ -1790,5 +1790,12 @@
     "topic": "Dn42",
     "definition": "dn42 is a decentralized peer-to-peer network built using VPNs and software/hardware BGP routers.",
     "url": "https://en.wikipedia.org/wiki/Dn42"
+  },
+  {
+    "date_added": "2026-06-20",
+    "category": "Infrastructure",
+    "topic": "CloudMinds",
+    "definition": "CloudMinds is an operator of cloud-based systems for cognitive robotics.",
+    "url": "https://en.wikipedia.org/wiki/CloudMinds"
   }
 ]
