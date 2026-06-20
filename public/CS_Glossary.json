@@ -1797,5 +1797,12 @@
     "topic": "CloudMinds",
     "definition": "CloudMinds is an operator of cloud-based systems for cognitive robotics.",
     "url": "https://en.wikipedia.org/wiki/CloudMinds"
+  },
+  {
+    "date_added": "2026-06-20",
+    "category": "Network Infrastructure",
+    "topic": "Networking hardware",
+    "definition": "Networking hardware, also known as network equipment or computer networking devices, are electronic devices that are required for communication and interaction between devices on a computer network. Specifically, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data terminal equipment.",
+    "url": "https://en.wikipedia.org/wiki/Networking_hardware"
   }
 ]
