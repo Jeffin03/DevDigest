@@ -1811,5 +1811,12 @@
     "topic": "Control block",
     "definition": "In computing, a control block is an area of memory or disk which contains a group of related data \"used for identification and control purposes\".",
     "url": "https://en.wikipedia.org/wiki/Control_block"
+  },
+  {
+    "date_added": "2026-06-21",
+    "category": "Artificial Intelligence",
+    "topic": "MediSafe controversy",
+    "definition": "Between June and September 2025, a public debate occurred in Hong Kong about the originality and data practices of MediSafe, a purportedly student-built artificial intelligence platform. The project was developed by Clarisse Poon, a Form Four student at the St. Paul's Co-educational College, and won several innovation awards in 2024 and 2025. Online discussion and media coverage later raised concerns about the project's authorship and use of patient data, prompting official investigations.",
+    "url": "https://en.wikipedia.org/wiki/MediSafe_controversy"
   }
 ]
