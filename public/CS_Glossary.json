@@ -1804,5 +1804,12 @@
     "topic": "Networking hardware",
     "definition": "Networking hardware, also known as network equipment or computer networking devices, are electronic devices that are required for communication and interaction between devices on a computer network. Specifically, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data terminal equipment.",
     "url": "https://en.wikipedia.org/wiki/Networking_hardware"
+  },
+  {
+    "date_added": "2026-06-21",
+    "category": "Data Structures",
+    "topic": "Control block",
+    "definition": "In computing, a control block is an area of memory or disk which contains a group of related data \"used for identification and control purposes\".",
+    "url": "https://en.wikipedia.org/wiki/Control_block"
   }
 ]
