@@ -1825,5 +1825,12 @@
     "topic": "Intelligent database",
     "definition": "Until the 1980s, databases were viewed as computer systems that stored record-oriented and business data such as manufacturing inventories, bank records, and sales transactions. A database system was not expected to merge numeric data with text, images, or multimedia information, nor was it expected to automatically notice patterns in the data it stored. In the late 1980s the concept of an intelligent database was put forward as a system that manages information in a way that appears natural to users and which goes beyond simple record keeping.",
     "url": "https://en.wikipedia.org/wiki/Intelligent_database"
+  },
+  {
+    "date_added": "2026-06-22",
+    "category": "Artificial Intelligence",
+    "topic": "Attributional calculus",
+    "definition": "Attributional calculus is a logic and representation system defined by Ryszard S. Michalski. It combines elements of predicate logic, propositional calculus, and multi-valued logic. Attributional calculus provides a formal language for natural induction, which is an inductive learning process whose outcomes are in human-readable forms.",
+    "url": "https://en.wikipedia.org/wiki/Attributional_calculus"
   }
 ]
