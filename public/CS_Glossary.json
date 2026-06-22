@@ -1818,5 +1818,12 @@
     "topic": "MediSafe controversy",
     "definition": "Between June and September 2025, a public debate occurred in Hong Kong about the originality and data practices of MediSafe, a purportedly student-built artificial intelligence platform. The project was developed by Clarisse Poon, a Form Four student at the St. Paul's Co-educational College, and won several innovation awards in 2024 and 2025. Online discussion and media coverage later raised concerns about the project's authorship and use of patient data, prompting official investigations.",
     "url": "https://en.wikipedia.org/wiki/MediSafe_controversy"
+  },
+  {
+    "date_added": "2026-06-22",
+    "category": "Artificial Intelligence",
+    "topic": "Intelligent database",
+    "definition": "Until the 1980s, databases were viewed as computer systems that stored record-oriented and business data such as manufacturing inventories, bank records, and sales transactions. A database system was not expected to merge numeric data with text, images, or multimedia information, nor was it expected to automatically notice patterns in the data it stored. In the late 1980s the concept of an intelligent database was put forward as a system that manages information in a way that appears natural to users and which goes beyond simple record keeping.",
+    "url": "https://en.wikipedia.org/wiki/Intelligent_database"
   }
 ]
