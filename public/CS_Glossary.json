@@ -1832,5 +1832,12 @@
     "topic": "Attributional calculus",
     "definition": "Attributional calculus is a logic and representation system defined by Ryszard S. Michalski. It combines elements of predicate logic, propositional calculus, and multi-valued logic. Attributional calculus provides a formal language for natural induction, which is an inductive learning process whose outcomes are in human-readable forms.",
     "url": "https://en.wikipedia.org/wiki/Attributional_calculus"
+  },
+  {
+    "date_added": "2026-06-23",
+    "category": "Data Structures",
+    "topic": "Comparison of data structures",
+    "definition": "This is a comparison of the performance of notable data structures, as measured by the complexity of their logical operations. For a more comprehensive listing of data structures, see List of data structures.",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_data_structures"
   }
 ]
