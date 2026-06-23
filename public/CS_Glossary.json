@@ -1839,5 +1839,12 @@
     "topic": "Comparison of data structures",
     "definition": "This is a comparison of the performance of notable data structures, as measured by the complexity of their logical operations. For a more comprehensive listing of data structures, see List of data structures.",
     "url": "https://en.wikipedia.org/wiki/Comparison_of_data_structures"
+  },
+  {
+    "date_added": "2026-06-23",
+    "category": "Infrastructure",
+    "topic": "The Business Cloud",
+    "definition": "The Business Cloud is an API enabled self-service platform, developed by Domo, that provides an array of services like data connection and data visualization.",
+    "url": "https://en.wikipedia.org/wiki/The_Business_Cloud"
   }
 ]
