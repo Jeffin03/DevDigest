@@ -1846,5 +1846,12 @@
     "topic": "The Business Cloud",
     "definition": "The Business Cloud is an API enabled self-service platform, developed by Domo, that provides an array of services like data connection and data visualization.",
     "url": "https://en.wikipedia.org/wiki/The_Business_Cloud"
+  },
+  {
+    "date_added": "2026-06-24",
+    "category": "Software Engineering",
+    "topic": "Flame graph",
+    "definition": "A flame graph is a software profiling visualization technique that allows for the rapid identification of hot spots in computer programs from stack trace data.",
+    "url": "https://en.wikipedia.org/wiki/Flame_graph"
   }
 ]
