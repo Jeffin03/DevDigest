@@ -1853,5 +1853,12 @@
     "topic": "Flame graph",
     "definition": "A flame graph is a software profiling visualization technique that allows for the rapid identification of hot spots in computer programs from stack trace data.",
     "url": "https://en.wikipedia.org/wiki/Flame_graph"
+  },
+  {
+    "date_added": "2026-06-24",
+    "category": "Cybersecurity",
+    "topic": "European Union Vulnerability Database",
+    "definition": "The European Union Vulnerability Database is a database of security flaws similar to the National Vulnerability Database of the United States. It has been active since May 2025 and was first announced in June 2024 by the European Union Agency for Cybersecurity under a mandate from the NIS 2 Directive.",
+    "url": "https://en.wikipedia.org/wiki/European_Union_Vulnerability_Database"
   }
 ]
