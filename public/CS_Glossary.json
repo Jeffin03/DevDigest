@@ -1867,5 +1867,12 @@
     "topic": "Compressed data structure",
     "definition": "The term compressed data structure arises in the computer science subfields of algorithms, data structures, and theoretical computer science. It refers to a data structure whose operations are roughly as fast as those of a conventional data structure for the problem, but whose size can be substantially smaller. The size of the compressed data structure is typically highly dependent upon the information entropy of the data being represented.",
     "url": "https://en.wikipedia.org/wiki/Compressed_data_structure"
+  },
+  {
+    "date_added": "2026-06-25",
+    "category": "Data Structures",
+    "topic": "Partition refinement",
+    "definition": "In the design of algorithms, partition refinement is a technique for representing a partition of a set as a data structure that allows the partition to be refined by splitting its sets into a larger number of smaller sets. In that sense it is dual to the union-find data structure, which also maintains a partition into disjoint sets but in which the operations merge pairs of sets. In some applications of partition refinement, such as lexicographic breadth-first search, the data structure maintains as well an ordering on the sets in the partition.",
+    "url": "https://en.wikipedia.org/wiki/Partition_refinement"
   }
 ]
