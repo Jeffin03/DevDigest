@@ -1860,5 +1860,12 @@
     "topic": "European Union Vulnerability Database",
     "definition": "The European Union Vulnerability Database is a database of security flaws similar to the National Vulnerability Database of the United States. It has been active since May 2025 and was first announced in June 2024 by the European Union Agency for Cybersecurity under a mandate from the NIS 2 Directive.",
     "url": "https://en.wikipedia.org/wiki/European_Union_Vulnerability_Database"
+  },
+  {
+    "date_added": "2026-06-25",
+    "category": "Data Structures",
+    "topic": "Compressed data structure",
+    "definition": "The term compressed data structure arises in the computer science subfields of algorithms, data structures, and theoretical computer science. It refers to a data structure whose operations are roughly as fast as those of a conventional data structure for the problem, but whose size can be substantially smaller. The size of the compressed data structure is typically highly dependent upon the information entropy of the data being represented.",
+    "url": "https://en.wikipedia.org/wiki/Compressed_data_structure"
   }
 ]
