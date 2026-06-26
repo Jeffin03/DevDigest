@@ -1881,5 +1881,12 @@
     "topic": "Serge Belamant",
     "definition": "Serge Belamant is a French-born South African entrepreneur best known for designing the Universal Electronic Payment System (UEPS) and the Chip Offline Pre-authorised Card (COPAC).",
     "url": "https://en.wikipedia.org/wiki/Serge_Belamant"
+  },
+  {
+    "date_added": "2026-06-26",
+    "category": "Programming Languages",
+    "topic": "Multi-adjoint logic programming",
+    "definition": "Multi-adjoint logic programming defines syntax and semantics of a logic programming program in such a way that the underlying maths justifying the results are a residuated lattice and/or MV-algebra.",
+    "url": "https://en.wikipedia.org/wiki/Multi-adjoint_logic_programming"
   }
 ]
