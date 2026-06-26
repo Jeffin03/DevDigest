@@ -1874,5 +1874,12 @@
     "topic": "Partition refinement",
     "definition": "In the design of algorithms, partition refinement is a technique for representing a partition of a set as a data structure that allows the partition to be refined by splitting its sets into a larger number of smaller sets. In that sense it is dual to the union-find data structure, which also maintains a partition into disjoint sets but in which the operations merge pairs of sets. In some applications of partition refinement, such as lexicographic breadth-first search, the data structure maintains as well an ordering on the sets in the partition.",
     "url": "https://en.wikipedia.org/wiki/Partition_refinement"
+  },
+  {
+    "date_added": "2026-06-26",
+    "category": "Cryptography",
+    "topic": "Serge Belamant",
+    "definition": "Serge Belamant is a French-born South African entrepreneur best known for designing the Universal Electronic Payment System (UEPS) and the Chip Offline Pre-authorised Card (COPAC).",
+    "url": "https://en.wikipedia.org/wiki/Serge_Belamant"
   }
 ]
