@@ -1888,5 +1888,12 @@
     "topic": "Multi-adjoint logic programming",
     "definition": "Multi-adjoint logic programming defines syntax and semantics of a logic programming program in such a way that the underlying maths justifying the results are a residuated lattice and/or MV-algebra.",
     "url": "https://en.wikipedia.org/wiki/Multi-adjoint_logic_programming"
+  },
+  {
+    "date_added": "2026-06-27",
+    "category": "Cybersecurity",
+    "topic": "NIS2 Directive",
+    "definition": "The Directive (EU) 2022/2555, commonly known as NIS2 is a directive of the European Union aimed at protecting digital infrastructure, in particular critical infrastructure.",
+    "url": "https://en.wikipedia.org/wiki/NIS2_Directive"
   }
 ]
