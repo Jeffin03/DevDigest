@@ -1895,5 +1895,12 @@
     "topic": "NIS2 Directive",
     "definition": "The Directive (EU) 2022/2555, commonly known as NIS2 is a directive of the European Union aimed at protecting digital infrastructure, in particular critical infrastructure.",
     "url": "https://en.wikipedia.org/wiki/NIS2_Directive"
+  },
+  {
+    "date_added": "2026-06-27",
+    "category": "Cryptography",
+    "topic": "Sender Keys",
+    "definition": "In cryptography, Sender Keys is a variant of the Signal Protocol used in end-to-end encryption used in instant messaging. Sender Keys is used for group chats. Applications using it have included Signal, Matrix, WhatsApp, Session, and Facebook Messenger.",
+    "url": "https://en.wikipedia.org/wiki/Sender_Keys"
   }
 ]
