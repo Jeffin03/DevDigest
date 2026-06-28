@@ -1902,5 +1902,12 @@
     "topic": "Sender Keys",
     "definition": "In cryptography, Sender Keys is a variant of the Signal Protocol used in end-to-end encryption used in instant messaging. Sender Keys is used for group chats. Applications using it have included Signal, Matrix, WhatsApp, Session, and Facebook Messenger.",
     "url": "https://en.wikipedia.org/wiki/Sender_Keys"
+  },
+  {
+    "date_added": "2026-06-28",
+    "category": "Software Engineering",
+    "topic": "Software component",
+    "definition": "A software component is a modular unit of software that encapsulates specific functionality. The desired characteristics of a component are reusability and maintainability.",
+    "url": "https://en.wikipedia.org/wiki/Software_component"
   }
 ]
