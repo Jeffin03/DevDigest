@@ -1923,5 +1923,12 @@
     "topic": "Hybrid argument (cryptography)",
     "definition": "In cryptography, the hybrid argument is a proof technique used to show that two distributions are computationally indistinguishable.",
     "url": "https://en.wikipedia.org/wiki/Hybrid_argument_(cryptography)"
+  },
+  {
+    "date_added": "2026-06-29",
+    "category": "Network Infrastructure",
+    "topic": "Rate Based Satellite Control Protocol",
+    "definition": "In computer networking, Rate Based Satellite Control Protocol (RBSCP) is a tunneling method proposed by Cisco to improve the performance of satellite network links with high latency and error rates.",
+    "url": "https://en.wikipedia.org/wiki/Rate_Based_Satellite_Control_Protocol"
   }
 ]
