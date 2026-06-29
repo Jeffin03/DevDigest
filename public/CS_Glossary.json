@@ -1916,5 +1916,12 @@
     "topic": "Security type system",
     "definition": "In computer science, a type system can be described as a syntactic framework which contains a set of rules that are used to assign a type property to various components of a computer program, such as variables or functions. A security type system works in a similar way, only with a main focus on the security of the computer program, through information flow control. Thus, the various components of the program are assigned security types, or labels. The aim of a such system is to ultimately be able to verify that a given program conforms to the type system rules and satisfies non-interference. Security type systems is one of many security techniques used in the field of language-based security, and is tightly connected to information flow and information flow policies.",
     "url": "https://en.wikipedia.org/wiki/Security_type_system"
+  },
+  {
+    "date_added": "2026-06-29",
+    "category": "Cryptography",
+    "topic": "Hybrid argument (cryptography)",
+    "definition": "In cryptography, the hybrid argument is a proof technique used to show that two distributions are computationally indistinguishable.",
+    "url": "https://en.wikipedia.org/wiki/Hybrid_argument_(cryptography)"
   }
 ]
