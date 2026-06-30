@@ -1930,5 +1930,12 @@
     "topic": "Rate Based Satellite Control Protocol",
     "definition": "In computer networking, Rate Based Satellite Control Protocol (RBSCP) is a tunneling method proposed by Cisco to improve the performance of satellite network links with high latency and error rates.",
     "url": "https://en.wikipedia.org/wiki/Rate_Based_Satellite_Control_Protocol"
+  },
+  {
+    "date_added": "2026-06-30",
+    "category": "Cryptography",
+    "topic": "Cryptographic bill of materials",
+    "definition": "Cryptographic bill of materials is a structured inventory of all cryptographic assets present in a software, firmware, device, or system. It enumerates algorithms, cryptographic libraries or modules, digital certificates, keys and related material, and protocols in use, and maps their relationships to the components that implement or invoke them. CBOMs are used to improve security analysis, compliance, and cryptographic agility, and are increasingly referenced in guidance for post‑quantum cryptography (PQC) migration.",
+    "url": "https://en.wikipedia.org/wiki/Cryptographic_bill_of_materials"
   }
 ]
