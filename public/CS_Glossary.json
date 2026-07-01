@@ -1951,5 +1951,12 @@
     "topic": "Ideonomy",
     "definition": "Ideonomy is a combinatorial \"science of ideas\" developed by American independent scholar Patrick M. Gunkel (1947–2017). Specifically, Ideonomy is concerned with the systematic organization of ideas and the discovery of the rules behind how ideas combine, diverge, and transform. Gunkel defined ideonomy as \"the science of the laws of ideas and of the application of such laws to the generation of all possible ideas in connection with any subject, idea, or thing.\" In his 1992 book A History of Knowledge, Charles Van Doren compared ideonomy to a \"mining operation\" that excavates meanings and thought to discover treasures hidden deep within language.",
     "url": "https://en.wikipedia.org/wiki/Ideonomy"
+  },
+  {
+    "date_added": "2026-07-01",
+    "category": "Infrastructure",
+    "topic": "Knowledge as a service",
+    "definition": "Knowledge as a service (KaaS) is a computing service that delivers information to users, backed by a knowledge model, which might be drawn from a number of possible models based on decision trees, association rules, or neural networks. A knowledge as a service provider responds to knowledge requests from users through a centralised knowledge server, and provides an interface between users and data owners.",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_as_a_service"
   }
 ]
