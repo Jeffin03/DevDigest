@@ -1944,5 +1944,12 @@
     "topic": "Cloud-native computing",
     "definition": "Cloud native computing is an approach in software development that utilizes cloud computing to \"build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds\". These technologies, such as containers, microservices, serverless functions, cloud native processors and immutable infrastructure, deployed via declarative code are common elements of this architectural style. Cloud native technologies focus on minimizing users' operational burden.",
     "url": "https://en.wikipedia.org/wiki/Cloud-native_computing"
+  },
+  {
+    "date_added": "2026-07-01",
+    "category": "Artificial Intelligence",
+    "topic": "Ideonomy",
+    "definition": "Ideonomy is a combinatorial \"science of ideas\" developed by American independent scholar Patrick M. Gunkel (1947–2017). Specifically, Ideonomy is concerned with the systematic organization of ideas and the discovery of the rules behind how ideas combine, diverge, and transform. Gunkel defined ideonomy as \"the science of the laws of ideas and of the application of such laws to the generation of all possible ideas in connection with any subject, idea, or thing.\" In his 1992 book A History of Knowledge, Charles Van Doren compared ideonomy to a \"mining operation\" that excavates meanings and thought to discover treasures hidden deep within language.",
+    "url": "https://en.wikipedia.org/wiki/Ideonomy"
   }
 ]
