@@ -1958,5 +1958,12 @@
     "topic": "Knowledge as a service",
     "definition": "Knowledge as a service (KaaS) is a computing service that delivers information to users, backed by a knowledge model, which might be drawn from a number of possible models based on decision trees, association rules, or neural networks. A knowledge as a service provider responds to knowledge requests from users through a centralised knowledge server, and provides an interface between users and data owners.",
     "url": "https://en.wikipedia.org/wiki/Knowledge_as_a_service"
+  },
+  {
+    "date_added": "2026-07-02",
+    "category": "Hardware",
+    "topic": "DOPIPE",
+    "definition": "DOPIPE parallelism is a method to perform loop-level parallelism by pipelining the statements in a loop. Pipelined parallelism may exist at different levels of abstraction like loops, functions and algorithmic stages. The extent of parallelism depends upon the programmers' ability to make best use of this concept. It also depends upon factors like identifying and separating the independent tasks and executing them parallelly.",
+    "url": "https://en.wikipedia.org/wiki/DOPIPE"
   }
 ]
