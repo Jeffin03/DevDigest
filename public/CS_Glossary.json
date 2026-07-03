@@ -1979,5 +1979,12 @@
     "topic": "Azure Data Lake",
     "definition": "Azure Data Lake is a scalable data storage and analytics service. The service is hosted in Azure, Microsoft's public cloud.",
     "url": "https://en.wikipedia.org/wiki/Azure_Data_Lake"
+  },
+  {
+    "date_added": "2026-07-03",
+    "category": "Web Development",
+    "topic": "WebRTC",
+    "definition": "WebRTC is a free and open-source project providing web browsers and mobile applications with real-time communication (RTC) via application programming interfaces (APIs). It allows audio and video communication and streaming to work inside web pages by allowing direct peer-to-peer communication, eliminating the need to install plugins or download native apps.",
+    "url": "https://en.wikipedia.org/wiki/WebRTC"
   }
 ]
