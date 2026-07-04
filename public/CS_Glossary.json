@@ -1986,5 +1986,12 @@
     "topic": "WebRTC",
     "definition": "WebRTC is a free and open-source project providing web browsers and mobile applications with real-time communication (RTC) via application programming interfaces (APIs). It allows audio and video communication and streaming to work inside web pages by allowing direct peer-to-peer communication, eliminating the need to install plugins or download native apps.",
     "url": "https://en.wikipedia.org/wiki/WebRTC"
+  },
+  {
+    "date_added": "2026-07-04",
+    "category": "Programming Languages",
+    "topic": "AppleScript",
+    "definition": "AppleScript is a scripting language created by Apple Inc. that facilitates automated control of Mac applications. First introduced in System 7, it is currently included in macOS in a package of automation tools. The term AppleScript may refer to the scripting language, to a script written in the language, or to the macOS Open Scripting Architecture that underlies the language.",
+    "url": "https://en.wikipedia.org/wiki/AppleScript"
   }
 ]
