@@ -1993,5 +1993,12 @@
     "topic": "AppleScript",
     "definition": "AppleScript is a scripting language created by Apple Inc. that facilitates automated control of Mac applications. First introduced in System 7, it is currently included in macOS in a package of automation tools. The term AppleScript may refer to the scripting language, to a script written in the language, or to the macOS Open Scripting Architecture that underlies the language.",
     "url": "https://en.wikipedia.org/wiki/AppleScript"
+  },
+  {
+    "date_added": "2026-07-04",
+    "category": "Network Infrastructure",
+    "topic": "ONOS",
+    "definition": "The ONOS project is an open source community hosted by The Linux Foundation. The goal of the project is to create a software-defined networking (SDN) operating system for communications service providers that is designed for scalability, high performance and high availability.",
+    "url": "https://en.wikipedia.org/wiki/ONOS"
   }
 ]
