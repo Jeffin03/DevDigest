@@ -2000,5 +2000,12 @@
     "topic": "ONOS",
     "definition": "The ONOS project is an open source community hosted by The Linux Foundation. The goal of the project is to create a software-defined networking (SDN) operating system for communications service providers that is designed for scalability, high performance and high availability.",
     "url": "https://en.wikipedia.org/wiki/ONOS"
+  },
+  {
+    "date_added": "2026-07-05",
+    "category": "Web Development",
+    "topic": "Content strategy",
+    "definition": "Content strategy guides the planning, development, and management of content. It is a recognized field in user experience design, and it also draws from adjacent disciplines such as information architecture, content management, business analysis, digital marketing, and technical communication.",
+    "url": "https://en.wikipedia.org/wiki/Content_strategy"
   }
 ]
