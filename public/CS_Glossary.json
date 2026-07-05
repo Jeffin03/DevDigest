@@ -2007,5 +2007,12 @@
     "topic": "Content strategy",
     "definition": "Content strategy guides the planning, development, and management of content. It is a recognized field in user experience design, and it also draws from adjacent disciplines such as information architecture, content management, business analysis, digital marketing, and technical communication.",
     "url": "https://en.wikipedia.org/wiki/Content_strategy"
+  },
+  {
+    "date_added": "2026-07-05",
+    "category": "Infrastructure",
+    "topic": "Twelve-Factor App methodology",
+    "definition": "The Twelve-Factor App methodology is a methodology for building software-as-a-service applications. These best practices are designed to enable applications to be built with portability and resilience when deployed to the web.",
+    "url": "https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology"
   }
 ]
