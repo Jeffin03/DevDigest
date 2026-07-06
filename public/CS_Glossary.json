@@ -2021,5 +2021,12 @@
     "topic": "Local-first software",
     "definition": "Local-first software is a software engineering approach in which an application stores its data primarily on the user's own device rather than on remote servers. Users can read and write data without an Internet connection, and changes are synchronized across devices in the background when connectivity is available. The approach differs from conventional cloud-based applications, where the server holds the authoritative copy of user data and the client acts as a thin client.",
     "url": "https://en.wikipedia.org/wiki/Local-first_software"
+  },
+  {
+    "date_added": "2026-07-06",
+    "category": "Operating Systems",
+    "topic": "UCSD Pascal",
+    "definition": "UCSD Pascal is a Pascal programming language system that runs on the UCSD p-System, a portable, highly machine-independent operating system. UCSD Pascal was first released in 1977. It was developed at the University of California, San Diego (UCSD).",
+    "url": "https://en.wikipedia.org/wiki/UCSD_Pascal"
   }
 ]
