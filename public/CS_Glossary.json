@@ -2014,5 +2014,12 @@
     "topic": "Twelve-Factor App methodology",
     "definition": "The Twelve-Factor App methodology is a methodology for building software-as-a-service applications. These best practices are designed to enable applications to be built with portability and resilience when deployed to the web.",
     "url": "https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology"
+  },
+  {
+    "date_added": "2026-07-06",
+    "category": "Infrastructure",
+    "topic": "Local-first software",
+    "definition": "Local-first software is a software engineering approach in which an application stores its data primarily on the user's own device rather than on remote servers. Users can read and write data without an Internet connection, and changes are synchronized across devices in the background when connectivity is available. The approach differs from conventional cloud-based applications, where the server holds the authoritative copy of user data and the client acts as a thin client.",
+    "url": "https://en.wikipedia.org/wiki/Local-first_software"
   }
 ]
