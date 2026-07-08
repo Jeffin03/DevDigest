@@ -2049,5 +2049,12 @@
     "topic": "Directed acyclic graph",
     "definition": "In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles. That is, it consists of vertices and edges, with each edge directed from one vertex to another, such that following those directions will never form a closed loop. A directed graph is a DAG if and only if it can be topologically ordered, by arranging the vertices as a linear ordering that is consistent with all edge directions. DAGs have numerous scientific and computational applications, ranging from biology to information science to computation (scheduling).",
     "url": "https://en.wikipedia.org/wiki/Directed_acyclic_graph"
+  },
+  {
+    "date_added": "2026-07-08",
+    "category": "Hardware",
+    "topic": "Synchronous Data Flow",
+    "definition": "Synchronous Data Flow (SDF) is a restriction on Kahn process networks where the number of tokens read and written by each process is known ahead of time. In some cases, processes can be scheduled such that channels have bounded FIFOs.",
+    "url": "https://en.wikipedia.org/wiki/Synchronous_Data_Flow"
   }
 ]
