@@ -2063,5 +2063,12 @@
     "topic": "Electronic business",
     "definition": "Electronic business is any kind of business or commercial activity that includes sharing information across the internet. Commerce constitutes the exchange of products and services between businesses, groups, and individuals; and can be seen as one of the essential activities of any business.",
     "url": "https://en.wikipedia.org/wiki/Electronic_business"
+  },
+  {
+    "date_added": "2026-07-09",
+    "category": "Cryptography",
+    "topic": "Password-authenticated key agreement",
+    "definition": "In cryptography, a password-authenticated key agreement (PAK) method is an interactive method for two or more parties to establish cryptographic keys based on one or more parties' knowledge of a password.",
+    "url": "https://en.wikipedia.org/wiki/Password-authenticated_key_agreement"
   }
 ]
