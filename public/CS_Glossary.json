@@ -2056,5 +2056,12 @@
     "topic": "Synchronous Data Flow",
     "definition": "Synchronous Data Flow (SDF) is a restriction on Kahn process networks where the number of tokens read and written by each process is known ahead of time. In some cases, processes can be scheduled such that channels have bounded FIFOs.",
     "url": "https://en.wikipedia.org/wiki/Synchronous_Data_Flow"
+  },
+  {
+    "date_added": "2026-07-09",
+    "category": "Web Development",
+    "topic": "Electronic business",
+    "definition": "Electronic business is any kind of business or commercial activity that includes sharing information across the internet. Commerce constitutes the exchange of products and services between businesses, groups, and individuals; and can be seen as one of the essential activities of any business.",
+    "url": "https://en.wikipedia.org/wiki/Electronic_business"
   }
 ]
