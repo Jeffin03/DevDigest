@@ -2070,5 +2070,12 @@
     "topic": "Password-authenticated key agreement",
     "definition": "In cryptography, a password-authenticated key agreement (PAK) method is an interactive method for two or more parties to establish cryptographic keys based on one or more parties' knowledge of a password.",
     "url": "https://en.wikipedia.org/wiki/Password-authenticated_key_agreement"
+  },
+  {
+    "date_added": "2026-07-10",
+    "category": "Programming Languages",
+    "topic": "BASIC",
+    "definition": "BASIC is a family of general-purpose, high-level programming languages designed for ease of use. The original version was created by John G. Kemeny and Thomas E. Kurtz at Dartmouth College in 1964. They wanted to enable students in non-scientific fields to use computers. At the time, nearly all computers required writing custom software, which only scientists and mathematicians tended to learn.",
+    "url": "https://en.wikipedia.org/wiki/BASIC"
   }
 ]
