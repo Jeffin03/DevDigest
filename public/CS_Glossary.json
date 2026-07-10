@@ -2077,5 +2077,12 @@
     "topic": "BASIC",
     "definition": "BASIC is a family of general-purpose, high-level programming languages designed for ease of use. The original version was created by John G. Kemeny and Thomas E. Kurtz at Dartmouth College in 1964. They wanted to enable students in non-scientific fields to use computers. At the time, nearly all computers required writing custom software, which only scientists and mathematicians tended to learn.",
     "url": "https://en.wikipedia.org/wiki/BASIC"
+  },
+  {
+    "date_added": "2026-07-10",
+    "category": "Data Structures",
+    "topic": "Predecessor problem",
+    "definition": "In computer science, the predecessor problem involves maintaining a set of items to, given an element, efficiently query which element precedes or succeeds that element in an order. Data structures used to solve the problem include balanced binary search trees, van Emde Boas trees, and fusion trees. In the static predecessor problem, the set of elements does not change, but in the dynamic predecessor problem, insertions into and deletions from the set are allowed.",
+    "url": "https://en.wikipedia.org/wiki/Predecessor_problem"
   }
 ]
