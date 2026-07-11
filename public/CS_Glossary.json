@@ -2091,5 +2091,12 @@
     "topic": "Scrambler",
     "definition": "In telecommunications, a scrambler is a device that transposes or inverts signals or otherwise encodes a message at the sender's side to make the message unintelligible at a receiver not equipped with an appropriately set descrambling device. Whereas encryption usually refers to operations carried out in the digital domain, scrambling usually refers to operations carried out in the analog domain. Scrambling is accomplished by the addition of components to the original signal or the changing of some important component of the original signal in order to make extraction of the original signal difficult. Examples of the latter might include removing or changing vertical or horizontal sync pulses in television signals; televisions will not be able to display a picture from such a signal. Some modern scramblers are actually encryption devices, the name remaining due to the similarities in use, as opposed to internal operation.",
     "url": "https://en.wikipedia.org/wiki/Scrambler"
+  },
+  {
+    "date_added": "2026-07-11",
+    "category": "Artificial Intelligence",
+    "topic": "AI-assisted software development",
+    "definition": "AI-assisted software development is the use of artificial intelligence (AI) to augment software development. It uses large language models (LLMs), AI agents and other AI technologies to assist software developers. It helps in a range of tasks of the software development life cycle, from code generation to debugging, editing, testing, UI design, understanding the code, and documentation. Agentic coding denotes the use of AI agents for software development.",
+    "url": "https://en.wikipedia.org/wiki/AI-assisted_software_development"
   }
 ]
