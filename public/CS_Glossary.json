@@ -2084,5 +2084,12 @@
     "topic": "Predecessor problem",
     "definition": "In computer science, the predecessor problem involves maintaining a set of items to, given an element, efficiently query which element precedes or succeeds that element in an order. Data structures used to solve the problem include balanced binary search trees, van Emde Boas trees, and fusion trees. In the static predecessor problem, the set of elements does not change, but in the dynamic predecessor problem, insertions into and deletions from the set are allowed.",
     "url": "https://en.wikipedia.org/wiki/Predecessor_problem"
+  },
+  {
+    "date_added": "2026-07-11",
+    "category": "Cryptography",
+    "topic": "Scrambler",
+    "definition": "In telecommunications, a scrambler is a device that transposes or inverts signals or otherwise encodes a message at the sender's side to make the message unintelligible at a receiver not equipped with an appropriately set descrambling device. Whereas encryption usually refers to operations carried out in the digital domain, scrambling usually refers to operations carried out in the analog domain. Scrambling is accomplished by the addition of components to the original signal or the changing of some important component of the original signal in order to make extraction of the original signal difficult. Examples of the latter might include removing or changing vertical or horizontal sync pulses in television signals; televisions will not be able to display a picture from such a signal. Some modern scramblers are actually encryption devices, the name remaining due to the similarities in use, as opposed to internal operation.",
+    "url": "https://en.wikipedia.org/wiki/Scrambler"
   }
 ]
