@@ -2105,5 +2105,12 @@
     "topic": "PURB (cryptography)",
     "definition": "In cryptography, a padded uniform random blob or PURB is a discipline for encrypted data formats designed to minimize unintended information leakage either from its encryption format metadata or from its total length.",
     "url": "https://en.wikipedia.org/wiki/PURB_(cryptography)"
+  },
+  {
+    "date_added": "2026-07-12",
+    "category": "Cryptography",
+    "topic": "Privilege Management Infrastructure",
+    "definition": "In cryptography Privilege Management is the process of managing user authorisations based on the ITU-T Recommendation X.509. The 2001 edition of X.509 specifies most of the components of a Privilege Management Infrastructure (PMI), based on X.509 attribute certificates (ACs). Later editions of X.509 have added further components to the PMI, including a delegation service and interdomain authorisation.",
+    "url": "https://en.wikipedia.org/wiki/Privilege_Management_Infrastructure"
   }
 ]
