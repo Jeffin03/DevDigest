@@ -2119,5 +2119,12 @@
     "topic": "Forking lemma",
     "definition": "The forking lemma is any of a number of related lemmas in cryptography research. The lemma states that if an adversary, on inputs drawn from some distribution, produces an output that has some property with non-negligible probability, then with non-negligible probability, if the adversary is re-run on new inputs but with the same random tape, its second output will also have the property.",
     "url": "https://en.wikipedia.org/wiki/Forking_lemma"
+  },
+  {
+    "date_added": "2026-07-13",
+    "category": "Programming Languages",
+    "topic": "KOMPILER",
+    "definition": "In computing, the KOMPILER was one of the first language compilation and runtime systems for International Business Machines' IBM 701, the fastest commercial U.S. computer available in 1955.",
+    "url": "https://en.wikipedia.org/wiki/KOMPILER"
   }
 ]
