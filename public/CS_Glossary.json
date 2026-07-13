@@ -2112,5 +2112,12 @@
     "topic": "Privilege Management Infrastructure",
     "definition": "In cryptography Privilege Management is the process of managing user authorisations based on the ITU-T Recommendation X.509. The 2001 edition of X.509 specifies most of the components of a Privilege Management Infrastructure (PMI), based on X.509 attribute certificates (ACs). Later editions of X.509 have added further components to the PMI, including a delegation service and interdomain authorisation.",
     "url": "https://en.wikipedia.org/wiki/Privilege_Management_Infrastructure"
+  },
+  {
+    "date_added": "2026-07-13",
+    "category": "Cryptography",
+    "topic": "Forking lemma",
+    "definition": "The forking lemma is any of a number of related lemmas in cryptography research. The lemma states that if an adversary, on inputs drawn from some distribution, produces an output that has some property with non-negligible probability, then with non-negligible probability, if the adversary is re-run on new inputs but with the same random tape, its second output will also have the property.",
+    "url": "https://en.wikipedia.org/wiki/Forking_lemma"
   }
 ]
