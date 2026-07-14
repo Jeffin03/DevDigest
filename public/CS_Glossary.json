@@ -2133,5 +2133,12 @@
     "topic": "Parallel Web Systems",
     "definition": "Parallel Web Systems is an American artificial intelligence infrastructure company headquartered in Palo Alto, California. The company develops application programming interfaces (APIs) and a web index designed for use by AI agents rather than human users.",
     "url": "https://en.wikipedia.org/wiki/Parallel_Web_Systems"
+  },
+  {
+    "date_added": "2026-07-14",
+    "category": "Cryptography",
+    "topic": "Information security",
+    "definition": "Information security is the practice of protecting information by mitigating information risks. It is part of information risk management. It typically involves preventing or reducing the probability of unauthorized or inappropriate access to data or the unlawful use, disclosure, disruption, deletion, corruption, modification, inspection, recording, or devaluation of information. It also involves actions intended to reduce the adverse impacts of such incidents. Protected information may take any form, e.g., electronic or physical, tangible, or intangible. Information security's primary focus is the balanced protection of data confidentiality, integrity, and availability while maintaining a focus on efficient policy implementation but without hampering organization productivity. This is largely achieved through a structured risk management process.",
+    "url": "https://en.wikipedia.org/wiki/Information_security"
   }
 ]
