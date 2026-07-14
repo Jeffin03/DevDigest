@@ -2126,5 +2126,12 @@
     "topic": "KOMPILER",
     "definition": "In computing, the KOMPILER was one of the first language compilation and runtime systems for International Business Machines' IBM 701, the fastest commercial U.S. computer available in 1955.",
     "url": "https://en.wikipedia.org/wiki/KOMPILER"
+  },
+  {
+    "date_added": "2026-07-14",
+    "category": "Artificial Intelligence",
+    "topic": "Parallel Web Systems",
+    "definition": "Parallel Web Systems is an American artificial intelligence infrastructure company headquartered in Palo Alto, California. The company develops application programming interfaces (APIs) and a web index designed for use by AI agents rather than human users.",
+    "url": "https://en.wikipedia.org/wiki/Parallel_Web_Systems"
   }
 ]
