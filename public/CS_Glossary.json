@@ -2147,5 +2147,12 @@
     "topic": "Multipacket reception",
     "definition": "In networking, multipacket reception refers to the capability of networking nodes for decoding/demodulating signals from a number of source nodes concurrently. In wireless communications, Multipacket reception is achieved using physical layer technologies like orthogonal CDMA, MIMO and space–time codes.",
     "url": "https://en.wikipedia.org/wiki/Multipacket_reception"
+  },
+  {
+    "date_added": "2026-07-15",
+    "category": "Network Infrastructure",
+    "topic": "RapidIO",
+    "definition": "RapidIO is a packet-switched interconnect technology used to link electronic components. It allows devices to exchange messages, perform read and write operations, and maintain cache coherence. RapidIO follows common electrical standards, such as those used in Ethernet, and can connect chips, circuit boards, or entire systems together.",
+    "url": "https://en.wikipedia.org/wiki/RapidIO"
   }
 ]
