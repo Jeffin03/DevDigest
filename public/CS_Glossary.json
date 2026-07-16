@@ -2154,5 +2154,12 @@
     "topic": "RapidIO",
     "definition": "RapidIO is a packet-switched interconnect technology used to link electronic components. It allows devices to exchange messages, perform read and write operations, and maintain cache coherence. RapidIO follows common electrical standards, such as those used in Ethernet, and can connect chips, circuit boards, or entire systems together.",
     "url": "https://en.wikipedia.org/wiki/RapidIO"
+  },
+  {
+    "date_added": "2026-07-16",
+    "category": "Infrastructure",
+    "topic": "Podium (company)",
+    "definition": "Podium is a private technology company headquartered in Lehi, Utah that develops cloud-based software related to messaging, customer feedback, online reviews, selling products, and requesting payments.",
+    "url": "https://en.wikipedia.org/wiki/Podium_(company)"
   }
 ]
