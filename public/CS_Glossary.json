@@ -2161,5 +2161,12 @@
     "topic": "Podium (company)",
     "definition": "Podium is a private technology company headquartered in Lehi, Utah that develops cloud-based software related to messaging, customer feedback, online reviews, selling products, and requesting payments.",
     "url": "https://en.wikipedia.org/wiki/Podium_(company)"
+  },
+  {
+    "date_added": "2026-07-16",
+    "category": "Infrastructure",
+    "topic": "SAP Cloud Infrastructure",
+    "definition": "SAP Cloud Infrastructure is an SAP-operated IaaS cloud platform, used to run SAP’s cloud business and customer-facing deployments for SAP and non-SAP workloads.",
+    "url": "https://en.wikipedia.org/wiki/SAP_Cloud_Infrastructure"
   }
 ]
