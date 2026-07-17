@@ -2168,5 +2168,12 @@
     "topic": "SAP Cloud Infrastructure",
     "definition": "SAP Cloud Infrastructure is an SAP-operated IaaS cloud platform, used to run SAP’s cloud business and customer-facing deployments for SAP and non-SAP workloads.",
     "url": "https://en.wikipedia.org/wiki/SAP_Cloud_Infrastructure"
+  },
+  {
+    "date_added": "2026-07-17",
+    "category": "Operating Systems",
+    "topic": "LCARS",
+    "definition": "In the Star Trek fictional universe, LCARS is a computer operating system. Within Star Trek chronology, the term was first used in the Star Trek: The Next Generation series.",
+    "url": "https://en.wikipedia.org/wiki/LCARS"
   }
 ]
