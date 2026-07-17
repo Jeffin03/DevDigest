@@ -2175,5 +2175,12 @@
     "topic": "LCARS",
     "definition": "In the Star Trek fictional universe, LCARS is a computer operating system. Within Star Trek chronology, the term was first used in the Star Trek: The Next Generation series.",
     "url": "https://en.wikipedia.org/wiki/LCARS"
+  },
+  {
+    "date_added": "2026-07-17",
+    "category": "Cryptography",
+    "topic": "Direct Anonymous Attestation",
+    "definition": "Direct Anonymous Attestation (DAA) is a cryptographic primitive which enables remote authentication of a trusted computer whilst preserving privacy of the platform's user. The protocol has been adopted by the Trusted Computing Group (TCG) in the latest version of its Trusted Platform Module (TPM) specification to address privacy concerns. ISO/IEC 20008 specifies DAA, as well, and Intel's Enhanced Privacy ID (EPID) 2.0 implementation for microprocessors is available for licensing RAND-Z along with an open source SDK.",
+    "url": "https://en.wikipedia.org/wiki/Direct_Anonymous_Attestation"
   }
 ]
