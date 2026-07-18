@@ -2182,5 +2182,12 @@
     "topic": "Direct Anonymous Attestation",
     "definition": "Direct Anonymous Attestation (DAA) is a cryptographic primitive which enables remote authentication of a trusted computer whilst preserving privacy of the platform's user. The protocol has been adopted by the Trusted Computing Group (TCG) in the latest version of its Trusted Platform Module (TPM) specification to address privacy concerns. ISO/IEC 20008 specifies DAA, as well, and Intel's Enhanced Privacy ID (EPID) 2.0 implementation for microprocessors is available for licensing RAND-Z along with an open source SDK.",
     "url": "https://en.wikipedia.org/wiki/Direct_Anonymous_Attestation"
+  },
+  {
+    "date_added": "2026-07-18",
+    "category": "Cybersecurity",
+    "topic": "Spanish Network of Excellence on Cybersecurity Research",
+    "definition": "The Spanish Network of Excellence on Cybersecurity Research (RENIC), is a research initiative to promote cybersecurity interests in Spain.",
+    "url": "https://en.wikipedia.org/wiki/Spanish_Network_of_Excellence_on_Cybersecurity_Research"
   }
 ]
