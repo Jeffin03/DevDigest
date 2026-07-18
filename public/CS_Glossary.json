@@ -2189,5 +2189,12 @@
     "topic": "Spanish Network of Excellence on Cybersecurity Research",
     "definition": "The Spanish Network of Excellence on Cybersecurity Research (RENIC), is a research initiative to promote cybersecurity interests in Spain.",
     "url": "https://en.wikipedia.org/wiki/Spanish_Network_of_Excellence_on_Cybersecurity_Research"
+  },
+  {
+    "date_added": "2026-07-18",
+    "category": "Artificial Intelligence",
+    "topic": "Computer audition",
+    "definition": "Computer audition (CA) or machine listening is the general field of study of algorithms and systems for audio interpretation by machines. Since the notion of what it means for a machine to \"hear\" is very broad and somewhat vague, computer audition attempts to bring together several disciplines that originally dealt with specific problems or had a concrete application in mind. The engineer Paris Smaragdis, interviewed in Technology Review, talks about these systems — \"software that uses sound to locate people moving through rooms, monitor machinery for impending breakdowns, or activate traffic cameras to record accidents.\"",
+    "url": "https://en.wikipedia.org/wiki/Computer_audition"
   }
 ]
