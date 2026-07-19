@@ -2203,5 +2203,12 @@
     "topic": "View model",
     "definition": "A view model or viewpoints framework in systems engineering, software engineering, and enterprise engineering is a framework which defines a coherent set of views to be used in the construction of a system architecture, software architecture, or enterprise architecture. A view is a representation of the whole system from the perspective of a related set of concerns.",
     "url": "https://en.wikipedia.org/wiki/View_model"
+  },
+  {
+    "date_added": "2026-07-19",
+    "category": "Network Infrastructure",
+    "topic": "Measurement Studio",
+    "definition": "NI Measurement Studio is a set of test and measurement components built by National Instruments, that integrates into the Microsoft Visual Studio environment. It includes extensive support for accessing instrumentation hardware. It has drivers and abstraction layers for many different types of instruments and buses are included or are available for inclusion.",
+    "url": "https://en.wikipedia.org/wiki/Measurement_Studio"
   }
 ]
