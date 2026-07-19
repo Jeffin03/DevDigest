@@ -2196,5 +2196,12 @@
     "topic": "Computer audition",
     "definition": "Computer audition (CA) or machine listening is the general field of study of algorithms and systems for audio interpretation by machines. Since the notion of what it means for a machine to \"hear\" is very broad and somewhat vague, computer audition attempts to bring together several disciplines that originally dealt with specific problems or had a concrete application in mind. The engineer Paris Smaragdis, interviewed in Technology Review, talks about these systems — \"software that uses sound to locate people moving through rooms, monitor machinery for impending breakdowns, or activate traffic cameras to record accidents.\"",
     "url": "https://en.wikipedia.org/wiki/Computer_audition"
+  },
+  {
+    "date_added": "2026-07-19",
+    "category": "Software Engineering",
+    "topic": "View model",
+    "definition": "A view model or viewpoints framework in systems engineering, software engineering, and enterprise engineering is a framework which defines a coherent set of views to be used in the construction of a system architecture, software architecture, or enterprise architecture. A view is a representation of the whole system from the perspective of a related set of concerns.",
+    "url": "https://en.wikipedia.org/wiki/View_model"
   }
 ]
