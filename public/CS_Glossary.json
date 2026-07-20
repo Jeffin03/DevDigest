@@ -2210,5 +2210,12 @@
     "topic": "Measurement Studio",
     "definition": "NI Measurement Studio is a set of test and measurement components built by National Instruments, that integrates into the Microsoft Visual Studio environment. It includes extensive support for accessing instrumentation hardware. It has drivers and abstraction layers for many different types of instruments and buses are included or are available for inclusion.",
     "url": "https://en.wikipedia.org/wiki/Measurement_Studio"
+  },
+  {
+    "date_added": "2026-07-20",
+    "category": "Network Infrastructure",
+    "topic": "Pharos network coordinates",
+    "definition": "Pharos is a hierarchical and decentralized network coordinate system. With the help of a simple two-level architecture, it achieves much better prediction accuracy than the representative Vivaldi coordinates, and it is incrementally deployable.",
+    "url": "https://en.wikipedia.org/wiki/Pharos_network_coordinates"
   }
 ]
