@@ -2217,5 +2217,12 @@
     "topic": "Pharos network coordinates",
     "definition": "Pharos is a hierarchical and decentralized network coordinate system. With the help of a simple two-level architecture, it achieves much better prediction accuracy than the representative Vivaldi coordinates, and it is incrementally deployable.",
     "url": "https://en.wikipedia.org/wiki/Pharos_network_coordinates"
+  },
+  {
+    "date_added": "2026-07-20",
+    "category": "Cryptography",
+    "topic": "Security level",
+    "definition": "In cryptography, security level is a measure of the strength that a cryptographic primitive — such as a cipher or hash function — achieves. Security level is usually expressed as a number of \"bits of security\", where n-bit security means that the attacker would have to perform 2n operations to break it, but other methods have been proposed that more closely model the costs for an attacker. This allows for convenient comparison between algorithms and is useful when combining multiple primitives in a hybrid cryptosystem, so there is no clear weakest link. For example, AES-128 is designed to offer a 128-bit security level, which is considered roughly equivalent to a RSA using 3072-bit key.",
+    "url": "https://en.wikipedia.org/wiki/Security_level"
   }
 ]
