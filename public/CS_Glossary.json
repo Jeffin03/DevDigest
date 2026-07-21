@@ -2231,5 +2231,12 @@
     "topic": "Peer group (computer networking)",
     "definition": "In computer networking, a peer group is a group of functional units in the same layer of a network, by analogy with peer group.",
     "url": "https://en.wikipedia.org/wiki/Peer_group_(computer_networking)"
+  },
+  {
+    "date_added": "2026-07-21",
+    "category": "Network Infrastructure",
+    "topic": "Out-of-band data",
+    "definition": "In computer networking, out-of-band data is the data transferred through a stream that is independent from the main in-band data stream. An out-of-band data mechanism provides a conceptually independent channel, which allows any data sent via that mechanism to be kept separate from in-band data. The out-of-band data mechanism should be provided as an inherent characteristic of the data channel and transmission protocol, rather than requiring a separate channel and endpoints to be established. The term \"out-of-band data\" probably derives from out-of-band signaling, as used in the telecommunications industry.",
+    "url": "https://en.wikipedia.org/wiki/Out-of-band_data"
   }
 ]
