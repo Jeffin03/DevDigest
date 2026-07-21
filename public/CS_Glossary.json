@@ -2224,5 +2224,12 @@
     "topic": "Security level",
     "definition": "In cryptography, security level is a measure of the strength that a cryptographic primitive — such as a cipher or hash function — achieves. Security level is usually expressed as a number of \"bits of security\", where n-bit security means that the attacker would have to perform 2n operations to break it, but other methods have been proposed that more closely model the costs for an attacker. This allows for convenient comparison between algorithms and is useful when combining multiple primitives in a hybrid cryptosystem, so there is no clear weakest link. For example, AES-128 is designed to offer a 128-bit security level, which is considered roughly equivalent to a RSA using 3072-bit key.",
     "url": "https://en.wikipedia.org/wiki/Security_level"
+  },
+  {
+    "date_added": "2026-07-21",
+    "category": "Network Infrastructure",
+    "topic": "Peer group (computer networking)",
+    "definition": "In computer networking, a peer group is a group of functional units in the same layer of a network, by analogy with peer group.",
+    "url": "https://en.wikipedia.org/wiki/Peer_group_(computer_networking)"
   }
 ]
