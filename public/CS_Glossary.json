@@ -2238,5 +2238,12 @@
     "topic": "Out-of-band data",
     "definition": "In computer networking, out-of-band data is the data transferred through a stream that is independent from the main in-band data stream. An out-of-band data mechanism provides a conceptually independent channel, which allows any data sent via that mechanism to be kept separate from in-band data. The out-of-band data mechanism should be provided as an inherent characteristic of the data channel and transmission protocol, rather than requiring a separate channel and endpoints to be established. The term \"out-of-band data\" probably derives from out-of-band signaling, as used in the telecommunications industry.",
     "url": "https://en.wikipedia.org/wiki/Out-of-band_data"
+  },
+  {
+    "date_added": "2026-07-22",
+    "category": "Cybersecurity",
+    "topic": "Grayshift",
+    "definition": "Grayshift is an American mobile device forensics company which makes a device named GrayKey to crack iPhones, iPads, and Android devices. In 2023, it merged with the Canadian firm Magnet Forensics.",
+    "url": "https://en.wikipedia.org/wiki/Grayshift"
   }
 ]
