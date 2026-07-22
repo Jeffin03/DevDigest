@@ -2245,5 +2245,12 @@
     "topic": "Grayshift",
     "definition": "Grayshift is an American mobile device forensics company which makes a device named GrayKey to crack iPhones, iPads, and Android devices. In 2023, it merged with the Canadian firm Magnet Forensics.",
     "url": "https://en.wikipedia.org/wiki/Grayshift"
+  },
+  {
+    "date_added": "2026-07-22",
+    "category": "Web Development",
+    "topic": "Polyfill (programming)",
+    "definition": "In software development, a polyfill is code that implements a new standard feature of a deployment environment within an old version of that environment that does not natively support the feature. Most often, it refers to JavaScript code that implements an HTML5 or CSS web standard, either an established standard on older browsers, or a proposed standard on existing browsers. Polyfills are also used in PHP and Python.",
+    "url": "https://en.wikipedia.org/wiki/Polyfill_(programming)"
   }
 ]
