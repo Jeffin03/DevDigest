@@ -2259,5 +2259,12 @@
     "topic": "Comet (programming)",
     "definition": "Comet is a web application model in which a long-held HTTPS request allows a web server to push data to a browser, without the browser explicitly requesting it. Comet is an umbrella term, encompassing multiple techniques for achieving this interaction. All these methods rely on features included by default in browsers, such as JavaScript, rather than on non-default plugins. The Comet approach differs from the original model of the web, in which a browser requests a complete web page at a time.",
     "url": "https://en.wikipedia.org/wiki/Comet_(programming)"
+  },
+  {
+    "date_added": "2026-07-23",
+    "category": "Software Engineering",
+    "topic": "Content migration",
+    "definition": "Content migration is the process of transferring information from one computer information system (IS) to another. The source or target system may be a web content management system (CMS), a digital asset management (DAM) system, or a document management system (DMS). Content may also originate from flat HTML files or application server formats such as Active Server Pages (ASP), JavaServer Pages (JSP), or PHP, in either static or dynamic form.",
+    "url": "https://en.wikipedia.org/wiki/Content_migration"
   }
 ]
