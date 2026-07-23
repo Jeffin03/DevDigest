@@ -2252,5 +2252,12 @@
     "topic": "Polyfill (programming)",
     "definition": "In software development, a polyfill is code that implements a new standard feature of a deployment environment within an old version of that environment that does not natively support the feature. Most often, it refers to JavaScript code that implements an HTML5 or CSS web standard, either an established standard on older browsers, or a proposed standard on existing browsers. Polyfills are also used in PHP and Python.",
     "url": "https://en.wikipedia.org/wiki/Polyfill_(programming)"
+  },
+  {
+    "date_added": "2026-07-23",
+    "category": "Web Development",
+    "topic": "Comet (programming)",
+    "definition": "Comet is a web application model in which a long-held HTTPS request allows a web server to push data to a browser, without the browser explicitly requesting it. Comet is an umbrella term, encompassing multiple techniques for achieving this interaction. All these methods rely on features included by default in browsers, such as JavaScript, rather than on non-default plugins. The Comet approach differs from the original model of the web, in which a browser requests a complete web page at a time.",
+    "url": "https://en.wikipedia.org/wiki/Comet_(programming)"
   }
 ]
