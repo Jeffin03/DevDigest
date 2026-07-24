@@ -2266,5 +2266,12 @@
     "topic": "Content migration",
     "definition": "Content migration is the process of transferring information from one computer information system (IS) to another. The source or target system may be a web content management system (CMS), a digital asset management (DAM) system, or a document management system (DMS). Content may also originate from flat HTML files or application server formats such as Active Server Pages (ASP), JavaServer Pages (JSP), or PHP, in either static or dynamic form.",
     "url": "https://en.wikipedia.org/wiki/Content_migration"
+  },
+  {
+    "date_added": "2026-07-24",
+    "category": "Programming Languages",
+    "topic": "Visual Prolog",
+    "definition": "Visual Prolog, previously known as PDC Prolog and Turbo Prolog, is a strongly typed object-oriented extension of Prolog. It was marketed by Borland as Turbo Prolog. It is now developed and marketed by the Danish firm PDC that originally created it. Visual Prolog can build Microsoft Windows GUI-applications, console applications, DLLs, and CGI-programs. It can also link to COM components and to databases by means of ODBC.",
+    "url": "https://en.wikipedia.org/wiki/Visual_Prolog"
   }
 ]
