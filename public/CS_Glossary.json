@@ -2273,5 +2273,12 @@
     "topic": "Visual Prolog",
     "definition": "Visual Prolog, previously known as PDC Prolog and Turbo Prolog, is a strongly typed object-oriented extension of Prolog. It was marketed by Borland as Turbo Prolog. It is now developed and marketed by the Danish firm PDC that originally created it. Visual Prolog can build Microsoft Windows GUI-applications, console applications, DLLs, and CGI-programs. It can also link to COM components and to databases by means of ODBC.",
     "url": "https://en.wikipedia.org/wiki/Visual_Prolog"
+  },
+  {
+    "date_added": "2026-07-24",
+    "category": "Cybersecurity",
+    "topic": "Defensive computing",
+    "definition": "Defensive computing is a form of practice for computer users to help reduce the risk of computing problems, by avoiding dangerous computing practices. The primary goal of this method of computing is to be able to anticipate and prepare for potentially problematic situations prior to their occurrence, despite any adverse conditions of a computer system or any mistakes made by other users. This can be achieved through adherence to a variety of general guidelines, as well as the practice of specific computing techniques.",
+    "url": "https://en.wikipedia.org/wiki/Defensive_computing"
   }
 ]
