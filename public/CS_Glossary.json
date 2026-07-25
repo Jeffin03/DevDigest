@@ -2287,5 +2287,12 @@
     "topic": "Abiquo Enterprise Edition",
     "definition": "Abiquo Hybrid Cloud Management Platform is a web-based cloud computing software platform developed by Abiquo. Written entirely in Java, it is used to build, integrate and manage public and private clouds in homogeneous environments. Users can deploy and manage servers, storage system and network and virtual devices. It also supports LDAP integration.",
     "url": "https://en.wikipedia.org/wiki/Abiquo_Enterprise_Edition"
+  },
+  {
+    "date_added": "2026-07-25",
+    "category": "Infrastructure",
+    "topic": "OpenFog Consortium",
+    "definition": "The OpenFog Consortium was a consortium of high tech industry companies and academic institutions across the world aimed at the standardization and promotion of fog computing in various capacities and fields.",
+    "url": "https://en.wikipedia.org/wiki/OpenFog_Consortium"
   }
 ]
