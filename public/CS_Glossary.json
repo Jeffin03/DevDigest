@@ -2301,5 +2301,12 @@
     "topic": "Commission on Enhancing National Cybersecurity",
     "definition": "The President's Commission on Enhancing National Cybersecurity is a Presidential Commission formed on April 13, 2016, to develop a plan for protecting cyberspace, and America's economic reliance on it. The commission released its final report in December 2016. The report made recommendations regarding the intertwining roles of the military, government administration and the private sector in providing cyber security. Chairman Donilon said of the report that its coverage \"is unusual in the breadth of issues\" with which it deals.",
     "url": "https://en.wikipedia.org/wiki/Commission_on_Enhancing_National_Cybersecurity"
+  },
+  {
+    "date_added": "2026-07-26",
+    "category": "Hardware",
+    "topic": "Von Neumann architecture",
+    "definition": "The von Neumann architecture—also known as the von Neumann model or Princeton architecture—is a computer architecture based on the First Draft of a Report on the EDVAC, written by John von Neumann in 1945, describing designs discussed with John Mauchly and J. Presper Eckert at the University of Pennsylvania's Moore School of Electrical Engineering. The document describes a design architecture for an electronic digital computer made of \"organs\" that were later understood to have these components:A central arithmetic unit to perform arithmetic operations; A central control unit to sequence operations performed by the machine; Memory that stores data and instructions; An \"outside recording medium\" to store input to and output from the machine; Input and output mechanisms to transfer data between the memory and the outside recording medium.",
+    "url": "https://en.wikipedia.org/wiki/Von_Neumann_architecture"
   }
 ]
