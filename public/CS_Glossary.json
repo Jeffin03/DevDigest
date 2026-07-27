@@ -2315,5 +2315,12 @@
     "topic": "C (programming language)",
     "definition": "C is a general-purpose programming language created in the 1970s by Dennis Ritchie. By design, C gives programmers relatively direct access to the features of typical CPU architectures, customized for the target instruction set. It has been and continues to be used to implement operating systems, device drivers, and protocol stacks, though its use in application software is decreasing. C is used on computers ranging from supercomputers to microcontrollers and embedded systems.",
     "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+  },
+  {
+    "date_added": "2026-07-27",
+    "category": "Hardware",
+    "topic": "Vkernel",
+    "definition": "A virtual kernel architecture (vkernel) is an operating system virtualisation paradigm where kernel code can be compiled to run in the user space, for example, to ease debugging of various kernel-level components, in addition to general-purpose virtualisation and compartmentalisation of system resources. It is used by DragonFly BSD in its vkernel implementation since DragonFly 1.7, having been first revealed in September 2006, and first released in the stable branch with DragonFly 1.8 in January 2007.",
+    "url": "https://en.wikipedia.org/wiki/Vkernel"
   }
 ]
