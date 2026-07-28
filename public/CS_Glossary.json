@@ -2322,5 +2322,12 @@
     "topic": "Vkernel",
     "definition": "A virtual kernel architecture (vkernel) is an operating system virtualisation paradigm where kernel code can be compiled to run in the user space, for example, to ease debugging of various kernel-level components, in addition to general-purpose virtualisation and compartmentalisation of system resources. It is used by DragonFly BSD in its vkernel implementation since DragonFly 1.7, having been first revealed in September 2006, and first released in the stable branch with DragonFly 1.8 in January 2007.",
     "url": "https://en.wikipedia.org/wiki/Vkernel"
+  },
+  {
+    "date_added": "2026-07-28",
+    "category": "Hardware",
+    "topic": "Approximate computing",
+    "definition": "Approximate computing is an emerging paradigm for energy-efficient and/or high-performance design. It includes a plethora of computation techniques that return a possibly inaccurate result rather than a guaranteed accurate result, and that can be used for applications where an approximate result is sufficient for its purpose. One example of such situation is for a search engine where no exact answer may exist for a certain search query and hence, many answers may be acceptable. Similarly, occasional dropping of some frames in a video application can go undetected due to perceptual limitations of humans. Approximate computing is based on the observation that in many scenarios, although performing exact computation requires large amount of resources, allowing bounded approximation can provide disproportionate gains in performance and energy, while still achieving acceptable result accuracy. For example, in k-means clustering algorithm, allowing only 5% loss in classification accuracy can provide 50 times energy saving compared to the fully accurate classification.",
+    "url": "https://en.wikipedia.org/wiki/Approximate_computing"
   }
 ]
