@@ -2329,5 +2329,12 @@
     "topic": "Approximate computing",
     "definition": "Approximate computing is an emerging paradigm for energy-efficient and/or high-performance design. It includes a plethora of computation techniques that return a possibly inaccurate result rather than a guaranteed accurate result, and that can be used for applications where an approximate result is sufficient for its purpose. One example of such situation is for a search engine where no exact answer may exist for a certain search query and hence, many answers may be acceptable. Similarly, occasional dropping of some frames in a video application can go undetected due to perceptual limitations of humans. Approximate computing is based on the observation that in many scenarios, although performing exact computation requires large amount of resources, allowing bounded approximation can provide disproportionate gains in performance and energy, while still achieving acceptable result accuracy. For example, in k-means clustering algorithm, allowing only 5% loss in classification accuracy can provide 50 times energy saving compared to the fully accurate classification.",
     "url": "https://en.wikipedia.org/wiki/Approximate_computing"
+  },
+  {
+    "date_added": "2026-07-28",
+    "category": "Hardware",
+    "topic": "NonStop (server computers)",
+    "definition": "NonStop is a series of server computers introduced to market in 1976 by Tandem Computers Incorporated, beginning with the NonStop product line. It was followed by the Tandem Integrity NonStop line of lock-step fault-tolerant computers, now defunct. The original NonStop product line is currently offered by Hewlett Packard Enterprise since Hewlett-Packard Company's split in 2015. Because NonStop systems are based on an integrated hardware/software stack, Tandem and later HPE also developed the NonStop OS operating system for them.",
+    "url": "https://en.wikipedia.org/wiki/NonStop_(server_computers)"
   }
 ]
