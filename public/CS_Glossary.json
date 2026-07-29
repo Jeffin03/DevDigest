@@ -2343,5 +2343,12 @@
     "topic": "Stegomalware",
     "definition": "Stegomalware is a form of malicious software that leverages steganography techniques to conceal its code, configuration data, or command-and-control (C&C) communications within seemingly benign digital media such as images, audio files, videos, documents, or network traffic. It typically embeds encrypted or obfuscated payloads into digital media and only extracts and executes them at runtime, which makes traditional signature-based and sandbox-based detection significantly more difficult. Stegomalware has been observed in attacks ranging from advanced persistent threats (APTs) to financially motivated cybercrime, and is now the subject of dedicated academic surveys, research projects, and international law-enforcement initiatives.",
     "url": "https://en.wikipedia.org/wiki/Stegomalware"
+  },
+  {
+    "date_added": "2026-07-29",
+    "category": "Network Infrastructure",
+    "topic": "Fibre Channel frame",
+    "definition": "In computer networking, a Fibre Channel frame is the frame of the Fibre Channel protocol. The basic building blocks of an FC connection are the frames. They contain the information to be transmitted (payload), the address of the source and destination ports and link control information. Frames are broadly categorized asData frames Link_control frames",
+    "url": "https://en.wikipedia.org/wiki/Fibre_Channel_frame"
   }
 ]
