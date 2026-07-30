@@ -2350,5 +2350,12 @@
     "topic": "Fibre Channel frame",
     "definition": "In computer networking, a Fibre Channel frame is the frame of the Fibre Channel protocol. The basic building blocks of an FC connection are the frames. They contain the information to be transmitted (payload), the address of the source and destination ports and link control information. Frames are broadly categorized asData frames Link_control frames",
     "url": "https://en.wikipedia.org/wiki/Fibre_Channel_frame"
+  },
+  {
+    "date_added": "2026-07-30",
+    "category": "Network Infrastructure",
+    "topic": "Datasource",
+    "definition": "A datasource or DataSource is a name given to the connection set up to a database from a server. The name is commonly used when creating a query to the database. The data source name (DSN) need not be the same as the filename for the database. For example, a database file named friends.mdb could be set up with a DSN of school. Then DSN school would be used to refer to the database when performing a query.",
+    "url": "https://en.wikipedia.org/wiki/Datasource"
   }
 ]
