@@ -2357,5 +2357,12 @@
     "topic": "Datasource",
     "definition": "A datasource or DataSource is a name given to the connection set up to a database from a server. The name is commonly used when creating a query to the database. The data source name (DSN) need not be the same as the filename for the database. For example, a database file named friends.mdb could be set up with a DSN of school. Then DSN school would be used to refer to the database when performing a query.",
     "url": "https://en.wikipedia.org/wiki/Datasource"
+  },
+  {
+    "date_added": "2026-07-30",
+    "category": "Hardware",
+    "topic": "Shared memory",
+    "definition": "In computer science, shared memory is memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies. Shared memory is an efficient means of passing data between programs. Depending on context, programs may run on a single processor or on multiple separate processors.",
+    "url": "https://en.wikipedia.org/wiki/Shared_memory"
   }
 ]
