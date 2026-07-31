@@ -2364,5 +2364,12 @@
     "topic": "Shared memory",
     "definition": "In computer science, shared memory is memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies. Shared memory is an efficient means of passing data between programs. Depending on context, programs may run on a single processor or on multiple separate processors.",
     "url": "https://en.wikipedia.org/wiki/Shared_memory"
+  },
+  {
+    "date_added": "2026-07-31",
+    "category": "Infrastructure",
+    "topic": "Social cloud computing",
+    "definition": "Social cloud computing, also peer-to-peer social cloud computing, is an area of computer science that generalizes cloud computing to include the sharing, bartering and renting of computing resources across peers whose owners and operators are verified through a social network or reputation system. It expands cloud computing past the confines of formal commercial data centers operated by cloud providers to include anyone interested in participating within the cloud services sharing economy. This in turn leads to more options, greater economies of scale, while bearing additional advantages for hosting data and computing services closer to the edge where they may be needed most.",
+    "url": "https://en.wikipedia.org/wiki/Social_cloud_computing"
   }
 ]
