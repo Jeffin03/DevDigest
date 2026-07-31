@@ -2371,5 +2371,12 @@
     "topic": "Social cloud computing",
     "definition": "Social cloud computing, also peer-to-peer social cloud computing, is an area of computer science that generalizes cloud computing to include the sharing, bartering and renting of computing resources across peers whose owners and operators are verified through a social network or reputation system. It expands cloud computing past the confines of formal commercial data centers operated by cloud providers to include anyone interested in participating within the cloud services sharing economy. This in turn leads to more options, greater economies of scale, while bearing additional advantages for hosting data and computing services closer to the edge where they may be needed most.",
     "url": "https://en.wikipedia.org/wiki/Social_cloud_computing"
+  },
+  {
+    "date_added": "2026-07-31",
+    "category": "Web Development",
+    "topic": "W3C Device Description Working Group",
+    "definition": "The W3C Device Description Working Group (DDWG), operating as part of the World Wide Web Consortium (W3C) Mobile Web Initiative (MWI), was chartered to \"foster the provision and access to device descriptions that can be used in support of Web-enabled applications that provide an appropriate user experience on mobile devices.\" Mobile devices exhibit the greatest diversity of capabilities, and therefore present the greatest challenge to content adaptation technologies. The group published several documents, including a list of requirements for an interface to a Device Description Repository (DDR) and a standard interface meeting those requirements.",
+    "url": "https://en.wikipedia.org/wiki/W3C_Device_Description_Working_Group"
   }
 ]
