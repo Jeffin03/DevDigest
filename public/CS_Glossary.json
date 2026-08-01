@@ -2385,5 +2385,12 @@
     "topic": "Outline of the Python programming language",
     "definition": "The following outline is provided as an overview of and topical guide to Python:",
     "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language"
+  },
+  {
+    "date_added": "2026-08-01",
+    "category": "Cybersecurity",
+    "topic": "Intel Management Engine",
+    "definition": "The Intel Management Engine (ME), also known as the Intel Manageability Engine, is an autonomous subsystem that has been incorporated in virtually all of Intel's processor chipsets since 2008. It is located in the Platform Controller Hub of modern Intel motherboards.",
+    "url": "https://en.wikipedia.org/wiki/Intel_Management_Engine"
   }
 ]
