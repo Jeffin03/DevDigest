@@ -2378,5 +2378,12 @@
     "topic": "W3C Device Description Working Group",
     "definition": "The W3C Device Description Working Group (DDWG), operating as part of the World Wide Web Consortium (W3C) Mobile Web Initiative (MWI), was chartered to \"foster the provision and access to device descriptions that can be used in support of Web-enabled applications that provide an appropriate user experience on mobile devices.\" Mobile devices exhibit the greatest diversity of capabilities, and therefore present the greatest challenge to content adaptation technologies. The group published several documents, including a list of requirements for an interface to a Device Description Repository (DDR) and a standard interface meeting those requirements.",
     "url": "https://en.wikipedia.org/wiki/W3C_Device_Description_Working_Group"
+  },
+  {
+    "date_added": "2026-08-01",
+    "category": "Programming Languages",
+    "topic": "Outline of the Python programming language",
+    "definition": "The following outline is provided as an overview of and topical guide to Python:",
+    "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language"
   }
 ]
