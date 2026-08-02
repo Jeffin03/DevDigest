@@ -2399,5 +2399,12 @@
     "topic": "History of operating systems",
     "definition": "Computer operating systems (OSes) provide a set of functions needed and used by most application programs on a computer, and the links needed to control and synchronize computer hardware. On the first computers, with no operating system, every program needed the full hardware specification to run correctly and perform standard tasks, and its own drivers for peripheral devices like printers and punched paper card readers. The growing complexity of hardware and application programs eventually made operating systems a necessity for everyday use.",
     "url": "https://en.wikipedia.org/wiki/History_of_operating_systems"
+  },
+  {
+    "date_added": "2026-08-02",
+    "category": "Web Development",
+    "topic": "Web3D",
+    "definition": "Web3D, also called 3D Web, is a group of technologies to display and navigate websites using 3D computer graphics. These technologies enable applications such as online games, virtual reality experiences, interactive product demonstrations, and 3D data visualization directly within web browsers.",
+    "url": "https://en.wikipedia.org/wiki/Web3D"
   }
 ]
