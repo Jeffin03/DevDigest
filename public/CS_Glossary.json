@@ -2413,5 +2413,12 @@
     "topic": "Gabbay's separation theorem",
     "definition": "In mathematical logic and computer science, Gabbay's separation theorem states that any formula in linear temporal logic (LTL) with past operators can be rewritten as a boolean combination of formulas that are only concerned with the past, present, or future. This theorem was stated and proven by Dov Gabbay.",
     "url": "https://en.wikipedia.org/wiki/Gabbay's_separation_theorem"
+  },
+  {
+    "date_added": "2026-08-03",
+    "category": "Data Structures",
+    "topic": "Data structure",
+    "definition": "In computer science, a data structure is a way to organize and store data that is usually chosen for efficient access to data. More precisely, a data structure is the physical implementation of a data type, including specifications of the data organization and storage format, as well functions or operations for working with this data. Data structures are closely related to abstract data types (ADTs). The data structure describes the representation of data in memory and how operations are carried out, while the ADT describes the logical form or algebraic structure of the data type—what operations are allowed and what results they produce—without describing how those operations are implemented. Some authors do not use the term \"abstract data type\" and simply refer to the logical and physical forms of the data structure.",
+    "url": "https://en.wikipedia.org/wiki/Data_structure"
   }
 ]
