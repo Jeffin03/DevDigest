@@ -2420,5 +2420,12 @@
     "topic": "Data structure",
     "definition": "In computer science, a data structure is a way to organize and store data that is usually chosen for efficient access to data. More precisely, a data structure is the physical implementation of a data type, including specifications of the data organization and storage format, as well functions or operations for working with this data. Data structures are closely related to abstract data types (ADTs). The data structure describes the representation of data in memory and how operations are carried out, while the ADT describes the logical form or algebraic structure of the data type—what operations are allowed and what results they produce—without describing how those operations are implemented. Some authors do not use the term \"abstract data type\" and simply refer to the logical and physical forms of the data structure.",
     "url": "https://en.wikipedia.org/wiki/Data_structure"
+  },
+  {
+    "date_added": "2026-08-04",
+    "category": "Web Development",
+    "topic": "Font Bomb",
+    "definition": "Font Bomb is a JavaScript bookmarklet to \"Blow Up\" web pages. When the script is loaded, clicking on a web page starts a countdown. When the countdown reaches zero, it uses Cascading Style Sheets to scatter nearby text across the page. The script wraps all affected letters in a tag, so that they can be moved individually.",
+    "url": "https://en.wikipedia.org/wiki/Font_Bomb"
   }
 ]
