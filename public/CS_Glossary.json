@@ -2427,5 +2427,12 @@
     "topic": "Font Bomb",
     "definition": "Font Bomb is a JavaScript bookmarklet to \"Blow Up\" web pages. When the script is loaded, clicking on a web page starts a countdown. When the countdown reaches zero, it uses Cascading Style Sheets to scatter nearby text across the page. The script wraps all affected letters in a tag, so that they can be moved individually.",
     "url": "https://en.wikipedia.org/wiki/Font_Bomb"
+  },
+  {
+    "date_added": "2026-08-04",
+    "category": "Web Development",
+    "topic": "OpenWebRTC",
+    "definition": "OpenWebRTC (OWR) is a free software stack that implements the WebRTC standard, a set of protocols and application programming interfaces defined by the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF). It is an alternative to the reference implementation that is based on software from Global IP Solutions (GIPS).",
+    "url": "https://en.wikipedia.org/wiki/OpenWebRTC"
   }
 ]
