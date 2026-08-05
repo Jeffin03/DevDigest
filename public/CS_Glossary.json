@@ -2434,5 +2434,12 @@
     "topic": "OpenWebRTC",
     "definition": "OpenWebRTC (OWR) is a free software stack that implements the WebRTC standard, a set of protocols and application programming interfaces defined by the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF). It is an alternative to the reference implementation that is based on software from Global IP Solutions (GIPS).",
     "url": "https://en.wikipedia.org/wiki/OpenWebRTC"
+  },
+  {
+    "date_added": "2026-08-05",
+    "category": "Hardware",
+    "topic": "Superscalar processor",
+    "definition": "A superscalar processor is a CPU that implements a form of parallelism called instruction-level parallelism within a single processor. In contrast to a scalar processor, which can execute at most one single instruction per clock cycle, a superscalar processor can execute or start executing more than one instruction during a clock cycle by simultaneously dispatching multiple instructions to different execution units on the processor. It therefore allows more throughput than would otherwise be possible at a given clock rate. Each execution unit is not a separate processor, but an execution resource within a single CPU such as an arithmetic logic unit.",
+    "url": "https://en.wikipedia.org/wiki/Superscalar_processor"
   }
 ]
