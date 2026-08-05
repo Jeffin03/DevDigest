@@ -2441,5 +2441,12 @@
     "topic": "Superscalar processor",
     "definition": "A superscalar processor is a CPU that implements a form of parallelism called instruction-level parallelism within a single processor. In contrast to a scalar processor, which can execute at most one single instruction per clock cycle, a superscalar processor can execute or start executing more than one instruction during a clock cycle by simultaneously dispatching multiple instructions to different execution units on the processor. It therefore allows more throughput than would otherwise be possible at a given clock rate. Each execution unit is not a separate processor, but an execution resource within a single CPU such as an arithmetic logic unit.",
     "url": "https://en.wikipedia.org/wiki/Superscalar_processor"
+  },
+  {
+    "date_added": "2026-08-05",
+    "category": "Web Development",
+    "topic": "WebXR",
+    "definition": "WebXR Device API is a Web application programming interface (API) that describes support for accessing augmented reality and virtual reality devices, such as the HTC Vive, Oculus Rift, Meta Quest, Google Cardboard, HoloLens, Apple Vision Pro, Android XR-based devices, Magic Leap or Open Source Virtual Reality (OSVR), in a web browser. The WebXR Device API and related APIs are standards defined by W3C groups, the Immersive Web Community Group and Immersive Web Working Group. While the Community Group works on the proposals in the incubation period, the Working Group defines the final web specifications to be implemented by the browsers.",
+    "url": "https://en.wikipedia.org/wiki/WebXR"
   }
 ]
