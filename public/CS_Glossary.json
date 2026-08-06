@@ -2448,5 +2448,12 @@
     "topic": "WebXR",
     "definition": "WebXR Device API is a Web application programming interface (API) that describes support for accessing augmented reality and virtual reality devices, such as the HTC Vive, Oculus Rift, Meta Quest, Google Cardboard, HoloLens, Apple Vision Pro, Android XR-based devices, Magic Leap or Open Source Virtual Reality (OSVR), in a web browser. The WebXR Device API and related APIs are standards defined by W3C groups, the Immersive Web Community Group and Immersive Web Working Group. While the Community Group works on the proposals in the incubation period, the Working Group defines the final web specifications to be implemented by the browsers.",
     "url": "https://en.wikipedia.org/wiki/WebXR"
+  },
+  {
+    "date_added": "2026-08-06",
+    "category": "Network Infrastructure",
+    "topic": "Comparison of streaming media software",
+    "definition": "This is a comparison of streaming media systems. A more complete list of streaming media systems is also available.",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_streaming_media_software"
   }
 ]
