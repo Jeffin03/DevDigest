@@ -2455,5 +2455,12 @@
     "topic": "Comparison of streaming media software",
     "definition": "This is a comparison of streaming media systems. A more complete list of streaming media systems is also available.",
     "url": "https://en.wikipedia.org/wiki/Comparison_of_streaming_media_software"
+  },
+  {
+    "date_added": "2026-08-07",
+    "category": "Artificial Intelligence",
+    "topic": "Genie (world model)",
+    "definition": "Genie is a world model developed by Google DeepMind that generates interactive virtual worlds. It is a spatiotemporal transformer, a type of neural network that models what appears in each frame and how the scene changes over time. First introduced in 2024, Genie was initially trained on video game footage and could only generate two-dimensional environments.",
+    "url": "https://en.wikipedia.org/wiki/Genie_(world_model)"
   }
 ]
