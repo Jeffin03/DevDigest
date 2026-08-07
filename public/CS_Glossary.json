@@ -2469,5 +2469,12 @@
     "topic": "Electric vehicle charging infrastructure's security",
     "definition": "Electric vehicle charging infrastructure's security concerns the protection, against cyber and physical threats, of the electric vehicle charging infrastructure, the critical infrastructure of structures, machinery, and equipment necessary to support electric vehicles (EVs). As a cyber-physical system, the EVCI is composed of an operational technology (OT) and an information technology (IT) layer. The OT layer relies on the smart grid to deliver power and offer flexibility services such as vehicle-to-grid (V2G) and demand response. The IT layer handles charge management, authentication, payment, and roaming services, often communicating through protocols such as the Open Charge Point Protocol (OCPP) between charging stations and management systems, and the ISO 15118 standard for communication between the vehicle and the charging station.",
     "url": "https://en.wikipedia.org/wiki/Electric_vehicle_charging_infrastructure's_security"
+  },
+  {
+    "date_added": "2026-08-07",
+    "category": "Hardware",
+    "topic": "Register renaming",
+    "definition": "In computer architecture, register renaming is a technique that abstracts logical registers from physical registers. Every logical register has a set of physical registers associated with it. When a machine language instruction refers to a particular logical register, the processor transposes this name to one specific physical register on the fly. The physical registers are opaque and cannot be referenced directly but only via the canonical names.",
+    "url": "https://en.wikipedia.org/wiki/Register_renaming"
   }
 ]
