@@ -2483,5 +2483,12 @@
     "topic": "Mesa (programming language)",
     "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
     "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
+  },
+  {
+    "date_added": "2026-08-08",
+    "category": "Data Structures",
+    "topic": "Active data structure",
+    "definition": "An active data structure is a data structure with an associated thread or process that performs internal operations. More specifically, an active data structure is associated with a computing resource, which contains one or more concurrently executing processes, and data associated with those processes. Communication is modeled using remote procedure calls, as opposed to shared memory or message passing. The active data structure's internals are hidden behind its RPC interface, and may be accessed concurrently. Common examples include databases and file systems. Active data structures can perform maintenance when resources would otherwise be idle, and present multiple views of the data.",
+    "url": "https://en.wikipedia.org/wiki/Active_data_structure"
   }
 ]
