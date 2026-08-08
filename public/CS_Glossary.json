@@ -2476,5 +2476,12 @@
     "topic": "Register renaming",
     "definition": "In computer architecture, register renaming is a technique that abstracts logical registers from physical registers. Every logical register has a set of physical registers associated with it. When a machine language instruction refers to a particular logical register, the processor transposes this name to one specific physical register on the fly. The physical registers are opaque and cannot be referenced directly but only via the canonical names.",
     "url": "https://en.wikipedia.org/wiki/Register_renaming"
+  },
+  {
+    "date_added": "2026-08-08",
+    "category": "Programming Languages",
+    "topic": "Mesa (programming language)",
+    "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
+    "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
   }
 ]
