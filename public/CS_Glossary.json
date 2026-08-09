@@ -2490,5 +2490,12 @@
     "topic": "Active data structure",
     "definition": "An active data structure is a data structure with an associated thread or process that performs internal operations. More specifically, an active data structure is associated with a computing resource, which contains one or more concurrently executing processes, and data associated with those processes. Communication is modeled using remote procedure calls, as opposed to shared memory or message passing. The active data structure's internals are hidden behind its RPC interface, and may be accessed concurrently. Common examples include databases and file systems. Active data structures can perform maintenance when resources would otherwise be idle, and present multiple views of the data.",
     "url": "https://en.wikipedia.org/wiki/Active_data_structure"
+  },
+  {
+    "date_added": "2026-08-09",
+    "category": "Artificial Intelligence",
+    "topic": "Liar's dividend",
+    "definition": "The liar's dividend is a political and media phenomenon in which public figures falsely claim that factual reporting is missing information, \"fake news\", or artificially generated in order to avoid accountability. This concept has been studied in political science to understand how such claims can allow politicians to maintain public support following scandals or controversial statements. This tactic leverages public uncertainty about the accuracy of information and can mobilize parties and supporters. It often takes advantage of emerging technology, such as artificial intelligence (AI)–generated content and deepfakes, which makes distinguishing authentic material from manipulated material more difficult.",
+    "url": "https://en.wikipedia.org/wiki/Liar's_dividend"
   }
 ]
