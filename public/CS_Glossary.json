@@ -2511,5 +2511,12 @@
     "topic": "Product-family engineering",
     "definition": "Product-family engineering (PFE), also known as product-line engineering (PLE), is based on the ideas of \"domain engineering\" created by the Software Engineering Institute, a term coined by James Neighbors in his 1980 dissertation at University of California, Irvine. Software product lines are quite common in our daily lives, but before a product family can be successfully established, an extensive process has to be followed. This process is known as product-family engineering.",
     "url": "https://en.wikipedia.org/wiki/Product-family_engineering"
+  },
+  {
+    "date_added": "2026-08-10",
+    "category": "Network Infrastructure",
+    "topic": "Application Defined Network",
+    "definition": "An Application Defined Network (ADN) is a style of enterprise data network that uses virtual networks and security components to provide a logical network for applications. This allows customized security and network policies to be created to meet the requirements of that specific application. ADN technology allows for simple physical architectures with fewer devices and less configuration and integration. Usage of ADNs help corporate data centers, cloud services, and third-party networks securely and cost-effectively. Some ADN solutions integrate 3G or 4G wireless backup services to enable a second internet connection when connectivity is lost on the primary access connection. The ADN design provides an application-to-application (A2A) based model instead of S2S (site-to-site) model.",
+    "url": "https://en.wikipedia.org/wiki/Application_Defined_Network"
   }
 ]
