@@ -2504,5 +2504,12 @@
     "topic": "STIT logic",
     "definition": "STIT logic is a family of modal and branching-time logics for reasoning about agency and choice. A typical STIT operator has the form , usually read as \"agent sees to it that \", and is interpreted in models where agents choose between alternative possible futures.",
     "url": "https://en.wikipedia.org/wiki/STIT_logic"
+  },
+  {
+    "date_added": "2026-08-10",
+    "category": "Software Engineering",
+    "topic": "Product-family engineering",
+    "definition": "Product-family engineering (PFE), also known as product-line engineering (PLE), is based on the ideas of \"domain engineering\" created by the Software Engineering Institute, a term coined by James Neighbors in his 1980 dissertation at University of California, Irvine. Software product lines are quite common in our daily lives, but before a product family can be successfully established, an extensive process has to be followed. This process is known as product-family engineering.",
+    "url": "https://en.wikipedia.org/wiki/Product-family_engineering"
   }
 ]
