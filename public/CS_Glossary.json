@@ -2525,5 +2525,12 @@
     "topic": "Reversible programming language",
     "definition": "A reversible programming language is designed to bridge the gap between the theoretical models of reversible computing and practical software development. They provide constructs that allow programmers to write code that is guaranteed, by the language's syntax and semantics, to be executable both forwards and backwards deterministically.",
     "url": "https://en.wikipedia.org/wiki/Reversible_programming_language"
+  },
+  {
+    "date_added": "2026-08-11",
+    "category": "Web Development",
+    "topic": "Dynamic web page",
+    "definition": "A dynamic web page is a web page constructed at runtime, as opposed to a static web page, delivered as it is stored.",
+    "url": "https://en.wikipedia.org/wiki/Dynamic_web_page"
   }
 ]
