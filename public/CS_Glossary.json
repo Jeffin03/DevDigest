@@ -2518,5 +2518,12 @@
     "topic": "Application Defined Network",
     "definition": "An Application Defined Network (ADN) is a style of enterprise data network that uses virtual networks and security components to provide a logical network for applications. This allows customized security and network policies to be created to meet the requirements of that specific application. ADN technology allows for simple physical architectures with fewer devices and less configuration and integration. Usage of ADNs help corporate data centers, cloud services, and third-party networks securely and cost-effectively. Some ADN solutions integrate 3G or 4G wireless backup services to enable a second internet connection when connectivity is lost on the primary access connection. The ADN design provides an application-to-application (A2A) based model instead of S2S (site-to-site) model.",
     "url": "https://en.wikipedia.org/wiki/Application_Defined_Network"
+  },
+  {
+    "date_added": "2026-08-11",
+    "category": "Programming Languages",
+    "topic": "Reversible programming language",
+    "definition": "A reversible programming language is designed to bridge the gap between the theoretical models of reversible computing and practical software development. They provide constructs that allow programmers to write code that is guaranteed, by the language's syntax and semantics, to be executable both forwards and backwards deterministically.",
+    "url": "https://en.wikipedia.org/wiki/Reversible_programming_language"
   }
 ]
