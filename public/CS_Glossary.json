@@ -2539,5 +2539,12 @@
     "topic": "Zero-touch provisioning",
     "definition": "Zero-touch provisioning (ZTP), or zero-touch enrollment, is the process of remotely provisioning large numbers of network devices such as switches, routers and mobile devices without having to manually program each one individually. The feature improves existing provisioning models, solutions and practices in the areas of wireless networks, (complex) network management and operations services, and cloud based infrastructure services provisioning.",
     "url": "https://en.wikipedia.org/wiki/Zero-touch_provisioning"
+  },
+  {
+    "date_added": "2026-08-12",
+    "category": "Hardware",
+    "topic": "Autonomous decentralized system",
+    "definition": "An autonomous decentralized system is a decentralized system composed of modules or components that are designed to operate independently but are capable of interacting with each other to meet the overall goal of the system. This design paradigm enables the system to continue to function in the event of component failures. It also enables maintenance and repair to be carried out while the system remains operational. Autonomous decentralized systems have a number of applications including industrial production lines, railway signalling and robotics.",
+    "url": "https://en.wikipedia.org/wiki/Autonomous_decentralized_system"
   }
 ]
