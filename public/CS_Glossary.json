@@ -2532,5 +2532,12 @@
     "topic": "Dynamic web page",
     "definition": "A dynamic web page is a web page constructed at runtime, as opposed to a static web page, delivered as it is stored.",
     "url": "https://en.wikipedia.org/wiki/Dynamic_web_page"
+  },
+  {
+    "date_added": "2026-08-12",
+    "category": "Infrastructure",
+    "topic": "Zero-touch provisioning",
+    "definition": "Zero-touch provisioning (ZTP), or zero-touch enrollment, is the process of remotely provisioning large numbers of network devices such as switches, routers and mobile devices without having to manually program each one individually. The feature improves existing provisioning models, solutions and practices in the areas of wireless networks, (complex) network management and operations services, and cloud based infrastructure services provisioning.",
+    "url": "https://en.wikipedia.org/wiki/Zero-touch_provisioning"
   }
 ]
