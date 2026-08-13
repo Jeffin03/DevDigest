@@ -2546,5 +2546,12 @@
     "topic": "Autonomous decentralized system",
     "definition": "An autonomous decentralized system is a decentralized system composed of modules or components that are designed to operate independently but are capable of interacting with each other to meet the overall goal of the system. This design paradigm enables the system to continue to function in the event of component failures. It also enables maintenance and repair to be carried out while the system remains operational. Autonomous decentralized systems have a number of applications including industrial production lines, railway signalling and robotics.",
     "url": "https://en.wikipedia.org/wiki/Autonomous_decentralized_system"
+  },
+  {
+    "date_added": "2026-08-13",
+    "category": "Programming Languages",
+    "topic": "ABAP",
+    "definition": "ABAP is a domain-specific high-level programming language created by the German software company SAP SE. It is currently positioned, alongside Java, as the language for programming the SAP NetWeaver Application Server, which is part of the SAP NetWeaver platform for building business applications.",
+    "url": "https://en.wikipedia.org/wiki/ABAP"
   }
 ]
