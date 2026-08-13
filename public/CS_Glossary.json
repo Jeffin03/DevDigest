@@ -2553,5 +2553,12 @@
     "topic": "ABAP",
     "definition": "ABAP is a domain-specific high-level programming language created by the German software company SAP SE. It is currently positioned, alongside Java, as the language for programming the SAP NetWeaver Application Server, which is part of the SAP NetWeaver platform for building business applications.",
     "url": "https://en.wikipedia.org/wiki/ABAP"
+  },
+  {
+    "date_added": "2026-08-13",
+    "category": "Hardware",
+    "topic": "Memory management",
+    "definition": "Memory management is a form of resource management applied to computer memory. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway (multitasking) at any time.",
+    "url": "https://en.wikipedia.org/wiki/Memory_management"
   }
 ]
