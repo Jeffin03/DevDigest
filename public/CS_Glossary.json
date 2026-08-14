@@ -2560,5 +2560,12 @@
     "topic": "Memory management",
     "definition": "Memory management is a form of resource management applied to computer memory. The essential requirement of memory management is to provide ways to dynamically allocate portions of memory to programs at their request, and free it for reuse when no longer needed. This is critical to any advanced computer system where more than a single process might be underway (multitasking) at any time.",
     "url": "https://en.wikipedia.org/wiki/Memory_management"
+  },
+  {
+    "date_added": "2026-08-14",
+    "category": "Infrastructure",
+    "topic": "Cloud Security Alliance",
+    "definition": "Cloud Security Alliance (CSA) is a not-for-profit organization with the mission to \"promote the use of best practices for providing security assurance within cloud computing, artificial intelligence and to provide education on the uses of cloud computing to help secure all other forms of computing.\"",
+    "url": "https://en.wikipedia.org/wiki/Cloud_Security_Alliance"
   }
 ]
