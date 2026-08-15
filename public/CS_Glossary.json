@@ -2574,5 +2574,12 @@
     "topic": "Popek and Goldberg virtualization requirements",
     "definition": "The Popek and Goldberg virtualization requirements are a set of conditions sufficient for a computer architecture to support system virtualization efficiently. They were introduced by Gerald J. Popek and Robert P. Goldberg in their 1974 article \"Formal Requirements for Virtualizable Third Generation Architectures\". Even though the requirements are derived under simplifying assumptions, they still represent a convenient way of determining whether a computer architecture supports efficient virtualization and provide guidelines for the design of virtualized computer architectures.",
     "url": "https://en.wikipedia.org/wiki/Popek_and_Goldberg_virtualization_requirements"
+  },
+  {
+    "date_added": "2026-08-15",
+    "category": "Network Infrastructure",
+    "topic": "Datenklo",
+    "definition": "The Datenklo or CCC-Modem was an acoustic coupler modem in the early 1980s for which the Chaos Computer Club made plans and schematics available. The name refers to the use of readily available toilet plumbing cuffs to fit the telephone receiver.",
+    "url": "https://en.wikipedia.org/wiki/Datenklo"
   }
 ]
