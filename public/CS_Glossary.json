@@ -2581,5 +2581,12 @@
     "topic": "Datenklo",
     "definition": "The Datenklo or CCC-Modem was an acoustic coupler modem in the early 1980s for which the Chaos Computer Club made plans and schematics available. The name refers to the use of readily available toilet plumbing cuffs to fit the telephone receiver.",
     "url": "https://en.wikipedia.org/wiki/Datenklo"
+  },
+  {
+    "date_added": "2026-08-15",
+    "category": "Software Engineering",
+    "topic": "Interface control document",
+    "definition": "An interface control document, commonly identified by the acronym ICD, is a technical document used to record, define and control interface information between systems, subsystems, equipment, hardware components or software components.",
+    "url": "https://en.wikipedia.org/wiki/Interface_control_document"
   }
 ]
