@@ -2588,5 +2588,12 @@
     "topic": "Interface control document",
     "definition": "An interface control document, commonly identified by the acronym ICD, is a technical document used to record, define and control interface information between systems, subsystems, equipment, hardware components or software components.",
     "url": "https://en.wikipedia.org/wiki/Interface_control_document"
+  },
+  {
+    "date_added": "2026-08-16",
+    "category": "Programming Languages",
+    "topic": "PV-Wave",
+    "definition": "PV-WAVE is an array oriented fourth-generation programming language used by engineers, scientists, researchers, business analysts and software developers to build and deploy visual data analysis applications. In January 2019, PV-Wave parent Rogue Wave Software was acquired by Minneapolis, Minnesota-based application software developer Perforce.",
+    "url": "https://en.wikipedia.org/wiki/PV-Wave"
   }
 ]
