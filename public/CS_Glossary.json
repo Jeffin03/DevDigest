@@ -2595,5 +2595,12 @@
     "topic": "PV-Wave",
     "definition": "PV-WAVE is an array oriented fourth-generation programming language used by engineers, scientists, researchers, business analysts and software developers to build and deploy visual data analysis applications. In January 2019, PV-Wave parent Rogue Wave Software was acquired by Minneapolis, Minnesota-based application software developer Perforce.",
     "url": "https://en.wikipedia.org/wiki/PV-Wave"
+  },
+  {
+    "date_added": "2026-08-16",
+    "category": "Cybersecurity",
+    "topic": "HEAT LANrev",
+    "definition": "HEAT LANrev is systems lifecycle management software used by system administrators to automate IT administration tasks. The product includes server and client (\"agent\") software that runs on Windows and macOS.",
+    "url": "https://en.wikipedia.org/wiki/HEAT_LANrev"
   }
 ]
