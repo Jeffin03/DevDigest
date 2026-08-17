@@ -2609,5 +2609,12 @@
     "topic": "CyberPatriot",
     "definition": "CyberPatriot is a national youth cyber education program for K-12 created in the United States to help direct students toward careers in cybersecurity or other computer science, technology, engineering, and mathematics disciplines. The program was created by the Air & Space Forces Association. It is a National Youth Cyber Defense Competition for high and middle school students, and features the annual in-person National Final Competition. It is similar to its collegiate counterpart, the Collegiate Cyber Defense Competition (CCDC). The AFA is also affiliated with distinctly branded sister competitions in US-allied countries, including Canada, formerly the UK, and Australia, but such teams may also be eligible to compete separately in the main CyberPatriot program.",
     "url": "https://en.wikipedia.org/wiki/CyberPatriot"
+  },
+  {
+    "date_added": "2026-08-17",
+    "category": "Network Infrastructure",
+    "topic": "Networked Robotics Corporation",
+    "definition": "Networked Robotics Corporation is an American scientific automation company that designs and manufactures electronic devices that monitor scientific instruments, scientific processes, and environmental conditions via the internet.",
+    "url": "https://en.wikipedia.org/wiki/Networked_Robotics_Corporation"
   }
 ]
