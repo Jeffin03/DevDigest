@@ -2651,5 +2651,12 @@
     "topic": "RadioVIS",
     "definition": "RadioVIS is a protocol for sideband signalling of images and text messages for a broadcast audio service to provide a richer visual experience.",
     "url": "https://en.wikipedia.org/wiki/RadioVIS"
+  },
+  {
+    "date_added": "2026-08-20",
+    "category": "Programming Languages",
+    "topic": "JavaScript",
+    "definition": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS. Created by Brendan Eich in 1995, it is maintained by Ecma International's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG. As of 2025, JavaScript is the most widely used programming language on GitHub., however, TypeScript, which is a version of JavaScript that is strict about types and is statically typed, overtook JavaScript on Github by August 2025.",
+    "url": "https://en.wikipedia.org/wiki/JavaScript"
   }
 ]
