@@ -2644,5 +2644,12 @@
     "topic": "Darwin (programming language)",
     "definition": "Darwin is a closed source programming language developed by Gaston Gonnet and colleagues at ETH Zurich. It is used to develop the OMA orthology inference software, which was also initially developed by Gonnet. The language backend consists of the kernel, responsible for performing simple mathematical calculations, for transporting and storing data and for interpreting the user's commands, and the library, a set of programs which can perform more complicated calculations. The target audience for the language is the biosciences, so the library consisted of routines such as those to compute pairwise alignments, phylogenetic trees, multiple sequence alignments, and to make secondary structure predictions.",
     "url": "https://en.wikipedia.org/wiki/Darwin_(programming_language)"
+  },
+  {
+    "date_added": "2026-08-20",
+    "category": "Web Development",
+    "topic": "RadioVIS",
+    "definition": "RadioVIS is a protocol for sideband signalling of images and text messages for a broadcast audio service to provide a richer visual experience.",
+    "url": "https://en.wikipedia.org/wiki/RadioVIS"
   }
 ]
