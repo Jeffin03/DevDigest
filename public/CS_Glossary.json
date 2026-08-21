@@ -2658,5 +2658,12 @@
     "topic": "JavaScript",
     "definition": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS. Created by Brendan Eich in 1995, it is maintained by Ecma International's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG. As of 2025, JavaScript is the most widely used programming language on GitHub., however, TypeScript, which is a version of JavaScript that is strict about types and is statically typed, overtook JavaScript on Github by August 2025.",
     "url": "https://en.wikipedia.org/wiki/JavaScript"
+  },
+  {
+    "date_added": "2026-08-21",
+    "category": "Network Infrastructure",
+    "topic": "Resource Location and Discovery Framing",
+    "definition": "Resource Location and Discovery (RELOAD) is a peer-to-peer (P2P) signalling protocol for use on the Internet. A P2P signalling protocol provides its clients with an abstract storage and messaging service between a set of cooperating peers that form the overlay network. RELOAD is designed to support a peer-to-peer SIP network, but can be utilized by other applications with similar requirements by defining new usages that specify the kinds of data that must be stored for a particular application. RELOAD defines a security model based on a certificate enrollment service that provides unique identities. NAT traversal is a fundamental service of the protocol. RELOAD also allows access from \"client\" nodes that do not need to route traffic or store data for others.",
+    "url": "https://en.wikipedia.org/wiki/Resource_Location_and_Discovery_Framing"
   }
 ]
