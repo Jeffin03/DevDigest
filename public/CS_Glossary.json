@@ -2672,5 +2672,12 @@
     "topic": "Memory disambiguation",
     "definition": "Memory disambiguation is a set of techniques employed by high-performance out-of-order execution microprocessors that execute memory access instructions out of program order. The mechanisms for performing memory disambiguation, implemented using digital logic inside the microprocessor core, detect true dependencies between memory operations at execution time and allow the processor to recover when a dependence has been violated. They also eliminate spurious memory dependencies and allow for greater instruction-level parallelism by allowing safe out-of-order execution of loads and stores.",
     "url": "https://en.wikipedia.org/wiki/Memory_disambiguation"
+  },
+  {
+    "date_added": "2026-08-22",
+    "category": "Hardware",
+    "topic": "Frequency scaling",
+    "definition": "In computer architecture, frequency scaling is the technique of increasing a processor's frequency so as to enhance the performance of the system containing the processor in question. Frequency ramping was the dominant force in commodity processor performance increases from the mid-1980s until roughly the end of 2004.",
+    "url": "https://en.wikipedia.org/wiki/Frequency_scaling"
   }
 ]
