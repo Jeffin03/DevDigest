@@ -2679,5 +2679,12 @@
     "topic": "Frequency scaling",
     "definition": "In computer architecture, frequency scaling is the technique of increasing a processor's frequency so as to enhance the performance of the system containing the processor in question. Frequency ramping was the dominant force in commodity processor performance increases from the mid-1980s until roughly the end of 2004.",
     "url": "https://en.wikipedia.org/wiki/Frequency_scaling"
+  },
+  {
+    "date_added": "2026-08-22",
+    "category": "Cybersecurity",
+    "topic": "Secure coding",
+    "definition": "Secure coding is the practice of developing computer software in such a way that guards against the accidental introduction of security vulnerabilities. Defects, bugs and logic flaws are consistently the primary cause of commonly exploited software vulnerabilities. Through the analysis of thousands of reported vulnerabilities, security professionals have discovered that most vulnerabilities stem from a relatively small number of common software programming errors. By identifying the insecure coding practices that lead to these errors and educating developers on secure alternatives, organizations can take proactive steps to help significantly reduce or eliminate vulnerabilities in software before deployment.",
+    "url": "https://en.wikipedia.org/wiki/Secure_coding"
   }
 ]
