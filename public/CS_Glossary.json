@@ -2686,5 +2686,12 @@
     "topic": "Secure coding",
     "definition": "Secure coding is the practice of developing computer software in such a way that guards against the accidental introduction of security vulnerabilities. Defects, bugs and logic flaws are consistently the primary cause of commonly exploited software vulnerabilities. Through the analysis of thousands of reported vulnerabilities, security professionals have discovered that most vulnerabilities stem from a relatively small number of common software programming errors. By identifying the insecure coding practices that lead to these errors and educating developers on secure alternatives, organizations can take proactive steps to help significantly reduce or eliminate vulnerabilities in software before deployment.",
     "url": "https://en.wikipedia.org/wiki/Secure_coding"
+  },
+  {
+    "date_added": "2026-08-23",
+    "category": "Software Engineering",
+    "topic": "Stevens Award",
+    "definition": "The Stevens Award is a software engineering lecture award given by the Reengineering Forum, an industry association. The international Stevens Award was created to recognize outstanding contributions to the literature or practice of methods for software and systems development. The first award was given in 1995. The presentations focus on the current state of software methods and their direction for the future.",
+    "url": "https://en.wikipedia.org/wiki/Stevens_Award"
   }
 ]
