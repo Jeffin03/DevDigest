@@ -2693,5 +2693,12 @@
     "topic": "Stevens Award",
     "definition": "The Stevens Award is a software engineering lecture award given by the Reengineering Forum, an industry association. The international Stevens Award was created to recognize outstanding contributions to the literature or practice of methods for software and systems development. The first award was given in 1995. The presentations focus on the current state of software methods and their direction for the future.",
     "url": "https://en.wikipedia.org/wiki/Stevens_Award"
+  },
+  {
+    "date_added": "2026-08-23",
+    "category": "Artificial Intelligence",
+    "topic": "Limited Memory AI",
+    "definition": "Limited Memory AI is a type of artificial intelligence that uses past data and experiences for a short period of time to make decisions or predictions. Unlike reactive AI systems, which respond only to current inputs, limited memory AI can temporarily store information and learn from recent observations.",
+    "url": "https://en.wikipedia.org/wiki/Limited_Memory_AI"
   }
 ]
