@@ -2721,5 +2721,12 @@
     "topic": "Mobile DevOps",
     "definition": "Mobile DevOps is a set of practices that applies the principles of DevOps specifically to the development of mobile applications. Traditional DevOps focuses on streamlining the software development process in general, but mobile development has its own unique challenges that require a tailored approach. Mobile DevOps is not simply a branch of DevOps specific to mobile app development, instead an extension and reinterpretation of the DevOps philosophy due to very specific requirements of the mobile world.",
     "url": "https://en.wikipedia.org/wiki/Mobile_DevOps"
+  },
+  {
+    "date_added": "2026-08-25",
+    "category": "Hardware",
+    "topic": "Computer architecture",
+    "definition": "In computer science and computer engineering, a computer architecture is the conceptual design and operational structure of a computer system that define how component parts are organized and interact to execute programs efficiently. It is often a general description that ignores precise implementation details. It covers the instruction set architecture, CPU microarchitecture, memory, and input/output systems.",
+    "url": "https://en.wikipedia.org/wiki/Computer_architecture"
   }
 ]
