@@ -2728,5 +2728,12 @@
     "topic": "Computer architecture",
     "definition": "In computer science and computer engineering, a computer architecture is the conceptual design and operational structure of a computer system that define how component parts are organized and interact to execute programs efficiently. It is often a general description that ignores precise implementation details. It covers the instruction set architecture, CPU microarchitecture, memory, and input/output systems.",
     "url": "https://en.wikipedia.org/wiki/Computer_architecture"
+  },
+  {
+    "date_added": "2026-08-26",
+    "category": "Cybersecurity",
+    "topic": "Domain fronting",
+    "definition": "Domain fronting is a technique for Internet censorship circumvention that uses different domain names in different communication layers of an HTTPS connection to discreetly connect to a different target domain than that which is discernable to third parties monitoring the requests and connections.",
+    "url": "https://en.wikipedia.org/wiki/Domain_fronting"
   }
 ]
