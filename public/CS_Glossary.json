@@ -2756,5 +2756,12 @@
     "topic": "Virtual DOM",
     "definition": "A virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM) used in declarative web frameworks such as React, Vue.js, and Elm. Since generating a virtual DOM is relatively fast, any given framework is free to rerender the virtual DOM as many times as needed relatively cheaply. The framework can then find the differences between the previous virtual DOM and the current one (diffing), and only makes the necessary changes to the actual DOM (reconciliation). While technically slower than using just vanilla JavaScript, the pattern makes it much easier to write websites with a lot of dynamic content, since markup is directly coupled with state.",
     "url": "https://en.wikipedia.org/wiki/Virtual_DOM"
+  },
+  {
+    "date_added": "2026-08-28",
+    "category": "Network Infrastructure",
+    "topic": "Nym (mixnet)",
+    "definition": "Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide. It is developed by Nym Technologies.",
+    "url": "https://en.wikipedia.org/wiki/Nym_(mixnet)"
   }
 ]
