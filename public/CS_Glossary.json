@@ -2749,5 +2749,12 @@
     "topic": "StaDyn",
     "definition": "StaDyn is an object-oriented general-purpose programming language for the .NET platform that supports both static and dynamic typing in the same programming language.",
     "url": "https://en.wikipedia.org/wiki/StaDyn"
+  },
+  {
+    "date_added": "2026-08-28",
+    "category": "Web Development",
+    "topic": "Virtual DOM",
+    "definition": "A virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM) used in declarative web frameworks such as React, Vue.js, and Elm. Since generating a virtual DOM is relatively fast, any given framework is free to rerender the virtual DOM as many times as needed relatively cheaply. The framework can then find the differences between the previous virtual DOM and the current one (diffing), and only makes the necessary changes to the actual DOM (reconciliation). While technically slower than using just vanilla JavaScript, the pattern makes it much easier to write websites with a lot of dynamic content, since markup is directly coupled with state.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_DOM"
   }
 ]
