@@ -2763,5 +2763,12 @@
     "topic": "Nym (mixnet)",
     "definition": "Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide. It is developed by Nym Technologies.",
     "url": "https://en.wikipedia.org/wiki/Nym_(mixnet)"
+  },
+  {
+    "date_added": "2026-08-29",
+    "category": "Infrastructure",
+    "topic": "OpenIO",
+    "definition": "OpenIO offered object storage for a wide range of high-performance applications. OpenIO was founded in 2015 by Laurent Denel (CEO), Jean-François Smigielski (CTO) and five other co-founders; it leveraged open source software, developed since 2006, based on a grid technology that enabled dynamic behaviour and supported heterogenous hardware. In October 2017 OpenIO was completed a $5 million funding rounds. In July 2020 OpenIO had been acquired by OVH and withdrawn from the market to become the core technology of OVHcloud object storage offering.",
+    "url": "https://en.wikipedia.org/wiki/OpenIO"
   }
 ]
