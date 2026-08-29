@@ -2770,5 +2770,12 @@
     "topic": "OpenIO",
     "definition": "OpenIO offered object storage for a wide range of high-performance applications. OpenIO was founded in 2015 by Laurent Denel (CEO), Jean-François Smigielski (CTO) and five other co-founders; it leveraged open source software, developed since 2006, based on a grid technology that enabled dynamic behaviour and supported heterogenous hardware. In October 2017 OpenIO was completed a $5 million funding rounds. In July 2020 OpenIO had been acquired by OVH and withdrawn from the market to become the core technology of OVHcloud object storage offering.",
     "url": "https://en.wikipedia.org/wiki/OpenIO"
+  },
+  {
+    "date_added": "2026-08-29",
+    "category": "Cybersecurity",
+    "topic": "Vanish (computer science)",
+    "definition": "Vanish was a project to \"give users control over the lifetime of personal data stored on the web.\" It was led by Roxana Geambasu at the University of Washington. The project proposed to allow a user to enter information to send across the internet, thereby relinquishing control of it. However, the user can include an \"expiration date,\" after which the information is no longer usable by anyone who may have a copy of it, even the creator. The Vanish approach was found to be vulnerable to a Sybil attack and thus insecure by a team called Unvanish from the University of Texas, University of Michigan, and Princeton.",
+    "url": "https://en.wikipedia.org/wiki/Vanish_(computer_science)"
   }
 ]
