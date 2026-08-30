@@ -2791,5 +2791,12 @@
     "topic": "Whitewater Interactive System Development with Object Models",
     "definition": "Wisdom is a software development process and method to design software-intensive interactive systems. It is based on object modelling, and focuses human-computer interaction (HCI) in order to model the software architecture of the system i.e. it is architecture-centric. The focus on HCI while being architecture-centric places Wisdom as a pioneer method within human-centered software engineering. Wisdom was conceived by Nuno Nunes and first published in the years 1999-2000 in order to close the gaps of existing software engineering methods regarding the user interface design.",
     "url": "https://en.wikipedia.org/wiki/Whitewater_Interactive_System_Development_with_Object_Models"
+  },
+  {
+    "date_added": "2026-08-30",
+    "category": "Software Engineering",
+    "topic": "Agile software development",
+    "definition": "Agile software development is an umbrella term for approaches to developing software that reflect the values and principles agreed upon by The Agile Alliance, a group of 17 software practitioners, in 2001. As documented in their Manifesto for Agile Software Development, the practitioners value:Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan",
+    "url": "https://en.wikipedia.org/wiki/Agile_software_development"
   }
 ]
