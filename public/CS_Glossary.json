@@ -2812,5 +2812,12 @@
     "topic": "Content Disarm and Reconstruction",
     "definition": "Content Disarm and Reconstruction (CDR) is a computer security technology for removing potentially malicious code from files. Unlike malware analysis, CDR technology does not determine or detect malware's functionality but removes all file components that are not approved within the system's definitions and policies.",
     "url": "https://en.wikipedia.org/wiki/Content_Disarm_and_Reconstruction"
+  },
+  {
+    "date_added": "2026-09-01",
+    "category": "Hardware",
+    "topic": "Bridging model",
+    "definition": "In computer science, a bridging model is an abstract model of a computer which provides a conceptual bridge between the physical implementation of the machine and the abstraction available to a programmer of that machine; in other words, it is intended to provide a common level of understanding between hardware and software engineers.",
+    "url": "https://en.wikipedia.org/wiki/Bridging_model"
   }
 ]
