@@ -2819,5 +2819,12 @@
     "topic": "Bridging model",
     "definition": "In computer science, a bridging model is an abstract model of a computer which provides a conceptual bridge between the physical implementation of the machine and the abstraction available to a programmer of that machine; in other words, it is intended to provide a common level of understanding between hardware and software engineers.",
     "url": "https://en.wikipedia.org/wiki/Bridging_model"
+  },
+  {
+    "date_added": "2026-09-01",
+    "category": "Network Infrastructure",
+    "topic": "Reliable Data Transfer",
+    "definition": "Reliable Data Transfer is a topic in computer networking concerning the transfer of data across unreliable channels. Unreliability is one of the drawbacks of packet switched networks such as the modern internet, as packet loss can occur for a variety of reasons, and delivery of packets is not guaranteed to happen in the order that the packets were sent. Therefore, in order to create long-term data streams over the internet, techniques have been developed to provide reliability, which are generally implemented in the transport layer of the internet protocol suite.",
+    "url": "https://en.wikipedia.org/wiki/Reliable_Data_Transfer"
   }
 ]
