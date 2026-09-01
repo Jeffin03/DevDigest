@@ -2805,5 +2805,12 @@
     "topic": "Dell Networking Operating System",
     "definition": "DNOS or Dell Networking Operating System is a network operating system running on switches from Dell Networking. It is derived from either the PowerConnect OS or Force10 OS/FTOS and will be made available for the 10G and faster Dell Networking S-series switches, the Z-series 40G core switches and DNOS6 is available for the N-series switches.",
     "url": "https://en.wikipedia.org/wiki/Dell_Networking_Operating_System"
+  },
+  {
+    "date_added": "2026-09-01",
+    "category": "Infrastructure",
+    "topic": "Content Disarm and Reconstruction",
+    "definition": "Content Disarm and Reconstruction (CDR) is a computer security technology for removing potentially malicious code from files. Unlike malware analysis, CDR technology does not determine or detect malware's functionality but removes all file components that are not approved within the system's definitions and policies.",
+    "url": "https://en.wikipedia.org/wiki/Content_Disarm_and_Reconstruction"
   }
 ]
