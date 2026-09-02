@@ -2826,5 +2826,12 @@
     "topic": "Reliable Data Transfer",
     "definition": "Reliable Data Transfer is a topic in computer networking concerning the transfer of data across unreliable channels. Unreliability is one of the drawbacks of packet switched networks such as the modern internet, as packet loss can occur for a variety of reasons, and delivery of packets is not guaranteed to happen in the order that the packets were sent. Therefore, in order to create long-term data streams over the internet, techniques have been developed to provide reliability, which are generally implemented in the transport layer of the internet protocol suite.",
     "url": "https://en.wikipedia.org/wiki/Reliable_Data_Transfer"
+  },
+  {
+    "date_added": "2026-09-02",
+    "category": "Cryptography",
+    "topic": "Transparent decryption",
+    "definition": "Transparent decryption is a method of decrypting data which unavoidably produces evidence that the decryption operation has taken place. The idea is to prevent the covert decryption of data. In particular, transparent decryption protocols allow a user Alice to share with Bob the right to access data, in such a way that Bob may decrypt at a time of his choosing, but only while simultaneously leaving evidence for Alice of the fact that decryption occurred. Transparent decryption supports privacy, because this evidence alerts data subjects to the fact that information about them has been decrypted and disincentivises data misuse.",
+    "url": "https://en.wikipedia.org/wiki/Transparent_decryption"
   }
 ]
