@@ -2840,5 +2840,12 @@
     "topic": "Non-interactive zero-knowledge proof",
     "definition": "Non-interactive zero-knowledge proofs are cryptographic primitives, where information between a prover and a verifier can be authenticated by the prover, without revealing any of the specific information beyond the validity of the statement itself. This makes direct communication between the prover and verifier unnecessary, effectively removing any intermediaries.",
     "url": "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof"
+  },
+  {
+    "date_added": "2026-09-03",
+    "category": "Cryptography",
+    "topic": "Chaffing and winnowing",
+    "definition": "Chaffing and winnowing is a cryptographic technique to achieve confidentiality without using encryption when sending data over an insecure channel. The name is derived from agriculture: after grain has been harvested and threshed, it remains mixed together with inedible fibrous chaff. The chaff and grain are then separated by winnowing, and the chaff is discarded. The cryptographic technique was conceived by Ron Rivest and published in an on-line article on 18 March 1998. Although it bears similarities to both traditional encryption and steganography, it cannot be classified under either category.",
+    "url": "https://en.wikipedia.org/wiki/Chaffing_and_winnowing"
   }
 ]
