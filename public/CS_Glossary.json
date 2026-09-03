@@ -2847,5 +2847,12 @@
     "topic": "Chaffing and winnowing",
     "definition": "Chaffing and winnowing is a cryptographic technique to achieve confidentiality without using encryption when sending data over an insecure channel. The name is derived from agriculture: after grain has been harvested and threshed, it remains mixed together with inedible fibrous chaff. The chaff and grain are then separated by winnowing, and the chaff is discarded. The cryptographic technique was conceived by Ron Rivest and published in an on-line article on 18 March 1998. Although it bears similarities to both traditional encryption and steganography, it cannot be classified under either category.",
     "url": "https://en.wikipedia.org/wiki/Chaffing_and_winnowing"
+  },
+  {
+    "date_added": "2026-09-03",
+    "category": "Infrastructure",
+    "topic": "SAP BTP",
+    "definition": "SAP Business Technology Platform is a platform as a service developed by SAP SE that offers a suite of services including database and data management, AI, analytics, application development, automation and integration all running on one unified platform.",
+    "url": "https://en.wikipedia.org/wiki/SAP_BTP"
   }
 ]
