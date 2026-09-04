@@ -2861,5 +2861,12 @@
     "topic": "Random-access memory",
     "definition": "Random-access memory is a form of electronic computer memory that can be read and changed in any order, typically used to store working data and machine code. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory, in contrast with other direct-access data storage media, where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.",
     "url": "https://en.wikipedia.org/wiki/Random-access_memory"
+  },
+  {
+    "date_added": "2026-09-04",
+    "category": "Artificial Intelligence",
+    "topic": "Quantum artificial life",
+    "definition": "Quantum artificial life is the application of quantum algorithms with the ability to simulate biological behavior. Quantum computers offer many potential improvements to processes performed on classical computers, including machine learning and artificial intelligence. Artificial intelligence applications are often inspired by the idea of mimicking human brains through closely related biomimicry. This has been implemented to a certain extent on classical computers, but quantum computers offer many advantages in the simulation of artificial life. Artificial life and artificial intelligence are extremely similar, with minor differences; the goal of studying artificial life is to understand living beings better, while the goal of artificial intelligence is to create intelligent beings.",
+    "url": "https://en.wikipedia.org/wiki/Quantum_artificial_life"
   }
 ]
