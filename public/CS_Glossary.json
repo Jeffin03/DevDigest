@@ -2868,5 +2868,12 @@
     "topic": "Quantum artificial life",
     "definition": "Quantum artificial life is the application of quantum algorithms with the ability to simulate biological behavior. Quantum computers offer many potential improvements to processes performed on classical computers, including machine learning and artificial intelligence. Artificial intelligence applications are often inspired by the idea of mimicking human brains through closely related biomimicry. This has been implemented to a certain extent on classical computers, but quantum computers offer many advantages in the simulation of artificial life. Artificial life and artificial intelligence are extremely similar, with minor differences; the goal of studying artificial life is to understand living beings better, while the goal of artificial intelligence is to create intelligent beings.",
     "url": "https://en.wikipedia.org/wiki/Quantum_artificial_life"
+  },
+  {
+    "date_added": "2026-09-05",
+    "category": "Network Infrastructure",
+    "topic": "PowerEdge VRTX",
+    "definition": "Dell PowerEdge VRTX is a computer hardware product line from Dell. It is a mini-blade chassis with built-in storage system. The VRTX comes in two models: a 19\" rack version that is 5 rack units high or as a stand-alone tower system.",
+    "url": "https://en.wikipedia.org/wiki/PowerEdge_VRTX"
   }
 ]
