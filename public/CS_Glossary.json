@@ -2931,5 +2931,12 @@
     "topic": "Code (cryptography)",
     "definition": "In cryptology, a code is a method used to encrypt a message that operates at the level of meaning; that is, words or phrases are converted into something else. A code might transform \"change\" into \"CVGDK\" or \"cocktail lounge\". The U.S. National Security Agency defined a code as \"A substitution cryptosystem in which the plaintext elements are primarily words, phrases, or sentences, and the code equivalents typically consist of letters or digits in otherwise meaningless combinations of identical length.\" A codebook is needed to encrypt, and decrypt the phrases or words.",
     "url": "https://en.wikipedia.org/wiki/Code_(cryptography)"
+  },
+  {
+    "date_added": "2026-09-09",
+    "category": "Programming Languages",
+    "topic": "J (programming language)",
+    "definition": "The J programming language, developed in the early 1990s by Kenneth E. Iverson and Roger Hui, is an array programming language based primarily on APL.",
+    "url": "https://en.wikipedia.org/wiki/J_(programming_language)"
   }
 ]
