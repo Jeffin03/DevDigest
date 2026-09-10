@@ -2945,5 +2945,12 @@
     "topic": "Way of the Future",
     "definition": "Way of the Future (WOTF) is the first known religious organization dedicated to the worship of artificial intelligence (AI). It was founded in 2017 by American engineer Anthony Levandowski.",
     "url": "https://en.wikipedia.org/wiki/Way_of_the_Future"
+  },
+  {
+    "date_added": "2026-09-10",
+    "category": "Artificial Intelligence",
+    "topic": "Competition in artificial intelligence",
+    "definition": "Competition in artificial intelligence refers to the rivalry among companies, research institutions, and governments to develop and deploy the most capable artificial intelligence (AI) systems. The competition spans multiple domains, including large language models (LLMs), autonomous vehicles, robotics, computer vision systems, natural language processing (NLP), and AI-optimized hardware.",
+    "url": "https://en.wikipedia.org/wiki/Competition_in_artificial_intelligence"
   }
 ]
