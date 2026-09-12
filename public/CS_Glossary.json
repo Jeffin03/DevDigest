@@ -2973,5 +2973,12 @@
     "topic": "Gcore",
     "definition": "Gcore is an edge AI, cloud, network, and security company headquartered in Luxembourg. Founded in 2014, the company provides low-latency services to industries including finance, healthcare, manufacturing, gaming, media and telecommunications internationally. Its global network includes over 210 Points of Presence (PoPs) across six continents.",
     "url": "https://en.wikipedia.org/wiki/Gcore"
+  },
+  {
+    "date_added": "2026-09-12",
+    "category": "Web Development",
+    "topic": "Web template system",
+    "definition": "A web template system in web publishing allows web designers and developers to work with web templates to automatically generate custom web pages, such as the results from a search. This reuses static web page elements while defining dynamic elements based on web request parameters.",
+    "url": "https://en.wikipedia.org/wiki/Web_template_system"
   }
 ]
