@@ -2966,5 +2966,12 @@
     "topic": "Network-In-a-Box",
     "definition": "A Network-In-a-Box (NIB) is the combination of multiple components of a computer network into a single device, which are traditionally separated into multiple devices.",
     "url": "https://en.wikipedia.org/wiki/Network-In-a-Box"
+  },
+  {
+    "date_added": "2026-09-12",
+    "category": "Infrastructure",
+    "topic": "Gcore",
+    "definition": "Gcore is an edge AI, cloud, network, and security company headquartered in Luxembourg. Founded in 2014, the company provides low-latency services to industries including finance, healthcare, manufacturing, gaming, media and telecommunications internationally. Its global network includes over 210 Points of Presence (PoPs) across six continents.",
+    "url": "https://en.wikipedia.org/wiki/Gcore"
   }
 ]
