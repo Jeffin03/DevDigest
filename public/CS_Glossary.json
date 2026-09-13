@@ -2987,5 +2987,12 @@
     "topic": "Automated negotiation",
     "definition": "Automated negotiation is a form of interaction in systems that are composed of multiple autonomous agents, in which the aim is to reach agreements through an iterative process of making offers.",
     "url": "https://en.wikipedia.org/wiki/Automated_negotiation"
+  },
+  {
+    "date_added": "2026-09-13",
+    "category": "Cybersecurity",
+    "topic": "Data classification (data management)",
+    "definition": "Data classification is the process of organizing data into categories based on attributes like file type, content, or metadata. The data is then assigned class labels that describe a set of attributes for the corresponding data sets. The goal is to provide meaningful class attributes to former less structured information, enabling organizations to manage, protect, and govern their data more effectively.",
+    "url": "https://en.wikipedia.org/wiki/Data_classification_(data_management)"
   }
 ]
