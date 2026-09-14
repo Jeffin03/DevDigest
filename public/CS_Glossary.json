@@ -3001,5 +3001,12 @@
     "topic": "Native cloud application",
     "definition": "A native cloud application (NCA) is a type of computer software that natively utilizes services and infrastructure from cloud computing providers such as Amazon EC2, Force.com, or Microsoft Azure. NCAs exhibit a combined usage of the three fundamental technologies:Computational grid - loosely, e.g. MapReduce Data grids Auto-scaling on any managed infrastructure",
     "url": "https://en.wikipedia.org/wiki/Native_cloud_application"
+  },
+  {
+    "date_added": "2026-09-14",
+    "category": "Infrastructure",
+    "topic": "History of cloud computing",
+    "definition": "The concept of the cloud computing as a platform for distributed computing traces its roots back to 1993. At that time, Apple spin-off General Magic and AT&T utilized the term in the context of their Telescript and Personal Link technologies.",
+    "url": "https://en.wikipedia.org/wiki/History_of_cloud_computing"
   }
 ]
