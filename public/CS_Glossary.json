@@ -2994,5 +2994,12 @@
     "topic": "Data classification (data management)",
     "definition": "Data classification is the process of organizing data into categories based on attributes like file type, content, or metadata. The data is then assigned class labels that describe a set of attributes for the corresponding data sets. The goal is to provide meaningful class attributes to former less structured information, enabling organizations to manage, protect, and govern their data more effectively.",
     "url": "https://en.wikipedia.org/wiki/Data_classification_(data_management)"
+  },
+  {
+    "date_added": "2026-09-14",
+    "category": "Infrastructure",
+    "topic": "Native cloud application",
+    "definition": "A native cloud application (NCA) is a type of computer software that natively utilizes services and infrastructure from cloud computing providers such as Amazon EC2, Force.com, or Microsoft Azure. NCAs exhibit a combined usage of the three fundamental technologies:Computational grid - loosely, e.g. MapReduce Data grids Auto-scaling on any managed infrastructure",
+    "url": "https://en.wikipedia.org/wiki/Native_cloud_application"
   }
 ]
