@@ -3022,5 +3022,12 @@
     "topic": "Bright Computing",
     "definition": "Bright Computing, Inc. was a developer of software for deploying and managing high-performance (HPC) clusters, Kubernetes clusters, and OpenStack private clouds in on-premises data centers as well as in the public cloud. In 2022, it was acquired by Nvidia.",
     "url": "https://en.wikipedia.org/wiki/Bright_Computing"
+  },
+  {
+    "date_added": "2026-09-16",
+    "category": "Cryptography",
+    "topic": "Security association",
+    "definition": "A security association (SA) is the establishment of shared security attributes between two network entities to support secure communication. An SA may include attributes such as: cryptographic algorithm and mode; traffic encryption key; and parameters for the network data to be passed over the connection. The framework for establishing security associations is provided by the Internet Security Association and Key Management Protocol (ISAKMP). Protocols such as Internet Key Exchange (IKE) and Kerberized Internet Negotiation of Keys (KINK) provide authenticated keying material.",
+    "url": "https://en.wikipedia.org/wiki/Security_association"
   }
 ]
