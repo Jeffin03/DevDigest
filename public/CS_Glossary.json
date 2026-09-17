@@ -3036,5 +3036,12 @@
     "topic": "Julia (programming language)",
     "definition": "Julia is a dynamic general-purpose programming language. As a high-level language, distinctive aspects of Julia's design include a type system with parametric polymorphism, the use of multiple dispatch as a core programming paradigm, just-in-time compilation and a parallel garbage collection implementation. Notably, Julia does not support classes with encapsulated methods but instead relies on the types of all of a function's arguments to determine which method will be called.",
     "url": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+  },
+  {
+    "date_added": "2026-09-17",
+    "category": "Cryptography",
+    "topic": "PrivateCore",
+    "definition": "PrivateCore is a venture-backed startup located in Palo Alto, California that develops software to secure server data through server attestation and memory encryption. The company's attestation and memory encryption technology fills a gap that exists between “data in motion” encryption and “data at rest” encryption by protecting “data in use”. PrivateCore memory encryption technology protects against threats to servers such as cold boot attacks, hardware advanced persistent threats, rootkits/bootkits, computer hardware supply chain attacks, and physical threats to servers from insiders. PrivateCore was acquired by Facebook on 7 August 2014.",
+    "url": "https://en.wikipedia.org/wiki/PrivateCore"
   }
 ]
