@@ -3050,5 +3050,12 @@
     "topic": "Proxy server",
     "definition": "In computer networking, a proxy server is an intermediary server application between a client requesting a resource and the server then providing that resource.",
     "url": "https://en.wikipedia.org/wiki/Proxy_server"
+  },
+  {
+    "date_added": "2026-09-18",
+    "category": "Hardware",
+    "topic": "Sierpiński graph",
+    "definition": "Sierpiński graphs are a family of graphs defined by two parameters and , denoted . These graphs have applications in topology, Tower of Hanoi problems, and interconnection networks for multiprocessor systems. The graphs are named after Wacław Sierpiński due to their connections with Sierpiński fractals.",
+    "url": "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_graph"
   }
 ]
