@@ -3057,5 +3057,12 @@
     "topic": "Sierpiński graph",
     "definition": "Sierpiński graphs are a family of graphs defined by two parameters and , denoted . These graphs have applications in topology, Tower of Hanoi problems, and interconnection networks for multiprocessor systems. The graphs are named after Wacław Sierpiński due to their connections with Sierpiński fractals.",
     "url": "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_graph"
+  },
+  {
+    "date_added": "2026-09-18",
+    "category": "Cybersecurity",
+    "topic": "Data breach",
+    "definition": "A data breach, also known as data leakage, is \"the unauthorized exposure, disclosure, or loss of personal information\". Attackers have a variety of motives, from financial gain to political activism, political repression, and espionage. There are several technical root causes of data breaches, including accidental or intentional disclosure of information by insiders, loss or theft of unencrypted devices, hacking into a system by exploiting software vulnerabilities, and social engineering attacks such as phishing where insiders are tricked into disclosing information. Although prevention efforts can reduce the risk of a data breach, they cannot eliminate it.",
+    "url": "https://en.wikipedia.org/wiki/Data_breach"
   }
 ]
