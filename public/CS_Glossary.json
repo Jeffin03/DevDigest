@@ -3064,5 +3064,12 @@
     "topic": "Data breach",
     "definition": "A data breach, also known as data leakage, is \"the unauthorized exposure, disclosure, or loss of personal information\". Attackers have a variety of motives, from financial gain to political activism, political repression, and espionage. There are several technical root causes of data breaches, including accidental or intentional disclosure of information by insiders, loss or theft of unencrypted devices, hacking into a system by exploiting software vulnerabilities, and social engineering attacks such as phishing where insiders are tricked into disclosing information. Although prevention efforts can reduce the risk of a data breach, they cannot eliminate it.",
     "url": "https://en.wikipedia.org/wiki/Data_breach"
+  },
+  {
+    "date_added": "2026-09-19",
+    "category": "Cryptography",
+    "topic": "Keyring (cryptography)",
+    "definition": "In cryptography, a keyring stores known encryption keys. For example, GNU Privacy Guard makes use of keyrings.",
+    "url": "https://en.wikipedia.org/wiki/Keyring_(cryptography)"
   }
 ]
