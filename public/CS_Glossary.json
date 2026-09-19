@@ -3071,5 +3071,12 @@
     "topic": "Keyring (cryptography)",
     "definition": "In cryptography, a keyring stores known encryption keys. For example, GNU Privacy Guard makes use of keyrings.",
     "url": "https://en.wikipedia.org/wiki/Keyring_(cryptography)"
+  },
+  {
+    "date_added": "2026-09-19",
+    "category": "Cybersecurity",
+    "topic": "Cyber Threat Intelligence Integration Center",
+    "definition": "The Cyber Threat Intelligence Integration Center (CTIIC) is a United States federal government agency that operates as a fusion center between intelligence agencies and the private sector for real-time use against cyber attacks. CTIIC was created in the wake of the 2014 cyber attack on Sony in combination with the need to establish a cyber integration center following blocked efforts in Congress that were stymied over liability and privacy concerns of citizens. In August 2025, Tulsi Gabbard announced plans to dissolve CTIIC.",
+    "url": "https://en.wikipedia.org/wiki/Cyber_Threat_Intelligence_Integration_Center"
   }
 ]
