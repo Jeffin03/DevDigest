@@ -3085,5 +3085,12 @@
     "topic": "Modified Harvard architecture",
     "definition": "A modified Harvard architecture is a variation of the Harvard computer architecture that, unlike the pure Harvard architecture, allows memory that contains instructions to be accessed as data. Most modern computers that are documented as Harvard architecture are, in fact, modified Harvard architecture.",
     "url": "https://en.wikipedia.org/wiki/Modified_Harvard_architecture"
+  },
+  {
+    "date_added": "2026-09-20",
+    "category": "Artificial Intelligence",
+    "topic": "Case-based reasoning",
+    "definition": "Case-based reasoning (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.",
+    "url": "https://en.wikipedia.org/wiki/Case-based_reasoning"
   }
 ]
