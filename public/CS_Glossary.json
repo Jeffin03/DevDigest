@@ -3078,5 +3078,12 @@
     "topic": "Cyber Threat Intelligence Integration Center",
     "definition": "The Cyber Threat Intelligence Integration Center (CTIIC) is a United States federal government agency that operates as a fusion center between intelligence agencies and the private sector for real-time use against cyber attacks. CTIIC was created in the wake of the 2014 cyber attack on Sony in combination with the need to establish a cyber integration center following blocked efforts in Congress that were stymied over liability and privacy concerns of citizens. In August 2025, Tulsi Gabbard announced plans to dissolve CTIIC.",
     "url": "https://en.wikipedia.org/wiki/Cyber_Threat_Intelligence_Integration_Center"
+  },
+  {
+    "date_added": "2026-09-20",
+    "category": "Hardware",
+    "topic": "Modified Harvard architecture",
+    "definition": "A modified Harvard architecture is a variation of the Harvard computer architecture that, unlike the pure Harvard architecture, allows memory that contains instructions to be accessed as data. Most modern computers that are documented as Harvard architecture are, in fact, modified Harvard architecture.",
+    "url": "https://en.wikipedia.org/wiki/Modified_Harvard_architecture"
   }
 ]
