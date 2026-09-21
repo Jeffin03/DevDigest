@@ -3099,5 +3099,12 @@
     "topic": "Interval union-split-find",
     "definition": "In computer science, an interval union-split-find data structure is a data structure that stores a partition of the integer interval into intervals. Equivalently, it stores a set of elements from (\"splitters\"), which define the endpoints of the intervals; for example, if n=10 and the set of endpoints is then the intervals are and . The data structure provides the following operations:split(x) adds x as a splitter, thus splitting the interval containing it (if x has not already been a splitter) union(x) for merging two intervals by removing the splitter x find(x) for finding which interval x belongs to (returning the interval's endpoint).",
     "url": "https://en.wikipedia.org/wiki/Interval_union-split-find"
+  },
+  {
+    "date_added": "2026-09-21",
+    "category": "Artificial Intelligence",
+    "topic": "CrewAI",
+    "definition": "CrewAI is an open-source software framework and platform for building AI agents and multi-agent systems. Written primarily in Python, it is used to define artificial-intelligence agents, assign tasks to them, and coordinate their work through agent teams and workflows. The framework is associated with CrewAI Inc., a startup developing enterprise tools for automating business workflows with large language model-based agents.",
+    "url": "https://en.wikipedia.org/wiki/CrewAI"
   }
 ]
