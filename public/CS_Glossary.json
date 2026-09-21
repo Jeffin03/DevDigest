@@ -3092,5 +3092,12 @@
     "topic": "Case-based reasoning",
     "definition": "Case-based reasoning (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.",
     "url": "https://en.wikipedia.org/wiki/Case-based_reasoning"
+  },
+  {
+    "date_added": "2026-09-21",
+    "category": "Data Structures",
+    "topic": "Interval union-split-find",
+    "definition": "In computer science, an interval union-split-find data structure is a data structure that stores a partition of the integer interval into intervals. Equivalently, it stores a set of elements from (\"splitters\"), which define the endpoints of the intervals; for example, if n=10 and the set of endpoints is then the intervals are and . The data structure provides the following operations:split(x) adds x as a splitter, thus splitting the interval containing it (if x has not already been a splitter) union(x) for merging two intervals by removing the splitter x find(x) for finding which interval x belongs to (returning the interval's endpoint).",
+    "url": "https://en.wikipedia.org/wiki/Interval_union-split-find"
   }
 ]
