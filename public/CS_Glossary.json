@@ -3113,5 +3113,12 @@
     "topic": "Sensor node",
     "definition": "A sensor node, consists of an individual node from a sensor network that is capable of performing a desired action such as gathering, processing or communicating information with other connected nodes in a network.",
     "url": "https://en.wikipedia.org/wiki/Sensor_node"
+  },
+  {
+    "date_added": "2026-09-22",
+    "category": "Cybersecurity",
+    "topic": "Shell Control Box",
+    "definition": "Shell Control Box (SCB) is a network security appliance that controls privileged access to remote IT systems, records activities in replayable audit trails, and prevents malicious actions. For example, it records as a system administrator updates a file server or a third-party network operator configures a router. The recorded audit trails can be replayed like a movie to review the events as they occurred. The content of the audit trails is indexed to make searching for events and automatic reporting possible.",
+    "url": "https://en.wikipedia.org/wiki/Shell_Control_Box"
   }
 ]
