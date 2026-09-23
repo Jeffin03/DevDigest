@@ -3120,5 +3120,12 @@
     "topic": "Shell Control Box",
     "definition": "Shell Control Box (SCB) is a network security appliance that controls privileged access to remote IT systems, records activities in replayable audit trails, and prevents malicious actions. For example, it records as a system administrator updates a file server or a third-party network operator configures a router. The recorded audit trails can be replayed like a movie to review the events as they occurred. The content of the audit trails is indexed to make searching for events and automatic reporting possible.",
     "url": "https://en.wikipedia.org/wiki/Shell_Control_Box"
+  },
+  {
+    "date_added": "2026-09-23",
+    "category": "Programming Languages",
+    "topic": "XPL",
+    "definition": "XPL, for expert's programming language is a programming language based on PL/I, a portable one-pass compiler written in its own language, and a parser generator tool for easily implementing similar compilers for other languages. XPL was designed in 1967 as a way to teach compiler design principles and as starting point for students to build compilers for their own languages.",
+    "url": "https://en.wikipedia.org/wiki/XPL"
   }
 ]
