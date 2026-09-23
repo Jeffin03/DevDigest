@@ -3127,5 +3127,12 @@
     "topic": "XPL",
     "definition": "XPL, for expert's programming language is a programming language based on PL/I, a portable one-pass compiler written in its own language, and a parser generator tool for easily implementing similar compilers for other languages. XPL was designed in 1967 as a way to teach compiler design principles and as starting point for students to build compilers for their own languages.",
     "url": "https://en.wikipedia.org/wiki/XPL"
+  },
+  {
+    "date_added": "2026-09-23",
+    "category": "Data Structures",
+    "topic": "Retroactive data structure",
+    "definition": "In computer science a retroactive data structure is a data structure which supports efficient modifications to a sequence of operations that have been performed on the structure. These modifications can take the form of retroactive insertion, deletion or updating an operation that was performed at some time in the past.",
+    "url": "https://en.wikipedia.org/wiki/Retroactive_data_structure"
   }
 ]
