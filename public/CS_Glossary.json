@@ -3141,5 +3141,12 @@
     "topic": "Pedagogical agent",
     "definition": "A pedagogical agent is a concept borrowed from computer science and artificial intelligence and applied to education, usually as part of an intelligent tutoring system (ITS). It is a simulated human-like interface between the learner and the content, in an educational environment. A pedagogical agent is designed to model the type of interactions between a student and another person. Mabanza and de Wet define it as \"a character enacted by a computer that interacts with the user in a socially engaging manner\". A pedagogical agent can be assigned different roles in the learning environment, such as tutor or co-learner, depending on the desired purpose of the agent. \"A tutor agent plays the role of a teacher, while a co-learner agent plays the role of a learning companion\".",
     "url": "https://en.wikipedia.org/wiki/Pedagogical_agent"
+  },
+  {
+    "date_added": "2026-09-24",
+    "category": "Hardware",
+    "topic": "Open architecture",
+    "definition": "Open architecture is a type of computer architecture or software architecture intended to make adding, upgrading, and swapping components with other computers easy. For example, the IBM PC, Amiga 2000 and Apple IIe have an open architecture supporting plug-in cards, whereas the Apple IIc computer has a closed architecture. Open architecture systems may use a standardized system bus such as S-100, PCI or ISA or they may incorporate a proprietary bus standard such as that used on the Apple II, with up to a dozen slots that allow multiple hardware manufacturers to produce add-ons, and for the user to freely install them. By contrast, closed architectures, if they are expandable at all, have one or two \"expansion ports\" using a proprietary connector design that may require a license fee from the manufacturer, or enhancements may only be installable by technicians with specialized tools or training.",
+    "url": "https://en.wikipedia.org/wiki/Open_architecture"
   }
 ]
