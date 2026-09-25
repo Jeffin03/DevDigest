@@ -3155,5 +3155,12 @@
     "topic": "OOHDM",
     "definition": "OOHDM is a method for the development of Web applications. It was one of the first methods to postulate the separation of concerns that defines its various models – requirements, conceptual, navigation, abstract interface and implementation. OOHDM, and its successor, SHDM are supported by an open source, freely available environment, HyperDE.",
     "url": "https://en.wikipedia.org/wiki/OOHDM"
+  },
+  {
+    "date_added": "2026-09-25",
+    "category": "Hardware",
+    "topic": "Duncan's taxonomy",
+    "definition": "Duncan's taxonomy is a classification of computer architectures, proposed by Ralph Duncan in 1990. Duncan suggested modifications to Flynn's taxonomy to include pipelined vector processes.",
+    "url": "https://en.wikipedia.org/wiki/Duncan's_taxonomy"
   }
 ]
