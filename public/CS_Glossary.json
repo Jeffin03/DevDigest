@@ -3169,5 +3169,12 @@
     "topic": "Never Gonna Stop (Rick Astley song)",
     "definition": "\"Never Gonna Stop\" is a song written and performed by English singer-songwriter Rick Astley. It was released as the second single from his ninth studio album, Are We There Yet?, on 22 August 2023. The track peaked at number 49 on the UK Official Single Sales Chart in October 2023. In an interview Astley said that the song was inspired by an article he had read about artificial intelligence.The world is now full of daunting technology and that we need to remain human through it all! Maybe [we could] use some of that technology for good and move forward, we've still got to be human about it, so there you go!",
     "url": "https://en.wikipedia.org/wiki/Never_Gonna_Stop_(Rick_Astley_song)"
+  },
+  {
+    "date_added": "2026-09-26",
+    "category": "Infrastructure",
+    "topic": "Online OS",
+    "definition": "The Online Operating System was a fully multi-lingual and free to use web desktop written in JavaScript using Ajax. It was a Windows-based desktop environment with open-source applications and system utilities developed upon the reBOX web application framework by iCUBE Network Solutions, an Austrian company located in Vienna.",
+    "url": "https://en.wikipedia.org/wiki/Online_OS"
   }
 ]
