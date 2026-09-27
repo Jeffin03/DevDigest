@@ -3183,5 +3183,12 @@
     "topic": "Persistent data structure",
     "definition": "In computing, a persistent data structure or not ephemeral data structure is a data structure that always preserves the previous version of itself when it is modified. Such data structures are effectively immutable, as their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure. The term was introduced in Driscoll, Sarnak, Sleator, and Tarjan's 1986 article.",
     "url": "https://en.wikipedia.org/wiki/Persistent_data_structure"
+  },
+  {
+    "date_added": "2026-09-27",
+    "category": "Cryptography",
+    "topic": "Alice and Bob",
+    "definition": "Alice and Bob are fictional characters commonly used as placeholders in discussions about cryptographic systems and protocols, and in other science and engineering literature where there are several participants in a thought experiment. The Alice and Bob characters were created by Ron Rivest, Adi Shamir, and Leonard Adleman in their 1978 paper \"A Method for Obtaining Digital Signatures and Public-key Cryptosystems\". Subsequently, they have become common archetypes in many scientific and engineering fields, such as quantum cryptography, game theory and physics. As the use of Alice and Bob became more widespread, additional characters were added, sometimes with particular meanings. These characters do not have to refer to people; they refer to generic agents which might be different computers or even different programs running on a single computer.",
+    "url": "https://en.wikipedia.org/wiki/Alice_and_Bob"
   }
 ]
