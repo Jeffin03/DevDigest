@@ -3176,5 +3176,12 @@
     "topic": "Online OS",
     "definition": "The Online Operating System was a fully multi-lingual and free to use web desktop written in JavaScript using Ajax. It was a Windows-based desktop environment with open-source applications and system utilities developed upon the reBOX web application framework by iCUBE Network Solutions, an Austrian company located in Vienna.",
     "url": "https://en.wikipedia.org/wiki/Online_OS"
+  },
+  {
+    "date_added": "2026-09-27",
+    "category": "Data Structures",
+    "topic": "Persistent data structure",
+    "definition": "In computing, a persistent data structure or not ephemeral data structure is a data structure that always preserves the previous version of itself when it is modified. Such data structures are effectively immutable, as their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure. The term was introduced in Driscoll, Sarnak, Sleator, and Tarjan's 1986 article.",
+    "url": "https://en.wikipedia.org/wiki/Persistent_data_structure"
   }
 ]
