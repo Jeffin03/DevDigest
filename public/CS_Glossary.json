@@ -3197,5 +3197,12 @@
     "topic": "Matt Mullenweg",
     "definition": "Matthew Charles Mullenweg is an American web developer and entrepreneur. He is known as a co-founder of the free and open-source web publishing software WordPress, and the founder of Automattic.",
     "url": "https://en.wikipedia.org/wiki/Matt_Mullenweg"
+  },
+  {
+    "date_added": "2026-09-29",
+    "category": "Hardware",
+    "topic": "Computational RAM",
+    "definition": "Computational RAM (C-RAM) is random-access memory with processing elements integrated on the same chip. This enables C-RAM to be used as a SIMD computer. It also can be used to more efficiently use memory bandwidth within a memory chip. The general technique of doing computations in memory is called processing-in-memory (PIM).",
+    "url": "https://en.wikipedia.org/wiki/Computational_RAM"
   }
 ]
