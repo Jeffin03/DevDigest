@@ -3204,5 +3204,12 @@
     "topic": "Computational RAM",
     "definition": "Computational RAM (C-RAM) is random-access memory with processing elements integrated on the same chip. This enables C-RAM to be used as a SIMD computer. It also can be used to more efficiently use memory bandwidth within a memory chip. The general technique of doing computations in memory is called processing-in-memory (PIM).",
     "url": "https://en.wikipedia.org/wiki/Computational_RAM"
+  },
+  {
+    "date_added": "2026-09-29",
+    "category": "Software Engineering",
+    "topic": "Process map",
+    "definition": "Process map is a global-system process model that is used to outline the processes that make up the business system and how they interact with each other. Process map shows the processes as objects, which means it is a static and non-algorithmic view of the processes. It should be differentiated from a detailed process model, which shows a dynamic and algorithmic view of the processes, usually known as a process flow diagram. There are different notation standards that can be used for modelling process maps, but the most notable ones are TOGAF Event Diagram, Eriksson-Penker notation, and ARIS Value Added Chain.",
+    "url": "https://en.wikipedia.org/wiki/Process_map"
   }
 ]
