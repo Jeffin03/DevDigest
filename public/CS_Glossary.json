@@ -3211,5 +3211,12 @@
     "topic": "Process map",
     "definition": "Process map is a global-system process model that is used to outline the processes that make up the business system and how they interact with each other. Process map shows the processes as objects, which means it is a static and non-algorithmic view of the processes. It should be differentiated from a detailed process model, which shows a dynamic and algorithmic view of the processes, usually known as a process flow diagram. There are different notation standards that can be used for modelling process maps, but the most notable ones are TOGAF Event Diagram, Eriksson-Penker notation, and ARIS Value Added Chain.",
     "url": "https://en.wikipedia.org/wiki/Process_map"
+  },
+  {
+    "date_added": "2026-09-30",
+    "category": "Programming Languages",
+    "topic": "BLISS",
+    "definition": "BLISS is a system programming language developed at Carnegie Mellon University (CMU) by W. A. Wulf, D. B. Russell, and A. N. Habermann around 1970. It was perhaps the best known system language until C debuted a few years later, after which C became common and BLISS faded into obscurity.",
+    "url": "https://en.wikipedia.org/wiki/BLISS"
   }
 ]
