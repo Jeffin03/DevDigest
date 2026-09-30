@@ -3218,5 +3218,12 @@
     "topic": "BLISS",
     "definition": "BLISS is a system programming language developed at Carnegie Mellon University (CMU) by W. A. Wulf, D. B. Russell, and A. N. Habermann around 1970. It was perhaps the best known system language until C debuted a few years later, after which C became common and BLISS faded into obscurity.",
     "url": "https://en.wikipedia.org/wiki/BLISS"
+  },
+  {
+    "date_added": "2026-09-30",
+    "category": "Cybersecurity",
+    "topic": "Seccomp",
+    "definition": "seccomp is a computer security facility in the Linux kernel. seccomp allows a process to make a one-way transition into a \"secure\" state where it cannot make any system calls except exit , sigreturn , read and write to already-open file descriptors. Should it attempt any other system calls, the kernel will either just log the event or terminate the process with SIGKILL or SIGSYS. In this sense, it does not virtualize the system's resources but isolates the process from them entirely.",
+    "url": "https://en.wikipedia.org/wiki/Seccomp"
   }
 ]
