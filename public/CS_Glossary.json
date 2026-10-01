@@ -3225,5 +3225,12 @@
     "topic": "Seccomp",
     "definition": "seccomp is a computer security facility in the Linux kernel. seccomp allows a process to make a one-way transition into a \"secure\" state where it cannot make any system calls except exit , sigreturn , read and write to already-open file descriptors. Should it attempt any other system calls, the kernel will either just log the event or terminate the process with SIGKILL or SIGSYS. In this sense, it does not virtualize the system's resources but isolates the process from them entirely.",
     "url": "https://en.wikipedia.org/wiki/Seccomp"
+  },
+  {
+    "date_added": "2026-10-01",
+    "category": "Hardware",
+    "topic": "Addressing mode",
+    "definition": "Addressing modes are an aspect of the instruction set architecture in most central processing unit (CPU) designs. Addressing modes define how the machine language instructions in that architecture identify the operand(s) of each instruction. An addressing mode specifies how to calculate the effective memory address of an operand by using information held in registers and/or constants contained within a machine instruction or elsewhere.",
+    "url": "https://en.wikipedia.org/wiki/Addressing_mode"
   }
 ]
