@@ -3232,5 +3232,12 @@
     "topic": "Addressing mode",
     "definition": "Addressing modes are an aspect of the instruction set architecture in most central processing unit (CPU) designs. Addressing modes define how the machine language instructions in that architecture identify the operand(s) of each instruction. An addressing mode specifies how to calculate the effective memory address of an operand by using information held in registers and/or constants contained within a machine instruction or elsewhere.",
     "url": "https://en.wikipedia.org/wiki/Addressing_mode"
+  },
+  {
+    "date_added": "2026-10-01",
+    "category": "Cryptography",
+    "topic": "Multiple encryption",
+    "definition": "Multiple encryption is the process of encrypting an already encrypted message one or more times, either using the same or a different algorithm. It is also known as cascade encryption, cascade ciphering, cipher stacking, multiple encryption, and superencipherment. Superencryption refers to the outer-level encryption of a multiple encryption.",
+    "url": "https://en.wikipedia.org/wiki/Multiple_encryption"
   }
 ]
