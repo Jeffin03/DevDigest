@@ -3246,5 +3246,12 @@
     "topic": "Database encryption",
     "definition": "Database encryption can generally be defined as a process that uses an algorithm to transform data stored in a database into \"cipher text\" that is incomprehensible without first being decrypted. It can therefore be said that the purpose of database encryption is to protect the data stored in a database from being accessed by individuals with potentially \"malicious\" intentions. The act of encrypting a database also reduces the incentive for individuals to hack the aforementioned database as \"meaningless\" encrypted data adds extra steps for hackers to retrieve the data. There are multiple techniques and technologies available for database encryption, the most important of which will be detailed in this article.",
     "url": "https://en.wikipedia.org/wiki/Database_encryption"
+  },
+  {
+    "date_added": "2026-10-02",
+    "category": "Artificial Intelligence",
+    "topic": "Epistemic modal logic",
+    "definition": "Epistemic modal logic is a subfield of modal logic that is concerned with reasoning about knowledge. While epistemology has a long philosophical tradition dating back to Ancient Greece, epistemic logic is a much more recent development with applications in many fields, including philosophy, theoretical computer science, artificial intelligence, economics, and linguistics. While philosophers since Aristotle have discussed modal logic, and Medieval philosophers such as Avicenna, Ockham, and Duns Scotus developed many of their observations, it was C. I. Lewis who created the first symbolic and systematic approach to the topic, in 1912. It continued to mature as a field, reaching its modern form in 1963 with the work of Saul Kripke.",
+    "url": "https://en.wikipedia.org/wiki/Epistemic_modal_logic"
   }
 ]
