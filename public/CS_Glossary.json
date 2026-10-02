@@ -3239,5 +3239,12 @@
     "topic": "Multiple encryption",
     "definition": "Multiple encryption is the process of encrypting an already encrypted message one or more times, either using the same or a different algorithm. It is also known as cascade encryption, cascade ciphering, cipher stacking, multiple encryption, and superencipherment. Superencryption refers to the outer-level encryption of a multiple encryption.",
     "url": "https://en.wikipedia.org/wiki/Multiple_encryption"
+  },
+  {
+    "date_added": "2026-10-02",
+    "category": "Cryptography",
+    "topic": "Database encryption",
+    "definition": "Database encryption can generally be defined as a process that uses an algorithm to transform data stored in a database into \"cipher text\" that is incomprehensible without first being decrypted. It can therefore be said that the purpose of database encryption is to protect the data stored in a database from being accessed by individuals with potentially \"malicious\" intentions. The act of encrypting a database also reduces the incentive for individuals to hack the aforementioned database as \"meaningless\" encrypted data adds extra steps for hackers to retrieve the data. There are multiple techniques and technologies available for database encryption, the most important of which will be detailed in this article.",
+    "url": "https://en.wikipedia.org/wiki/Database_encryption"
   }
 ]
