@@ -3267,5 +3267,12 @@
     "topic": "Wholesale Applications Community",
     "definition": "The Wholesale Applications Community (WAC) was an organisation that was set up to create a unified and open platform to allow mobile software developers to more easily write applications usable on a variety of devices, operating systems and networks. At least 48 companies were members of the organization.",
     "url": "https://en.wikipedia.org/wiki/Wholesale_Applications_Community"
+  },
+  {
+    "date_added": "2026-10-03",
+    "category": "Infrastructure",
+    "topic": "Cloud load balancing",
+    "definition": "Cloud load balancing is a type of load balancing that is performed in cloud computing. Cloud load balancing is the process of distributing workloads across multiple computing resources. Cloud load balancing reduces costs associated with document management systems and maximizes availability of resources. It is a type of load balancing and not to be confused with Domain Name System (DNS) load balancing. While DNS load balancing uses software or hardware to perform the function, cloud load balancing uses services offered by various computer network companies.",
+    "url": "https://en.wikipedia.org/wiki/Cloud_load_balancing"
   }
 ]
