@@ -3260,5 +3260,12 @@
     "topic": "LiveCode",
     "definition": "LiveCode is a cross-platform rapid application development runtime system inspired by HyperCard. It features the LiveCode Script programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk.",
     "url": "https://en.wikipedia.org/wiki/LiveCode"
+  },
+  {
+    "date_added": "2026-10-03",
+    "category": "Web Development",
+    "topic": "Wholesale Applications Community",
+    "definition": "The Wholesale Applications Community (WAC) was an organisation that was set up to create a unified and open platform to allow mobile software developers to more easily write applications usable on a variety of devices, operating systems and networks. At least 48 companies were members of the organization.",
+    "url": "https://en.wikipedia.org/wiki/Wholesale_Applications_Community"
   }
 ]
