@@ -3274,5 +3274,12 @@
     "topic": "Cloud load balancing",
     "definition": "Cloud load balancing is a type of load balancing that is performed in cloud computing. Cloud load balancing is the process of distributing workloads across multiple computing resources. Cloud load balancing reduces costs associated with document management systems and maximizes availability of resources. It is a type of load balancing and not to be confused with Domain Name System (DNS) load balancing. While DNS load balancing uses software or hardware to perform the function, cloud load balancing uses services offered by various computer network companies.",
     "url": "https://en.wikipedia.org/wiki/Cloud_load_balancing"
+  },
+  {
+    "date_added": "2026-10-04",
+    "category": "Network Infrastructure",
+    "topic": "Virtual Switching System",
+    "definition": "Virtual Switching System (VSS) is a Cisco proprietary network virtualisation technology that aggregates two physical Ethernet switches into a single logical switch for enhanced redundancy, scalability, and simplified management in enterprise and data centre environments. Introduced in 2008, VSS primarily supports Cisco Catalyst 4500, 6500, and 6800 series switches, allowing them to operate as one virtual entity with a shared control plane, data plane, and management interface. This technology reduces protocol overhead, eliminates spanning tree loops, and provides sub-second failover, making it suitable for high-availability Layer 2 and Layer 3 networks.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_Switching_System"
   }
 ]
