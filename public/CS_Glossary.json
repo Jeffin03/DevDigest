@@ -3281,5 +3281,12 @@
     "topic": "Virtual Switching System",
     "definition": "Virtual Switching System (VSS) is a Cisco proprietary network virtualisation technology that aggregates two physical Ethernet switches into a single logical switch for enhanced redundancy, scalability, and simplified management in enterprise and data centre environments. Introduced in 2008, VSS primarily supports Cisco Catalyst 4500, 6500, and 6800 series switches, allowing them to operate as one virtual entity with a shared control plane, data plane, and management interface. This technology reduces protocol overhead, eliminates spanning tree loops, and provides sub-second failover, making it suitable for high-availability Layer 2 and Layer 3 networks.",
     "url": "https://en.wikipedia.org/wiki/Virtual_Switching_System"
+  },
+  {
+    "date_added": "2026-10-04",
+    "category": "Artificial Intelligence",
+    "topic": "Biohybrid system",
+    "definition": "Biohybrid systems refer to the integration of biological materials, such as cells or tissues, with artificial components, including electronics or mechanical structure. This combination incorporates the capabilities of living organisms with the precision of man-made technology. As a result, these systems perform tasks that neither biology nor machines could achieve independently.",
+    "url": "https://en.wikipedia.org/wiki/Biohybrid_system"
   }
 ]
