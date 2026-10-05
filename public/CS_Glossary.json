@@ -3288,5 +3288,12 @@
     "topic": "Biohybrid system",
     "definition": "Biohybrid systems refer to the integration of biological materials, such as cells or tissues, with artificial components, including electronics or mechanical structure. This combination incorporates the capabilities of living organisms with the precision of man-made technology. As a result, these systems perform tasks that neither biology nor machines could achieve independently.",
     "url": "https://en.wikipedia.org/wiki/Biohybrid_system"
+  },
+  {
+    "date_added": "2026-10-05",
+    "category": "Software Engineering",
+    "topic": "Software diagnosis",
+    "definition": "Software diagnosis refers to concepts, techniques, and tools that allow for obtaining findings, conclusions, and evaluations about software systems and their implementation, composition, behaviour, and evolution. It serves as means to monitor, steer, observe and optimize software development, software maintenance, and software re-engineering in the sense of a business intelligence approach specific to software systems. It is generally based on the automatic extraction, analysis, and visualization of corresponding information sources of the software system. It can also be manually done and not automatic.",
+    "url": "https://en.wikipedia.org/wiki/Software_diagnosis"
   }
 ]
