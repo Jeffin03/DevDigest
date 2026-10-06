@@ -3295,5 +3295,12 @@
     "topic": "Software diagnosis",
     "definition": "Software diagnosis refers to concepts, techniques, and tools that allow for obtaining findings, conclusions, and evaluations about software systems and their implementation, composition, behaviour, and evolution. It serves as means to monitor, steer, observe and optimize software development, software maintenance, and software re-engineering in the sense of a business intelligence approach specific to software systems. It is generally based on the automatic extraction, analysis, and visualization of corresponding information sources of the software system. It can also be manually done and not automatic.",
     "url": "https://en.wikipedia.org/wiki/Software_diagnosis"
+  },
+  {
+    "date_added": "2026-10-06",
+    "category": "Infrastructure",
+    "topic": "Apache Drill",
+    "definition": "Apache Drill is an open-source software framework that supports data-intensive distributed applications for interactive analysis of large-scale datasets. Built chiefly by contributions from developers from MapR, Drill is inspired by Google's Dremel system. Drill is an Apache top-level project.",
+    "url": "https://en.wikipedia.org/wiki/Apache_Drill"
   }
 ]
