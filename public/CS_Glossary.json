@@ -3302,5 +3302,12 @@
     "topic": "Apache Drill",
     "definition": "Apache Drill is an open-source software framework that supports data-intensive distributed applications for interactive analysis of large-scale datasets. Built chiefly by contributions from developers from MapR, Drill is inspired by Google's Dremel system. Drill is an Apache top-level project.",
     "url": "https://en.wikipedia.org/wiki/Apache_Drill"
+  },
+  {
+    "date_added": "2026-10-06",
+    "category": "Web Development",
+    "topic": "HTTP compression",
+    "definition": "HTTP compression is a capability that can be built into web servers and web clients to improve transfer speed and bandwidth utilization.",
+    "url": "https://en.wikipedia.org/wiki/HTTP_compression"
   }
 ]
