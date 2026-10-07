@@ -3309,5 +3309,12 @@
     "topic": "HTTP compression",
     "definition": "HTTP compression is a capability that can be built into web servers and web clients to improve transfer speed and bandwidth utilization.",
     "url": "https://en.wikipedia.org/wiki/HTTP_compression"
+  },
+  {
+    "date_added": "2026-10-07",
+    "category": "Artificial Intelligence",
+    "topic": "Grammar systems theory",
+    "definition": "Grammar systems theory is a field of theoretical computer science that studies systems of finite collections of formal grammars generating a formal language. Each grammar works on a string, a so-called sequential form that represents an environment. Grammar systems can thus be used as a formalization of decentralized or distributed systems of agents in artificial intelligence.",
+    "url": "https://en.wikipedia.org/wiki/Grammar_systems_theory"
   }
 ]
