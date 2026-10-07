@@ -3316,5 +3316,12 @@
     "topic": "Grammar systems theory",
     "definition": "Grammar systems theory is a field of theoretical computer science that studies systems of finite collections of formal grammars generating a formal language. Each grammar works on a string, a so-called sequential form that represents an environment. Grammar systems can thus be used as a formalization of decentralized or distributed systems of agents in artificial intelligence.",
     "url": "https://en.wikipedia.org/wiki/Grammar_systems_theory"
+  },
+  {
+    "date_added": "2026-10-07",
+    "category": "Hardware",
+    "topic": "Scalability",
+    "definition": "Scalability is the property of a system to handle a growing amount of work. One definition for software systems specifies that this may be done by adding resources to the system.",
+    "url": "https://en.wikipedia.org/wiki/Scalability"
   }
 ]
