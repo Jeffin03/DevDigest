@@ -3323,5 +3323,12 @@
     "topic": "Scalability",
     "definition": "Scalability is the property of a system to handle a growing amount of work. One definition for software systems specifies that this may be done by adding resources to the system.",
     "url": "https://en.wikipedia.org/wiki/Scalability"
+  },
+  {
+    "date_added": "2026-10-08",
+    "category": "Cybersecurity",
+    "topic": "Deception technology",
+    "definition": "Deception technology is a category of cyber security defense mechanisms that provide early warning of potential cyber security attacks and alert organizations of unauthorized activity. Deception technology products can detect, analyze, and defend against zero-day and advanced attacks, often in real time. They are automated, accurate, and provide insight into malicious activity within internal networks which may be unseen by other types of cyber defense. Deception technology seeks to deceive an attacker, detect them, and then defeat them.",
+    "url": "https://en.wikipedia.org/wiki/Deception_technology"
   }
 ]
