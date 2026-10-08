@@ -3330,5 +3330,12 @@
     "topic": "Deception technology",
     "definition": "Deception technology is a category of cyber security defense mechanisms that provide early warning of potential cyber security attacks and alert organizations of unauthorized activity. Deception technology products can detect, analyze, and defend against zero-day and advanced attacks, often in real time. They are automated, accurate, and provide insight into malicious activity within internal networks which may be unseen by other types of cyber defense. Deception technology seeks to deceive an attacker, detect them, and then defeat them.",
     "url": "https://en.wikipedia.org/wiki/Deception_technology"
+  },
+  {
+    "date_added": "2026-10-08",
+    "category": "Infrastructure",
+    "topic": "Cloud-Based Secure File Transfer",
+    "definition": "Cloud-Based Secure File Transfer is a managed or hosted file transfer service that provides cloud storage that can be accessed via SSH File Transfer Protocol (SFTP). These services allow secure, reliable file transfers while offering the scalability, redundancy, and high availability of cloud infrastructure.",
+    "url": "https://en.wikipedia.org/wiki/Cloud-Based_Secure_File_Transfer"
   }
 ]
