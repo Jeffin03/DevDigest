@@ -3337,5 +3337,12 @@
     "topic": "Cloud-Based Secure File Transfer",
     "definition": "Cloud-Based Secure File Transfer is a managed or hosted file transfer service that provides cloud storage that can be accessed via SSH File Transfer Protocol (SFTP). These services allow secure, reliable file transfers while offering the scalability, redundancy, and high availability of cloud infrastructure.",
     "url": "https://en.wikipedia.org/wiki/Cloud-Based_Secure_File_Transfer"
+  },
+  {
+    "date_added": "2026-10-09",
+    "category": "Software Engineering",
+    "topic": "Platform engineering",
+    "definition": "Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP can be utilized by software development teams, enabling them to innovate.",
+    "url": "https://en.wikipedia.org/wiki/Platform_engineering"
   }
 ]
