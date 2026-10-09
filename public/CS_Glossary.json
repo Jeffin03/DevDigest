@@ -3344,5 +3344,12 @@
     "topic": "Platform engineering",
     "definition": "Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP can be utilized by software development teams, enabling them to innovate.",
     "url": "https://en.wikipedia.org/wiki/Platform_engineering"
+  },
+  {
+    "date_added": "2026-10-09",
+    "category": "Artificial Intelligence",
+    "topic": "Forethought Technologies",
+    "definition": "Forethought Technologies, also known as Forethought, is an American artificial intelligence company headquartered in San Francisco, California. The company develops software to automate customer service operations.",
+    "url": "https://en.wikipedia.org/wiki/Forethought_Technologies"
   }
 ]
