@@ -3365,5 +3365,12 @@
     "topic": "Web syndication",
     "definition": "Web syndication is making content available from one website to other sites. Most commonly, websites are made available to provide either summaries or full renditions of a website's recently added content. The term may also describe other kinds of content licensing for reuse.",
     "url": "https://en.wikipedia.org/wiki/Web_syndication"
+  },
+  {
+    "date_added": "2026-10-10",
+    "category": "Network Infrastructure",
+    "topic": "Promiscuous traffic",
+    "definition": "In computer networking, promiscuous traffic, or cross-talking, describes situations where a receiver configured to receive a particular data stream receives that data stream and others.",
+    "url": "https://en.wikipedia.org/wiki/Promiscuous_traffic"
   }
 ]
