@@ -3372,5 +3372,12 @@
     "topic": "Promiscuous traffic",
     "definition": "In computer networking, promiscuous traffic, or cross-talking, describes situations where a receiver configured to receive a particular data stream receives that data stream and others.",
     "url": "https://en.wikipedia.org/wiki/Promiscuous_traffic"
+  },
+  {
+    "date_added": "2026-10-11",
+    "category": "Software Engineering",
+    "topic": "Self-healing test automation",
+    "definition": "Self-healing test automation is a technique in software testing in which automated test scripts automatically detect, diagnose, and repair failures caused by changes in the application under test — without requiring manual intervention from a software engineer or QA professional. The approach relies on artificial intelligence (AI) and machine learning (ML) methods to identify new or changed user interface elements at runtime and update broken locators accordingly, maintaining test suite stability in the face of continuous software changes.",
+    "url": "https://en.wikipedia.org/wiki/Self-healing_test_automation"
   }
 ]
