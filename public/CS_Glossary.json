@@ -3386,5 +3386,12 @@
     "topic": "Frenetic (programming language)",
     "definition": "Frenetic is a domain-specific language for programming software-defined networking (SDN). This domain-specific programming language allows network operators, rather than manually configuring each connected network device, to program the network as a whole. Frenetic is designed to solve major OpenFlow/NOX programming problems. In particular, Frenetic introduces a set of purely functional abstractions that enable modular program development, defines high-level, programmer-centric packet-processing operators, and eliminates many of the difficulties of the two-tier programming model by introducing a see-every-packet programming paradigm. Hence Frenetic is a functional reactive programming language operating at a packet level of abstraction.",
     "url": "https://en.wikipedia.org/wiki/Frenetic_(programming_language)"
+  },
+  {
+    "date_added": "2026-10-12",
+    "category": "Artificial Intelligence",
+    "topic": "Cognitive computing",
+    "definition": "Cognitive computing refers to technology platforms that, broadly speaking, are based on the scientific disciplines of artificial intelligence and signal processing. These platforms encompass machine learning, reasoning, natural language processing, speech recognition and vision, human–computer interaction, dialog and narrative generation, among other technologies.",
+    "url": "https://en.wikipedia.org/wiki/Cognitive_computing"
   }
 ]
