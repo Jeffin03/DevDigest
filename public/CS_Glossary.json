@@ -3379,5 +3379,12 @@
     "topic": "Self-healing test automation",
     "definition": "Self-healing test automation is a technique in software testing in which automated test scripts automatically detect, diagnose, and repair failures caused by changes in the application under test — without requiring manual intervention from a software engineer or QA professional. The approach relies on artificial intelligence (AI) and machine learning (ML) methods to identify new or changed user interface elements at runtime and update broken locators accordingly, maintaining test suite stability in the face of continuous software changes.",
     "url": "https://en.wikipedia.org/wiki/Self-healing_test_automation"
+  },
+  {
+    "date_added": "2026-10-12",
+    "category": "Network Infrastructure",
+    "topic": "Frenetic (programming language)",
+    "definition": "Frenetic is a domain-specific language for programming software-defined networking (SDN). This domain-specific programming language allows network operators, rather than manually configuring each connected network device, to program the network as a whole. Frenetic is designed to solve major OpenFlow/NOX programming problems. In particular, Frenetic introduces a set of purely functional abstractions that enable modular program development, defines high-level, programmer-centric packet-processing operators, and eliminates many of the difficulties of the two-tier programming model by introducing a see-every-packet programming paradigm. Hence Frenetic is a functional reactive programming language operating at a packet level of abstraction.",
+    "url": "https://en.wikipedia.org/wiki/Frenetic_(programming_language)"
   }
 ]
