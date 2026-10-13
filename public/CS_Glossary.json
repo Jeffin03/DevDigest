@@ -3400,5 +3400,12 @@
     "topic": "Anthem medical data breach",
     "definition": "The Anthem medical data breach was a medical data breach of information held by Elevance Health, known at that time as Anthem Inc.",
     "url": "https://en.wikipedia.org/wiki/Anthem_medical_data_breach"
+  },
+  {
+    "date_added": "2026-10-13",
+    "category": "Programming Languages",
+    "topic": "Source (programming language)",
+    "definition": "Source is a family of sublanguages of JavaScript, developed for the textbook Structure and Interpretation of Computer Programs, JavaScript Edition. The JavaScript sublanguages Source §1, Source §2, Source §3, and Source §4 are designed to be only expressive enough to support all examples of the respective chapter of the textbook.",
+    "url": "https://en.wikipedia.org/wiki/Source_(programming_language)"
   }
 ]
