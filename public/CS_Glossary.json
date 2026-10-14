@@ -3407,5 +3407,12 @@
     "topic": "Source (programming language)",
     "definition": "Source is a family of sublanguages of JavaScript, developed for the textbook Structure and Interpretation of Computer Programs, JavaScript Edition. The JavaScript sublanguages Source §1, Source §2, Source §3, and Source §4 are designed to be only expressive enough to support all examples of the respective chapter of the textbook.",
     "url": "https://en.wikipedia.org/wiki/Source_(programming_language)"
+  },
+  {
+    "date_added": "2026-10-14",
+    "category": "Operating Systems",
+    "topic": "Mobile operating system",
+    "definition": "A mobile operating system is an operating system used for smartphones, tablets, smartwatches, smartglasses, or other non-laptop personal mobile computing devices. While computers such as laptops are \"mobile\", the operating systems used on them are usually not considered mobile, as they were originally designed for desktop computers that historically did not have or need specific mobile features. This \"fine line\" distinguishing mobile and other forms has become blurred in recent years, due to the fact that newer devices have become smaller and more mobile, unlike the hardware of the past. Key factors blurring this line are the introduction of tablet computers, light laptops, and the hybridization of the 2-in-1 PCs.",
+    "url": "https://en.wikipedia.org/wiki/Mobile_operating_system"
   }
 ]
