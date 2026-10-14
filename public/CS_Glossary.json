@@ -3421,5 +3421,12 @@
     "topic": "Non-human",
     "definition": "Non-human is any entity displaying some human characteristics, but not enough to be considered human. The term has been used in a variety of contexts and may refer to objects that have been developed with human intelligence, such as robots or vehicles.",
     "url": "https://en.wikipedia.org/wiki/Non-human"
+  },
+  {
+    "date_added": "2026-10-14",
+    "category": "Network Infrastructure",
+    "topic": "Single-root input/output virtualization",
+    "definition": "In virtualization, single root input/output virtualization (SR-IOV) is a specification that allows the isolation of PCI Express resources for manageability and performance reasons.",
+    "url": "https://en.wikipedia.org/wiki/Single-root_input%2Foutput_virtualization"
   }
 ]
