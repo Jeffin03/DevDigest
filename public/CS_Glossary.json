@@ -3428,5 +3428,12 @@
     "topic": "Single-root input/output virtualization",
     "definition": "In virtualization, single root input/output virtualization (SR-IOV) is a specification that allows the isolation of PCI Express resources for manageability and performance reasons.",
     "url": "https://en.wikipedia.org/wiki/Single-root_input%2Foutput_virtualization"
+  },
+  {
+    "date_added": "2026-10-15",
+    "category": "Cryptography",
+    "topic": "Kurzsignale",
+    "definition": "The Short Signal Code, also known as the Short Signal Book, was a short code system used by the Kriegsmarine during World War II to minimize the transmission duration of messages.",
+    "url": "https://en.wikipedia.org/wiki/Kurzsignale"
   }
 ]
