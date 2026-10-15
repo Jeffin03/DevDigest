@@ -3435,5 +3435,12 @@
     "topic": "Kurzsignale",
     "definition": "The Short Signal Code, also known as the Short Signal Book, was a short code system used by the Kriegsmarine during World War II to minimize the transmission duration of messages.",
     "url": "https://en.wikipedia.org/wiki/Kurzsignale"
+  },
+  {
+    "date_added": "2026-10-15",
+    "category": "Programming Languages",
+    "topic": "Petit Computer",
+    "definition": "Petit Computer is a software development application for the Nintendo DSi and later systems, developed by SmileBoom in Sapporo, Japan. The application is built around a custom dialect of BASIC known as SmileBASIC. Users can write games and other software using the onscreen keyboard and run the applications from within Petit Computer. The platform supports text-based console applications, visual applications, and any combination of the two. Input is available via hardware buttons, touchscreen input, or the onscreen keyboard.",
+    "url": "https://en.wikipedia.org/wiki/Petit_Computer"
   }
 ]
