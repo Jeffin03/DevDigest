@@ -3449,5 +3449,12 @@
     "topic": "Discrimination against robots",
     "definition": "Discrimination against robots is a theorised issue that might happen when humans interact with humanoid robots. It is a robot ethics problem. It is possible that traits of humans that are discriminated against by humans may be a topic for discrimination against robots, such as the race and gender of the robots.",
     "url": "https://en.wikipedia.org/wiki/Discrimination_against_robots"
+  },
+  {
+    "date_added": "2026-10-16",
+    "category": "Data Structures",
+    "topic": "Postings list",
+    "definition": "The postings list is a data structure commonly used in information retrieval (IR) systems to store indexing information about a corpus. It is central to the design and efficiency of search engines and database management systems that need to retrieve information rapidly.",
+    "url": "https://en.wikipedia.org/wiki/Postings_list"
   }
 ]
