@@ -3442,5 +3442,12 @@
     "topic": "Petit Computer",
     "definition": "Petit Computer is a software development application for the Nintendo DSi and later systems, developed by SmileBoom in Sapporo, Japan. The application is built around a custom dialect of BASIC known as SmileBASIC. Users can write games and other software using the onscreen keyboard and run the applications from within Petit Computer. The platform supports text-based console applications, visual applications, and any combination of the two. Input is available via hardware buttons, touchscreen input, or the onscreen keyboard.",
     "url": "https://en.wikipedia.org/wiki/Petit_Computer"
+  },
+  {
+    "date_added": "2026-10-16",
+    "category": "Artificial Intelligence",
+    "topic": "Discrimination against robots",
+    "definition": "Discrimination against robots is a theorised issue that might happen when humans interact with humanoid robots. It is a robot ethics problem. It is possible that traits of humans that are discriminated against by humans may be a topic for discrimination against robots, such as the race and gender of the robots.",
+    "url": "https://en.wikipedia.org/wiki/Discrimination_against_robots"
   }
 ]
