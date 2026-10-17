@@ -3456,5 +3456,12 @@
     "topic": "Postings list",
     "definition": "The postings list is a data structure commonly used in information retrieval (IR) systems to store indexing information about a corpus. It is central to the design and efficiency of search engines and database management systems that need to retrieve information rapidly.",
     "url": "https://en.wikipedia.org/wiki/Postings_list"
+  },
+  {
+    "date_added": "2026-10-17",
+    "category": "Cryptography",
+    "topic": "Red/black concept",
+    "definition": "The red/black concept, named in comparison to a typewriter ribbon and sometimes called the red–black architecture or red/black engineering, refers to the careful segregation in cryptographic systems of signals that contain sensitive or classified plaintext information from those that carry encrypted information, or ciphertext. Therefore, the red side is usually considered the internal side, and the black side the more public side, with often some sort of guard, firewall or data-diode between the two.",
+    "url": "https://en.wikipedia.org/wiki/Red%2Fblack_concept"
   }
 ]
