@@ -3477,5 +3477,12 @@
     "topic": "Cache hierarchy",
     "definition": "Cache hierarchy, or multi-level cache, is a memory architecture that uses a hierarchy of memory stores based on varying access speeds to cache data. Highly requested data is cached in high-speed access memory stores, allowing swifter access by central processing unit (CPU) cores.",
     "url": "https://en.wikipedia.org/wiki/Cache_hierarchy"
+  },
+  {
+    "date_added": "2026-10-18",
+    "category": "Web Development",
+    "topic": "Web testing",
+    "definition": "Web testing is software testing that focuses on web applications. Complete testing of a web-based system before going live can help address issues before the system is revealed to the public. Issues may include the security of the web application, the basic functionality of the site, its accessibility to disabled and fully able users, its ability to adapt to the multitude of desktops, devices, and operating systems, as well as readiness for expected traffic and number of users and the ability to survive a massive spike in user traffic, both of which are related to load testing.",
+    "url": "https://en.wikipedia.org/wiki/Web_testing"
   }
 ]
