@@ -3470,5 +3470,12 @@
     "topic": "National Cyber Security Policy 2013",
     "definition": "National Cyber Security Policy is a policy framework by Department of Electronics and Information Technology (DeitY) It aims at protecting the public and private infrastructure from cyber attacks. The policy also intends to safeguard \"information, such as personal information, financial and banking information and sovereign data\". This was particularly relevant in the wake of US National Security Agency (NSA) leaks that suggested the US government agencies are spying on Indian users, who have no legal or technical safeguards against it. Ministry of Communications and Information Technology (India) defines Cyberspace as a complex environment consisting of interactions between people, software services supported by worldwide distribution of information and communication technology.",
     "url": "https://en.wikipedia.org/wiki/National_Cyber_Security_Policy_2013"
+  },
+  {
+    "date_added": "2026-10-18",
+    "category": "Hardware",
+    "topic": "Cache hierarchy",
+    "definition": "Cache hierarchy, or multi-level cache, is a memory architecture that uses a hierarchy of memory stores based on varying access speeds to cache data. Highly requested data is cached in high-speed access memory stores, allowing swifter access by central processing unit (CPU) cores.",
+    "url": "https://en.wikipedia.org/wiki/Cache_hierarchy"
   }
 ]
