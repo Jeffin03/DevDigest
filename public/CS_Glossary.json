@@ -3484,5 +3484,12 @@
     "topic": "Web testing",
     "definition": "Web testing is software testing that focuses on web applications. Complete testing of a web-based system before going live can help address issues before the system is revealed to the public. Issues may include the security of the web application, the basic functionality of the site, its accessibility to disabled and fully able users, its ability to adapt to the multitude of desktops, devices, and operating systems, as well as readiness for expected traffic and number of users and the ability to survive a massive spike in user traffic, both of which are related to load testing.",
     "url": "https://en.wikipedia.org/wiki/Web_testing"
+  },
+  {
+    "date_added": "2026-10-19",
+    "category": "Hardware",
+    "topic": "Domain-specific architecture",
+    "definition": "A domain-specific architecture (DSA) is a programmable computer architecture specifically tailored to operate very efficiently within the confines of a given application domain. The term is often used in contrast to general-purpose architectures, such as CPUs, that are designed to operate on any computer program.",
+    "url": "https://en.wikipedia.org/wiki/Domain-specific_architecture"
   }
 ]
