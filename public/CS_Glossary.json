@@ -3491,5 +3491,12 @@
     "topic": "Domain-specific architecture",
     "definition": "A domain-specific architecture (DSA) is a programmable computer architecture specifically tailored to operate very efficiently within the confines of a given application domain. The term is often used in contrast to general-purpose architectures, such as CPUs, that are designed to operate on any computer program.",
     "url": "https://en.wikipedia.org/wiki/Domain-specific_architecture"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Artificial Intelligence",
+    "topic": "Feedback neural network",
+    "definition": "Feedback neural networks are neural networks with the ability to provide bottom-up and top-down approach feedback to their input or previous layers, based on their outputs or subsequent layers. This is notably used in large language models, specifically in reasoning language models (RLM). This process is designed to mimic self-assessment and internal deliberation, aiming to minimize errors and increase interpretability. This reflection is a form of \"test-time compute\", where additional computational resources are used during inference.",
+    "url": "https://en.wikipedia.org/wiki/Feedback_neural_network"
   }
 ]
