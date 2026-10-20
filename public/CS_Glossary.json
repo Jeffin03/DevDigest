@@ -3505,5 +3505,12 @@
     "topic": "Sideloading",
     "definition": "Sideloading is the process of transferring files between two local devices, in particular between a personal computer and a mobile device such as a mobile phone, smartphone, PDA, tablet, portable media player or e-reader.",
     "url": "https://en.wikipedia.org/wiki/Sideloading"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Web Development",
+    "topic": "Web content development",
+    "definition": "Web content development is the process of researching, writing, gathering, organizing, and editing information for publication on websites. Website content may consist of prose, graphics, pictures, recordings, movies, or other digital assets that could be distributed by a hypertext transfer protocol server, and viewed by a web browser.",
+    "url": "https://en.wikipedia.org/wiki/Web_content_development"
   }
 ]
