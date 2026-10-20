@@ -3498,5 +3498,12 @@
     "topic": "Feedback neural network",
     "definition": "Feedback neural networks are neural networks with the ability to provide bottom-up and top-down approach feedback to their input or previous layers, based on their outputs or subsequent layers. This is notably used in large language models, specifically in reasoning language models (RLM). This process is designed to mimic self-assessment and internal deliberation, aiming to minimize errors and increase interpretability. This reflection is a form of \"test-time compute\", where additional computational resources are used during inference.",
     "url": "https://en.wikipedia.org/wiki/Feedback_neural_network"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Network Infrastructure",
+    "topic": "Sideloading",
+    "definition": "Sideloading is the process of transferring files between two local devices, in particular between a personal computer and a mobile device such as a mobile phone, smartphone, PDA, tablet, portable media player or e-reader.",
+    "url": "https://en.wikipedia.org/wiki/Sideloading"
   }
 ]
