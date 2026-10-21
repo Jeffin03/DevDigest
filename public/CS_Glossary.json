@@ -2945,5 +2945,579 @@
     "topic": "Way of the Future",
     "definition": "Way of the Future (WOTF) is the first known religious organization dedicated to the worship of artificial intelligence (AI). It was founded in 2017 by American engineer Anthony Levandowski.",
     "url": "https://en.wikipedia.org/wiki/Way_of_the_Future"
+  },
+  {
+    "date_added": "2026-09-10",
+    "category": "Artificial Intelligence",
+    "topic": "Competition in artificial intelligence",
+    "definition": "Competition in artificial intelligence refers to the rivalry among companies, research institutions, and governments to develop and deploy the most capable artificial intelligence (AI) systems. The competition spans multiple domains, including large language models (LLMs), autonomous vehicles, robotics, computer vision systems, natural language processing (NLP), and AI-optimized hardware.",
+    "url": "https://en.wikipedia.org/wiki/Competition_in_artificial_intelligence"
+  },
+  {
+    "date_added": "2026-09-11",
+    "category": "Infrastructure",
+    "topic": "Carrier cloud",
+    "definition": "In cloud computing, a carrier cloud is a class of cloud that integrates wide area networks (WAN) and other attributes of communications service providers’ carrier-grade networks to enable the deployment of highly-complex applications in the cloud. In contrast, classic cloud computing focuses on the data center and does not address the network connecting data centers and cloud users. This may result in unpredictable response times and security issues when business-critical data are transferred over the Internet.",
+    "url": "https://en.wikipedia.org/wiki/Carrier_cloud"
+  },
+  {
+    "date_added": "2026-09-11",
+    "category": "Network Infrastructure",
+    "topic": "Network-In-a-Box",
+    "definition": "A Network-In-a-Box (NIB) is the combination of multiple components of a computer network into a single device, which are traditionally separated into multiple devices.",
+    "url": "https://en.wikipedia.org/wiki/Network-In-a-Box"
+  },
+  {
+    "date_added": "2026-09-12",
+    "category": "Infrastructure",
+    "topic": "Gcore",
+    "definition": "Gcore is an edge AI, cloud, network, and security company headquartered in Luxembourg. Founded in 2014, the company provides low-latency services to industries including finance, healthcare, manufacturing, gaming, media and telecommunications internationally. Its global network includes over 210 Points of Presence (PoPs) across six continents.",
+    "url": "https://en.wikipedia.org/wiki/Gcore"
+  },
+  {
+    "date_added": "2026-09-12",
+    "category": "Web Development",
+    "topic": "Web template system",
+    "definition": "A web template system in web publishing allows web designers and developers to work with web templates to automatically generate custom web pages, such as the results from a search. This reuses static web page elements while defining dynamic elements based on web request parameters.",
+    "url": "https://en.wikipedia.org/wiki/Web_template_system"
+  },
+  {
+    "date_added": "2026-09-13",
+    "category": "Artificial Intelligence",
+    "topic": "Automated negotiation",
+    "definition": "Automated negotiation is a form of interaction in systems that are composed of multiple autonomous agents, in which the aim is to reach agreements through an iterative process of making offers.",
+    "url": "https://en.wikipedia.org/wiki/Automated_negotiation"
+  },
+  {
+    "date_added": "2026-09-13",
+    "category": "Cybersecurity",
+    "topic": "Data classification (data management)",
+    "definition": "Data classification is the process of organizing data into categories based on attributes like file type, content, or metadata. The data is then assigned class labels that describe a set of attributes for the corresponding data sets. The goal is to provide meaningful class attributes to former less structured information, enabling organizations to manage, protect, and govern their data more effectively.",
+    "url": "https://en.wikipedia.org/wiki/Data_classification_(data_management)"
+  },
+  {
+    "date_added": "2026-09-14",
+    "category": "Infrastructure",
+    "topic": "Native cloud application",
+    "definition": "A native cloud application (NCA) is a type of computer software that natively utilizes services and infrastructure from cloud computing providers such as Amazon EC2, Force.com, or Microsoft Azure. NCAs exhibit a combined usage of the three fundamental technologies:Computational grid - loosely, e.g. MapReduce Data grids Auto-scaling on any managed infrastructure",
+    "url": "https://en.wikipedia.org/wiki/Native_cloud_application"
+  },
+  {
+    "date_added": "2026-09-14",
+    "category": "Infrastructure",
+    "topic": "History of cloud computing",
+    "definition": "The concept of the cloud computing as a platform for distributed computing traces its roots back to 1993. At that time, Apple spin-off General Magic and AT&T utilized the term in the context of their Telescript and Personal Link technologies.",
+    "url": "https://en.wikipedia.org/wiki/History_of_cloud_computing"
+  },
+  {
+    "date_added": "2026-09-15",
+    "category": "Web Development",
+    "topic": "Ajax (programming)",
+    "definition": "Asynchronous JavaScript and XML, usually referred to as Ajax is a set of web development techniques that uses various asynchronous web technologies on the client-side to create web applications. With Ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly return JSON instead of XML; and can return anything, e.g. HTML when used with htmx.",
+    "url": "https://en.wikipedia.org/wiki/Ajax_(programming)"
+  },
+  {
+    "date_added": "2026-09-15",
+    "category": "Infrastructure",
+    "topic": "Bright Computing",
+    "definition": "Bright Computing, Inc. was a developer of software for deploying and managing high-performance (HPC) clusters, Kubernetes clusters, and OpenStack private clouds in on-premises data centers as well as in the public cloud. In 2022, it was acquired by Nvidia.",
+    "url": "https://en.wikipedia.org/wiki/Bright_Computing"
+  },
+  {
+    "date_added": "2026-09-16",
+    "category": "Cryptography",
+    "topic": "Security association",
+    "definition": "A security association (SA) is the establishment of shared security attributes between two network entities to support secure communication. An SA may include attributes such as: cryptographic algorithm and mode; traffic encryption key; and parameters for the network data to be passed over the connection. The framework for establishing security associations is provided by the Internet Security Association and Key Management Protocol (ISAKMP). Protocols such as Internet Key Exchange (IKE) and Kerberized Internet Negotiation of Keys (KINK) provide authenticated keying material.",
+    "url": "https://en.wikipedia.org/wiki/Security_association"
+  },
+  {
+    "date_added": "2026-09-16",
+    "category": "Programming Languages",
+    "topic": "Julia (programming language)",
+    "definition": "Julia is a dynamic general-purpose programming language. As a high-level language, distinctive aspects of Julia's design include a type system with parametric polymorphism, the use of multiple dispatch as a core programming paradigm, just-in-time compilation and a parallel garbage collection implementation. Notably, Julia does not support classes with encapsulated methods but instead relies on the types of all of a function's arguments to determine which method will be called.",
+    "url": "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+  },
+  {
+    "date_added": "2026-09-17",
+    "category": "Cryptography",
+    "topic": "PrivateCore",
+    "definition": "PrivateCore is a venture-backed startup located in Palo Alto, California that develops software to secure server data through server attestation and memory encryption. The company's attestation and memory encryption technology fills a gap that exists between “data in motion” encryption and “data at rest” encryption by protecting “data in use”. PrivateCore memory encryption technology protects against threats to servers such as cold boot attacks, hardware advanced persistent threats, rootkits/bootkits, computer hardware supply chain attacks, and physical threats to servers from insiders. PrivateCore was acquired by Facebook on 7 August 2014.",
+    "url": "https://en.wikipedia.org/wiki/PrivateCore"
+  },
+  {
+    "date_added": "2026-09-17",
+    "category": "Network Infrastructure",
+    "topic": "Proxy server",
+    "definition": "In computer networking, a proxy server is an intermediary server application between a client requesting a resource and the server then providing that resource.",
+    "url": "https://en.wikipedia.org/wiki/Proxy_server"
+  },
+  {
+    "date_added": "2026-09-18",
+    "category": "Hardware",
+    "topic": "Sierpiński graph",
+    "definition": "Sierpiński graphs are a family of graphs defined by two parameters and , denoted . These graphs have applications in topology, Tower of Hanoi problems, and interconnection networks for multiprocessor systems. The graphs are named after Wacław Sierpiński due to their connections with Sierpiński fractals.",
+    "url": "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_graph"
+  },
+  {
+    "date_added": "2026-09-18",
+    "category": "Cybersecurity",
+    "topic": "Data breach",
+    "definition": "A data breach, also known as data leakage, is \"the unauthorized exposure, disclosure, or loss of personal information\". Attackers have a variety of motives, from financial gain to political activism, political repression, and espionage. There are several technical root causes of data breaches, including accidental or intentional disclosure of information by insiders, loss or theft of unencrypted devices, hacking into a system by exploiting software vulnerabilities, and social engineering attacks such as phishing where insiders are tricked into disclosing information. Although prevention efforts can reduce the risk of a data breach, they cannot eliminate it.",
+    "url": "https://en.wikipedia.org/wiki/Data_breach"
+  },
+  {
+    "date_added": "2026-09-19",
+    "category": "Cryptography",
+    "topic": "Keyring (cryptography)",
+    "definition": "In cryptography, a keyring stores known encryption keys. For example, GNU Privacy Guard makes use of keyrings.",
+    "url": "https://en.wikipedia.org/wiki/Keyring_(cryptography)"
+  },
+  {
+    "date_added": "2026-09-19",
+    "category": "Cybersecurity",
+    "topic": "Cyber Threat Intelligence Integration Center",
+    "definition": "The Cyber Threat Intelligence Integration Center (CTIIC) is a United States federal government agency that operates as a fusion center between intelligence agencies and the private sector for real-time use against cyber attacks. CTIIC was created in the wake of the 2014 cyber attack on Sony in combination with the need to establish a cyber integration center following blocked efforts in Congress that were stymied over liability and privacy concerns of citizens. In August 2025, Tulsi Gabbard announced plans to dissolve CTIIC.",
+    "url": "https://en.wikipedia.org/wiki/Cyber_Threat_Intelligence_Integration_Center"
+  },
+  {
+    "date_added": "2026-09-20",
+    "category": "Hardware",
+    "topic": "Modified Harvard architecture",
+    "definition": "A modified Harvard architecture is a variation of the Harvard computer architecture that, unlike the pure Harvard architecture, allows memory that contains instructions to be accessed as data. Most modern computers that are documented as Harvard architecture are, in fact, modified Harvard architecture.",
+    "url": "https://en.wikipedia.org/wiki/Modified_Harvard_architecture"
+  },
+  {
+    "date_added": "2026-09-20",
+    "category": "Artificial Intelligence",
+    "topic": "Case-based reasoning",
+    "definition": "Case-based reasoning (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.",
+    "url": "https://en.wikipedia.org/wiki/Case-based_reasoning"
+  },
+  {
+    "date_added": "2026-09-21",
+    "category": "Data Structures",
+    "topic": "Interval union-split-find",
+    "definition": "In computer science, an interval union-split-find data structure is a data structure that stores a partition of the integer interval into intervals. Equivalently, it stores a set of elements from (\"splitters\"), which define the endpoints of the intervals; for example, if n=10 and the set of endpoints is then the intervals are and . The data structure provides the following operations:split(x) adds x as a splitter, thus splitting the interval containing it (if x has not already been a splitter) union(x) for merging two intervals by removing the splitter x find(x) for finding which interval x belongs to (returning the interval's endpoint).",
+    "url": "https://en.wikipedia.org/wiki/Interval_union-split-find"
+  },
+  {
+    "date_added": "2026-09-21",
+    "category": "Artificial Intelligence",
+    "topic": "CrewAI",
+    "definition": "CrewAI is an open-source software framework and platform for building AI agents and multi-agent systems. Written primarily in Python, it is used to define artificial-intelligence agents, assign tasks to them, and coordinate their work through agent teams and workflows. The framework is associated with CrewAI Inc., a startup developing enterprise tools for automating business workflows with large language model-based agents.",
+    "url": "https://en.wikipedia.org/wiki/CrewAI"
+  },
+  {
+    "date_added": "2026-09-22",
+    "category": "Network Infrastructure",
+    "topic": "Sensor node",
+    "definition": "A sensor node, consists of an individual node from a sensor network that is capable of performing a desired action such as gathering, processing or communicating information with other connected nodes in a network.",
+    "url": "https://en.wikipedia.org/wiki/Sensor_node"
+  },
+  {
+    "date_added": "2026-09-22",
+    "category": "Cybersecurity",
+    "topic": "Shell Control Box",
+    "definition": "Shell Control Box (SCB) is a network security appliance that controls privileged access to remote IT systems, records activities in replayable audit trails, and prevents malicious actions. For example, it records as a system administrator updates a file server or a third-party network operator configures a router. The recorded audit trails can be replayed like a movie to review the events as they occurred. The content of the audit trails is indexed to make searching for events and automatic reporting possible.",
+    "url": "https://en.wikipedia.org/wiki/Shell_Control_Box"
+  },
+  {
+    "date_added": "2026-09-23",
+    "category": "Programming Languages",
+    "topic": "XPL",
+    "definition": "XPL, for expert's programming language is a programming language based on PL/I, a portable one-pass compiler written in its own language, and a parser generator tool for easily implementing similar compilers for other languages. XPL was designed in 1967 as a way to teach compiler design principles and as starting point for students to build compilers for their own languages.",
+    "url": "https://en.wikipedia.org/wiki/XPL"
+  },
+  {
+    "date_added": "2026-09-23",
+    "category": "Data Structures",
+    "topic": "Retroactive data structure",
+    "definition": "In computer science a retroactive data structure is a data structure which supports efficient modifications to a sequence of operations that have been performed on the structure. These modifications can take the form of retroactive insertion, deletion or updating an operation that was performed at some time in the past.",
+    "url": "https://en.wikipedia.org/wiki/Retroactive_data_structure"
+  },
+  {
+    "date_added": "2026-09-24",
+    "category": "Artificial Intelligence",
+    "topic": "Pedagogical agent",
+    "definition": "A pedagogical agent is a concept borrowed from computer science and artificial intelligence and applied to education, usually as part of an intelligent tutoring system (ITS). It is a simulated human-like interface between the learner and the content, in an educational environment. A pedagogical agent is designed to model the type of interactions between a student and another person. Mabanza and de Wet define it as \"a character enacted by a computer that interacts with the user in a socially engaging manner\". A pedagogical agent can be assigned different roles in the learning environment, such as tutor or co-learner, depending on the desired purpose of the agent. \"A tutor agent plays the role of a teacher, while a co-learner agent plays the role of a learning companion\".",
+    "url": "https://en.wikipedia.org/wiki/Pedagogical_agent"
+  },
+  {
+    "date_added": "2026-09-24",
+    "category": "Hardware",
+    "topic": "Open architecture",
+    "definition": "Open architecture is a type of computer architecture or software architecture intended to make adding, upgrading, and swapping components with other computers easy. For example, the IBM PC, Amiga 2000 and Apple IIe have an open architecture supporting plug-in cards, whereas the Apple IIc computer has a closed architecture. Open architecture systems may use a standardized system bus such as S-100, PCI or ISA or they may incorporate a proprietary bus standard such as that used on the Apple II, with up to a dozen slots that allow multiple hardware manufacturers to produce add-ons, and for the user to freely install them. By contrast, closed architectures, if they are expandable at all, have one or two \"expansion ports\" using a proprietary connector design that may require a license fee from the manufacturer, or enhancements may only be installable by technicians with specialized tools or training.",
+    "url": "https://en.wikipedia.org/wiki/Open_architecture"
+  },
+  {
+    "date_added": "2026-09-25",
+    "category": "Web Development",
+    "topic": "OOHDM",
+    "definition": "OOHDM is a method for the development of Web applications. It was one of the first methods to postulate the separation of concerns that defines its various models – requirements, conceptual, navigation, abstract interface and implementation. OOHDM, and its successor, SHDM are supported by an open source, freely available environment, HyperDE.",
+    "url": "https://en.wikipedia.org/wiki/OOHDM"
+  },
+  {
+    "date_added": "2026-09-25",
+    "category": "Hardware",
+    "topic": "Duncan's taxonomy",
+    "definition": "Duncan's taxonomy is a classification of computer architectures, proposed by Ralph Duncan in 1990. Duncan suggested modifications to Flynn's taxonomy to include pipelined vector processes.",
+    "url": "https://en.wikipedia.org/wiki/Duncan's_taxonomy"
+  },
+  {
+    "date_added": "2026-09-26",
+    "category": "Artificial Intelligence",
+    "topic": "Never Gonna Stop (Rick Astley song)",
+    "definition": "\"Never Gonna Stop\" is a song written and performed by English singer-songwriter Rick Astley. It was released as the second single from his ninth studio album, Are We There Yet?, on 22 August 2023. The track peaked at number 49 on the UK Official Single Sales Chart in October 2023. In an interview Astley said that the song was inspired by an article he had read about artificial intelligence.The world is now full of daunting technology and that we need to remain human through it all! Maybe [we could] use some of that technology for good and move forward, we've still got to be human about it, so there you go!",
+    "url": "https://en.wikipedia.org/wiki/Never_Gonna_Stop_(Rick_Astley_song)"
+  },
+  {
+    "date_added": "2026-09-26",
+    "category": "Infrastructure",
+    "topic": "Online OS",
+    "definition": "The Online Operating System was a fully multi-lingual and free to use web desktop written in JavaScript using Ajax. It was a Windows-based desktop environment with open-source applications and system utilities developed upon the reBOX web application framework by iCUBE Network Solutions, an Austrian company located in Vienna.",
+    "url": "https://en.wikipedia.org/wiki/Online_OS"
+  },
+  {
+    "date_added": "2026-09-27",
+    "category": "Data Structures",
+    "topic": "Persistent data structure",
+    "definition": "In computing, a persistent data structure or not ephemeral data structure is a data structure that always preserves the previous version of itself when it is modified. Such data structures are effectively immutable, as their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure. The term was introduced in Driscoll, Sarnak, Sleator, and Tarjan's 1986 article.",
+    "url": "https://en.wikipedia.org/wiki/Persistent_data_structure"
+  },
+  {
+    "date_added": "2026-09-27",
+    "category": "Cryptography",
+    "topic": "Alice and Bob",
+    "definition": "Alice and Bob are fictional characters commonly used as placeholders in discussions about cryptographic systems and protocols, and in other science and engineering literature where there are several participants in a thought experiment. The Alice and Bob characters were created by Ron Rivest, Adi Shamir, and Leonard Adleman in their 1978 paper \"A Method for Obtaining Digital Signatures and Public-key Cryptosystems\". Subsequently, they have become common archetypes in many scientific and engineering fields, such as quantum cryptography, game theory and physics. As the use of Alice and Bob became more widespread, additional characters were added, sometimes with particular meanings. These characters do not have to refer to people; they refer to generic agents which might be different computers or even different programs running on a single computer.",
+    "url": "https://en.wikipedia.org/wiki/Alice_and_Bob"
+  },
+  {
+    "date_added": "2026-09-28",
+    "category": "Web Development",
+    "topic": "Matt Mullenweg",
+    "definition": "Matthew Charles Mullenweg is an American web developer and entrepreneur. He is known as a co-founder of the free and open-source web publishing software WordPress, and the founder of Automattic.",
+    "url": "https://en.wikipedia.org/wiki/Matt_Mullenweg"
+  },
+  {
+    "date_added": "2026-09-29",
+    "category": "Hardware",
+    "topic": "Computational RAM",
+    "definition": "Computational RAM (C-RAM) is random-access memory with processing elements integrated on the same chip. This enables C-RAM to be used as a SIMD computer. It also can be used to more efficiently use memory bandwidth within a memory chip. The general technique of doing computations in memory is called processing-in-memory (PIM).",
+    "url": "https://en.wikipedia.org/wiki/Computational_RAM"
+  },
+  {
+    "date_added": "2026-09-29",
+    "category": "Software Engineering",
+    "topic": "Process map",
+    "definition": "Process map is a global-system process model that is used to outline the processes that make up the business system and how they interact with each other. Process map shows the processes as objects, which means it is a static and non-algorithmic view of the processes. It should be differentiated from a detailed process model, which shows a dynamic and algorithmic view of the processes, usually known as a process flow diagram. There are different notation standards that can be used for modelling process maps, but the most notable ones are TOGAF Event Diagram, Eriksson-Penker notation, and ARIS Value Added Chain.",
+    "url": "https://en.wikipedia.org/wiki/Process_map"
+  },
+  {
+    "date_added": "2026-09-30",
+    "category": "Programming Languages",
+    "topic": "BLISS",
+    "definition": "BLISS is a system programming language developed at Carnegie Mellon University (CMU) by W. A. Wulf, D. B. Russell, and A. N. Habermann around 1970. It was perhaps the best known system language until C debuted a few years later, after which C became common and BLISS faded into obscurity.",
+    "url": "https://en.wikipedia.org/wiki/BLISS"
+  },
+  {
+    "date_added": "2026-09-30",
+    "category": "Cybersecurity",
+    "topic": "Seccomp",
+    "definition": "seccomp is a computer security facility in the Linux kernel. seccomp allows a process to make a one-way transition into a \"secure\" state where it cannot make any system calls except exit , sigreturn , read and write to already-open file descriptors. Should it attempt any other system calls, the kernel will either just log the event or terminate the process with SIGKILL or SIGSYS. In this sense, it does not virtualize the system's resources but isolates the process from them entirely.",
+    "url": "https://en.wikipedia.org/wiki/Seccomp"
+  },
+  {
+    "date_added": "2026-10-01",
+    "category": "Hardware",
+    "topic": "Addressing mode",
+    "definition": "Addressing modes are an aspect of the instruction set architecture in most central processing unit (CPU) designs. Addressing modes define how the machine language instructions in that architecture identify the operand(s) of each instruction. An addressing mode specifies how to calculate the effective memory address of an operand by using information held in registers and/or constants contained within a machine instruction or elsewhere.",
+    "url": "https://en.wikipedia.org/wiki/Addressing_mode"
+  },
+  {
+    "date_added": "2026-10-01",
+    "category": "Cryptography",
+    "topic": "Multiple encryption",
+    "definition": "Multiple encryption is the process of encrypting an already encrypted message one or more times, either using the same or a different algorithm. It is also known as cascade encryption, cascade ciphering, cipher stacking, multiple encryption, and superencipherment. Superencryption refers to the outer-level encryption of a multiple encryption.",
+    "url": "https://en.wikipedia.org/wiki/Multiple_encryption"
+  },
+  {
+    "date_added": "2026-10-02",
+    "category": "Cryptography",
+    "topic": "Database encryption",
+    "definition": "Database encryption can generally be defined as a process that uses an algorithm to transform data stored in a database into \"cipher text\" that is incomprehensible without first being decrypted. It can therefore be said that the purpose of database encryption is to protect the data stored in a database from being accessed by individuals with potentially \"malicious\" intentions. The act of encrypting a database also reduces the incentive for individuals to hack the aforementioned database as \"meaningless\" encrypted data adds extra steps for hackers to retrieve the data. There are multiple techniques and technologies available for database encryption, the most important of which will be detailed in this article.",
+    "url": "https://en.wikipedia.org/wiki/Database_encryption"
+  },
+  {
+    "date_added": "2026-10-02",
+    "category": "Artificial Intelligence",
+    "topic": "Epistemic modal logic",
+    "definition": "Epistemic modal logic is a subfield of modal logic that is concerned with reasoning about knowledge. While epistemology has a long philosophical tradition dating back to Ancient Greece, epistemic logic is a much more recent development with applications in many fields, including philosophy, theoretical computer science, artificial intelligence, economics, and linguistics. While philosophers since Aristotle have discussed modal logic, and Medieval philosophers such as Avicenna, Ockham, and Duns Scotus developed many of their observations, it was C. I. Lewis who created the first symbolic and systematic approach to the topic, in 1912. It continued to mature as a field, reaching its modern form in 1963 with the work of Saul Kripke.",
+    "url": "https://en.wikipedia.org/wiki/Epistemic_modal_logic"
+  },
+  {
+    "date_added": "2026-10-03",
+    "category": "Programming Languages",
+    "topic": "LiveCode",
+    "definition": "LiveCode is a cross-platform rapid application development runtime system inspired by HyperCard. It features the LiveCode Script programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk.",
+    "url": "https://en.wikipedia.org/wiki/LiveCode"
+  },
+  {
+    "date_added": "2026-10-03",
+    "category": "Web Development",
+    "topic": "Wholesale Applications Community",
+    "definition": "The Wholesale Applications Community (WAC) was an organisation that was set up to create a unified and open platform to allow mobile software developers to more easily write applications usable on a variety of devices, operating systems and networks. At least 48 companies were members of the organization.",
+    "url": "https://en.wikipedia.org/wiki/Wholesale_Applications_Community"
+  },
+  {
+    "date_added": "2026-10-03",
+    "category": "Infrastructure",
+    "topic": "Cloud load balancing",
+    "definition": "Cloud load balancing is a type of load balancing that is performed in cloud computing. Cloud load balancing is the process of distributing workloads across multiple computing resources. Cloud load balancing reduces costs associated with document management systems and maximizes availability of resources. It is a type of load balancing and not to be confused with Domain Name System (DNS) load balancing. While DNS load balancing uses software or hardware to perform the function, cloud load balancing uses services offered by various computer network companies.",
+    "url": "https://en.wikipedia.org/wiki/Cloud_load_balancing"
+  },
+  {
+    "date_added": "2026-10-04",
+    "category": "Network Infrastructure",
+    "topic": "Virtual Switching System",
+    "definition": "Virtual Switching System (VSS) is a Cisco proprietary network virtualisation technology that aggregates two physical Ethernet switches into a single logical switch for enhanced redundancy, scalability, and simplified management in enterprise and data centre environments. Introduced in 2008, VSS primarily supports Cisco Catalyst 4500, 6500, and 6800 series switches, allowing them to operate as one virtual entity with a shared control plane, data plane, and management interface. This technology reduces protocol overhead, eliminates spanning tree loops, and provides sub-second failover, making it suitable for high-availability Layer 2 and Layer 3 networks.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_Switching_System"
+  },
+  {
+    "date_added": "2026-10-04",
+    "category": "Artificial Intelligence",
+    "topic": "Biohybrid system",
+    "definition": "Biohybrid systems refer to the integration of biological materials, such as cells or tissues, with artificial components, including electronics or mechanical structure. This combination incorporates the capabilities of living organisms with the precision of man-made technology. As a result, these systems perform tasks that neither biology nor machines could achieve independently.",
+    "url": "https://en.wikipedia.org/wiki/Biohybrid_system"
+  },
+  {
+    "date_added": "2026-10-05",
+    "category": "Software Engineering",
+    "topic": "Software diagnosis",
+    "definition": "Software diagnosis refers to concepts, techniques, and tools that allow for obtaining findings, conclusions, and evaluations about software systems and their implementation, composition, behaviour, and evolution. It serves as means to monitor, steer, observe and optimize software development, software maintenance, and software re-engineering in the sense of a business intelligence approach specific to software systems. It is generally based on the automatic extraction, analysis, and visualization of corresponding information sources of the software system. It can also be manually done and not automatic.",
+    "url": "https://en.wikipedia.org/wiki/Software_diagnosis"
+  },
+  {
+    "date_added": "2026-10-06",
+    "category": "Infrastructure",
+    "topic": "Apache Drill",
+    "definition": "Apache Drill is an open-source software framework that supports data-intensive distributed applications for interactive analysis of large-scale datasets. Built chiefly by contributions from developers from MapR, Drill is inspired by Google's Dremel system. Drill is an Apache top-level project.",
+    "url": "https://en.wikipedia.org/wiki/Apache_Drill"
+  },
+  {
+    "date_added": "2026-10-06",
+    "category": "Web Development",
+    "topic": "HTTP compression",
+    "definition": "HTTP compression is a capability that can be built into web servers and web clients to improve transfer speed and bandwidth utilization.",
+    "url": "https://en.wikipedia.org/wiki/HTTP_compression"
+  },
+  {
+    "date_added": "2026-10-07",
+    "category": "Artificial Intelligence",
+    "topic": "Grammar systems theory",
+    "definition": "Grammar systems theory is a field of theoretical computer science that studies systems of finite collections of formal grammars generating a formal language. Each grammar works on a string, a so-called sequential form that represents an environment. Grammar systems can thus be used as a formalization of decentralized or distributed systems of agents in artificial intelligence.",
+    "url": "https://en.wikipedia.org/wiki/Grammar_systems_theory"
+  },
+  {
+    "date_added": "2026-10-07",
+    "category": "Hardware",
+    "topic": "Scalability",
+    "definition": "Scalability is the property of a system to handle a growing amount of work. One definition for software systems specifies that this may be done by adding resources to the system.",
+    "url": "https://en.wikipedia.org/wiki/Scalability"
+  },
+  {
+    "date_added": "2026-10-08",
+    "category": "Cybersecurity",
+    "topic": "Deception technology",
+    "definition": "Deception technology is a category of cyber security defense mechanisms that provide early warning of potential cyber security attacks and alert organizations of unauthorized activity. Deception technology products can detect, analyze, and defend against zero-day and advanced attacks, often in real time. They are automated, accurate, and provide insight into malicious activity within internal networks which may be unseen by other types of cyber defense. Deception technology seeks to deceive an attacker, detect them, and then defeat them.",
+    "url": "https://en.wikipedia.org/wiki/Deception_technology"
+  },
+  {
+    "date_added": "2026-10-08",
+    "category": "Infrastructure",
+    "topic": "Cloud-Based Secure File Transfer",
+    "definition": "Cloud-Based Secure File Transfer is a managed or hosted file transfer service that provides cloud storage that can be accessed via SSH File Transfer Protocol (SFTP). These services allow secure, reliable file transfers while offering the scalability, redundancy, and high availability of cloud infrastructure.",
+    "url": "https://en.wikipedia.org/wiki/Cloud-Based_Secure_File_Transfer"
+  },
+  {
+    "date_added": "2026-10-09",
+    "category": "Software Engineering",
+    "topic": "Platform engineering",
+    "definition": "Platform engineering is a software engineering discipline focused on the development of self-service toolchains, services, and processes to create an internal developer platform (IDP). The shared IDP can be utilized by software development teams, enabling them to innovate.",
+    "url": "https://en.wikipedia.org/wiki/Platform_engineering"
+  },
+  {
+    "date_added": "2026-10-09",
+    "category": "Artificial Intelligence",
+    "topic": "Forethought Technologies",
+    "definition": "Forethought Technologies, also known as Forethought, is an American artificial intelligence company headquartered in San Francisco, California. The company develops software to automate customer service operations.",
+    "url": "https://en.wikipedia.org/wiki/Forethought_Technologies"
+  },
+  {
+    "date_added": "2026-10-10",
+    "category": "Infrastructure",
+    "topic": "Douglas Parkhill",
+    "definition": "Douglas F. Parkhill is a Canadian technologist and former research minister, best known for his pioneering work on what is now called cloud computing, and his work on Canada's Telidon videotex project.",
+    "url": "https://en.wikipedia.org/wiki/Douglas_Parkhill"
+  },
+  {
+    "date_added": "2026-10-10",
+    "category": "Web Development",
+    "topic": "Web syndication",
+    "definition": "Web syndication is making content available from one website to other sites. Most commonly, websites are made available to provide either summaries or full renditions of a website's recently added content. The term may also describe other kinds of content licensing for reuse.",
+    "url": "https://en.wikipedia.org/wiki/Web_syndication"
+  },
+  {
+    "date_added": "2026-10-10",
+    "category": "Network Infrastructure",
+    "topic": "Promiscuous traffic",
+    "definition": "In computer networking, promiscuous traffic, or cross-talking, describes situations where a receiver configured to receive a particular data stream receives that data stream and others.",
+    "url": "https://en.wikipedia.org/wiki/Promiscuous_traffic"
+  },
+  {
+    "date_added": "2026-10-11",
+    "category": "Software Engineering",
+    "topic": "Self-healing test automation",
+    "definition": "Self-healing test automation is a technique in software testing in which automated test scripts automatically detect, diagnose, and repair failures caused by changes in the application under test — without requiring manual intervention from a software engineer or QA professional. The approach relies on artificial intelligence (AI) and machine learning (ML) methods to identify new or changed user interface elements at runtime and update broken locators accordingly, maintaining test suite stability in the face of continuous software changes.",
+    "url": "https://en.wikipedia.org/wiki/Self-healing_test_automation"
+  },
+  {
+    "date_added": "2026-10-12",
+    "category": "Network Infrastructure",
+    "topic": "Frenetic (programming language)",
+    "definition": "Frenetic is a domain-specific language for programming software-defined networking (SDN). This domain-specific programming language allows network operators, rather than manually configuring each connected network device, to program the network as a whole. Frenetic is designed to solve major OpenFlow/NOX programming problems. In particular, Frenetic introduces a set of purely functional abstractions that enable modular program development, defines high-level, programmer-centric packet-processing operators, and eliminates many of the difficulties of the two-tier programming model by introducing a see-every-packet programming paradigm. Hence Frenetic is a functional reactive programming language operating at a packet level of abstraction.",
+    "url": "https://en.wikipedia.org/wiki/Frenetic_(programming_language)"
+  },
+  {
+    "date_added": "2026-10-12",
+    "category": "Artificial Intelligence",
+    "topic": "Cognitive computing",
+    "definition": "Cognitive computing refers to technology platforms that, broadly speaking, are based on the scientific disciplines of artificial intelligence and signal processing. These platforms encompass machine learning, reasoning, natural language processing, speech recognition and vision, human–computer interaction, dialog and narrative generation, among other technologies.",
+    "url": "https://en.wikipedia.org/wiki/Cognitive_computing"
+  },
+  {
+    "date_added": "2026-10-13",
+    "category": "Cybersecurity",
+    "topic": "Anthem medical data breach",
+    "definition": "The Anthem medical data breach was a medical data breach of information held by Elevance Health, known at that time as Anthem Inc.",
+    "url": "https://en.wikipedia.org/wiki/Anthem_medical_data_breach"
+  },
+  {
+    "date_added": "2026-10-13",
+    "category": "Programming Languages",
+    "topic": "Source (programming language)",
+    "definition": "Source is a family of sublanguages of JavaScript, developed for the textbook Structure and Interpretation of Computer Programs, JavaScript Edition. The JavaScript sublanguages Source §1, Source §2, Source §3, and Source §4 are designed to be only expressive enough to support all examples of the respective chapter of the textbook.",
+    "url": "https://en.wikipedia.org/wiki/Source_(programming_language)"
+  },
+  {
+    "date_added": "2026-10-14",
+    "category": "Operating Systems",
+    "topic": "Mobile operating system",
+    "definition": "A mobile operating system is an operating system used for smartphones, tablets, smartwatches, smartglasses, or other non-laptop personal mobile computing devices. While computers such as laptops are \"mobile\", the operating systems used on them are usually not considered mobile, as they were originally designed for desktop computers that historically did not have or need specific mobile features. This \"fine line\" distinguishing mobile and other forms has become blurred in recent years, due to the fact that newer devices have become smaller and more mobile, unlike the hardware of the past. Key factors blurring this line are the introduction of tablet computers, light laptops, and the hybridization of the 2-in-1 PCs.",
+    "url": "https://en.wikipedia.org/wiki/Mobile_operating_system"
+  },
+  {
+    "date_added": "2026-10-14",
+    "category": "Artificial Intelligence",
+    "topic": "Non-human",
+    "definition": "Non-human is any entity displaying some human characteristics, but not enough to be considered human. The term has been used in a variety of contexts and may refer to objects that have been developed with human intelligence, such as robots or vehicles.",
+    "url": "https://en.wikipedia.org/wiki/Non-human"
+  },
+  {
+    "date_added": "2026-10-14",
+    "category": "Network Infrastructure",
+    "topic": "Single-root input/output virtualization",
+    "definition": "In virtualization, single root input/output virtualization (SR-IOV) is a specification that allows the isolation of PCI Express resources for manageability and performance reasons.",
+    "url": "https://en.wikipedia.org/wiki/Single-root_input%2Foutput_virtualization"
+  },
+  {
+    "date_added": "2026-10-15",
+    "category": "Cryptography",
+    "topic": "Kurzsignale",
+    "definition": "The Short Signal Code, also known as the Short Signal Book, was a short code system used by the Kriegsmarine during World War II to minimize the transmission duration of messages.",
+    "url": "https://en.wikipedia.org/wiki/Kurzsignale"
+  },
+  {
+    "date_added": "2026-10-15",
+    "category": "Programming Languages",
+    "topic": "Petit Computer",
+    "definition": "Petit Computer is a software development application for the Nintendo DSi and later systems, developed by SmileBoom in Sapporo, Japan. The application is built around a custom dialect of BASIC known as SmileBASIC. Users can write games and other software using the onscreen keyboard and run the applications from within Petit Computer. The platform supports text-based console applications, visual applications, and any combination of the two. Input is available via hardware buttons, touchscreen input, or the onscreen keyboard.",
+    "url": "https://en.wikipedia.org/wiki/Petit_Computer"
+  },
+  {
+    "date_added": "2026-10-16",
+    "category": "Artificial Intelligence",
+    "topic": "Discrimination against robots",
+    "definition": "Discrimination against robots is a theorised issue that might happen when humans interact with humanoid robots. It is a robot ethics problem. It is possible that traits of humans that are discriminated against by humans may be a topic for discrimination against robots, such as the race and gender of the robots.",
+    "url": "https://en.wikipedia.org/wiki/Discrimination_against_robots"
+  },
+  {
+    "date_added": "2026-10-16",
+    "category": "Data Structures",
+    "topic": "Postings list",
+    "definition": "The postings list is a data structure commonly used in information retrieval (IR) systems to store indexing information about a corpus. It is central to the design and efficiency of search engines and database management systems that need to retrieve information rapidly.",
+    "url": "https://en.wikipedia.org/wiki/Postings_list"
+  },
+  {
+    "date_added": "2026-10-17",
+    "category": "Cryptography",
+    "topic": "Red/black concept",
+    "definition": "The red/black concept, named in comparison to a typewriter ribbon and sometimes called the red–black architecture or red/black engineering, refers to the careful segregation in cryptographic systems of signals that contain sensitive or classified plaintext information from those that carry encrypted information, or ciphertext. Therefore, the red side is usually considered the internal side, and the black side the more public side, with often some sort of guard, firewall or data-diode between the two.",
+    "url": "https://en.wikipedia.org/wiki/Red%2Fblack_concept"
+  },
+  {
+    "date_added": "2026-10-17",
+    "category": "Cybersecurity",
+    "topic": "National Cyber Security Policy 2013",
+    "definition": "National Cyber Security Policy is a policy framework by Department of Electronics and Information Technology (DeitY) It aims at protecting the public and private infrastructure from cyber attacks. The policy also intends to safeguard \"information, such as personal information, financial and banking information and sovereign data\". This was particularly relevant in the wake of US National Security Agency (NSA) leaks that suggested the US government agencies are spying on Indian users, who have no legal or technical safeguards against it. Ministry of Communications and Information Technology (India) defines Cyberspace as a complex environment consisting of interactions between people, software services supported by worldwide distribution of information and communication technology.",
+    "url": "https://en.wikipedia.org/wiki/National_Cyber_Security_Policy_2013"
+  },
+  {
+    "date_added": "2026-10-18",
+    "category": "Hardware",
+    "topic": "Cache hierarchy",
+    "definition": "Cache hierarchy, or multi-level cache, is a memory architecture that uses a hierarchy of memory stores based on varying access speeds to cache data. Highly requested data is cached in high-speed access memory stores, allowing swifter access by central processing unit (CPU) cores.",
+    "url": "https://en.wikipedia.org/wiki/Cache_hierarchy"
+  },
+  {
+    "date_added": "2026-10-18",
+    "category": "Web Development",
+    "topic": "Web testing",
+    "definition": "Web testing is software testing that focuses on web applications. Complete testing of a web-based system before going live can help address issues before the system is revealed to the public. Issues may include the security of the web application, the basic functionality of the site, its accessibility to disabled and fully able users, its ability to adapt to the multitude of desktops, devices, and operating systems, as well as readiness for expected traffic and number of users and the ability to survive a massive spike in user traffic, both of which are related to load testing.",
+    "url": "https://en.wikipedia.org/wiki/Web_testing"
+  },
+  {
+    "date_added": "2026-10-19",
+    "category": "Hardware",
+    "topic": "Domain-specific architecture",
+    "definition": "A domain-specific architecture (DSA) is a programmable computer architecture specifically tailored to operate very efficiently within the confines of a given application domain. The term is often used in contrast to general-purpose architectures, such as CPUs, that are designed to operate on any computer program.",
+    "url": "https://en.wikipedia.org/wiki/Domain-specific_architecture"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Artificial Intelligence",
+    "topic": "Feedback neural network",
+    "definition": "Feedback neural networks are neural networks with the ability to provide bottom-up and top-down approach feedback to their input or previous layers, based on their outputs or subsequent layers. This is notably used in large language models, specifically in reasoning language models (RLM). This process is designed to mimic self-assessment and internal deliberation, aiming to minimize errors and increase interpretability. This reflection is a form of \"test-time compute\", where additional computational resources are used during inference.",
+    "url": "https://en.wikipedia.org/wiki/Feedback_neural_network"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Network Infrastructure",
+    "topic": "Sideloading",
+    "definition": "Sideloading is the process of transferring files between two local devices, in particular between a personal computer and a mobile device such as a mobile phone, smartphone, PDA, tablet, portable media player or e-reader.",
+    "url": "https://en.wikipedia.org/wiki/Sideloading"
+  },
+  {
+    "date_added": "2026-10-20",
+    "category": "Web Development",
+    "topic": "Web content development",
+    "definition": "Web content development is the process of researching, writing, gathering, organizing, and editing information for publication on websites. Website content may consist of prose, graphics, pictures, recordings, movies, or other digital assets that could be distributed by a hypertext transfer protocol server, and viewed by a web browser.",
+    "url": "https://en.wikipedia.org/wiki/Web_content_development"
+  },
+  {
+    "date_added": "2026-10-21",
+    "category": "Artificial Intelligence",
+    "topic": "Human-centered AI",
+    "definition": "Human-centered AI is the initiative at the intersection of the fields of artificial intelligence (AI) and human-computer interaction (HCI) to develop AI systems in a way that prioritizes human values, needs, and general flourishing. Emphasis is placed on the recognition that artificial intelligence systems are rapidly changing, and will continue to influence, many aspects of the human experience, in areas ranging from scientific inquiry, governance and policy, labor and the economy, and creative expression, with an aim set to adapt current developments and guide future developments on a trajectory which is most beneficial to the human population at large, with the goal of augmenting human intelligence and capacities across these areas, as opposed to replacing them. Particular attention is paid to mitigating negative effects of AI automation on the livelihoods of the labor force, the use of AI in healthcare fields, and imbuing AI systems with societal values. Human-centered AI is linked to related endeavors in AI alignment and AI safety, but while these fields primarily focus on mitigating risks posed by AI that is unaligned to human values and/or uncontrollable AI self-development, human-centered AI places significant focus in exploring how AI systems can augment human capacities and serve as collaborators.",
+    "url": "https://en.wikipedia.org/wiki/Human-centered_AI"
   }
 ]
