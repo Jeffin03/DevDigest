@@ -3512,5 +3512,12 @@
     "topic": "Web content development",
     "definition": "Web content development is the process of researching, writing, gathering, organizing, and editing information for publication on websites. Website content may consist of prose, graphics, pictures, recordings, movies, or other digital assets that could be distributed by a hypertext transfer protocol server, and viewed by a web browser.",
     "url": "https://en.wikipedia.org/wiki/Web_content_development"
+  },
+  {
+    "date_added": "2026-10-21",
+    "category": "Artificial Intelligence",
+    "topic": "Human-centered AI",
+    "definition": "Human-centered AI is the initiative at the intersection of the fields of artificial intelligence (AI) and human-computer interaction (HCI) to develop AI systems in a way that prioritizes human values, needs, and general flourishing. Emphasis is placed on the recognition that artificial intelligence systems are rapidly changing, and will continue to influence, many aspects of the human experience, in areas ranging from scientific inquiry, governance and policy, labor and the economy, and creative expression, with an aim set to adapt current developments and guide future developments on a trajectory which is most beneficial to the human population at large, with the goal of augmenting human intelligence and capacities across these areas, as opposed to replacing them. Particular attention is paid to mitigating negative effects of AI automation on the livelihoods of the labor force, the use of AI in healthcare fields, and imbuing AI systems with societal values. Human-centered AI is linked to related endeavors in AI alignment and AI safety, but while these fields primarily focus on mitigating risks posed by AI that is unaligned to human values and/or uncontrollable AI self-development, human-centered AI places significant focus in exploring how AI systems can augment human capacities and serve as collaborators.",
+    "url": "https://en.wikipedia.org/wiki/Human-centered_AI"
   }
 ]
