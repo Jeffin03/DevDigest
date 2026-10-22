@@ -3533,5 +3533,12 @@
     "topic": "Hardware random number generator",
     "definition": "In computing, a hardware random number generator (HRNG), true random number generator (TRNG), non-deterministic random bit generator (NRBG), or physical random number generator is a device that generates random numbers from a physical process capable of producing entropy, unlike a pseudorandom number generator (PRNG) that utilizes a deterministic algorithm and non-physical nondeterministic random bit generators that do not include hardware dedicated to generation of entropy.",
     "url": "https://en.wikipedia.org/wiki/Hardware_random_number_generator"
+  },
+  {
+    "date_added": "2026-10-22",
+    "category": "Infrastructure",
+    "topic": "LakeFS",
+    "definition": "lakeFS is an open-source data version control system for managing data stored in object storage. It provides Git-like operations such as branching, committing, merging, and reverting for large-scale data stored in systems including Amazon S3, Azure Blob Storage, and Google Cloud Storage, as well as other S3-compatible object storage platforms. lakeFS is used in data engineering and machine learning workflows to manage changes to data, support reproducibility, and enable data governance across data lakes. The software is available as an open-source project, as well as in enterprise and managed service offerings, including lakeFS Cloud.",
+    "url": "https://en.wikipedia.org/wiki/LakeFS"
   }
 ]
