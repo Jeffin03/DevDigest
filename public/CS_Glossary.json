@@ -3526,5 +3526,12 @@
     "topic": "WURFL",
     "definition": "WURFL is a set of proprietary application programming interfaces (APIs) and an XML configuration file which contains information about device capabilities and features for a variety of mobile devices, focused on mobile device detection. Until version 2.2, WURFL was released under an \"open source / public domain\" license. Prior to version 2.2, device information was contributed by developers around the world and the WURFL was updated frequently, reflecting new wireless devices coming on the market. In June 2011, the founder of the WURFL project, Luca Passani, and Steve Kamerman, the author of Tera-WURFL, a popular PHP WURFL API, formed ScientiaMobile, Inc to provide commercial mobile device detection support and services using WURFL. As of August 30, 2011, the ScientiaMobile WURFL APIs are licensed under a dual-license model, using the AGPL license for non-commercial use and a proprietary commercial license. The current version of the WURFL database itself is no longer open source.",
     "url": "https://en.wikipedia.org/wiki/WURFL"
+  },
+  {
+    "date_added": "2026-10-22",
+    "category": "Cryptography",
+    "topic": "Hardware random number generator",
+    "definition": "In computing, a hardware random number generator (HRNG), true random number generator (TRNG), non-deterministic random bit generator (NRBG), or physical random number generator is a device that generates random numbers from a physical process capable of producing entropy, unlike a pseudorandom number generator (PRNG) that utilizes a deterministic algorithm and non-physical nondeterministic random bit generators that do not include hardware dedicated to generation of entropy.",
+    "url": "https://en.wikipedia.org/wiki/Hardware_random_number_generator"
   }
 ]
