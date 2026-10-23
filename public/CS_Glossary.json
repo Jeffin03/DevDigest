@@ -3540,5 +3540,12 @@
     "topic": "LakeFS",
     "definition": "lakeFS is an open-source data version control system for managing data stored in object storage. It provides Git-like operations such as branching, committing, merging, and reverting for large-scale data stored in systems including Amazon S3, Azure Blob Storage, and Google Cloud Storage, as well as other S3-compatible object storage platforms. lakeFS is used in data engineering and machine learning workflows to manage changes to data, support reproducibility, and enable data governance across data lakes. The software is available as an open-source project, as well as in enterprise and managed service offerings, including lakeFS Cloud.",
     "url": "https://en.wikipedia.org/wiki/LakeFS"
+  },
+  {
+    "date_added": "2026-10-23",
+    "category": "Cryptography",
+    "topic": "Hyper-encryption",
+    "definition": "Hyper-encryption is a form of encryption invented by Michael O. Rabin which uses a high-bandwidth source of public random bits, together with a secret key that is shared by only the sender and recipient(s) of the message. It uses the assumptions of Ueli Maurer's bounded-storage model as the basis of its secrecy. Although everyone can see the data, decryption by adversaries without the secret key is still not feasible, because of the space limitations of storing enough data to mount an attack against the system.",
+    "url": "https://en.wikipedia.org/wiki/Hyper-encryption"
   }
 ]
