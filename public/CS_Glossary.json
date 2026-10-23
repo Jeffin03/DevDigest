@@ -3547,5 +3547,12 @@
     "topic": "Hyper-encryption",
     "definition": "Hyper-encryption is a form of encryption invented by Michael O. Rabin which uses a high-bandwidth source of public random bits, together with a secret key that is shared by only the sender and recipient(s) of the message. It uses the assumptions of Ueli Maurer's bounded-storage model as the basis of its secrecy. Although everyone can see the data, decryption by adversaries without the secret key is still not feasible, because of the space limitations of storing enough data to mount an attack against the system.",
     "url": "https://en.wikipedia.org/wiki/Hyper-encryption"
+  },
+  {
+    "date_added": "2026-10-23",
+    "category": "Cryptography",
+    "topic": "Symmetric Boolean function",
+    "definition": "In mathematics, a symmetric Boolean function is a Boolean function whose value does not depend on the order of its input bits, i.e., it depends only on the number of ones in the input. For this reason they are also known as Boolean counting functions.",
+    "url": "https://en.wikipedia.org/wiki/Symmetric_Boolean_function"
   }
 ]
