@@ -3568,5 +3568,12 @@
     "topic": "SpiNNaker",
     "definition": "SpiNNaker is a massively parallel, manycore supercomputer architecture designed by the Advanced Processor Technologies Research Group (APT) at the Department of Computer Science, University of Manchester. It is composed of 57,600 processing nodes, each with 18 ARM9 processors and 128 MB of mobile DDR SDRAM, totalling 1,036,800 cores and over 7 TB of RAM. The computing platform is based on spiking neural networks, useful in simulating the human brain.",
     "url": "https://en.wikipedia.org/wiki/SpiNNaker"
+  },
+  {
+    "date_added": "2026-10-25",
+    "category": "Artificial Intelligence",
+    "topic": "Problem solving",
+    "definition": "Problem solving is the process of achieving a goal by overcoming obstacles, a frequent part of most activities. Problems in need of solutions range from simple personal tasks to complex issues in business and technical fields. The former is an example of simple problem solving (SPS) addressing one issue, whereas the latter is complex problem solving (CPS) with multiple interrelated obstacles. Another classification of problem-solving tasks is into well-defined problems with specific obstacles and goals, and ill-defined problems in which the current situation is troublesome but it is not clear what kind of resolution to aim for. Similarly, one may distinguish formal or fact-based problems requiring psychometric intelligence, versus socio-emotional problems which depend on the changeable emotions of individuals or groups, such as tactful behavior, fashion, or gift choices.",
+    "url": "https://en.wikipedia.org/wiki/Problem_solving"
   }
 ]
