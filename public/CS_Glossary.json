@@ -3582,5 +3582,12 @@
     "topic": "INDIAai",
     "definition": "INDIAai is a web portal launched by the Government of India on 7 March 2024 for artificial intelligence-related developments in India. It is known as the National AI Portal of India, which was jointly started by the Ministry of Electronics and Information Technology (MeitY), the National e-Governance Division (NeGD) and the National Association of Software and Service Companies (NASSCOM), with support from the Department of School Education and Literacy (DoSE&L) and the Ministry of Human Resource Development.",
     "url": "https://en.wikipedia.org/wiki/INDIAai"
+  },
+  {
+    "date_added": "2026-10-26",
+    "category": "Hardware",
+    "topic": "Directory-based cache coherence",
+    "definition": "In computer engineering, directory-based cache coherence is a type of cache coherence mechanism, where directories are used to manage caches in place of bus snooping. Bus snooping methods scale poorly due to the use of broadcasting. These methods can be used to target both performance and scalability of directory systems.",
+    "url": "https://en.wikipedia.org/wiki/Directory-based_cache_coherence"
   }
 ]
