@@ -3596,5 +3596,12 @@
     "topic": "Erlang (programming language)",
     "definition": "Erlang is a general-purpose, concurrent, functional high-level programming language, and a garbage-collected runtime system. The term Erlang is used interchangeably with Erlang/OTP, or Open Telecom Platform (OTP), which consists of the Erlang runtime system, several ready-to-use components (OTP) mainly written in Erlang, and a set of design principles for Erlang programs.",
     "url": "https://en.wikipedia.org/wiki/Erlang_(programming_language)"
+  },
+  {
+    "date_added": "2026-10-27",
+    "category": "Operating Systems",
+    "topic": "Timeline of operating systems",
+    "definition": "This article presents a timeline of events in the history of computer operating systems from 1949 to the current day. For a narrative explaining the overall developments, see the History of operating systems.",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_operating_systems"
   }
 ]
