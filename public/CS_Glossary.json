@@ -3589,5 +3589,12 @@
     "topic": "Directory-based cache coherence",
     "definition": "In computer engineering, directory-based cache coherence is a type of cache coherence mechanism, where directories are used to manage caches in place of bus snooping. Bus snooping methods scale poorly due to the use of broadcasting. These methods can be used to target both performance and scalability of directory systems.",
     "url": "https://en.wikipedia.org/wiki/Directory-based_cache_coherence"
+  },
+  {
+    "date_added": "2026-10-27",
+    "category": "Programming Languages",
+    "topic": "Erlang (programming language)",
+    "definition": "Erlang is a general-purpose, concurrent, functional high-level programming language, and a garbage-collected runtime system. The term Erlang is used interchangeably with Erlang/OTP, or Open Telecom Platform (OTP), which consists of the Erlang runtime system, several ready-to-use components (OTP) mainly written in Erlang, and a set of design principles for Erlang programs.",
+    "url": "https://en.wikipedia.org/wiki/Erlang_(programming_language)"
   }
 ]
