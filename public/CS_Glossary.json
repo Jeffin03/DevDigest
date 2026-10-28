@@ -3610,5 +3610,12 @@
     "topic": "Blend4Web",
     "definition": "Blend4Web is a free and open source framework for creating and displaying interactive 3D computer graphics in web browsers.",
     "url": "https://en.wikipedia.org/wiki/Blend4Web"
+  },
+  {
+    "date_added": "2026-10-28",
+    "category": "Cryptography",
+    "topic": "Critical security parameter",
+    "definition": "In cryptography, a critical security parameter (CSP) is information that is either user or system defined and is used to operate a cryptography module in processing encryption functions including cryptographic keys and authentication data, such as passwords, the disclosure or modification of which can compromise the security of a cryptographic module or the security of the information protected by the module.",
+    "url": "https://en.wikipedia.org/wiki/Critical_security_parameter"
   }
 ]
