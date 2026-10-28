@@ -3603,5 +3603,12 @@
     "topic": "Timeline of operating systems",
     "definition": "This article presents a timeline of events in the history of computer operating systems from 1949 to the current day. For a narrative explaining the overall developments, see the History of operating systems.",
     "url": "https://en.wikipedia.org/wiki/Timeline_of_operating_systems"
+  },
+  {
+    "date_added": "2026-10-28",
+    "category": "Web Development",
+    "topic": "Blend4Web",
+    "definition": "Blend4Web is a free and open source framework for creating and displaying interactive 3D computer graphics in web browsers.",
+    "url": "https://en.wikipedia.org/wiki/Blend4Web"
   }
 ]
