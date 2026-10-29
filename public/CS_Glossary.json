@@ -3624,5 +3624,12 @@
     "topic": "Software diversity",
     "definition": "Software diversity is a research field about the comprehension and engineering of diversity in the context of software.",
     "url": "https://en.wikipedia.org/wiki/Software_diversity"
+  },
+  {
+    "date_added": "2026-10-29",
+    "category": "Network Infrastructure",
+    "topic": "Network on a chip",
+    "definition": "A network on a chip, or network on chip, is a network-based communications subsystem on an integrated circuit (chip), most typically between modules in a system on chip (SoC). The modules on the IC are typically semiconductor IP cores schematizing various functions of the computer system, and are designed to be modular in the sense of network science. The network on chip is a router-based packet switching network between SoC modules.",
+    "url": "https://en.wikipedia.org/wiki/Network_on_a_chip"
   }
 ]
