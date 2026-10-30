@@ -3638,5 +3638,12 @@
     "topic": "WebScarab",
     "definition": "WebScarab is a web security application testing tool. It serves as a proxy that intercepts and allows people to alter web browser web requests and web server replies. WebScarab also may record traffic for further review.",
     "url": "https://en.wikipedia.org/wiki/WebScarab"
+  },
+  {
+    "date_added": "2026-10-30",
+    "category": "Hardware",
+    "topic": "Load–store architecture",
+    "definition": "In computer engineering, a load–store architecture is an instruction set architecture that divides instructions into two categories: memory access and ALU operations.",
+    "url": "https://en.wikipedia.org/wiki/Load%E2%80%93store_architecture"
   }
 ]
