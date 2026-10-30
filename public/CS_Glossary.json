@@ -3631,5 +3631,12 @@
     "topic": "Network on a chip",
     "definition": "A network on a chip, or network on chip, is a network-based communications subsystem on an integrated circuit (chip), most typically between modules in a system on chip (SoC). The modules on the IC are typically semiconductor IP cores schematizing various functions of the computer system, and are designed to be modular in the sense of network science. The network on chip is a router-based packet switching network between SoC modules.",
     "url": "https://en.wikipedia.org/wiki/Network_on_a_chip"
+  },
+  {
+    "date_added": "2026-10-30",
+    "category": "Web Development",
+    "topic": "WebScarab",
+    "definition": "WebScarab is a web security application testing tool. It serves as a proxy that intercepts and allows people to alter web browser web requests and web server replies. WebScarab also may record traffic for further review.",
+    "url": "https://en.wikipedia.org/wiki/WebScarab"
   }
 ]
