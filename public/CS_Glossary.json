@@ -3659,5 +3659,12 @@
     "topic": "CloudPassage",
     "definition": "CloudPassage is a company that provides an automation platform, delivered via software as a service, that improves security for private, public, and hybrid cloud computing environments. CloudPassage is headquartered in San Francisco.",
     "url": "https://en.wikipedia.org/wiki/CloudPassage"
+  },
+  {
+    "date_added": "2026-10-31",
+    "category": "Cybersecurity",
+    "topic": "Biometric device",
+    "definition": "A biometric device is a security identification and authentication device. Such devices use automated methods of verifying or recognising the identity of a living person based on a physiological or behavioral characteristic. These characteristics include fingerprints, facial images, iris and voice recognition.",
+    "url": "https://en.wikipedia.org/wiki/Biometric_device"
   }
 ]
