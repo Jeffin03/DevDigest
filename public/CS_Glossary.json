@@ -3645,5 +3645,12 @@
     "topic": "Load–store architecture",
     "definition": "In computer engineering, a load–store architecture is an instruction set architecture that divides instructions into two categories: memory access and ALU operations.",
     "url": "https://en.wikipedia.org/wiki/Load%E2%80%93store_architecture"
+  },
+  {
+    "date_added": "2026-10-31",
+    "category": "Software Engineering",
+    "topic": "Configuration management",
+    "definition": "Configuration management (CM) is a management process for establishing and maintaining consistency of a product's performance, functional, and physical attributes with its requirements, design, and operational information throughout its life. The CM process is widely used by military engineering organizations to manage changes throughout the system lifecycle of complex systems, such as weapon systems, military vehicles, and information systems. Outside the military, the CM process is also used within IT service management as defined by ITIL, and with other domain models in the civil engineering and other industrial engineering segments such as roads, bridges, canals, dams, and buildings.",
+    "url": "https://en.wikipedia.org/wiki/Configuration_management"
   }
 ]
