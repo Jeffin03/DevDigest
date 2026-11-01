@@ -3666,5 +3666,12 @@
     "topic": "Biometric device",
     "definition": "A biometric device is a security identification and authentication device. Such devices use automated methods of verifying or recognising the identity of a living person based on a physiological or behavioral characteristic. These characteristics include fingerprints, facial images, iris and voice recognition.",
     "url": "https://en.wikipedia.org/wiki/Biometric_device"
+  },
+  {
+    "date_added": "2026-11-01",
+    "category": "Web Development",
+    "topic": "Homeboyz Interactive",
+    "definition": "Homeboyz Interactive (HBI) was a faith-based recruitment, training and job placement non-profit business in Milwaukee, Wisconsin, United States, founded by a Jesuit brother in 1996 to transform gang members into productive workers.",
+    "url": "https://en.wikipedia.org/wiki/Homeboyz_Interactive"
   }
 ]
