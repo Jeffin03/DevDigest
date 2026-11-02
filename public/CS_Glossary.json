@@ -3680,5 +3680,12 @@
     "topic": "Apache CarbonData",
     "definition": "Apache CarbonData is a free and open-source column-oriented data storage format of the Apache Hadoop ecosystem. It is similar to the other columnar-storage file formats available in Hadoop namely RCFile and ORC. It is compatible with most of the data processing frameworks in the Hadoop environment. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk.",
     "url": "https://en.wikipedia.org/wiki/Apache_CarbonData"
+  },
+  {
+    "date_added": "2026-11-02",
+    "category": "Operating Systems",
+    "topic": "DBOS",
+    "definition": "DBOS is an open source durable workflow execution software library written for the Python, TypeScript, Java, and Go programming languages.",
+    "url": "https://en.wikipedia.org/wiki/DBOS"
   }
 ]
