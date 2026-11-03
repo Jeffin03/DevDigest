@@ -3694,5 +3694,12 @@
     "topic": "Observability (software)",
     "definition": "In software engineering, more specifically in distributed computing, observability is the ability to collect data about programs' execution, modules' internal states, and the communication among components. To improve observability, software engineers use a wide range of logging and tracing techniques to gather telemetry information, and tools to analyze and use it. Observability is foundational to site reliability engineering, as it is the first step in triaging a service outage. One of the goals of observability is to minimize the amount of prior knowledge needed to debug an issue.",
     "url": "https://en.wikipedia.org/wiki/Observability_(software)"
+  },
+  {
+    "date_added": "2026-11-03",
+    "category": "Programming Languages",
+    "topic": "TTCN-3",
+    "definition": "TTCN-3 is a strongly typed testing language used in conformance testing of communicating systems. TTCN-3 is written by ETSI in the ES 201 873 series, and standardized by ITU-T in the Z.160 Series.",
+    "url": "https://en.wikipedia.org/wiki/TTCN-3"
   }
 ]
