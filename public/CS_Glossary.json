@@ -3687,5 +3687,12 @@
     "topic": "DBOS",
     "definition": "DBOS is an open source durable workflow execution software library written for the Python, TypeScript, Java, and Go programming languages.",
     "url": "https://en.wikipedia.org/wiki/DBOS"
+  },
+  {
+    "date_added": "2026-11-03",
+    "category": "Software Engineering",
+    "topic": "Observability (software)",
+    "definition": "In software engineering, more specifically in distributed computing, observability is the ability to collect data about programs' execution, modules' internal states, and the communication among components. To improve observability, software engineers use a wide range of logging and tracing techniques to gather telemetry information, and tools to analyze and use it. Observability is foundational to site reliability engineering, as it is the first step in triaging a service outage. One of the goals of observability is to minimize the amount of prior knowledge needed to debug an issue.",
+    "url": "https://en.wikipedia.org/wiki/Observability_(software)"
   }
 ]
