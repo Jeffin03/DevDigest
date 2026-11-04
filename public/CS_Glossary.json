@@ -3701,5 +3701,12 @@
     "topic": "TTCN-3",
     "definition": "TTCN-3 is a strongly typed testing language used in conformance testing of communicating systems. TTCN-3 is written by ETSI in the ES 201 873 series, and standardized by ITU-T in the Z.160 Series.",
     "url": "https://en.wikipedia.org/wiki/TTCN-3"
+  },
+  {
+    "date_added": "2026-11-04",
+    "category": "Artificial Intelligence",
+    "topic": "Agent harness",
+    "definition": "An agent harness, also known as agent scaffolding, is the software infrastructure surrounding a large language model (LLM) that enables it to operate as an AI agent. It manages tool use, memory, state persistence, execution environments and feedback loops, as opposed to the model's internal reasoning. The UK's AI Security Institute described an AI agent as being formed by the model plus the scaffolding back in 2023. The relationship can be expressed as agent = model + harness.",
+    "url": "https://en.wikipedia.org/wiki/Agent_harness"
   }
 ]
