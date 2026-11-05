@@ -3715,5 +3715,12 @@
     "topic": "Federal Desktop Core Configuration",
     "definition": "The Federal Desktop Core Configuration (FDCC) is a list of security settings recommended by the National Institute of Standards and Technology (NIST) for general-purpose microcomputers that are connected directly to the network of a United States government agency.",
     "url": "https://en.wikipedia.org/wiki/Federal_Desktop_Core_Configuration"
+  },
+  {
+    "date_added": "2026-11-05",
+    "category": "Programming Languages",
+    "topic": "Agda (programming language)",
+    "definition": "Agda is a dependently typed functional programming language originally developed by Ulf Norell at Chalmers University of Technology with implementation described in his PhD thesis. The original Agda system was developed at Chalmers by Catarina Coquand in 1999. The current version, originally named Agda 2, is a full rewrite, which should be considered a new language that shares a name and tradition.",
+    "url": "https://en.wikipedia.org/wiki/Agda_(programming_language)"
   }
 ]
