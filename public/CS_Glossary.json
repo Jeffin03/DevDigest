@@ -3722,5 +3722,12 @@
     "topic": "Agda (programming language)",
     "definition": "Agda is a dependently typed functional programming language originally developed by Ulf Norell at Chalmers University of Technology with implementation described in his PhD thesis. The original Agda system was developed at Chalmers by Catarina Coquand in 1999. The current version, originally named Agda 2, is a full rewrite, which should be considered a new language that shares a name and tradition.",
     "url": "https://en.wikipedia.org/wiki/Agda_(programming_language)"
+  },
+  {
+    "date_added": "2026-11-05",
+    "category": "Hardware",
+    "topic": "Scale cube",
+    "definition": "The scale cube is a technology model that indicates three methods by which technology platforms may be scaled to meet increasing levels of demand upon the system in question. The three approaches defined by the model include scaling through replication or cloning, scaling through segmentation along service boundaries or dissimilar components and segmentation or partitioning along similar components.",
+    "url": "https://en.wikipedia.org/wiki/Scale_cube"
   }
 ]
