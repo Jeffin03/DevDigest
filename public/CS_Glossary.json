@@ -3729,5 +3729,12 @@
     "topic": "Scale cube",
     "definition": "The scale cube is a technology model that indicates three methods by which technology platforms may be scaled to meet increasing levels of demand upon the system in question. The three approaches defined by the model include scaling through replication or cloning, scaling through segmentation along service boundaries or dissimilar components and segmentation or partitioning along similar components.",
     "url": "https://en.wikipedia.org/wiki/Scale_cube"
+  },
+  {
+    "date_added": "2026-11-06",
+    "category": "Network Infrastructure",
+    "topic": "Decentralized autonomous organization",
+    "definition": "A decentralized autonomous organization (DAO) is a software system for organization of other computer programs handled through a decentralized ledger technology like a blockchain. These systems are used most commonly to handle voting and finances, among other processes. The precise legal status of this type of organization system is unclear.",
+    "url": "https://en.wikipedia.org/wiki/Decentralized_autonomous_organization"
   }
 ]
