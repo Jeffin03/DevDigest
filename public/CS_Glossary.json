@@ -3736,5 +3736,12 @@
     "topic": "Decentralized autonomous organization",
     "definition": "A decentralized autonomous organization (DAO) is a software system for organization of other computer programs handled through a decentralized ledger technology like a blockchain. These systems are used most commonly to handle voting and finances, among other processes. The precise legal status of this type of organization system is unclear.",
     "url": "https://en.wikipedia.org/wiki/Decentralized_autonomous_organization"
+  },
+  {
+    "date_added": "2026-11-06",
+    "category": "Programming Languages",
+    "topic": "Processing",
+    "definition": "Processing is a graphics library and integrated development environment (IDE) built for the electronic arts, new media art, and visual design communities with the purpose of teaching non-programmers the fundamentals of computer programming in a visual context. It is free and open-source software released under a GNU General Public License (GPL) and a GNU Lesser General Public License (LGPL).",
+    "url": "https://en.wikipedia.org/wiki/Processing"
   }
 ]
