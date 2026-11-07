@@ -3743,5 +3743,12 @@
     "topic": "Processing",
     "definition": "Processing is a graphics library and integrated development environment (IDE) built for the electronic arts, new media art, and visual design communities with the purpose of teaching non-programmers the fundamentals of computer programming in a visual context. It is free and open-source software released under a GNU General Public License (GPL) and a GNU Lesser General Public License (LGPL).",
     "url": "https://en.wikipedia.org/wiki/Processing"
+  },
+  {
+    "date_added": "2026-11-07",
+    "category": "Cybersecurity",
+    "topic": "CAPTCHA",
+    "definition": "A CAPTCHA, a type of challenge-response Turing test, aims to protect computing user-interfaces. It attempts to deter bot attacks and spam by determining whether a user is a human.",
+    "url": "https://en.wikipedia.org/wiki/CAPTCHA"
   }
 ]
