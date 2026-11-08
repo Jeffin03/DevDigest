@@ -3764,5 +3764,12 @@
     "topic": "Site Security Handbook",
     "definition": "The Site Security Handbook, RFC 2196, is a guide on setting computer security policies and procedures for sites that have systems on the Internet. The guide lists issues and factors that a site must consider when setting their own policies. It makes a number of recommendations and provides discussions of relevant areas.",
     "url": "https://en.wikipedia.org/wiki/Site_Security_Handbook"
+  },
+  {
+    "date_added": "2026-11-08",
+    "category": "Programming Languages",
+    "topic": "Smalltalk",
+    "definition": "Smalltalk is a purely object-oriented programming language that was originally created in the 1970s for educational use, specifically for constructionist learning, but later found use in business. It was created at Xerox PARC by Learning Research Group (LRG) scientists, including Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, and Scott Wallace.",
+    "url": "https://en.wikipedia.org/wiki/Smalltalk"
   }
 ]
