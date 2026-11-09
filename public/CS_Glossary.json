@@ -3771,5 +3771,12 @@
     "topic": "Smalltalk",
     "definition": "Smalltalk is a purely object-oriented programming language that was originally created in the 1970s for educational use, specifically for constructionist learning, but later found use in business. It was created at Xerox PARC by Learning Research Group (LRG) scientists, including Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, and Scott Wallace.",
     "url": "https://en.wikipedia.org/wiki/Smalltalk"
+  },
+  {
+    "date_added": "2026-11-09",
+    "category": "Cybersecurity",
+    "topic": "Hacker Bible",
+    "definition": "The Hacker Bible is a publication of the German hacker organization Chaos Computer Club (CCC). It has been published in three editions to date, 1985, 1988, and 2024. The first two were edited by Wau Holland and published on the Grüne Kraft press. The third edition was published by the Chaos Computer Club and released by Katapult Verlag.",
+    "url": "https://en.wikipedia.org/wiki/Hacker_Bible"
   }
 ]
