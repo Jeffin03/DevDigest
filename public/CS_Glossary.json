@@ -3799,5 +3799,12 @@
     "topic": "Systems development life cycle",
     "definition": "The systems development life cycle (SDLC) describes the typical phases and progression between phases during the development of a computer-based system. These phases progress from inception to retirement. At base, there is just one life cycle, but the taxonomy used to describe it may vary; the cycle may be classified into different numbers of phases and various names may be used for those phases. The SDLC is analogous to the life cycle of a living organism from its birth to its death. In particular, the SDLC varies by system in much the same way that each living organism has a unique path through its life.",
     "url": "https://en.wikipedia.org/wiki/Systems_development_life_cycle"
+  },
+  {
+    "date_added": "2026-11-11",
+    "category": "Infrastructure",
+    "topic": "Distributed manufacturing",
+    "definition": "Distributed manufacturing, also known as distributed production, cloud producing, distributed digital manufacturing, and local manufacturing, is a form of decentralized manufacturing practiced by enterprises using a network of geographically dispersed manufacturing facilities that are coordinated using information technology. It can also refer to local manufacture via the historic cottage industry model, or manufacturing that takes place in the homes of consumers.",
+    "url": "https://en.wikipedia.org/wiki/Distributed_manufacturing"
   }
 ]
