@@ -3806,5 +3806,12 @@
     "topic": "Distributed manufacturing",
     "definition": "Distributed manufacturing, also known as distributed production, cloud producing, distributed digital manufacturing, and local manufacturing, is a form of decentralized manufacturing practiced by enterprises using a network of geographically dispersed manufacturing facilities that are coordinated using information technology. It can also refer to local manufacture via the historic cottage industry model, or manufacturing that takes place in the homes of consumers.",
     "url": "https://en.wikipedia.org/wiki/Distributed_manufacturing"
+  },
+  {
+    "date_added": "2026-11-11",
+    "category": "Network Infrastructure",
+    "topic": "Cut-through switching",
+    "definition": "In computer networking, cut-through switching, also called cut-through forwarding is a method for packet switching systems, wherein the switch starts forwarding a frame before the whole frame has been received, normally as soon as the destination address and outgoing interface is determined. Compared to store and forward, this technique reduces latency through the switch and relies on the destination devices for error handling. Pure cut-through switching is only possible when the speed of the outgoing interface is at least equal or higher than the incoming interface speed.",
+    "url": "https://en.wikipedia.org/wiki/Cut-through_switching"
   }
 ]
