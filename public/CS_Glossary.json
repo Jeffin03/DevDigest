@@ -3813,5 +3813,12 @@
     "topic": "Cut-through switching",
     "definition": "In computer networking, cut-through switching, also called cut-through forwarding is a method for packet switching systems, wherein the switch starts forwarding a frame before the whole frame has been received, normally as soon as the destination address and outgoing interface is determined. Compared to store and forward, this technique reduces latency through the switch and relies on the destination devices for error handling. Pure cut-through switching is only possible when the speed of the outgoing interface is at least equal or higher than the incoming interface speed.",
     "url": "https://en.wikipedia.org/wiki/Cut-through_switching"
+  },
+  {
+    "date_added": "2026-11-12",
+    "category": "Artificial Intelligence",
+    "topic": "Dataset shift",
+    "definition": "Dataset shift is a phenomenon in machine learning and statistics in which the joint distribution of input variables and target labels is different in the training phase and the deployment or test phase. This happens when the statistical properties of data used to train a model are no longer representative of the data encountered in real-world use, often resulting in degraded predictive performance and diminished generalization ability.",
+    "url": "https://en.wikipedia.org/wiki/Dataset_shift"
   }
 ]
