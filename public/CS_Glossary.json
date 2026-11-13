@@ -3834,5 +3834,12 @@
     "topic": "Refal",
     "definition": "Refal \"is a functional programming language oriented toward symbolic computations\", including \"string processing, language translation, [and] artificial intelligence\". It is one of the oldest members of this family, first conceived of in 1966 as a theoretical tool, with the first implementation appearing in 1968. Refal was intended to combine mathematical simplicity with practicality for writing large and sophisticated programs.",
     "url": "https://en.wikipedia.org/wiki/Refal"
+  },
+  {
+    "date_added": "2026-11-13",
+    "category": "Cybersecurity",
+    "topic": "Dancing pigs",
+    "definition": "In computer security, \"dancing pigs\" is a term or problem that explains computer users' attitudes towards computer security. It states that users will continue to pick an amusing graphic even if they receive a warning from security software that it is potentially dangerous. In other words, users choose their primary desire features without considering the security. \"Dancing pigs\" is generally used by tech experts and can be found in IT articles.",
+    "url": "https://en.wikipedia.org/wiki/Dancing_pigs"
   }
 ]
