@@ -3848,5 +3848,12 @@
     "topic": "Reliable multicast",
     "definition": "Reliable multicast is any computer networking protocol that provides a reliable sequence of packets to multiple recipients simultaneously, making it suitable for applications such as multi-receiver file transfer.",
     "url": "https://en.wikipedia.org/wiki/Reliable_multicast"
+  },
+  {
+    "date_added": "2026-11-14",
+    "category": "Web Development",
+    "topic": "Situational application",
+    "definition": "In computing, a situational application is \"good enough\" software created for a narrow group of users with a unique set of needs. The application typically has a short life span, and is often created within the group where it is used, sometimes by the users themselves. As the requirements of a small team using the application change, the situational application often also continues to evolve to accommodate these changes. Although situational applications are specifically designed to embrace change, significant changes in requirements may lead to an abandonment of the situational application altogether – in some cases it is just easier to develop a new one than to evolve the one in use.",
+    "url": "https://en.wikipedia.org/wiki/Situational_application"
   }
 ]
