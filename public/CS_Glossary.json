@@ -3841,5 +3841,12 @@
     "topic": "Dancing pigs",
     "definition": "In computer security, \"dancing pigs\" is a term or problem that explains computer users' attitudes towards computer security. It states that users will continue to pick an amusing graphic even if they receive a warning from security software that it is potentially dangerous. In other words, users choose their primary desire features without considering the security. \"Dancing pigs\" is generally used by tech experts and can be found in IT articles.",
     "url": "https://en.wikipedia.org/wiki/Dancing_pigs"
+  },
+  {
+    "date_added": "2026-11-14",
+    "category": "Network Infrastructure",
+    "topic": "Reliable multicast",
+    "definition": "Reliable multicast is any computer networking protocol that provides a reliable sequence of packets to multiple recipients simultaneously, making it suitable for applications such as multi-receiver file transfer.",
+    "url": "https://en.wikipedia.org/wiki/Reliable_multicast"
   }
 ]
