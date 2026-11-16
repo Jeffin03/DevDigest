@@ -3876,5 +3876,12 @@
     "topic": "Codebook",
     "definition": "A codebook is a type of document used for gathering and storing cryptography codes. Originally, codebooks were often literally books, but today \"codebook\" is a byword for the complete record of a series of codes, regardless of physical format.",
     "url": "https://en.wikipedia.org/wiki/Codebook"
+  },
+  {
+    "date_added": "2026-11-16",
+    "category": "Programming Languages",
+    "topic": "Mesa (programming language)",
+    "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
+    "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
   }
 ]
