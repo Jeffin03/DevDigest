@@ -3883,5 +3883,12 @@
     "topic": "Mesa (programming language)",
     "definition": "Mesa is a programming language developed in the mid 1970s at the Xerox Palo Alto Research Center in Palo Alto, California, United States. The language name was a pun based upon the programming language catchphrases of the time, because Mesa is a \"high level\" programming language.",
     "url": "https://en.wikipedia.org/wiki/Mesa_(programming_language)"
+  },
+  {
+    "date_added": "2026-11-17",
+    "category": "Software Engineering",
+    "topic": "Tertiary review",
+    "definition": "In software engineering, a tertiary review is a systematic review of systematic reviews. It is also referred to as a tertiary study in the software engineering literature. However, Umbrella review is the term more commonly used in medicine.",
+    "url": "https://en.wikipedia.org/wiki/Tertiary_review"
   }
 ]
