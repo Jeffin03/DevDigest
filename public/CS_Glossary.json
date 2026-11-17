@@ -3890,5 +3890,12 @@
     "topic": "Tertiary review",
     "definition": "In software engineering, a tertiary review is a systematic review of systematic reviews. It is also referred to as a tertiary study in the software engineering literature. However, Umbrella review is the term more commonly used in medicine.",
     "url": "https://en.wikipedia.org/wiki/Tertiary_review"
+  },
+  {
+    "date_added": "2026-11-17",
+    "category": "Cryptography",
+    "topic": "Ultra (cryptography)",
+    "definition": "Ultra was the designation adopted by British military intelligence in June 1941 for wartime signals intelligence obtained by breaking high-level encrypted enemy radio and teleprinter communications at the Government Code and Cypher School (GC&CS) at Bletchley Park. Ultra eventually became the standard designation among the western Allies for all such intelligence. The name arose because the intelligence obtained was considered more important than that designated by the highest British security classification then used and so was regarded as being Ultra Secret. Several other cryptonyms had been used for such intelligence.",
+    "url": "https://en.wikipedia.org/wiki/Ultra_(cryptography)"
   }
 ]
