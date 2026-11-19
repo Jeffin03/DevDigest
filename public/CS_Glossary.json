@@ -3911,5 +3911,12 @@
     "topic": "HashClash",
     "definition": "HashClash was a volunteer computing project running on the Berkeley Open Infrastructure for Network Computing (BOINC) software platform to find collisions in the MD5 hash algorithm. It was based at the Department of Mathematics and Computer Science at the Eindhoven University of Technology, and Marc Stevens initiated the project as part of his master's degree thesis.",
     "url": "https://en.wikipedia.org/wiki/HashClash"
+  },
+  {
+    "date_added": "2026-11-19",
+    "category": "Web Development",
+    "topic": "Web engineering",
+    "definition": "The World Wide Web has become a major delivery platform for a variety of complex and sophisticated enterprise applications in several domains. In addition to their inherent multifaceted functionality, these Web applications exhibit complex behaviour and place some unique demands on their usability, performance, security, and ability to grow and evolve. However, a vast majority of these applications continue to be developed in an ad hoc way, contributing to problems of usability, maintainability, quality and reliability. While Web development can benefit from established practices from other related disciplines, it has certain distinguishing characteristics that demand special considerations. In recent years, there have been developments towards addressing these considerations.",
+    "url": "https://en.wikipedia.org/wiki/Web_engineering"
   }
 ]
