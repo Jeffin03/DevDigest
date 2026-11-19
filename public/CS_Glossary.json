@@ -3918,5 +3918,12 @@
     "topic": "Web engineering",
     "definition": "The World Wide Web has become a major delivery platform for a variety of complex and sophisticated enterprise applications in several domains. In addition to their inherent multifaceted functionality, these Web applications exhibit complex behaviour and place some unique demands on their usability, performance, security, and ability to grow and evolve. However, a vast majority of these applications continue to be developed in an ad hoc way, contributing to problems of usability, maintainability, quality and reliability. While Web development can benefit from established practices from other related disciplines, it has certain distinguishing characteristics that demand special considerations. In recent years, there have been developments towards addressing these considerations.",
     "url": "https://en.wikipedia.org/wiki/Web_engineering"
+  },
+  {
+    "date_added": "2026-11-19",
+    "category": "Network Infrastructure",
+    "topic": "Fabric computing",
+    "definition": "Fabric computing or unified computing involves constructing a computing fabric consisting of interconnected nodes that look like a weave or a fabric when seen collectively from a distance.",
+    "url": "https://en.wikipedia.org/wiki/Fabric_computing"
   }
 ]
