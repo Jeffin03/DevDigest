@@ -3946,5 +3946,12 @@
     "topic": "COMSEC Custodian",
     "definition": "A COMSEC custodian, or a COMSEC account manager per federal guidelines, is an individual designated to handle the receipt, transfer, accountability, safeguarding, and destruction of security communications assigned to any specific COMSEC account, and, they must hold an appropriate security clearance matching the level of classified material.",
     "url": "https://en.wikipedia.org/wiki/COMSEC_Custodian"
+  },
+  {
+    "date_added": "2026-11-21",
+    "category": "Network Infrastructure",
+    "topic": "Timeout (computing)",
+    "definition": "In telecommunications and related engineering, the term timeout or time-out has several meanings, including:A network parameter related to an enforced event designed to occur at the conclusion of a predetermined elapsed time. A specified period of time that will be allowed to elapse in a system before a specified event is to take place, unless another specified event occurs first; in either case, the period is terminated when either event takes place. Note: A timeout condition can be canceled by the receipt of an appropriate time-out cancellation signal. An event that occurs at the end of a predetermined period of time that began at the occurrence of another specified event. The timeout can be prevented by an appropriate signal.",
+    "url": "https://en.wikipedia.org/wiki/Timeout_(computing)"
   }
 ]
