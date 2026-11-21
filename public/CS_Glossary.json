@@ -3939,5 +3939,12 @@
     "topic": "Simultaneous multithreading",
     "definition": "Simultaneous multithreading (SMT) is a technique for improving the overall efficiency of superscalar CPUs with hardware multithreading. SMT permits multiple independent threads of execution to better use the resources provided by modern processor architectures.",
     "url": "https://en.wikipedia.org/wiki/Simultaneous_multithreading"
+  },
+  {
+    "date_added": "2026-11-21",
+    "category": "Cryptography",
+    "topic": "COMSEC Custodian",
+    "definition": "A COMSEC custodian, or a COMSEC account manager per federal guidelines, is an individual designated to handle the receipt, transfer, accountability, safeguarding, and destruction of security communications assigned to any specific COMSEC account, and, they must hold an appropriate security clearance matching the level of classified material.",
+    "url": "https://en.wikipedia.org/wiki/COMSEC_Custodian"
   }
 ]
