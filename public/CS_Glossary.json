@@ -3953,5 +3953,12 @@
     "topic": "Timeout (computing)",
     "definition": "In telecommunications and related engineering, the term timeout or time-out has several meanings, including:A network parameter related to an enforced event designed to occur at the conclusion of a predetermined elapsed time. A specified period of time that will be allowed to elapse in a system before a specified event is to take place, unless another specified event occurs first; in either case, the period is terminated when either event takes place. Note: A timeout condition can be canceled by the receipt of an appropriate time-out cancellation signal. An event that occurs at the end of a predetermined period of time that began at the occurrence of another specified event. The timeout can be prevented by an appropriate signal.",
     "url": "https://en.wikipedia.org/wiki/Timeout_(computing)"
+  },
+  {
+    "date_added": "2026-11-22",
+    "category": "Cryptography",
+    "topic": "HTTP Strict Transport Security",
+    "definition": "HTTP Strict Transport Security (HSTS) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in RFC 6797.",
+    "url": "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security"
   }
 ]
