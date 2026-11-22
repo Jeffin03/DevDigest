@@ -3960,5 +3960,12 @@
     "topic": "HTTP Strict Transport Security",
     "definition": "HTTP Strict Transport Security (HSTS) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in RFC 6797.",
     "url": "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security"
+  },
+  {
+    "date_added": "2026-11-22",
+    "category": "Hardware",
+    "topic": "Reference model",
+    "definition": "A reference model—in systems, enterprise, and software engineering—is an abstract framework or domain-specific ontology consisting of an interlinked set of clearly defined concepts produced by an expert or body of experts to encourage clear communication. A reference model can represent the component parts of any consistent idea, from business functions to system components, as long as it represents a complete set. This frame of reference can then be used to communicate ideas clearly among members of the same community.",
+    "url": "https://en.wikipedia.org/wiki/Reference_model"
   }
 ]
