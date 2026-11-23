@@ -3967,5 +3967,12 @@
     "topic": "Reference model",
     "definition": "A reference model—in systems, enterprise, and software engineering—is an abstract framework or domain-specific ontology consisting of an interlinked set of clearly defined concepts produced by an expert or body of experts to encourage clear communication. A reference model can represent the component parts of any consistent idea, from business functions to system components, as long as it represents a complete set. This frame of reference can then be used to communicate ideas clearly among members of the same community.",
     "url": "https://en.wikipedia.org/wiki/Reference_model"
+  },
+  {
+    "date_added": "2026-11-23",
+    "category": "Network Infrastructure",
+    "topic": "Pairing (computing)",
+    "definition": "Pairing, sometimes known as bonding, is a process used in computer networking that helps set up an initial linkage between computing devices to allow communications between them. The most common example is used in Bluetooth, where the pairing process is used to link devices like a Bluetooth headset with a mobile phone.",
+    "url": "https://en.wikipedia.org/wiki/Pairing_(computing)"
   }
 ]
