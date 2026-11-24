@@ -3981,5 +3981,12 @@
     "topic": "Qore (programming language)",
     "definition": "Qore is an interpreted, high-level, general-purpose, garbage collected dynamic programming language, featuring support for code embedding and sandboxing with optional strong typing and a focus on fundamental support for multithreading and SMP scalability.",
     "url": "https://en.wikipedia.org/wiki/Qore_(programming_language)"
+  },
+  {
+    "date_added": "2026-11-24",
+    "category": "Network Infrastructure",
+    "topic": "P2PTV",
+    "definition": "P2PTV refers to peer-to-peer (P2P) software applications designed to redistribute video streams in real time on a P2P network; the distributed video streams are typically TV channels from all over the world but may also come from other sources. The draw to these applications is significant because they have the potential to make any TV channel globally available by any individual feeding the stream into the network where each peer joining to watch the video is a relay to other peer viewers, allowing a scalable distribution among a large audience with no incremental cost for the source.",
+    "url": "https://en.wikipedia.org/wiki/P2PTV"
   }
 ]
