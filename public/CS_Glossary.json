@@ -3988,5 +3988,12 @@
     "topic": "P2PTV",
     "definition": "P2PTV refers to peer-to-peer (P2P) software applications designed to redistribute video streams in real time on a P2P network; the distributed video streams are typically TV channels from all over the world but may also come from other sources. The draw to these applications is significant because they have the potential to make any TV channel globally available by any individual feeding the stream into the network where each peer joining to watch the video is a relay to other peer viewers, allowing a scalable distribution among a large audience with no incremental cost for the source.",
     "url": "https://en.wikipedia.org/wiki/P2PTV"
+  },
+  {
+    "date_added": "2026-11-25",
+    "category": "Cybersecurity",
+    "topic": "Public computer",
+    "definition": "A public computer is any of various computers available in public areas. Some places where public computers may be available are libraries, schools, or dedicated facilities run by government.",
+    "url": "https://en.wikipedia.org/wiki/Public_computer"
   }
 ]
