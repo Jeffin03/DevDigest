@@ -3995,5 +3995,12 @@
     "topic": "Public computer",
     "definition": "A public computer is any of various computers available in public areas. Some places where public computers may be available are libraries, schools, or dedicated facilities run by government.",
     "url": "https://en.wikipedia.org/wiki/Public_computer"
+  },
+  {
+    "date_added": "2026-11-25",
+    "category": "Network Infrastructure",
+    "topic": "Physical media (data communication)",
+    "definition": "Physical media refers to the physical materials that are used to store or transmit information in data communications. These physical media are generally physical objects made of materials such as copper or glass. They can be touched and felt, and have physical properties such as weight and color. For a number of years, copper and glass were the only media used in computer networking.",
+    "url": "https://en.wikipedia.org/wiki/Physical_media_(data_communication)"
   }
 ]
