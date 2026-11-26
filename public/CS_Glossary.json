@@ -4002,5 +4002,12 @@
     "topic": "Physical media (data communication)",
     "definition": "Physical media refers to the physical materials that are used to store or transmit information in data communications. These physical media are generally physical objects made of materials such as copper or glass. They can be touched and felt, and have physical properties such as weight and color. For a number of years, copper and glass were the only media used in computer networking.",
     "url": "https://en.wikipedia.org/wiki/Physical_media_(data_communication)"
+  },
+  {
+    "date_added": "2026-11-26",
+    "category": "Web Development",
+    "topic": "Front-end web development",
+    "definition": "Front-end web development is the development of the graphical user interface of a website through the use of HTML, CSS, and JavaScript so users can view and interact with that website.",
+    "url": "https://en.wikipedia.org/wiki/Front-end_web_development"
   }
 ]
