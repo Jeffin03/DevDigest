@@ -4009,5 +4009,12 @@
     "topic": "Front-end web development",
     "definition": "Front-end web development is the development of the graphical user interface of a website through the use of HTML, CSS, and JavaScript so users can view and interact with that website.",
     "url": "https://en.wikipedia.org/wiki/Front-end_web_development"
+  },
+  {
+    "date_added": "2026-11-26",
+    "category": "Hardware",
+    "topic": "Cellular architecture",
+    "definition": "Cellular architecture is a type of computer architecture associated with parallel computing. It extends multi-core architecture by organizing processing into independent \"cells,\" where each cell contains thread units, memory, and communication links. This design enables large numbers of concurrent threads to run within a single processor, with performance gains achieved through thread-level parallelism.",
+    "url": "https://en.wikipedia.org/wiki/Cellular_architecture"
   }
 ]
