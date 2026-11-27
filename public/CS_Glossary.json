@@ -4016,5 +4016,12 @@
     "topic": "Cellular architecture",
     "definition": "Cellular architecture is a type of computer architecture associated with parallel computing. It extends multi-core architecture by organizing processing into independent \"cells,\" where each cell contains thread units, memory, and communication links. This design enables large numbers of concurrent threads to run within a single processor, with performance gains achieved through thread-level parallelism.",
     "url": "https://en.wikipedia.org/wiki/Cellular_architecture"
+  },
+  {
+    "date_added": "2026-11-27",
+    "category": "Network Infrastructure",
+    "topic": "Mail-sink",
+    "definition": "Smtp-sink is a utility program in the Postfix Mail software package that implements a \"black hole\" function. It listens on the named host and port. It accepts Simple Mail Transfer Protocol (SMTP) messages from the network and discards them. The purpose is to support measurement of client performance. It is not SMTP protocol compliant.",
+    "url": "https://en.wikipedia.org/wiki/Mail-sink"
   }
 ]
