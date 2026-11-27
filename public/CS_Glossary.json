@@ -4023,5 +4023,12 @@
     "topic": "Mail-sink",
     "definition": "Smtp-sink is a utility program in the Postfix Mail software package that implements a \"black hole\" function. It listens on the named host and port. It accepts Simple Mail Transfer Protocol (SMTP) messages from the network and discards them. The purpose is to support measurement of client performance. It is not SMTP protocol compliant.",
     "url": "https://en.wikipedia.org/wiki/Mail-sink"
+  },
+  {
+    "date_added": "2026-11-27",
+    "category": "Cryptography",
+    "topic": "RCCA security",
+    "definition": "Replayable CCA security is a security notion in cryptography that relaxes the older notion of security against a chosen-ciphertext attack. All CCA-secure systems are RCCA secure but the converse is not true. The claim is that for many use cases, CCA is too strong, and RCCA suffices. A certain number of cryptographic schemes have now been proved to be RCCA-secure, instead of CCA secure.",
+    "url": "https://en.wikipedia.org/wiki/RCCA_security"
   }
 ]
