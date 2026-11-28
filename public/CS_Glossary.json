@@ -4037,5 +4037,12 @@
     "topic": "North Star Horizon",
     "definition": "The North Star Horizon was a popular 8-bit S-100 bus computer introduced in October 1977. Like most S-100 machines of the era, it was built around the Zilog Z80A microprocessor, and typically ran the CP/M operating system. It was produced by North Star Computers, and it could be purchased either in kit form or pre-assembled. The North Star Horizon was one of the first computers to have built in floppy drives as well as being one of the first personal computers to have a hard disk drive.",
     "url": "https://en.wikipedia.org/wiki/North_Star_Horizon"
+  },
+  {
+    "date_added": "2026-11-28",
+    "category": "Network Infrastructure",
+    "topic": "Defense Information System Network",
+    "definition": "The Defense Information Systems Network (DISN) has been the United States Department of Defense's enterprise telecommunications network for providing data, video, and voice services for 40 years.",
+    "url": "https://en.wikipedia.org/wiki/Defense_Information_System_Network"
   }
 ]
